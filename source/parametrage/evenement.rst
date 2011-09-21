@@ -126,87 +126,41 @@ Le paramètrage de l'instruction
 
 <developpeur>
 
-Le parametrage de l instruction est fait dans obj/instruction.class.php
+Le parametrage de l instruction est fait dans la table action
 
 La methode triggerajouter modifie les dates dans les actions suivantes ::
 
-        action              
+        Il est possible de modifier 13 champs de la table dossier
+        en paramétrant les champs "regle"
         
-        initialisation   :  delai = delai de evenement                      
-                            etat = etat de evenement
-                            accord_tacite = accord tacite de evenement
-                            date_complet = archive_date_depot
-                            date_limite = date_courrier + delai evenement
-                            date_notification_delai = date_complet + 1 mois (en dur)
-                            archive de la date_complet dans instruction
-                            
-        notification :    
-                            date_complet est celle precedemment saisie
-                            date_limite avec delai de l evenement
-                            date_notification_delai = date_complet + 1 mois
-                            verification datecourrier <= date_delai_notification
-                            
-        retour   :          delai = archive_delai + delai de l evenement
-                            etat  = etat de l evenement
-                            accord_tacite = accord_tacite de l'evenement
-                            la date_complet = datecourrier
-                            date_notification_delai date_complet + 1 mois
+        Champ texte :                   regle unique = valeur de l'evenement
+            regle_etat                  etat (de l evenement)
+            regle_accord_tacite         accord _tacite (de l evevenement)
+            regle_avis                  avis (de l evenement)
+        Champ calcule                   regle de calcul delai avec ou sans ajout
+            delai                       delai (de l evenement) + Nombre de mois
+            
+        Dates
         
-        rejet   :           etat  = etat de l evenement
-                            accord_tacite = accord_tacite de l'evenement
-                            date_rejet = datecourrier 
-                            date_limite =null;
-                            date_notification_delai =null;
-                            date_complet=null;
-        
-        majoration  :       delai = archive_delai + delai de l evenement
-                            etat  = etat de l evenement
-                            accord_tacite = accord_tacite de l'evenement
-                            date_complet = archive_date_complet
-                            majoration de la date_limite avec delai de l evenement
-                            date_notification_delai date_complet + 1 mois
-                            verification que la date du courrier ne doit pas etre depasse
-                            par rapport au delai de notification
-                            
-        acceptation   :     etat  = etat de l evenement
-                            avis  = avis de l'evenement
-                            date_decision = datecourrier
-                            date_validite = datecourrier + delai de l evenement
-        
-        refus :             etat = etat de l evenement
-                            date_decision = datecourrier
-                            avis = avis de l evenement
-                            
-        prolongation :      date_validite =  archive_date_validite +  delai de l'evenement
-        
-        
-        sursis :            date_limite =  datecourrier+delai de l evenement
-                            etat = etat de l evenement
-                            accord_tacite= accord_tacite de l evenement
-                            avis = avis de l evenement
-                            date_decision = datecourrier
-                            date_validite=date_limite + 2 mois (en dur)
-                            
-        execution  :        etat = etat de l'evenement
-                            date_chantier =  datecourrier
-
-        achevement          etat = etat de l evenement
-                            date_achevement = datecourrier
-
-        archivage :         etat = etat de l'evenement
-                            date_conformite = datecourrier
-
-        defaut :            etat = etat de l evenement
+            regle_date_complet
+            regle_date_limite
+            regle_date_notification_delai
+            regle_date_limte
+            regle_date_decision
+            regle_date_validite
+            regle_date_chantier
+            regle_date_echevement
+            regle_date_conformite
+            
+            Les regles possibles sont les suivantes
+                exemple : avec 3 opérandes
+                    datecourrier (de l evenment) + delai + nombre de mois
+                exemple : avec 2 opérandes
+                    date_complet + nombre de mois
+                exemple avec 1 operande
+                    null
 
 
-<Proposition> ::
-
-    saisie de regle dans un textarea dans la table action
-    ou table fille regle_action ?
-
-</proposition>
-
-</developpeur>
 
 
 Le diagramme de classe evenement :
