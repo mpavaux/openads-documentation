@@ -151,6 +151,38 @@ le dossier automatiquement suivant le centroid de la parcelle localisant le doss
     
     "select pos from pos  WHERE ST_contains(geom,  geometryfromtext('".$geom."', ".$projection."))"
 
+========================
+Recuperer les servitudes
+========================
+
+Il est possible de recupérer les servitudes automatiquement en le paramétrant dans dyn/var.inc
+Elles sont stockées en texte dans le champ servitude de dossier
+
+les servitudes sont soit
+
+- surfacique dans la table (ou vue) servitude_surfacique (polygon)
+
+- ligne en table (ou vue) servitude_ligne (line)
+
+- ponctuel ou point en table (ou vue) servitude_point (point)
+
+Dans le cas de polygon, l'ADS est dansle périmètre de la servitude ou pas
+
+Dans le cas de ligne ou d'un point , l'ADS est dans le périmètre en fonction d'une distance qu'il faut déterminer
+
+
+dyn/var.inc ::
+
+    $auto_servitude_surfacique=1;
+    $auto_servitude_ligne=1;
+    $auto_servitude_point=1;
+    
+
+    1= servitude recupérée automatique
+    0= pas de servitudes
+
+
+
 ===========================================
 La mise en place de lien sur un SIG externe
 ===========================================
