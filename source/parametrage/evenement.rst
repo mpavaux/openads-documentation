@@ -93,7 +93,6 @@ formulaire instruction
 La mise en pratique dans une phase d'instruction
 ================================================
 
-
 Il est proposé de saisir dans un dossier de "DP" la phase d'instruction "rejet par manque de pièce complementaire" :
 
 Il est choisi dans le formulaire d'instruction l'événement correspondant.

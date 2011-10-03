@@ -64,6 +64,16 @@ lotissement soit activé.
 Dans dossier, il faut alors  selectionner le lot du lotissement et le dossier est automatiquement localisé sur le
 centroid du lot. Il est aussi déplaçable manuellement.
 
+Il est possible de saisir les parcelles dans l interface openLayers dans le menu parametrage / parcelle
+bien que la meilleure solution est de récupérer la base de la direction des impôts (edigeo)
+
+.. image:: ../_static/parcelle.png
+
+Il est possible de saisir les lots des lotissements dans le menu parametrage / parcelle_lot:
+
+.. image:: ../_static/parcelle_lot.png
+
+
 
 ===============================
 Les vues sur des bases externes
@@ -89,7 +99,8 @@ Elles doivent être déclarées dans dyn/var.inc ::
 Attention dans parcelle, la zone parcelle est obligatoire et la zone surface est
 nécessaire pour le calcul de la surface du terrain.
 
-Pour rivoli, il est important d'avoir le code rivoli et le libellé
+Pour rivoli, il est important d'avoir le code rivoli et le libellé.
+Ce fichier peut être récupérer dans les données EDIGEO de la direction des impôts.
 
 
 Exemple de paramétrage de vue (voir data/pgsql/vue.sql) ::
@@ -157,7 +168,6 @@ dyn/var.inc ::
     0= pos non automatique
 
 
-
 La methode auto_pos de dossier.class.php recherche la zone POS et met à jour
 le dossier automatiquement suivant le centroid de la parcelle localisant le dossier ::
 
@@ -165,6 +175,13 @@ le dossier automatiquement suivant le centroid de la parcelle localisant le doss
     $geom = valeur du point géolocalisé
     
     "select pos from pos  WHERE ST_contains(geom,  geometryfromtext('".$geom."', ".$projection."))"
+
+Il est possible de saisir le POS dans le menu parametrage option POS
+
+Il est possible de saisir le périmètre d'une zone avec l interface openLayers.
+Cette option est accessible dans le menu paramètrage / pos
+
+.. image:: ../_static/pos.png
 
 ========================
 Recuperer les servitudes
@@ -196,6 +213,30 @@ dyn/var.inc ::
     1= servitude recupérée automatique
     0= pas de servitudes
 
+
+Exemple avec dossier de recuperation parclle, pos et servitudes:
+
+.. image:: ../_static/dossier_pos_servitude.png
+
+Exemple avec l'interface openLayers de recuperation parclle, pos et servitudes:
+
+.. image:: ../_static/sig_pos_servitude.png
+
+
+Il est possible de saisir le périmètre, une ligne ou un point d'une servitude avec l interface openLayers
+(options du menu paramétrage)
+
+servitude surfacique
+
+.. image:: ../_static/servitude_surfacique.png
+
+servitude ligne
+
+.. image:: ../_static/servitude_ligne.png
+
+servitude point
+
+.. image:: ../_static/servitude_point.png
 
 
 ===========================================
