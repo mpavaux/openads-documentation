@@ -24,7 +24,7 @@ Les principes sont les suivants :
 
 - la situation sur des fonds de carte internet
 
-- l'intégration dans le sig local : cadastre, pos/plu, adresse
+- l'intégration dans le sig local : cadastre, pos/plu, adresse, servitudes, lotissement ...
 
 
 
@@ -130,8 +130,6 @@ le Service urbanisme
 
 Le diagramme de classe openFoncier
 ==================================
-
-<developpeur>
 
 Le diagramme de classe permet de modéliser les classes et leurs relations
 independamment d'un langage de programmation particulier.

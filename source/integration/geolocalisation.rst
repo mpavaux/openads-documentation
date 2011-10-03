@@ -31,9 +31,12 @@ Pour que cette géolocalisation ait lieu, il faut paramétrer dans dyn/var.inc :
     $sig=1;
       = 1 sig
       = 0 pas de sig
+    $auto_parcelle = 1  
+    
 
-Si $sig = 1, après la saisie les méthodes triggers de dossier.class.php localise
+Si $sig = 1 et $auto_parcelle = 1, après la saisie, les méthodes triggers de dossier.class.php localise
 le dossier avec un point au centroid de la parcelle si la parcelle existe.
+
 
 Il est possible de géolocaliser manuellement le dossier dans le cas ou la parcelle
 n'existe pas, ou dans le cas d'un lotissement en cours ...
@@ -53,6 +56,14 @@ Vous avez le détail de fonctionnement de l'interface dans le guide du développ
 (Information géographique)
 
 
+Il est possible de géolocaliser une ADS sur la base du centroid d'un lot de lotissement.
+Cette option n'est possible que si le lotissement a été numérisé préalablement (parametrage -> parcelle_lot).
+Il faut mettre l'option $auto_parcelle_lot=1 dans dyn/var.inc pour que la géolocalisation via le lot de
+lotissement soit activé.
+
+Dans dossier, il faut alors  selectionner le lot du lotissement et le dossier est automatiquement localisé sur le
+centroid du lot. Il est aussi déplaçable manuellement.
+
 
 ===============================
 Les vues sur des bases externes
@@ -66,7 +77,11 @@ Elles doivent être déclarées dans dyn/var.inc ::
 
     $vue_parcelle = 1; 
     $vue_pos=1;
-    $vue_rivoli=0;
+    $vue_rivoli=1;
+    $vue_parcelle_lot=1;
+    $vue_servitude_surfacique=1;
+    $vue_servitude_ligne=1;
+    $vue_servitude_point=1;
 
     1= vue active
     0= vue non active

@@ -8,7 +8,7 @@ Instruire un dossier
 
 Il est proposé de décrire dans ce paragraphe l'instruction d'un dossier.
 
-Les phases d'instruction sont stockés dans l'onglet instruction
+Les phases d'instruction sont stockées dans l'onglet instruction
 
 Il est possible d'éditer la lettre type PDF dans la grille ci dessous
 
@@ -34,18 +34,16 @@ En création il faut :
 
 En modification
 
-<experience>
-
-Il est demandé par la ville d'Arles de pouvoir modifier la date suivant le jour
-de signature de l'élu.
+    Il est possible de modifier la date suivant le jour de signature de l'élu de l'arrêté
+    dans la version 3.0.0.
 
 En suppression :
 
 La suppression n'est possible que dans l'ordre des événements sinon le message
-suivant apparait :
+suivant apparait ::
 
-destruction_chronologique
-SUPPRESSION NON EFFECTUEE
+    destruction_chronologique
+    SUPPRESSION NON EFFECTUEE
 
 
 
@@ -54,4 +52,6 @@ SUPPRESSION NON EFFECTUEE
 Cette limitation permet de gérer correctement les phases de dossier dans le fieldset "instruction"
 
 C'est ainsi que les données précédentes sont archivées dans chaque événement permettant de rétablir
-la situation précédente. (champs archive_ ...  de la table instruction)
+la situation précédente. (champs archive ...  de la table instruction)
+
+</developpeur>

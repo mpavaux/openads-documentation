@@ -74,7 +74,6 @@ Le formulaire ci dessous permet de modifier la lettre type "piecescomplementaire
 
 .. image:: ../_static/lettretype_evenement.png
 
-
 La description du paramétrage de lettre type est décrite dans le guide du
 développeur openMairie.
 
@@ -119,16 +118,22 @@ L'édition de la lettre type devient avec les paramètres du formulaire instruct
 .. image:: ../_static/instruction_lettretype.png
 
 
-
-
 Le paramètrage de l'instruction
 ===============================
 
-<developpeur>
-
 Le parametrage de l instruction est fait dans la table action
+Cette table contient les règles applicables aux champs de la table dossier lors
+de la mise à jour d'un événement d'instruction.
 
-La methode triggerajouter modifie les dates dans les actions suivantes ::
+Le paramétrage se fait dans le menu  avec les options : paramètrage / action
+
+.. image:: ../_static/tab_action.png
+
+Le formulaire de saisie des actions est le suivant :
+
+.. image:: ../_static/form_action.png
+
+Il est possible de modifier les règles applicables au dossier sur les champs suivants ::
 
         Il est possible de modifier 13 champs de la table dossier
         en paramétrant les champs "regle"
@@ -166,8 +171,7 @@ La methode triggerajouter modifie les dates dans les actions suivantes ::
 Le diagramme de classe evenement :
 ==================================
 
-<developpeur>
+Il est proposé ci dessous de présenter le diagrame de la classe evénement
 
 .. image:: ../_static/uml_evenement.png
 
-</developpeur>

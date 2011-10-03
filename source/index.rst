@@ -25,7 +25,7 @@ plus générale.
 C'est pourquoi ce document a pour but de guider les développeurs et les utilisateurs
 dans la prise en main du projet.
 
-Afin de faciliter la lecture, nous avons préciser à chaque fois les
+Afin de faciliter la lecture, nous avons précisé à chaque fois les
 aspects techniques par la balise <Developpeur> et les aspects liés à l'expérience
 utilisateur par la balise <Experience>.
 
