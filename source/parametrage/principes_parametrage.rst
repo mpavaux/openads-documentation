@@ -9,7 +9,7 @@ openFoncier propose un workflow paramétrable sur la base :
 
 - d'un état d'un dossier
 
-- d'actions qui vont changer d'état un dossier
+- d'actions qui vont changer les champs du dossier
 
 - de transition qui décrit les actions possibles pour un état donné
 

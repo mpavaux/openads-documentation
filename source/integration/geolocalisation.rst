@@ -7,11 +7,11 @@ La géolocalisation
 
 Il est décrit ici les principes d'integration dans un SIG :
 
-- la géolocalisation du dossier au centroid de la parcelle
+- la géolocalisation du dossier au centroid de la parcelle ou de lotissement
 
 - l'utilisation de vues pour se connecter sur des bases externes
 
-- l'implementation automatique de la recherche de la zone POS
+- l'implementation automatique de la recherche de la zone POS et servitudes
 
 - la mise en place de lien sur un sig externe
 
@@ -179,7 +179,7 @@ le dossier automatiquement suivant le centroid de la parcelle localisant le doss
 Il est possible de saisir le POS dans le menu parametrage option POS
 
 Il est possible de saisir le périmètre d'une zone avec l interface openLayers.
-Cette option est accessible dans le menu paramètrage / pos
+Cette option est accessible dans le menu paramétrage / pos
 
 .. image:: ../_static/pos.png
 

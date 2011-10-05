@@ -2,7 +2,7 @@
 
 
 
-Nous vous proposons dans ce châpitre de décrire l'integration d'openFoncier dans le SIG
+Nous vous proposons dans ce chapître de décrire l'intégration d'openFoncier dans le SIG
 
 - principes d'une application composite (mashup)
 

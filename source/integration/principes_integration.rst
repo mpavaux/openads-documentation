@@ -37,11 +37,11 @@ formats postgis, wms, wfs, kml, gml, json ... et notament QGIS (outil client lou
 Il est décrit ici les principes d'integration d'openFoncier dans le domaine
 de l'information géographique.
 
-- la géolocalisation du dossier au centroid de la parcelle
+- la géolocalisation du dossier au centroid de la parcelle etau centroid d 'un lot de lotissement
 
 - l'utilisation de vues pour se connecter sur des bases externes
 
-- l'implementation automatique de la recherche de la zone POS
+- l'implementation automatique de la recherche de la zone POS et de la recherche de servitudes
 
 - la mise en place de lien sur un sig externe
 
