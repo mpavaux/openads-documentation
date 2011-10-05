@@ -23,8 +23,9 @@ Les destinations sont paramétrées dans paramétrage / destination
 
 Les shons de chaque destination se cumulent dans le champ shon_calcul de dossier.
 
-<developpement>
-Avec la mise en place de la transmission SITADEL, ce formulaire sera appellé à évoluer
-pour prendre en compte les shon créées par destination, par transformation, destination
-projettée par destination, démolie par destination. 
-</developpement>
+
+Avec la mise en place de la transmission SITADEL, ce formulaire a évolué
+pour prendre en compte les shon créées par destination, par transformation, projettée ou
+démolie par destination. 
+
+La zone shon est calculée dans la methode calcul_shon de l objet metier destination_shon.

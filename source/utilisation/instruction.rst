@@ -22,7 +22,7 @@ Il est possible de creer ou modifier une phase d'instruction dans le formulaire 
 
 En création il faut :
 
-- choisir  l'événement d'instruction proposé suivant le workflow (voir paramètrage)
+- choisir  l'événement d'instruction proposé suivant le workflow (voir paramétrage)
 
 - personnaliser la lettre type (facultatif):
     
@@ -34,13 +34,13 @@ En création il faut :
 
 En modification
 
-    Il est possible de modifier la date suivant le jour de signature de l'élu de l'arrêté
-    dans la version 3.0.0.
+    Il est possible de modifier la date suivant le jour de signature de l'arrêté
+    dans la version 3.0.0. (demande ds service urbanisme d'Arles)
 
 En suppression :
 
 La suppression n'est possible que dans l'ordre des événements sinon le message
-suivant apparait ::
+suivant apparait: ::
 
     destruction_chronologique
     SUPPRESSION NON EFFECTUEE

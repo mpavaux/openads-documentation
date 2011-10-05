@@ -48,9 +48,21 @@ et dblink (pour les vues sur les bases externes)
 
 La ville de Marseille va proposer en 2012 :
 
-- la dématérialisation des dossiers
+- la dématérialisation des dossiers (dans un module à part de gestion des demandes)
 
 - la déclaration de travaux pour les ERP (etablissement recevant du public)
+
+- la multi collectivité (gestion par secteur)
+
+- la vision globale du dossier et des modificatifs
+
+- le verouillage de l'instruction, une fois la décision prise
+
+- la saisie par code barre des retours de consultation
+
+- la gestion des taxes
+
+- la gestion du contentieux
 
 
 Il reste à mettre en oeuvre suivant les moyens des collectivités :
@@ -65,7 +77,7 @@ les fonctions 2.0.0 abandonnées
 ===============================
 
 
-Les fonctions de la version 2.0.0 (juillet 2009) suivants sont abandonnées:
+Les fonctions suivantes de la version 2.0.0 (juillet 2009) sont ne sont pas reprises dans la version 3.0.0 :
 
 - lien géographique dans les formulaires : dossier, terrain.
 
@@ -75,8 +87,8 @@ architecte se fait dans paramétrage/architecte
 - le webservice avec nusoap et les bibliothéques dynmap qui sont trop spécifiques
 
 
-Il est noté que la version mysql peut être reprise dans une version ultérieure si
-des moyens sont mis en oeuvre par des collectivités.
+Il est noté que la version mysql 2.0.0 peut être reprise dans une version ultérieure mais à l'heure
+actuelle, cela n'est pas prévu.
 
 
 La récupération de données pour postgresql
@@ -137,11 +149,14 @@ independamment d'un langage de programmation particulier.
 
 Le diagramme des cas d utilisation montre le systeme du point de vue des acteurs.
 
-Le diagramme de classe en montre la structure interne : representation abstraite qui vont
+Le diagramme de classe en montre la structure interne. C'est une representation abstraite des classes qui vont
 interagir ensemble pour réaliser les cas d utilisation.
 
 
 .. image:: ../_static/uml_classe.png
+
+
+
 
     
     

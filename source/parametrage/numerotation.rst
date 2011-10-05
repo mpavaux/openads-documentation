@@ -10,8 +10,7 @@ La numerotation des dossiers
 openFoncier propose la possibilité de paramètrer la numérotation
 dans dyn/var.inc
 
-La mise en oeuvre de la multicollectivité va poser problème et il faut
-basculer sur un paramètrege spécifique par collectivité
+
 
 numero_unique permet de numéroter de manière unique tous les dossiers
 le paramètre $lettre est la lettre de la collectivité dans le dossier
@@ -26,7 +25,12 @@ Dans var.inc ::
 
     Ces parametres sont utilisés pour constituer le numéro unique du dossier
 
-<developpement> ::
-    Il faudra transférer ces paramètres en om_collectivites pour la multicollectivité
+
+
+<developpement> 
+
+    Il faudra transférer ces paramètres en om_collectivite pour la multicollectivité
     la methode qui utilise est setId() de obj/dossier.class.php
+    Cette modification est prise en charge par Marseille (gestion par secteur)
+    
 </developpement>

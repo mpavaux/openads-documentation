@@ -7,7 +7,7 @@ La numerotation manuelle
 
 Il est proposé de décrire le numérotation manuelle
 
-La numérotation manuelle permet de créer des modificatifs ou tansfert sur d'ancien
+La numérotation manuelle permet de créer des modificatifs ou transfert sur d'ancien
 permis
 
 <experience> ::

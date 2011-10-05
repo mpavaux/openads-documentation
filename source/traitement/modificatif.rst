@@ -45,7 +45,7 @@ Le transfert reprend avec un numero de 01 à 99
 
 Le champ "types" de dossier prend la valeur  "transfert".
 
-le demandeur_nom est a compléter manuellement, il est inscrit en attente "transfert".
+le demandeur_nom est à compléter manuellement, il est inscrit en attente "transfert".
 
 Les informations sur le demandeur et un eventuel délégataire sont à compléter.
 

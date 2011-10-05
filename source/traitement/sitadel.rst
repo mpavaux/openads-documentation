@@ -28,55 +28,14 @@ données de statistiques publiques permettant :
     La difficulté reste que les champs demandés ne sont pas des champs
     obligatoires à remplir pour le pétitionnaire.
 
+    C'est pour cela que la version 3.0.0 a privilégié les tableaux des shons
+    Il est possible dans l onglet statistique de dossier de rajouter des champs
+    sitadel à paramétrer dans la table "parametre".
+    
+    La collectivité peut paramétrer ses propres paramétres de statistiques.
+
+
 </experience>
-
-Le Rapport du CGEDD (Conseil général de l'environnement et du développement durable) de Mars 2010 précise
-que l'enjeu d'information au niveau de l'Etat qui ne semble pas rempli au niveau des collectivités
-(75% des instructions sont faites par l'Etat avec ADS 2007) ::
-
-    "  L'administration ne possède pas d'informations complètes et fiables portant sur l'ensemble
-    des actes d'urbanisme instruits par les collectivités locales, ne serait-ce que leur nombre
-    total.
-    Les seuls chiffres dont elle dispose sont relatifs aux actes instruits par les services de l'État
-    (près de 3⁄4 des actes): c'est donc à partir d'une base incomplète qu'elle suit des aspects
-    importants de la réforme comme l'évolution des délais d'instruction ou le pourcentage
-    d'autorisations tacites.
-    Est ainsi posée la question de la collecte, du traitement et de l'exploitation des informations
-    statistiques indispensables pour appréhender le fonctionnement du système". (page 3)
-    
-    "(...)ce jour, le ministère ne dispose d'aucune donnée statistique sur les actes instruits par les
-    collectivités locales, à l'exception des permis de construire effectivement délivrés, et
-    enregistrés dans SITADEL, qui donne une information sur leur nombre quelle que soit l'autorité compétente."
-
-http://www.cgedd.developpement-durable.gouv.fr/IMG/pdf/007015-01_rapport_cle2e9419.pdf
-
-<proposition> ::
-
-    Le rapport précité propose 
-
-    - la dématérialisation des procèdures :
-    
-    "la mise en oeuvre d'une téléprocèdure avec les formalités les plus simple ne
-    nécessitant pas de pièces jointes"
-    "la possibilité aux professionnel de déposé des dossiers numériques sur clés USB"
-    
-    - le recours aux outils géomatiques par les services de l'Etat :
-    
-    "... un recours accru aux outils géomatiques est prévu (...) dans les prochaines années.
-    Il s'agit aux instructeurs de localiser les projets (...) et de disposer immédiatement de
-    la totalité des règles applicables (...)
-    
-    Il serait interessant d'explorer les pistes d'échange WMS (web map service) et WFS (web feature service)
-    qui pourrait permettre à l'administration centrale d'avoir les données des collectivités en temps réél (que ce soit
-    le POS/PLU, les servitudes, ou les ADS).
-    
-    http://fr.wikipedia.org/wiki/Web_Map_Service
-    http://fr.wikipedia.org/wiki/WFS
-        
-    La dématérialisation des dossiers permettrait d'éviter les saisies fastidieuses.
-
-
-</proposition>
 
 
 Le programme SITADEL sera bientôt opérationnel et reprend pour l'instant les

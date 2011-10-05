@@ -64,9 +64,8 @@ Les informations sont affichées par fieldset (ouvert ou fermé suivant saisie a
 L'héritage des differentes procèdures
 =====================================
 
-<developpeur>
 
-dossier est une classe abstraite, c'est à dire une classe qui n instancie pas directement.
+Le dossier est une classe abstraite, c'est à dire une classe qui n'instancie pas directement un objet.
 
 le petitionnaire depose un permis de construire et non un dossier)
 

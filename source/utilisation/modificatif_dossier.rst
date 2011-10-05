@@ -14,3 +14,7 @@ Il est possible de visualiser les modificatifs et transferts d' un dossier dans 
 
 Les modificatifs et transferts sont créés par le traitement correspondant (voir chapître traitement)
 
+En cliquant sur le lien du dossier, on accède au dossier correspondant au modificatif
+ou au transfert ou initial
+
+(demande de la ville de Marseille de visualisation du dossier).

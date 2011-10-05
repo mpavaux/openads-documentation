@@ -6,7 +6,7 @@ Affecter des terrains
 #####################
 
 
-Il est proposé de décrire dans ce paragraphe d'affecter des terrains à un dossier.
+Il est proposé de décrire dans ce paragraphe l'affectation des terrains à un dossier.
 
 La parcelle de géolocalisation est saisie dans dossier. Toutefois, il se peut que plusieurs parcelles
 soient concernées par un dossier. Dans ce cas là, vous devez faire une géolocalisation manuelle ou
@@ -27,5 +27,5 @@ La recherche se fait sur :
 
 - le nom du propriétaire de la parcelle côté droit
 
-Les surfaces de parcelles des terrains sélectionnés sont cumulés dans le champ terrain_surface_calcul
+Les surfaces de parcelle des terrains sélectionnés sont cumulées dans le champ terrain_surface_calcul
 de dossier

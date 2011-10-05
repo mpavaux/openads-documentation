@@ -11,7 +11,9 @@ Il est proposé de décrire la procedure de transfert "lascot"
 la procédure est utilisée pour transmettre les données à l'application lascot utilisé par
 le service cadastre de la DGI (direction générale des impots)
 
-La procédure "sitadel" semble se substituer à cette procédure.
+La procédure "sitadel" semble se substituer à la procédure de transfert directe des centres instructeurs et les données seront à
+terme transmises par le ministère de l'environnement à la DGI suivant une convention existante.
+
 
 Le paramètrage des travaux
 ==========================

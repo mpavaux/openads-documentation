@@ -42,7 +42,7 @@ Dans un troisième chapitre, il est décrit le fonctionnement des traitements sp
 à openFoncier.
 
 Enfin le quatrième chapître est consacré aux principes d'intégration avec
-d'autres applications (SIG, API google, API bing, API osm, application openCourrier)
+d'autres applications (SIG, API google, API bing, API osm, applications externes)
 afin de constituer des applications composites (mashup).
 
 Bonne lecture et n'hésitez pas à nous faire part de vos remarques à l'adresse

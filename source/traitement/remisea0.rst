@@ -53,10 +53,9 @@ Procédure :
     ALTER SEQUENCE dossier_pc_seq RESTART WITH x
     
 
-Notes :
 
 Le traitement num_dossier.php a été modifié pour pgsql
 
-Il reste à faire la compatibilité avec mysql dans la mise à jour des séquences.
+La compatibilité avec mysql dans la mise à jour des séquences n'est pas assuré.
 
 </developpeur>

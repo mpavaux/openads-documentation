@@ -13,10 +13,11 @@ niveau :
 
 - des lettres type
 
+- des acteurs
 
 
 
-Le paramètrage des evenements
+Le paramétrage des evenements
 =============================
 
 Le paramétrage des evenements se fait dans le formulaire evenement 
@@ -87,7 +88,8 @@ avec le paramètrage de la requête SQL et on rajoute des variables applicatives
 . les textes issus de la bible de manière automatique ou manuelle le sont dans le
 formulaire instruction
 
-. enfin il est possible de rajouter de texte spécifique dans ce formulaire
+. enfin il est possible de rajouter du texte spécifique dans ce formulaire
+
 
 
 La mise en pratique dans une phase d'instruction
@@ -117,20 +119,22 @@ L'édition de la lettre type devient avec les paramètres du formulaire instruct
 .. image:: ../_static/instruction_lettretype.png
 
 
-Le paramètrage de l'instruction
-===============================
+Le paramètrage des actions
+==========================
 
-Le parametrage de l instruction est fait dans la table action
+Le parametrage des actions  est fait dans la table action (option paramétrage du menu).
 Cette table contient les règles applicables aux champs de la table dossier lors
 de la mise à jour d'un événement d'instruction.
 
-Le paramétrage se fait dans le menu  avec les options : paramètrage / action
 
 .. image:: ../_static/tab_action.png
 
 Le formulaire de saisie des actions est le suivant :
 
 .. image:: ../_static/form_action.png
+
+
+Mise en place des règles de modification des champs du dossier :
 
 Il est possible de modifier les règles applicables au dossier sur les champs suivants ::
 

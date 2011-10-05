@@ -12,12 +12,6 @@ Le workflow décrit la procédure d'un dossier sous la forme UML état/transitio
 openFoncier ajoute à cette description traditionnelle la notion d'action.
 (version 3.0.0).
 
-<developpement>
-
-Dans une version ultérieure, il sera peut être envisager de supprimer cette notion
-qui ne semble pas forcemment pertinente. La question est encore en débat.
-
-</developpement>
 
 
 L'état définit une étape dans un processus d'instruction dans laquelle se situe un dossier :
@@ -44,7 +38,9 @@ La correspondance état / action est décrite plus loin (parametrage / evenement
 
 
 Lors de la saisie d'un évenement d'instruction, openfoncier renvoie les événements autorisés.
-    
+
+<developpement>
+
 En fait, les événements proposés sont fait suivant les requetes suivants ::
 
     // selection de l'état du dossier dans instruction.class.php
@@ -60,14 +56,16 @@ En fait, les événements proposés sont fait suivant les requetes suivants ::
     $sql= $sql_transition." where transition.etat ='".$etat_dossier."' and (evenement.nature ='".
           $nature_dossier."' or (nature ='T' and nature !='CU')) order by evenement.action";
 
+</developpement>
+
 
 Il est selectionné les événements
 
 - d'après l'état du dossier, la table transition renvoie la ou les actions possibles 
 
-- d'apres les actions possibles, il est selectionné les evenements dans la table evenement 
+- d'apres ces actions possibles, il est selectionné les evenements dans la table evenement 
 
-- restreint suivant la nature du dossier (sauf si l'evenement est commun)
+- ces evénements sont restreints suivant la nature du dossier (sauf si l'evenement est commun à Tous)
 
 
 Il est noté que pour les CU, le code est modifié en dur, ce qui est nuisible au paramétrage.
@@ -132,13 +130,13 @@ TRANSITIONS DU DIAGRAMME ::
 
 
 
-Le diagramme de sequence
+Le diagramme de séquence
 ========================
 
 Le diagramme de séquence permettent une representation des collaborations entre
 objets d un point de vue temporel
 
-– la representation se concentre sur l expression des inter actions (et non les etats)
+– la représentation se concentre sur l expression des inter actions (et non les etats)
 
 – illustre les cas d utilisation : le temps s'ecoule de haut en bas de l'axe
 
