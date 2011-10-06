@@ -21,7 +21,7 @@ La geolocalisation automatique du dossier
 =========================================
 
 La géolocalisation automatique se fait sur la base du centroid de la parcelle saisie lors
-de la saisie du dossier.
+de la saisie du dossier ou sur celui d'un lot de lotissement (parcelle_lot).
 
 Attention, le champ geom doit contenir un polygone issu d'un SIG, du cadastre ou
 fourni par l'IGN.
@@ -39,7 +39,7 @@ le dossier avec un point au centroid de la parcelle si la parcelle existe.
 
 
 Il est possible de géolocaliser manuellement le dossier dans le cas ou la parcelle
-n'existe pas, ou dans le cas d'un lotissement en cours ...
+n'existe pas ...
 
 Il est possible de déplacer le dossier, voire de supprimer une localisation.
 
@@ -59,13 +59,13 @@ Vous avez le détail de fonctionnement de l'interface dans le guide du développ
 Il est possible de géolocaliser une ADS sur la base du centroid d'un lot de lotissement.
 Cette option n'est possible que si le lotissement a été numérisé préalablement (parametrage -> parcelle_lot).
 Il faut mettre l'option $auto_parcelle_lot=1 dans dyn/var.inc pour que la géolocalisation via le lot de
-lotissement soit activé.
+lotissement soit activée.
 
 Dans dossier, il faut alors  selectionner le lot du lotissement et le dossier est automatiquement localisé sur le
 centroid du lot. Il est aussi déplaçable manuellement.
 
 Il est possible de saisir les parcelles dans l interface openLayers dans le menu parametrage / parcelle
-bien que la meilleure solution est de récupérer la base de la direction des impôts (edigeo)
+bien que la meilleure solution soit de récupérer la base de la direction des impôts (edigeo) ou celle de l'IGN.
 
 .. image:: ../_static/parcelle.png
 
@@ -169,7 +169,7 @@ dyn/var.inc ::
 
 
 La methode auto_pos de dossier.class.php recherche la zone POS et met à jour
-le dossier automatiquement suivant le centroid de la parcelle localisant le dossier ::
+le dossier automatiquement suivant le centroid de la parcelle  ::
 
     $projection = projection utilisée dans openFoncier
     $geom = valeur du point géolocalisé
@@ -179,7 +179,7 @@ le dossier automatiquement suivant le centroid de la parcelle localisant le doss
 Il est possible de saisir le POS dans le menu parametrage option POS
 
 Il est possible de saisir le périmètre d'une zone avec l interface openLayers.
-Cette option est accessible dans le menu paramétrage / pos
+
 
 .. image:: ../_static/pos.png
 
@@ -198,7 +198,7 @@ les servitudes sont soit
 
 - ponctuel ou point en table (ou vue) servitude_point (point)
 
-Dans le cas de polygon, l'ADS est dansle périmètre de la servitude ou pas
+Dans le cas de polygon, l'ADS est dans le périmètre de la servitude ou pas
 
 Dans le cas de ligne ou d'un point , l'ADS est dans le périmètre en fonction d'une distance qu'il faut déterminer
 
@@ -214,7 +214,7 @@ dyn/var.inc ::
     0= pas de servitudes
 
 
-Exemple avec dossier de recuperation parclle, pos et servitudes:
+Exemple avec dossier de recuperation parcelle, pos et servitudes:
 
 .. image:: ../_static/dossier_pos_servitude.png
 
@@ -223,7 +223,7 @@ Exemple avec l'interface openLayers de recuperation parclle, pos et servitudes:
 .. image:: ../_static/sig_pos_servitude.png
 
 
-Il est possible de saisir le périmètre, une ligne ou un point d'une servitude avec l interface openLayers
+Il est possible de saisir le périmètre, une ligne ou un point d'une servitude avec l'interface openLayers
 (options du menu paramétrage)
 
 servitude surfacique
