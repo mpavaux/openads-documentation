@@ -82,7 +82,7 @@ Les fonctions suivantes de la version 2.0.0 (juillet 2009) sont ne sont pas repr
 - lien géographique dans les formulaires : dossier, terrain.
 
 - l'ouverture d'une fenetre "architecte" dans "dossier". La création de nouveaux
-architecte se fait dans paramétrage/architecte
+  architecte se fait dans paramétrage/architecte
 
 - le webservice avec nusoap et les bibliothéques dynmap qui sont trop spécifiques
 
