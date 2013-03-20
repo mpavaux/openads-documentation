@@ -1,4 +1,12 @@
-.. _index:
+.. _parametrage:
+
+###########
+Paramétrage
+###########
+
+...
+
+
 
 Nous vous proposons dans ce chapitre de parametrer openFoncier :
 
@@ -23,3 +31,10 @@ Nous vous proposons dans ce chapitre de parametrer openFoncier :
     regles.rst
     numerotation.rst
     dossier_zonesup.rst
+    numerotation_manuelle.rst
+    modificatif.rst
+    remisea0.rst
+    sitadel.rst
+    lascot.rst
+    affichage_public.rst
+    recherche.rst
