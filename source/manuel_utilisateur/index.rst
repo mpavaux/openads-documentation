@@ -20,6 +20,7 @@ principes de l'application.
     terrain.rst
     notes.rst
     modificatif_dossier.rst
-
+    parametrage.rst
+    traitement.rst
  
 

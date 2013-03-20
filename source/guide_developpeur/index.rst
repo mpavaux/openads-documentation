@@ -21,5 +21,5 @@ Nous vous proposons dans ce chapître de décrire l'intégration d'openFoncier d
     principes_integration.rst
     geolocalisation.rst
     widget.rst
-    
+    migration.rst
 
