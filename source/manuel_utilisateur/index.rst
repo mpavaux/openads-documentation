@@ -6,6 +6,7 @@ Manuel de l'utilisateur
 
 
 .. toctree::
+    :numbered:
 
     guichet_unique.rst
     instruction.rst
