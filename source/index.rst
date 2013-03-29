@@ -1,9 +1,9 @@
 .. openads documentation master file, created by
    sphinx-quickstart on Wed Jul 20 17:30:38 2011.
 
-=========================
-openADS 4.x documentation
-=========================
+====================================
+openADS 4.x documentation (20130329)
+====================================
 
 .. note::
 
@@ -14,40 +14,10 @@ openADS 4.x documentation
     California 94105, USA.
 
 
-Opérationnel pour la réforme du 1er Octobre 2007, openFoncier a donc plus de 4 années d'expérience
-et apparait aujourd'hui comme l'alternative libre avec une architecture  full web, aux solutions propriétaires.
-
-Son intérét croissant auprès de collectivités de toutes tailles a conduit à prioriser
-une évolution de la version dans un environnement plus moderne (openMairie 4.1.0) pour
-offrir une nouvelle base technique aux futurs développements.
-
-L'intérêt des communautés de communes et d'agglomération de pouvoir interfacer openFoncier
-avec l'information géographique fera évoluer la gestion multicollectivités.
-
-De nouveaux développements, notament à la ville de Marseille sont programmés et
-permettront de prendre en compte les exigences de grandes villes.
-
-2012 sera donc une année d'évolution importante d'openFoncier avec une approche
-plus générale.
-
-Afin de faciliter la lecture, nous avons précisé à chaque fois les
-aspects techniques par la balise <Developpeur> et les aspects liés à l'expérience
-utilisateur par la balise <Experience>.
-
-Nous proposons aussi des pistes d'évolution en utilisant la balise <proposition>.
-
-Il est proposé un premier chapitre permettant la prise en main d'openFoncier sur la
-base du paramètrage standard.
-
-Dans un deuxieme chapitre, il est proposé de décrire le paramètrage de l'application
-afin de personnaliser votre application openFoncier et l'adapter à votre organisation.
-
-Dans un troisième chapitre, il est décrit le fonctionnement des traitements spécifiques
-à openFoncier.
-
-Enfin le quatrième chapître est consacré aux principes d'intégration avec
-d'autres applications (SIG, API google, API bing, API osm, applications externes)
-afin de constituer des applications composites (mashup).
+Opérationnel depuis la réforme du 1er Octobre 2007, openFoncier (premier nom de
+l'outil) puis openADS a donc plusieurs années d'expérience et apparait
+aujourd'hui comme l'alternative libre, avec une architecture full web, aux
+solutions propriétaires. 
 
 Ce document a pour but de guider les utilisateurs et les développeurs dans la
 prise en main du projet.
