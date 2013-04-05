@@ -8,6 +8,7 @@ Manuel de l'utilisateur
 .. toctree::
     :numbered:
 
+    autorisations.rst
     guichet_unique.rst
     instruction.rst
     cellule_suivi.rst
