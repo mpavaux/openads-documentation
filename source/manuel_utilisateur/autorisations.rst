@@ -31,5 +31,17 @@ Une recherche peut être effectuée sur plusieurs critères :
 
 - la date de décision
 
+Ce tableau permet d'accéder à la visualisation des dossiers d'autorisation.
+
 Visualisation des dossiers d'autorisation
-========================================
+========================================= 
+
+XXX capture du dossier d'autorisation
+
+La visualisation contient deux blocs d'informations :
+
+- "En cours de validité" : informations des dossiers d'instructions soumis à un arrété.
+- "En cours d'instruction" : données du dossier d'instruction en cours d'instruction.
+
+
+
