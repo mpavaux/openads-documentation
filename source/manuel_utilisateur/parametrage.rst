@@ -24,6 +24,8 @@ Le principe
 
 Ce type de dossier d'autorisation peut également être appelé la série. C'est à
 ce niveau que la numérotation des dossiers est gérée.
+Lorsqu'un type de dossier d'autorisation est créé, modifié ou supprimé, la serie
+correspondante est créée, mise à jour ou supprimée.
 
 Saisir un type de dossier d'autorisation
 ========================================
