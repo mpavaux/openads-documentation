@@ -45,6 +45,7 @@ page courante, lui proposant de formuler son avis via trois champs :
 - Avis, qui propose une liste d'avis pré-définis : Favorable, Défavorable, Favorable avec reserve, tacite, Autre. Ce champ est obligatoire ;
 - Motivation, qui lui permet de saisir du texte libre motivant son avis. Ce champ est facultatif ;
 - Retour d'avis, qui lui donne la possibilité de joindre un fichier au format PDF. Ce champ est également facultatif.
+
 Une fois les informations saisies, l'utilisateur valide le formulaire. Il est redirigé sur la liste
 des demandes d'avis en cours : la demande précédente n'y figure plus, mais il
 peut y accéder via la rubrique Demandes d'avis passées ;
