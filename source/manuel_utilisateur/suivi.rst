@@ -102,6 +102,10 @@ Une fois le formulaire validé, quatre cas de figures sont possibles :
   
   .. image:: suivi_envoi_lettre_rar_message_aucune_saisie.png
 
+* soit l'identifiant de l'événement d'instruction est incorrect :
+  
+  .. image:: suivi_envoi_lettre_rar_message_evenement_instruction_incorrect.png
+
 * soit l'identifiant de l'événement d'instruction ne correspond à aucun
   événement d'instruction existant :
   
