@@ -81,8 +81,8 @@ Chaque type consultation possède son code couleur :
 
 En cliquant sur la demande d'avis l'utilisateur accède à la synthèse du dossier.
 
-Export des demandes d'avis en cours
-===================================
+Export des demandes d'avis passées
+==================================
 
 Les utilisateurs des services peuvent exporter un ensemble de demandes d'avis 
 filtrées via la recherche avancée dans un format exploitable sur tableur.
