@@ -4,15 +4,42 @@
 Guichet unique
 ##############
 
+.. _guichet_unique_menu:
+
+Le menu
+#######
+
+.. image:: guichet_unique_menu.png
+
 .. _guichet_unique_tableau_de_bord:
 
 Le tableau de bord
 ##################
 
-...
+(:menuselection:`Guichet Unique --> Tableau De Bord`)
 
+Le tableau de bord permet simplement de présenter des raccourcis vers les
+écrans de création d'une nouvelle demande en fonction de sa nature. 
 
+=========================================================
+Widget - Nouvelle demande qui concerne un nouveau dossier
+=========================================================
 
+Ce widget est un raccourci qui permet d'accéder plus rapidement au formulaire
+de saisie d'une nouvelle demande qui concerne un nouveau dossier.
+
+.. image:: guichet_unique_tableau_de_bord_widget_nouveau_dossier.png
+
+==========================================================
+Widget - Nouvelle demande qui concerne un dossier existant
+==========================================================
+
+Ce widget est un raccourci qui permet d'accéder plus rapidement au formulaire
+de saisie d'une nouvelle demande qui concerne un dossier existant.
+
+.. image:: guichet_unique_tableau_de_bord_widget_dossier_existant.png
+
+.. _guichet_unique_nouvelle_demande:
 
 Les nouvelles demandes
 ######################
@@ -21,33 +48,95 @@ Les nouvelles demandes
 Saisir une demande
 ==================
 
-...
+Une demande peut être de deux natures différentes : elle peut concerner soit un
+nouveau dossier ou soit un dossier existant.
 
+.. image:: guichet_unique_nouvelle_demande_schema.png
+
+.. _guichet_unique_nouvelle_demande_nouveau_dossier:
 
 Pour un nouveau dossier
 =======================
 
-...
+(:menuselection:`Guichet Unique --> Nouvelle demande --> Nouveau Dossier`)
+
+La demande va donner lieu à la création d'un nouveau dossier d'autorisation.
+La première étape est donc la sélection du type de dossier d'autorisation qui a
+été déposé.
+
+
+
+.. _guichet_unique_nouvelle_demande_dossier_existant:
 
 
 Pour un dossier existant
 ========================
 
-...
+(:menuselection:`Guichet Unique --> Nouvelle demande --> Dossier existant`)
 
+La demande va se rattacher à un dossier d'autorisation existant. La première
+étape ici est donc la sélection/recherche du dossier d'instruction sur lequel
+va porter la demande.
+
+
+
+Saisie commune (nouveau dossier ou dossier existant) de la nouvelle demande
+===========================================================================
+
+Le reste de la saisie consiste en la saisie des informations suivantes :
+
+* la date de la demande
+* la ou les références cadastrales
+* l'adresse et la superficie du terrain
+* le pétitionnaire principal 
+* un éventuel délégataire
+* le ou les éventuels co-demandeurs
+
+Toutes les informations ne sont pas nécessairement disponibles pour la saisie,
+en effet si la saisie concerne un nouveau dossier alors la saisie du
+pétitionnaire est nécessaire alors que si la demande concerne un dossier
+existant les informations du pétitionnaire sont déjà préremplies et il n'est
+donc pas nécessaire de les saisir.
+
+
+.. _guichet_unique_nouvelle_demande_recepisse:
 
 =====================
 Imprimer un récépissé
 =====================
 
-...
+(:menuselection:`Guichet Unique --> Nouvelle demande --> Récépissé`)
 
+Lors de la validation de la nouvelle demande, si l'utilisateur n'a pas eu le
+temps d'imprimer le récépissé de demande (car il a changé d'écran un peu
+rapidement ou pour toute autre raison), cet écran permet de rechercher la
+demande qui vient d'être saisie pour en imprimer le récépissé.
+
+Recherche de la demande
+=======================
+
+Un listing de toutes les demandes permet de visualiser les informations
+principales. Ce listing est trié par défaut par ordre décroissant de date de
+demande donc les demandes du jour doivent apparaître en premier.
+
+
+Visualisation de la demande et édition du récépissé
+===================================================
+
+Un écran récapitule les informations saisies lors de la demande et une action
+est disponible dans le portlet d'action contextuelle pour permettre d'éditer le
+récépissé.
+
+
+.. _guichet_unique_nouvelle_demande_petitionnaire_frequent:
 
 ===================================
 Lister les pétitionnaires fréquents
 ===================================
 
-...
+(:menuselection:`Guichet Unique --> Nouvelle demande --> Pétitionnaire Fréquent`)
+
+
 
 
 .. _guichet_unique_affichage_reglementaire:
@@ -58,9 +147,19 @@ L'affichage réglementaire
 Dans les conditions prévues par arrêté du ministre chargé de l'urbanisme, un
 affichage au public (aussi appelé registre) de tous les dossiers d'instruction
 en cours est obligatoire. Le guichet unique doit pouvoir imprimer une
-attestation de cet affichage réglementaire pour un dossier d'instruction à la
-demande d'un usager.
+attestation de cet affichage réglementaire pour un dossier d'instruction
+particulier à la demande d'un usager.
 
+.. important::
+
+   Pour l'administrateur : l'événement d'instruction créé sur chaque dossier
+   qui permet de générer l'attestation d'affichage doit être paramétré, c'est
+   l'identifiant de l'événement en question qui doit être paramétré dans
+   l'enregistrement 'affichage_obligatoire' depuis l'écran 
+   :menuselection:`Administration --> Paramètre`. Si le paramétrage ou
+   l'événement n'existe pas alors un message prévient l'utilisateur :
+   
+   .. image:: guichet_unique_affichage_reglementaire_message_erreur_parametrage.png
 
 .. _guichet_unique_affichage_reglementaire_registre:
 
@@ -76,10 +175,8 @@ dossiers d'instruction concernés un événement d'instruction spécifique
 (uniquement si c'est la première édition du dossier d'instruction) qui offre la
 possibilité d'imprimer une attestation d'affichage.
 
-Il est nécessaire pour le registre de créer un événement sur chaque dossier
-d'instruction affiché dans ce dernier qui permet de générer l'attestation
-d'affichage. Cet événment Ensuite l'id de cet événement doit être modifié
-dans l'enregistrement 'affichage_obligatoire' de l'écran "Administration" => "Paramètre".
+.. image:: guichet_unique_affichage_reglementaire_registre_formulaire.png
+
 
 .. _guichet_unique_affichage_reglementaire_attestation:
 

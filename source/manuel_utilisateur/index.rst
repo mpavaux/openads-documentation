@@ -11,7 +11,7 @@ Manuel de l'utilisateur
     autorisations.rst
     guichet_unique.rst
     instruction.rst
-    cellule_suivi.rst
+    suivi.rst
     service_consulte.rst
     parametrage.rst
 
