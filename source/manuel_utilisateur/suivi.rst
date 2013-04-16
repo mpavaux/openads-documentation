@@ -102,18 +102,19 @@ Une fois le formulaire validé, quatre cas de figures sont possibles :
   
   .. image:: suivi_envoi_lettre_rar_message_aucune_saisie.png
 
-* soit l'identifiant de la consultation ne correspond à aucune consultation
-  existante :
+* soit l'identifiant de l'événement d'instruction ne correspond à aucun
+  événement d'instruction existant :
   
   .. image:: suivi_envoi_lettre_rar_message_evenement_instruction_inexistant.png
 
-* soit la consultation existe, on obtient alors un formulaire de saisie du
-  retour de consultation :
+* soit l'événement d'instruction existe et possède déjà une date d'envoi RAR qui
+  est différente de la date passée en paramètre :
   
   .. image:: suivi_envoi_lettre_rar_message_evenement_instruction_deja.png
 
-* soit la consultation existe, on obtient alors un formulaire de saisie du
-  retour de consultation :
+* soit l'événement d'instruction existe et n'a pas de date d'envoi RAR, on
+  obtient alors un lien vers le fichier pdf permettant d'imprimer les
+  pré-imprimés RAR :
   
   .. image:: suivi_envoi_lettre_rar_message_evenement_instruction_ok.png
 
