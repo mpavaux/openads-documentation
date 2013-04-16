@@ -33,6 +33,17 @@ Chaque type consultation possède son code couleur :
 
 En cliquant sur la demande d'avis l'utilisateur accède à la synthèse du dossier.
 
+.. _service_consulte_demandes_avis_en_cours:
+
+Export des demandes d'avis en cours
+===================================
+
+Les utilisateurs des services peuvent exporter un ensemble de demandes d'avis 
+filtrées via la recherche avancée dans un format exploitable sur tableur.
+Pour cela, il clique sur la rubrique export.
+
+.. XXX insérer une capture
+
 Saisie d'avis
 =============
 
@@ -69,3 +80,12 @@ Chaque type consultation possède son code couleur :
 - sans : avis attendu
 
 En cliquant sur la demande d'avis l'utilisateur accède à la synthèse du dossier.
+
+Export des demandes d'avis en cours
+===================================
+
+Les utilisateurs des services peuvent exporter un ensemble de demandes d'avis 
+filtrées via la recherche avancée dans un format exploitable sur tableur.
+Pour cela, il clique sur la rubrique export.
+
+.. XXX insérer une capture ou lien vers
