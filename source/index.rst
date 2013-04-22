@@ -1,9 +1,9 @@
 .. openads documentation master file, created by
    sphinx-quickstart on Wed Jul 20 17:30:38 2011.
 
-====================================
-openADS 4.x documentation (20130329)
-====================================
+=========================
+openADS 4.x documentation
+=========================
 
 .. note::
 
@@ -55,6 +55,9 @@ Contributeurs
 (par ordre alphabétique)
 
 * `atReal <http://www.atreal.fr>`_
+* Thierry Benita
+* Matthias Broquet
+* Nicolas Haye
 * Florent Michon
 * François Raynaud
 
