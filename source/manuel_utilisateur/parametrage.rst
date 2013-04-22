@@ -396,6 +396,121 @@ Exemples de règles :
 * exemple avec 2 opérandes : archive_date_complet+4
 * exemple avec 1 opérande : null
 
+.. _parametrage_incompletude:
+
+=========================
+Gestion de l'incomplétude
+=========================
+
+Le principe
+===========
+
+Pour les instructeurs, il y a deux problématiques distinctes : l'instruction des dossiers avec le suivi des dates et la gestion de l'incomplétude.
+En cas d'incomplétude, les délais d'instruction sont suspendus. Par contre il peut y avoir des événements d'instruction, notamment concernant les prolongations de délais d'instruction.
+Les événements d'incomplétude et de prolongation de délais ne sont pas activés dans un ordre déterminé : ils peuvent être activés par l'instructeur dès qu'il juge opportun de le faire.
+
+Exemple de déroulement :
+
+.. sidebar:: Note :
+
+    État initial : les délais, date limite d'instruction, état et événement suivant tacite sont initialisés en fonction de l'action choisi pour ce type d'événement.
+
+- dépôt de dossier PCI initial le 01/01/2013
+
+    - délai d'instruction = 3 mois
+    - date limite de complétude = date dépôt + 1 mois
+    - événement tacite = accord tacite
+    - date limite d'instruction = date dépôt + délai
+
+.. sidebar:: Note :
+
+    Pendant l'envoi du courrier de la consultation l'incomplétude du dossier est détectée, cela entraine une modification de l'état et envoi du courrier de notification de l'incomplétude.
+
+- envoi d'un courrier de majoration de délai pour consultation ABF
+
+    - délai = 5
+    - événement après RAR = majoration_delai_abf_ar
+
+- envoi notification de pièces manquantes
+
+    - état = incomplet
+    - événement après RAR = incompletude_ar
+
+.. sidebar:: Note :
+
+    Une fois le retour de l'accusé de réception du courrier de notification de l'incomplétude un événement suivant tacite sur le dossier d'instruction est défini.
+
+- Retour de l'AR incomplétude
+
+    - état = incomplétude notifiée
+    - date de complétude = NULL
+    - délai = 3 mois
+    - date limite d'instruction = date de l'événement + délai
+    - événement suivant tacite = rejet tacite
+
+    .. tip:: À ce moment de l'instruction des événements d'instruction peuvent être ajouté. Malgrès que les délais de l'instruction soient suspendus, ils sont sauvegardés et peuvent être mis à jour.
+
+.. sidebar:: Note :
+
+    À ce moment le dossier d'instruction passe à l'état "incomplet", l'état précédant est sauvegardé pour qu'il soit mis à jour et qu'il soit retrouvé à la sortie de l'incomplétude.
+
+- Retour de l'AR de majoration de délai consultation ABF
+
+    - état = incompletude notifiée
+    - date limite d'instruction : non modifié car en incomplétude
+    - delai = archive delai + 5mois (5 mois est le delai de majoration_delai_abf)
+    - événement suivant tacite = refus tacite
+
+.. sidebar:: Note :
+
+    Cette événement d'instruction correspond à la sortie de l'état d'incomplétude : les délais, dates limites, état et événement suivant tacite définis avant et pendant l'incomplétude sont de nouveau actifs.
+    Un événement avec avis permet aussi de sortir d'incomplétude.
+
+- Dépôt de pièces complémentaires (événement = depot_pieces_complementaires)
+    
+    - date de dernier dépôt = date d'événement
+    - état = en cours
+    - date de complétude = date de l'événement
+    - date de notification délai = date dépôt + 1 mois
+    - date de limite de complétude = NULL
+    - date limite de l'instruction = date de l'événement + délai (le délai majoré de 3 mois du délai initial + 5 mois de majoration -> 8 mois)
+    - événement tacite = accord_tacite
+
+Configuration de l'incomplétude
+===============================
+
+---------------------
+Saisie des événements
+---------------------
+
+(:menuselection:`Paramétrage --> Workflows --> Événements`)
+
+- notification de pièces manquantes :
+
+    - type = incomplétude
+    - état = dossier incomplet
+    - événement après RAR = incompletude après accusé de réception
+
+- incomplétude après accusé de réception :
+
+    - état = incompletude notifiée
+    - action = instruction suspendue, dossier incomplet
+    - delai = 3 mois
+    - accord tacite = Oui
+    - événement suivant tacite = rejet tacite
+
+------------------
+Saisie de l'action
+------------------
+
+(:menuselection:`Paramétrage --> Workflows --> Action`)
+
+- instruction suspendue, dossier incomplet :
+
+    - règle état = état
+    - règle accord tacite = Non
+    - règle date limite d'incompletude = règle date limite d'incompletude 
+    - règle délai d'incompletude  = délai
 
 .. _parametrage_avis_decision:
 
