@@ -496,7 +496,6 @@ Saisie des événements
     - état = incomplétude notifiée
     - action = instruction suspendue, dossier incomplet
     - délai = 3 mois
-    - accord tacite = Oui
     - événement suivant tacite = rejet tacite
 
 - dépôt de pièces complémentaires :
@@ -506,6 +505,7 @@ Saisie des événements
 - rejet tacite
 
     - accord tacite = Non : permet de ne pas ré-executer l'événement suivant tacite du dossier d'instruction
+    - l'avis doit être défini dans l'action correspondante
 
 ------------------
 Saisie de l'action
@@ -516,8 +516,7 @@ Saisie de l'action
 - instruction suspendue, dossier incomplet :
 
     - règle état = état
-    - règle accord tacite = Non
-    - règle date limite d'incomplétude = règle date limite d'incomplétude 
+    - règle date limite d'incomplétude = date de l'événement + délai
     - règle délai d'incomplétude  = délai
 
 .. _parametrage_avis_decision:
