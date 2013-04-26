@@ -274,7 +274,7 @@ Les informations à saisir sont  :
   :ref:`parametrage_dossier_instruction_type`).
 * **restriction** : formule optionnelle permettant de refuser la validation du
   formulaire d'ajout d'événement d'instruction si le résultat de la formule est
-  faux.
+  faux. Exemple : date_evenement <= date_depot+1
 * **action** : c'est l'action déclenchée par cet événement. Les valeurs
   disponibles sont les valeurs du paramétrage des actions (voir
   :ref:`parametrage_action`).
@@ -417,10 +417,10 @@ Exemple de déroulement :
 
 - dépôt de dossier PCI initial le 01/01/2013
 
-    - délai d'instruction = 3 mois
-    - date limite de complétude = date dépôt + 1 mois
+    - délai d'instruction = 3
+    - date limite de complétude = date_depot + 1
     - événement tacite = accord tacite
-    - date limite d'instruction = date dépôt + délai
+    - date limite d'instruction = date_depot + delai
 
 .. sidebar:: Note :
 
@@ -444,8 +444,8 @@ Exemple de déroulement :
 
     - état = incomplétude notifiée
     - date de complétude = NULL
-    - délai = 3 mois
-    - date limite d'instruction = date de l'événement + délai
+    - délai = 3
+    - date limite d'instruction = date_evenement + delai
     - événement suivant tacite = rejet tacite
 
     .. tip:: À ce moment de l'instruction des événements d'instruction peuvent être ajouté. Malgré que les délais de l'instruction soient suspendus, ils sont sauvegardés et peuvent être mis à jour.
@@ -458,7 +458,7 @@ Exemple de déroulement :
 
     - état = incompletude notifiée
     - date limite d'instruction : non modifié car en incomplétude
-    - délai = archive délai + 5 mois (5 mois est le délai de majoration_délai_abf)
+    - délai = archive_delai + 5 (5 mois est le délai de majoration_délai_abf)
     - événement suivant tacite = refus tacite
 
 .. sidebar:: Note :
@@ -468,12 +468,12 @@ Exemple de déroulement :
 
 - Dépôt de pièces complémentaires (événement = depot_pieces_complementaires)
     
-    - date de dernier dépôt = date d'événement
+    - date de dernier dépôt = date_evenement
     - état = en cours
-    - date de complétude = date de l'événement
-    - date de notification délai = date dépôt + 1 mois
+    - date de complétude = date_evenement
+    - date de notification délai = date_depot + 1
     - date de limite de complétude = NULL
-    - date limite de l'instruction = date de l'événement + délai (le délai majoré de 3 mois du délai initial + 5 mois de majoration -> 8 mois)
+    - date limite de l'instruction = date_evenement + delai (le délai majoré de 3 mois du délai initial + 5 mois de majoration -> 8 mois)
     - événement suivant tacite = accord tacite
 
 Configuration de l'incomplétude
@@ -495,7 +495,7 @@ Saisie des événements
 
     - état = incomplétude notifiée
     - action = instruction suspendue, dossier incomplet
-    - délai = 3 mois
+    - délai = 3
     - événement suivant tacite = rejet tacite
 
 - dépôt de pièces complémentaires :
@@ -515,9 +515,9 @@ Saisie de l'action
 
 - instruction suspendue, dossier incomplet :
 
-    - règle état = état
-    - règle date limite d'incomplétude = date de l'événement + délai
-    - règle délai d'incomplétude  = délai
+    - règle état = etat
+    - règle date limite d'incomplétude = date_evenement + delai
+    - règle délai d'incomplétude  = delai
 
 .. _parametrage_avis_decision:
 
