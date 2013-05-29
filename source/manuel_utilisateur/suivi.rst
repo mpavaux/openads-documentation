@@ -196,7 +196,7 @@ Le clique sur ce lien déclenche aussi la finalisation de l'édition de l'ordre 
 
 .. image:: message_diffusion_oj.png
 
-Le clique sur le lien de l'édition de l'ordre du jour dans le portail d'action ouvre le document depuis la GED au format PDF.
+Le clique sur le lien de l'édition de l'ordre du jour dans le portail d'action ouvre le document depuis le stockage au format PDF.
 
 
 Diffusion du compte-rendu
@@ -212,7 +212,7 @@ Le clique sur ce lien déclenche aussi la finalisation de l'édition du compte-r
 
 .. image:: message_diffusion_cr.png
 
-Le clique sur le lien de l'édition du compte-rendu dans le portail d'action ouvre le document depuis la GED au format PDF.
+Le clique sur le lien de l'édition du compte-rendu dans le portail d'action ouvre le document depuis le stockage au format PDF.
 
 .. _suivi_commissions_demandes:
 

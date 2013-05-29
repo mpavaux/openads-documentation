@@ -13,7 +13,7 @@ Ils sont listés dans l'onglet "Pièces" et organisés par date et catégorie de
 
 XXX image tableau
 
-Au clic sur le nom du document, il sera ouvert depuis la GED au format PDF.
+Au clic sur le nom du document, il sera ouvert depuis le stockage au format PDF.
 
 Pour ajouter un document il faut cliquer sur le "+" vert en haut de page à côtés de la mention "Ajouter un document".
 
@@ -21,7 +21,7 @@ XXX image formulaire
 
 Dans le formulaire qui apparaît tous les champs sont obligatoires :
 
-* **Uid** : Documents au format PDF à envoyer en GED.
+* **Uid** : Documents au format PDF à envoyer dans le stockage.
 * **Date de création** : Date de création du document.
 * **Type de document** : Type du document.
 
@@ -30,7 +30,7 @@ Finalisation des documents de l'instruction
 
 Lors de l'ajout d'une instruction, l'édition est automatiquement finalisée.
 
-Au clique sur le lien de l'édition dans le portail d'action de la visualisation de l'instruction, le document sera ouvert depuis la GED au format PDF.
+Au clique sur le lien de l'édition dans le portail d'action de la visualisation de l'instruction, le document sera ouvert depuis le stockage au format PDF.
 
 .. image:: portlet_definaliser.png
 
@@ -47,7 +47,7 @@ Pour finaliser l'édition du rapport d'instruction, il faut cliquer sur le lien 
 
 .. image:: portlet_finaliser.png
 
-Au clique sur le lien de l'édition dans le portail d'action de la visualisation du rapport d'instruction, le document sera ouvert depuis la GED au format PDF.
+Au clique sur le lien de l'édition dans le portail d'action de la visualisation du rapport d'instruction, le document sera ouvert depuis le stockage au format PDF.
 
 .. image:: message_finaliser.png
 

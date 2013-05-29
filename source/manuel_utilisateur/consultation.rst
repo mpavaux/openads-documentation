@@ -44,6 +44,6 @@ Finalisation des documents
 
 Lors de l'ajout d'une consultation, l'édition est automatiquement finalisée.
 
-Au clique sur le lien de l'édition dans le portail d'action de la visualisation de la consultation, le document sera ouvert depuis la GED au format PDF.
+Au clique sur le lien de l'édition dans le portail d'action de la visualisation de la consultation, le document sera ouvert depuis le stockage au format PDF.
 
 .. image:: portlet_consultation.png
