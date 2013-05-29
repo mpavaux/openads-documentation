@@ -194,8 +194,6 @@ Pour cela, il faut cliquer sur le lien "(OJ) Diffuser l'OJ" dans le portail d'ac
 
 Le clique sur ce lien déclenche aussi la finalisation de l'édition de l'ordre du jour de la commission.
 
-.. image:: message_diffusion_oj.png
-
 Le clique sur le lien de l'édition de l'ordre du jour dans le portail d'action ouvre le document depuis le stockage au format PDF.
 
 
@@ -209,8 +207,6 @@ Pour cela, il faut cliquer sur le lien "(CR) Diffuser le CR" dans le portail d'a
 .. image:: portlet_commission.png
 
 Le clique sur ce lien déclenche aussi la finalisation de l'édition du compte-rendu de la commission.
-
-.. image:: message_diffusion_cr.png
 
 Le clique sur le lien de l'édition du compte-rendu dans le portail d'action ouvre le document depuis le stockage au format PDF.
 

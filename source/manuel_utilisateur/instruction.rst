@@ -36,8 +36,6 @@ Au clique sur le lien de l'édition dans le portail d'action de la visualisation
 
 Il est aussi possible de dé-finaliser le document au clique sur le lien "Reprendre la rédaction du document".
 
-.. image:: message_definaliser.png
-
 Le clique sur le lien de l'édition dans le portail d'action de la visualisation de l'instruction ouvrira le document généré à la volée au format PDF.
 
 Finalisation des documents du rapport d'instruction
@@ -49,13 +47,9 @@ Pour finaliser l'édition du rapport d'instruction, il faut cliquer sur le lien 
 
 Au clique sur le lien de l'édition dans le portail d'action de la visualisation du rapport d'instruction, le document sera ouvert depuis le stockage au format PDF.
 
-.. image:: message_finaliser.png
-
 Il est aussi possible de dé-finaliser le document au clique sur le lien "Reprendre la rédaction du document".
 
 Le clique sur le lien de l'édition dans le portail d'action de la visualisation du rapport d'instruction ouvrira le document généré à la volée au format PDF.
-
-.. image:: message_definaliser.png
 
 Enregistrement de l'arrêté
 ==========================
