@@ -56,3 +56,11 @@ Il est aussi possible de dé-finaliser le document au clique sur le lien "Repren
 Le clique sur le lien de l'édition dans le portail d'action de la visualisation du rapport d'instruction ouvrira le document généré à la volée au format PDF.
 
 .. image:: message_definaliser.png
+
+Enregistrement de l'arrêté
+==========================
+
+Lors de la création d'un évènement d'instruction de type arrêté, un document est finalisé.
+Lorsqu'il revient après signature par l'autorité compétente, les informations qui
+le composent sont envoyé au référentiel des arrêtés, et le document finalisé est
+enregistré dans le systeme de fichiers.
