@@ -11,16 +11,17 @@ Chaque dossier d'instruction peut avoir plusieurs documents numérisés.
 
 Ils sont listés dans l'onglet "Pièces" et organisés par date et catégorie des documents.
 
-XXX image tableau
+.. image:: piece_tab.png
 
 Au clic sur le nom du document, il sera ouvert depuis le stockage au format PDF.
 
 Pour ajouter un document il faut cliquer sur le "+" vert en haut de page à côtés de la mention "Ajouter un document".
 
-XXX image formulaire
+.. image:: piece_form.png
 
 Dans le formulaire qui apparaît tous les champs sont obligatoires :
 
+* **Fichier** : Documents au format PDF à envoyer en GED.
 * **Uid** : Documents au format PDF à envoyer dans le stockage.
 * **Date de création** : Date de création du document.
 * **Type de document** : Type du document.
