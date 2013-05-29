@@ -38,3 +38,12 @@ Lors du retour de la consultation, il est saisie :
 - l'avis du service 
 
 La date limite est calculée depuis le délai du service. (saisie dans paramètre -> service)
+
+Finalisation des documents
+==========================
+
+Lors de l'ajout d'une consultation, l'édition est automatiquement finalisée.
+
+Au clique sur le lien de l'édition dans le portail d'action de la visualisation de la consultation, le document sera ouvert depuis la GED au format PDF.
+
+.. image:: portlet_consultation.png
