@@ -35,6 +35,9 @@ Au clique sur le lien de l'édition dans le portail d'action de la visualisation
 
 .. image:: portlet_definaliser.png
 
+Lorsque le document est finalisé certaines informations concernant le dossier
+lui sont associées lors de l'enregistrement.
+
 Il est aussi possible de dé-finaliser le document au clique sur le lien "Reprendre la rédaction du document".
 
 Le clique sur le lien de l'édition dans le portail d'action de la visualisation de l'instruction ouvrira le document généré à la volée au format PDF.
@@ -46,6 +49,9 @@ Pour finaliser l'édition du rapport d'instruction, il faut cliquer sur le lien 
 
 .. image:: portlet_finaliser.png
 
+Lorsque le document est finalisé certaines informations concernant le dossier
+lui sont associées lors de l'enregistrement.
+
 Au clique sur le lien de l'édition dans le portail d'action de la visualisation du rapport d'instruction, le document sera ouvert depuis le stockage au format PDF.
 
 Il est aussi possible de dé-finaliser le document au clique sur le lien "Reprendre la rédaction du document".
@@ -55,7 +61,10 @@ Le clique sur le lien de l'édition dans le portail d'action de la visualisation
 Enregistrement de l'arrêté
 ==========================
 
-Lors de la création d'un évènement d'instruction de type arrêté, un document est finalisé.
+Lors de la finalisation d'un évènement d'instruction de type arrêté le document
+est enregistré sur le systeme de fichier.
 Lorsqu'il revient après signature par l'autorité compétente, les informations qui
-le composent sont envoyé au référentiel des arrêtés, et le document finalisé est
-enregistré dans le systeme de fichiers.
+le compose sont envoyé au référentiel des arrêtés, et le document finalisé est
+enregistré dans le systeme de fichiers associé à certaines informations (numéro 
+de l'arrêté dans le référentiel, informations concernant le signataire, le terrain,
+et l'arrêté).
