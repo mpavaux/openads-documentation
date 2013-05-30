@@ -68,7 +68,6 @@ La première étape est donc la sélection du type de dossier d'autorisation qui
 
 .. _guichet_unique_nouvelle_demande_dossier_existant:
 
-
 Pour un dossier existant
 ========================
 
@@ -77,8 +76,6 @@ Pour un dossier existant
 La demande va se rattacher à un dossier d'autorisation existant. La première
 étape ici est donc la sélection/recherche du dossier d'instruction sur lequel
 va porter la demande.
-
-
 
 Saisie commune (nouveau dossier ou dossier existant) de la nouvelle demande
 ===========================================================================
@@ -129,6 +126,8 @@ récépissé.
 
 
 .. _guichet_unique_nouvelle_demande_petitionnaire_frequent:
+
+Le lien du récépissé de la demande ouvre le document depuis le stockage au format PDF.
 
 ===================================
 Lister les pétitionnaires fréquents
@@ -209,4 +208,4 @@ Une fois le formulaire validé, trois cas de figures sont possibles :
   
   .. image:: guichet_unique_affichage_reglementaire_attestation_message_lien_attestation.png
 
-
+Le lien de l'attestation d'affichage réglementaire d'un dossier d'instruction ouvre le document depuis le stockage au format PDF.

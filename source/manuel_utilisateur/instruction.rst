@@ -29,9 +29,13 @@ Dans le formulaire qui apparaît tous les champs sont obligatoires :
 Finalisation des documents de l'instruction
 ===========================================
 
-Lors de l'ajout d'une instruction, l'édition est automatiquement finalisée.
+Pour finaliser l'édition de l'instruction, il faut cliquer sur le lien "Finaliser le document" du portail d'action de la visualisation.
+
+.. image:: portlet_finaliser.png
 
 Au clique sur le lien de l'édition dans le portail d'action de la visualisation de l'instruction, le document sera ouvert depuis le stockage au format PDF.
+
+Il est aussi possible de dé-finaliser le document au clique sur le lien "Reprendre la rédaction du document".
 
 .. image:: portlet_definaliser.png
 
