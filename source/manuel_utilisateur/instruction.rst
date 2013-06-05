@@ -35,6 +35,8 @@ Pour finaliser l'édition de l'instruction, il faut cliquer sur le lien "Finalis
 
 Au clique sur le lien de l'édition dans le portail d'action de la visualisation de l'instruction, le document sera ouvert depuis le stockage au format PDF.
 
+L'instruction n'est plus ni modifiable, ni supprimable.
+
 Il est aussi possible de dé-finaliser le document au clique sur le lien "Reprendre la rédaction du document".
 
 .. image:: portlet_definaliser.png
@@ -45,6 +47,8 @@ lui sont associées lors de l'enregistrement.
 Il est aussi possible de dé-finaliser le document au clique sur le lien "Reprendre la rédaction du document".
 
 Le clique sur le lien de l'édition dans le portail d'action de la visualisation de l'instruction ouvrira le document généré à la volée au format PDF.
+
+L'instruction est à nouveau modifiable et supprimable.
 
 Finalisation des documents du rapport d'instruction
 ===================================================
@@ -58,9 +62,13 @@ lui sont associées lors de l'enregistrement.
 
 Au clique sur le lien de l'édition dans le portail d'action de la visualisation du rapport d'instruction, le document sera ouvert depuis le stockage au format PDF.
 
+Le rapport d'instruction n'est plus ni modifiable, ni supprimable.
+
 Il est aussi possible de dé-finaliser le document au clique sur le lien "Reprendre la rédaction du document".
 
 Le clique sur le lien de l'édition dans le portail d'action de la visualisation du rapport d'instruction ouvrira le document généré à la volée au format PDF.
+
+Le rapport d'instruction est à nouveau modifiable et supprimable.
 
 Enregistrement de l'arrêté
 ==========================
