@@ -135,7 +135,13 @@ Lister les pétitionnaires fréquents
 
 (:menuselection:`Guichet Unique --> Nouvelle demande --> Pétitionnaire Fréquent`)
 
+Il est possible d'ajouter un pétitionnaire redondant dans la liste des
+pétitionnaires fréquents pour éviter de saisir ses informations à chaque nouvelle entré,
+en cochant le champ "Sauvegarder (pétitionnaire fréquent)" avant de valider.
 
+Pour retrouver un pétitionnaire fréquent, il suffit de taper les trois premières 
+lettres de son nom ou de son prénom dans les champs adéquates et de cliquer sur
+l'îcone de la loupe "Chercher un pétitionnaire".
 
 
 .. _guichet_unique_affichage_reglementaire:
