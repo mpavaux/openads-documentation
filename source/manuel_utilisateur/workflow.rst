@@ -144,3 +144,15 @@ Il est représenté ci dessous le diagramme de séquence du dossier :
 
 .. image:: ../_static/uml_sequence.png
 
+Écran récapitulatif du workflow
+===============================
+
+Une fois le workflow paramétré par l'administrateur technique, il est possible de le 
+visualiser à partir de l'entrée "Workflows" dans le menu "Paramétrage Dossiers".
+
+.. image:: workflow_menu.png
+
+Il faut choisir un type de dossier d'instruction dans le menu déroulant pour afficher une 
+synthèse de son workflow.
+
+.. image:: workflow_affichage.png
