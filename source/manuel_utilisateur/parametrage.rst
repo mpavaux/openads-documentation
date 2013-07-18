@@ -290,12 +290,15 @@ Les informations à saisir sont  :
 * **lettre type** : (voir :ref:`parametrage_om_lettretype`).
 * **consultation** : cette case à cocher est présente pour afficher la liste
   des consultations dans l'édition.
+* **autorité compétente** : liste des autorité possible
+  des consultations dans l'édition.
 * **événement suivant tacite** : événement déclenché automatiquement lorsque la
   date de tacite est dépassée.
-* **événement suivant AR** : événement déclenché par un retour AR, si l'état du
+* **évènement suivant AR** : événement déclenché par un retour AR, si l'état du
   dossier d'instruction est bien lié à l'événement (état « compatible ») et si
   la restriction est valide. Cet événement peut donc déclencher un changement
   d'état du dossier d'instruction et une action.
+* **évènement retour signature** : événement déclenché par la signature par l'autorité compétente de l'arrété.
 
 
 .. _parametrage_etat:
@@ -386,9 +389,9 @@ Les champs disponibles pour la saisie des règles sont :
   [archive_date_complet] [archive_date_rejet] [archive_date_limite]
   [archive_date_notification_delai] [archive_date_decision]
   [archive_date_validite] [archive_date_achevement] [archive_date_conformite]
-  [archive_date_chantier]
+  [archive_date_chantier] [archive_autorite_competente]
 * Paramètres de l'événement : [etat] [delai] [accord_tacite] [avis_decision]
-  [delai_notification] [date_evenement]
+  [delai_notification] [date_evenement] [autorite_competente]
 
 Exemples de règles :
 
