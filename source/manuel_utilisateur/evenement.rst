@@ -138,13 +138,14 @@ Mise en place des règles de modification des champs du dossier :
 
 Il est possible de modifier les règles applicables au dossier sur les champs suivants ::
 
-        Il est possible de modifier 13 champs de la table dossier
+        Il est possible de modifier 14 champs de la table dossier
         en paramétrant les champs "regle"
         
-        Champ texte :                   regle unique = valeur de l'evenement
+        Champ texte :                   regle unique = valeur de l'évènement
             regle_etat                  etat (de l evenement)
-            regle_accord_tacite         accord _tacite (de l evevenement)
+            regle_accord_tacite         accord _tacite (de l'évèvenement)
             regle_avis                  avis (de l evenement)
+            regle_autorite_competente   autorite_competente (de l'évènement)
         Champ calcule                   regle de calcul delai avec ou sans ajout
             delai                       delai (de l evenement) + Nombre de mois
             

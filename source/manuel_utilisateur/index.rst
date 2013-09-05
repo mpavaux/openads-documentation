@@ -13,6 +13,7 @@ Manuel de l'utilisateur
     instruction.rst
     suivi.rst
     service_consulte.rst
+    parametrage_dossier.rst
     parametrage.rst
 
 
