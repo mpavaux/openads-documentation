@@ -4,8 +4,9 @@
 Instruction
 ###########
 
-Document numérisé ou reprise de l'arriéré
-===========================================
+
+Gestion des pièces du dossier
+=============================
 
 Chaque dossier d'instruction peut avoir plusieurs documents numérisés.
 
@@ -25,6 +26,19 @@ Dans le formulaire qui apparaît tous les champs sont obligatoires :
 * **Uid** : Documents au format PDF à envoyer dans le stockage.
 * **Date de création** : Date de création du document.
 * **Type de document** : Type du document.
+
+Documents numérisés ou reprise de l'arriéré
+===========================================
+
+Les documents numérisés ou repris doivent être placés dans le sous-dossier "Todo"
+du dossier configuré dans la variable $config['path_scan'] (dyn/config.inc.php).
+
+L'opérateur qui numérise les documents devra donc les déposer dans le sous dossier
+nommé de la même façon que le dossier d'instruction lié.
+
+Un service automatique se chargera de traiter ces documents : les enregistrer
+dans le système de stockage prédéfini ainsi que les lier au dossier d'instruction
+dans openADS. Les documents traités sont ensuite supprimés.
 
 Finalisation des documents de l'instruction
 ===========================================
