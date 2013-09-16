@@ -247,7 +247,7 @@ scrpts sql migration ARLES  ::
     -- update instruction set evenement = null where evenement = ''; --0
     update instruction set etat = null where etat = '';
     -- pb utf8
-    -- remplacer  dans le texte
+    -- remplacer ? dans le texte
     
     -- ----------------------------------
     -- transferer en base reelle

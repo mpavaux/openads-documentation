@@ -27,7 +27,7 @@ Une recherche peut être effectuée sur plusieurs critères :
 
 - l'état
 
-- la date de premier dếpôt
+- la date de premier dépôt
 
 - la date de décision
 
