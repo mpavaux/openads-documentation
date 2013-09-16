@@ -2,7 +2,7 @@
    sphinx-quickstart on Wed Jul 20 17:30:38 2011.
 
 =========================
-openADS 4.x documentation
+openADS 4.0 documentation
 =========================
 
 .. note::
@@ -59,5 +59,7 @@ Contributeurs
 * Matthias Broquet
 * Nicolas Haye
 * Florent Michon
+* Virginie Pihour
 * François Raynaud
+* Sofien Timezouaght
 
