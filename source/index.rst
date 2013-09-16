@@ -1,10 +1,18 @@
 .. openfoncier documentation master file, created by
    sphinx-quickstart on Wed Jul 20 17:30:38 2011.
 
+=============================
+openFoncier 3.x Documentation
+=============================
 
-===========================
-openFoncier - Documentation
-===========================
+.. note::
+
+    Cette création est mise à disposition selon le Contrat Paternité-Partage des
+    Conditions Initiales à l'Identique 2.0 France disponible en ligne
+    http://creativecommons.org/licenses/by-sa/2.0/fr/ ou par courrier postal à
+    Creative Commons, 171 Second Street, Suite 300, San Francisco,
+    California 94105, USA.
+
 
 Opérationnel pour la réforme du 1er Octobre 2007, openFoncier a donc plus de 4 années d'expérience
 et apparait aujourd'hui comme l'alternative libre avec une architecture  full web, aux solutions propriétaires.
@@ -48,14 +56,7 @@ afin de constituer des applications composites (mashup).
 Bonne lecture et n'hésitez pas à nous faire part de vos remarques à l'adresse
 suivante : contact@openmairie.org !
 
-Cette création est mise à disposition selon le Contrat Paternité-Partage des
-Conditions Initiales à l'Identique 2.0 France disponible en ligne
-http://creativecommons.org/licenses/by-sa/2.0/fr/ ou par courrier postal à
-Creative Commons, 171 Second Street, Suite 300, San Francisco,
-California 94105, USA.
 
-
-   
 utilisation
 ===========
 
