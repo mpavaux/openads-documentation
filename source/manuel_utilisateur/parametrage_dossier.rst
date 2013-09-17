@@ -285,7 +285,14 @@ Les informations à saisir sont  :
   :ref:`parametrage_dossiers_dossier_instruction_type`).
 * **restriction** : formule optionnelle permettant de refuser la validation du
   formulaire d'ajout d'événement d'instruction si le résultat de la formule est
-  faux. Exemple : date_evenement <= date_depot+1
+  faux.
+  Champs utilisable : [archive_etat] [archive_delai] [archive_accord_tacite] 
+  [archive_avis] [archive_date_dernier_depot] 
+  [archive_date_complet] [archive_date_rejet] [archive_date_limite] 
+  [archive_date_notification_delai] [archive_date_decision] [archive_date_validite]
+  [archive_date_achevement] [archive_date_conformite] [archive_date_chantier]
+  [duree_validite].
+  Exemple : date_evenement <= archive_date_dernier_depot + 1.
 * **action** : c'est l'action déclenchée par cet événement. Les valeurs
   disponibles sont les valeurs du paramétrage des actions (voir
   :ref:`parametrage_dossiers_action`).
