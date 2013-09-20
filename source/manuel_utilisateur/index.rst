@@ -15,5 +15,6 @@ Manuel de l'utilisateur
     service_consulte.rst
     parametrage_dossier.rst
     parametrage.rst
+    administration.rst
 
 
