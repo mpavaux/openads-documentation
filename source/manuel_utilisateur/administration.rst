@@ -73,6 +73,16 @@ Les utilisateurs
 
 Édition des utilisateurs présentes dans l'application.
 
+.. _administration_annuaire:
+
+==========
+L'annuaire
+==========
+
+(:menuselection:`Administration --> Gestion Des Utilisateurs --> Annuaire`)
+
+Gestion des utilisateurs grâce à un LDAP.
+
 Tableaux de Bord
 ################
 

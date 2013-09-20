@@ -160,7 +160,7 @@ particulier à la demande d'un usager.
    Pour l'administrateur : l'événement d'instruction créé sur chaque dossier
    qui permet de générer l'attestation d'affichage doit être paramétré, c'est
    l'identifiant de l'événement en question qui doit être paramétré dans
-   l'enregistrement 'affichage_obligatoire' depuis l'écran 
+   l'enregistrement 'id_affichage_obligatoire' depuis l'écran 
    :menuselection:`Administration --> Paramètre`. Si le paramétrage ou
    l'événement n'existe pas alors un message prévient l'utilisateur :
    

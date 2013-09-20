@@ -12,15 +12,15 @@ dans dyn/var.inc
 
 
 
-numero_unique permet de numéroter de manière unique tous les dossiers
+option_numero_unique permet de numéroter de manière unique tous les dossiers
 le paramètre $lettre est la lettre de la collectivité dans le dossier
 
 
 Dans var.inc ::
 
-    numero_unique dossier =1
+    option_numero_unique dossier =1
     sinon = 0 numerotation par nature de dossier
-    $numero_unique=0;
+    $option_numero_unique=0;
     $lettre='R'; //  R pour ARLES
 
     Ces parametres sont utilisés pour constituer le numéro unique du dossier
