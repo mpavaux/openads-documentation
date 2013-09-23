@@ -4,6 +4,12 @@
 Autorisations
 #############
 
+Introduction
+============
+
+Le dossier d'autorisation contient l'ensemble des informations en cours de
+validité des dossiers d'instruction qui lui sont liés.
+
 Liste des dossiers d'autorisation
 =================================
 
@@ -36,12 +42,22 @@ Ce tableau permet d'accéder à la visualisation des dossiers d'autorisation.
 Visualisation des dossiers d'autorisation
 ========================================= 
 
-XXX capture du dossier d'autorisation
+.. image:: ../manuel_utilisateur/autorisation_visualisation.png
 
 La visualisation contient deux blocs d'informations :
 
 - "En cours de validité" : informations des dossiers d'instructions soumis à un arrété.
+
+    * En noir : les informations importantes en cours de validité
+    * En vert : la liste des lots et leurs petitionnaire principal en cours de validité
+    * En rouge : la liste des décisions en cours de validité
+    * En bleu : un lien vers toutes les données technique en cours de validité
+
 - "En cours d'instruction" : données du dossier d'instruction en cours d'instruction.
+
+    * En noir : les informations importantes en cours d'instruction
+    * En vert : la liste des lots et leurs petitionnaire principal en cours d'instruction
+
 
 Mise à jour des informations
 ============================
@@ -70,3 +86,14 @@ Il exite 3 groupes d'informations :
     - l'avis de la décision du dossier d'instruction initial après décision si un seul dossier d'instruction, sinon l'avis de la décision du dernier dossier d'instruction accepté
 
 Ces informations sont recalculées à chaques ajout, modification, suppression des dossiers d'instruction et événements d'instruction.
+
+Autres informations accessibles
+===============================
+
+.. image:: ../manuel_utilisateur/autorisation_liste_di.png
+
+Liste des dossiers d'instruction liés au dossier d'autorisation (voir :ref:`instruction`).
+
+.. image:: ../manuel_utilisateur/autorisation_liste_pieces.png
+
+Liste des pièces liées au dossier d'autorisation.
