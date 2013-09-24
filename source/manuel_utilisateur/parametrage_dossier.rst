@@ -187,15 +187,17 @@ Les informations à saisir sont :
 * **description** : c'est un texte qui n'est pas utilisé dans les autres
   interfaces de l'application, mais il permet de décrire l'élément de
   paramétrage en détail dans un objectif de le documenter.
-* **nature de la demande** : (voir :ref:`parametrage_dossiers_demande_nature`).
 * **groupe** : (voir :ref:`parametrage_groupe`).
-* **type de dossier d'instruction a creer** : le type de dossier d'instruction
+* **type de dossier d'autorisation détaillé** : le type de dossier d'autorisation
+  à créer si il doit en être créé un.
+* **nature de la demande** : (voir :ref:`parametrage_dossiers_demande_nature`).
+* **états du dernier dossier d'instruction** : état à partir du quel il est possible
+  de créer la demande.
+* **contraintes** : avec ou sans récupération des demandeurs du dernier dossier
+  d'instruction.
+* **type de dossier d'instruction à créer** : le type de dossier d'instruction
   à créer si il doit en être créé un (initial, modificatif, daact, ...) (voir
   :ref:`parametrage_dossiers_dossier_instruction_type`).
-* **type de dossier d'autorisation détaillé** : (voir
-  :ref:`parametrage_dossiers_dossier_autorisation_type_detaille`).
-* **contraintes** : 
-* **états des dossiers d'autorisation autorisés** :
 * **qualification** : lors de la saisie d'une nouvelle demande, le dossier
   concerné par cette demande est marqué comme à qualifier si le type de demande
   est configuré comme nécessitant une qualification.
