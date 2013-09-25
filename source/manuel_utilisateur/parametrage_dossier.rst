@@ -152,6 +152,8 @@ Les informations à saisir sont :
 
 * **code** : c'est un code utilisé pour identifier rapidement la nature de la
   demande.
+  Il faut utiliser "NOUV" si c'est pour une nouvelle demande et "EXIST" si c'est sur
+  une demande existante.
 * **libellé** : texte à afficher dans l'interface lors de la sélection
   d'une nature de demande.
 * **description** : c'est un texte qui n'est pas utilisé dans les autres
