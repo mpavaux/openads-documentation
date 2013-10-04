@@ -423,6 +423,19 @@ Exemples de règles :
 
 .. _parametrage_dossiers_incompletude:
 
+========================
+Gestion de la péremption
+========================
+
+Un dossier d'autorisation passera à l'état "Périmé" automatiquement grâce 
+à une vérification périodique des conditions suivantes :
+
+- l'état du dossier d'autorisation doit être à "Accordé",
+- la date de décision du dossier d'autorisation ne doit pas être nul,
+- l'état des dossiers d'instruction doivent être à "accepter",
+- les dossiers d'instruction ne doivent pas être de type "DAACT" ou "DOC",
+- la date de validité doit être antérieur à la date du jour.
+
 =========================
 Gestion de l'incomplétude
 =========================

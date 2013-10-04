@@ -40,7 +40,7 @@ Une recherche peut être effectuée sur plusieurs critères :
 Ce tableau permet d'accéder à la visualisation des dossiers d'autorisation.
 
 Visualisation des dossiers d'autorisation
-========================================= 
+=========================================
 
 .. image:: ../manuel_utilisateur/autorisation_visualisation.png
 
