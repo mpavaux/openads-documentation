@@ -290,12 +290,18 @@ Les informations à saisir sont  :
 * **restriction** : formule optionnelle permettant de refuser la validation du
   formulaire d'ajout d'événement d'instruction si le résultat de la formule est
   faux.
-  Champs utilisable : [archive_etat] [archive_delai] [archive_accord_tacite] 
-  [archive_avis] [archive_date_dernier_depot] 
-  [archive_date_complet] [archive_date_rejet] [archive_date_limite] 
-  [archive_date_notification_delai] [archive_date_decision] [archive_date_validite]
-  [archive_date_achevement] [archive_date_conformite] [archive_date_chantier]
-  [duree_validite].
+
+  Champs utilisable : [archive_date_dernier_depot] [archive_date_complet]
+  [archive_date_rejet] [archive_date_limite]
+  [archive_date_notification_delai] [archive_date_decision]
+  [archive_date_validite] [archive_date_achevement]
+  [archive_date_conformite] [archive_date_chantier]
+  [archive_date_limite_incompletude]
+  [archive_delai_incompletude]
+  [duree_validite] [delai]
+  [delai_notification] [date_evenement]
+  [duree_validite_parametrage].
+
   Exemple : date_evenement <= archive_date_dernier_depot + 1.
 * **action** : c'est l'action déclenchée par cet événement. Les valeurs
   disponibles sont les valeurs du paramétrage des actions (voir
@@ -406,14 +412,31 @@ Les informations à saisir sont :
 
 Les champs disponibles pour la saisie des règles sont :
 
-* Valeurs du dossier avant l'événement : [archive_etat] [archive_delai]
-  [archive_accord_tacite] [archive_avis] [archive_date_depot]
-  [archive_date_complet] [archive_date_rejet] [archive_date_limite]
-  [archive_date_notification_delai] [archive_date_decision]
-  [archive_date_validite] [archive_date_achevement] [archive_date_conformite]
-  [archive_date_chantier] [archive_autorite_competente]
-* Paramètres de l'événement : [etat] [delai] [accord_tacite] [avis_decision]
-  [delai_notification] [date_evenement] [autorite_competente]
+**Valeurs du dossier avant l'évènement**
+
+[archive_etat] [archive_delai] [archive_accord_tacite] 
+[archive_avis]
+[archive_date_dernier_depot] [archive_date_complet] 
+[archive_date_rejet] [archive_date_limite] 
+[archive_date_notification_delai] [archive_date_decision] 
+[archive_date_validite] [archive_date_achevement] 
+[archive_date_conformite] [archive_date_chantier] 
+[archive_etat_pendant_incompletude] [archive_date_limite_incompletude]
+[archive_delai_incompletude] [archive_autorite_competente] 
+[duree_validite]
+
+**Paramètres de l'évènement**
+
+[etat] [delai] [accord_tacite] [avis_decision] 
+[delai_notification] [date_evenement] [autorite_competente]
+
+**Paramètres du type detaillé du dossier d'autorisation**
+
+[duree_validite_parametrage]
+
+**Suppression de la valeur**
+
+[null]
 
 Exemples de règles :
 
