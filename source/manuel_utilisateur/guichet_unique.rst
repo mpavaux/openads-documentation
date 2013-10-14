@@ -66,12 +66,23 @@ La première étape est donc la sélection du type de dossier d'autorisation qui
 
 
 
-.. _guichet_unique_nouvelle_demande_dossier_existant:
+.. _guichet_unique_nouvelle_demande_dossier_en_cours:
 
-Pour un dossier existant
+Pour un dossier en cours
 ========================
 
-(:menuselection:`Guichet Unique --> Nouvelle demande --> Dossier existant`)
+(:menuselection:`Guichet Unique --> Nouvelle demande --> Dossier en cours`)
+
+La demande va se rattacher à un dossier d'autorisation en cours de traitement,
+les dossiers affichés sont donc acceptés ou en cours d'instruction.
+
+
+.. _guichet_unique_nouvelle_demande_autre_dossier:
+
+Pour un autre dossier
+=====================
+
+(:menuselection:`Guichet Unique --> Nouvelle demande --> Autre dossier`)
 
 La demande va se rattacher à un dossier d'autorisation existant. La première
 étape ici est donc la sélection/recherche du dossier d'instruction sur lequel
