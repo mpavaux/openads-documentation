@@ -4,7 +4,7 @@
 Instruction
 ###########
 
-
+=============================
 Gestion des pièces du dossier
 =============================
 
@@ -27,6 +27,7 @@ Dans le formulaire qui apparaît tous les champs sont obligatoires :
 * **Date de création** : Date de création du document.
 * **Type de document** : Type du document.
 
+===========================================
 Documents numérisés ou reprise de l'arriéré
 ===========================================
 
@@ -39,6 +40,35 @@ nommé de la même façon que le dossier d'instruction lié.
 Un service automatique se chargera de traiter ces documents : les enregistrer
 dans le système de stockage prédéfini ainsi que les lier au dossier d'instruction
 dans openADS. Les documents traités sont ensuite supprimés.
+
+========================
+Evenements d'instruction
+========================
+
+...
+
+Compléments
+===========
+
+Il est possible d'ajouter des compléments d'informations pour les événements 
+d'instruction depuis les blocs "Complément" et "Complément 2".
+
+La plupart des compléments d'informations sont disponibles depuis la bible.
+
+.. image:: instruction_complement_bible.png
+
+Il suffit de choisir l'élément que l'on désire voir apparaître dans le champ 
+complément.
+En laissant la souris sur le libellé une infobulle affichera le texte qui sera 
+affiché.
+
+(Pour plus d'information sur la bible voir :ref:`parametrage_dossiers_bible`.)
+
+.. _instruction_complement:
+
+============
+Finalisation
+============
 
 Finalisation des documents de l'instruction
 ===========================================
@@ -64,6 +94,7 @@ Le clique sur le lien de l'édition dans le portail d'action de la visualisation
 
 L'instruction est à nouveau modifiable et supprimable.
 
+
 Finalisation des documents du rapport d'instruction
 ===================================================
 
@@ -85,6 +116,7 @@ Il est aussi possible de dé-finaliser le document au clique sur le lien "Repren
 Le clique sur le lien de l'édition dans le portail d'action de la visualisation du rapport d'instruction ouvrira le document généré à la volée au format PDF.
 
 Le rapport d'instruction est à nouveau modifiable et supprimable.
+
 
 Enregistrement de l'arrêté
 ==========================
