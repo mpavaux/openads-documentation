@@ -73,6 +73,11 @@ Mettre à jour les dates
 
 (:menuselection:`Suivi --> Suivi Des Pièces --> Mise À Jour Des Dates`)
 
+Cet écran permet de mettre à jour les dates de traitement du processus de signature
+des documents finalisés.
+
+  .. image:: suivi_maj_date.png
+
 .. _suivi_envoi_lettre_rar:
 
 ================
