@@ -96,7 +96,7 @@ pygments_style = 'sphinx'
 # a list of builtin themes.
 #html_theme = 'sphinxdoc'
 if on_rtd:
-    html_theme = 'default'
+    html_theme = 'sphinx.openmairietheme'
 else:
     html_theme = 'sphinx.openmairietheme'
 
