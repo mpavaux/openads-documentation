@@ -44,7 +44,14 @@ des dossiers d'autorisations.
 Ressource "dossier_instructions"
 ================================
 
-Cette ressource sert à signaler qu'un dossier AT est complété ou clôturé.
+Cette ressource sert à signaler qu'un dossier d'instruction de type AT est 
+complété ou clôturé.
+
+Pour que cette ressource ajoute au dossier d'instruction ciblé le bon événement
+de complétude ou de clôture, il faut renseigner les identifants des événements dans 
+les paramètres 'id_evenement_completude_at' et 'id_evenement_cloture_at'.
+
+(:menuselection:`Administration --> Paramètre`)
 
 .. _web_services_rest_maintenance:
 
