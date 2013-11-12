@@ -348,7 +348,7 @@ Les paramètres à garder sont :
 
 - la restriction ;
 
-- le délai.
+- le délai de notification.
 
 Dans un premier temps, il va falloir saisir l'événement suivant tacite et/ou 
 l'évènement retour AR lié. Pour cela, se reporter à la section :ref:`parametrage_dossiers_saisir_evenement`. 
