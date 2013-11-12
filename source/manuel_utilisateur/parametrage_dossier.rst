@@ -271,6 +271,8 @@ d'instruction, de :
 Les événements d'instruction disponibles dans l'interface dépendent de l'état
 dans lequel est le dossier d'instruction.
 
+.. _parametrage_dossiers_saisir_evenement:
+
 Saisir un événement
 ===================
 
@@ -328,6 +330,44 @@ Les informations à saisir sont  :
   d'état du dossier d'instruction et une action.
 * **évènement retour signature** : événement déclenché par la signature par l'autorité compétente de l'arrété.
 
+Paramétrage d'un événement ayant un "événement suivant tacite" ou un "évènement retour AR"
+==========================================================================================
+
+Contexte : un événement est déclenché afin de rédiger un courrier AR.
+Lors de la réception de l'AR, un nouvel événement est déclenché. C'est lui qui 
+effectue le recalcule de dates. Nous souhaiterions que l'événement AR utilise les 
+mêmes paramètres que l'événement ayant servi à rédiger le courrier.
+
+Les paramètres à garder sont :
+
+- le délai ;
+
+- la décision tacite ;
+
+- l'avis ;
+
+- la restriction ;
+
+- le délai.
+
+Dans un premier temps, il va falloir saisir l'événement suivant tacite et/ou 
+l'évènement retour AR lié. Pour cela, se reporter à la section :ref:`parametrage_dossiers_saisir_evenement`. 
+
+N.B. : Il est important de cocher la case "retour" lors de la saisie de l'événement 
+lié. C'est cette option qui va servir à distinguer cet événement des autres.
+
+Une fois le(s) événement(s) lié(s) saisie(s), l'événement principal (celui qui 
+précéde l'événement suivant tacite et/ou l'évènement retour AR) peut être saisi 
+à son tour avec les bonnes règles de gestions :ref:`parametrage_dossiers_saisir_evenement`. 
+
+N.B. : Dans la liste déroulante "évènement retour AR" et "événement lors du 
+retour de signature", choisir les événements liés.
+
+Une fois validé, le paramétrage saisie dans l'événement principal sera répercuté 
+vers ses événements liés. 
+
+Un même événement ne peut pas être à la fois l'événement suivant tacite et 
+l'événement retour AR d'un événement principal.
 
 .. _parametrage_dossiers_etat:
 
