@@ -331,7 +331,7 @@ Les informations à saisir sont  :
 * **évènement retour signature** : événement déclenché par la signature par l'autorité compétente de l'arrété.
 
 Paramétrage d'un événement ayant un "événement retour signature" ou un "événement retour AR"
-==========================================================================================
+============================================================================================
 
 Contexte : un événement est déclenché afin de rédiger un courrier AR.
 Lors de la réception de l'AR, un nouvel événement est déclenché. C'est lui qui 
