@@ -79,14 +79,10 @@ Les informations à saisir sont :
   interfaces de l'application, mais il permet de décrire l'élément de
   paramétrage en détail dans un objectif de le documenter.
 * **type de dossier d'autorisation** : (voir
-  :ref:`parametrage_dossiers_dossier_autorisation_type`)
-* **cerfa** : sélection du cerfa correspondant au dossier d'autorisation (voir :ref:`parametrage_dossiers_cerfa`)
-* **cerfa pour lots** : sélection du cerfa correspondant aux lots du dossier d'autorisation (voir :ref:`parametrage_dossiers_cerfa`)
-* **durée de validité** : durée de validité des dossiers d'autorisation,
-
-  .. note::
-
-      Si le DA est accepté et pas de DOC ou DAACT valide et date d'autorisation + délai DA inférieur à la date du jour alors le DA passe en état **périmé**
+  :ref:`parametrage_dossiers_dossier_autorisation_type`).
+* **cerfa** : sélection du cerfa correspondant au dossier d'autorisation (voir :ref:`parametrage_dossiers_cerfa`).
+* **cerfa pour lots** : sélection du cerfa correspondant aux lots du dossier d'autorisation (voir :ref:`parametrage_dossiers_cerfa`).
+* **durée de validité** : durée de validité des dossiers d'autorisation (voir :ref:`parametrage_dossiers_incompletude`).
 
 .. _parametrage_dossiers_dossier_instruction_type:
 
@@ -491,14 +487,14 @@ Exemples de règles :
 Gestion de la péremption
 ========================
 
-Un dossier d'autorisation passera à l'état "Périmé" automatiquement grâce 
+Un dossier d'autorisation passera à l'état **Périmé** automatiquement grâce 
 à une vérification périodique des conditions suivantes :
 
-- l'état du dossier d'autorisation doit être à "Accordé",
-- la date de décision du dossier d'autorisation ne doit pas être nul,
-- l'état des dossiers d'instruction doivent être à "accepter",
-- les dossiers d'instruction ne doivent pas être de type "DAACT" ou "DOC",
-- la date de validité doit être antérieur à la date du jour.
+        * le DA est **accordé**,
+        * la date de décision est renseignée,
+        * le DI est **accepté**,
+        * il n'y a ni **DOC** ni **DAACT** valide,
+        * la date de validité du DA est inférieure à la date du jour.
 
 =========================
 Gestion de l'incomplétude
