@@ -35,7 +35,7 @@ Une recherche peut être effectuée sur plusieurs critères :
 
 - la date de premier dépôt
 
-- la date de décision
+- la date de décision initiale
 
 Ce tableau permet d'accéder à la visualisation des dossiers d'autorisation.
 
