@@ -118,7 +118,8 @@ Les informations à saisir sont :
 * **type de dossier d'autorisation détaillé** : (voir
   :ref:`parametrage_dossiers_dossier_autorisation_type_detaille`)
 * **suffixe** : precise le numéro de dossier doit prendre un suffixe
-* **mouvement sitadel** : type de mouvement sitadel
+* **mouvement sitadel** : type de mouvement sitadel, seul les dossiers dont le 
+  type de mouvement sitadel est défini seront exportés.
 
 
 .. _parametrage_dossiers_demandes:
