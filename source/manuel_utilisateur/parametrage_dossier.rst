@@ -468,6 +468,12 @@ Les champs disponibles pour la saisie des règles sont :
 [etat] [delai] [accord_tacite] [avis_decision] 
 [delai_notification] [date_evenement] [autorite_competente]
 
+**Valeurs de l'événement d'instruction principal**
+
+[date_envoi_signature] [date_retour_signature] [date_envoi_rar] 
+[date_retour_rar] [date_envoi_rar] [date_retour_rar] 
+[date_envoi_controle_legalite] [date_retour_controle_legalite]
+
 **Paramètres du type detaillé du dossier d'autorisation**
 
 [duree_validite_parametrage]

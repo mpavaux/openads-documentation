@@ -78,6 +78,14 @@ des documents finalisés.
 
   .. image:: suivi_maj_date.png
 
+Si l'instruction mise à jour a un événement retour paramétré (un événement 
+retour AR ou retour signature), les dates potentiellement mises à jour, 
+c'est-à-dire la date envoi/retour de signature, la date envoi/retour d'AR et la 
+date envoi/retour de contrôle de légalité, sont répliquées dans l'instruction 
+crée par l'événement retour paramétré afin que l'action puisse utiliser ces 
+données (Pour plus d'informations sur le paramètrage d'une action voir 
+:ref:`parametrage_dossiers_action`).
+
 .. _suivi_envoi_lettre_rar:
 
 ================
