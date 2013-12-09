@@ -281,6 +281,10 @@ Les informations à saisir sont  :
   sont : "arrêté" pour permettre une gestion propre aux arrêtés, ou
   "incomplétude" ou "majoration de délais" pour permettre certains calculs dans
   les tableaux de bord de l'instructeur.
+* **retour** : permet de distinguer un événement "retour", c'est-à-dire un 
+  événement qui ne sera utilsé qu'en tant qu'événement retour AR ou événement
+  retour de signature. Ce champs n'est plus modifiable après validation du
+  formulaire d'ajout.
 * **état(s) source** : liste des états depuis lequel cet événement est
   disponible(voir :ref:`parametrage_dossiers_etat`).
 * **type(s) de DI concerné(s)** : liste des types de dossier d'instruction pour
@@ -327,31 +331,25 @@ Les informations à saisir sont  :
   d'état du dossier d'instruction et une action.
 * **évènement retour signature** : événement déclenché par la signature par l'autorité compétente de l'arrété.
 
+.. _parametrage_dossiers_evenement_retour:
+
 Paramétrage d'un événement ayant un "événement retour signature" ou un "événement retour AR"
 ============================================================================================
 
-Contexte : un événement est déclenché afin de rédiger un courrier AR.
-Lors de la réception de l'AR, un nouvel événement est déclenché. C'est lui qui 
-effectue le recalcule de dates. Nous souhaiterions que l'événement AR utilise les 
-mêmes paramètres que l'événement ayant servi à rédiger le courrier.
-
-Les paramètres à garder sont :
-
-- le délai ;
-
-- la décision tacite ;
-
-- l'avis ;
-
-- la restriction ;
-
-- le délai de notification.
+Contexte : lorsqu'un événement possède un événement retour AR ou un événement
+retour de signature, c'est, en général, cet événement lié qui effectue le
+recalcule des dates. Pour cela il lui faut les mêmes paramètres que son
+événement principal.
 
 Dans un premier temps, il va falloir saisir l'événement retour signature et/ou 
 l'événement retour AR lié. Pour cela, se reporter à la section :ref:`parametrage_dossiers_saisir_evenement`. 
 
 N.B. : Il est important de cocher la case "retour" lors de la saisie de l'événement 
 lié. C'est cette option qui va servir à distinguer cet événement des autres.
+
+N.B. : Une fois la case "retour" cochée, les champs délai, accord tacite, délai 
+notification, avis, événement retour AR et événement lors du retour de signature
+ne seront plus modifiable.
 
 Une fois le(s) événement(s) lié(s) saisie(s), l'événement principal (celui qui 
 précéde l'événement retour signature et/ou l'événement retour AR) peut être saisi 
@@ -363,9 +361,21 @@ retour de signature", choisir les événements liés.
 Une fois validé, le paramétrage saisie dans l'événement principal sera répercuté 
 vers ses événements liés. 
 
+Les paramètres répercutés de l'événement principal vers l'événement retour :
+
+- le délai ;
+
+- la décision tacite ;
+
+- l'avis ;
+
+- la restriction ;
+
+- le délai de notification.
+
 Un même événement ne peut pas être à la fois l'événement retour signature et 
 l'événement retour AR d'un événement principal et ne peut être utilisé que pour 
-un événement.
+un seul événement.
 
 .. _parametrage_dossiers_etat:
 
