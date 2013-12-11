@@ -170,6 +170,22 @@ Une fois le formulaire validé, trois cas de figures sont possibles :
   
   .. image:: suivi_bordereaux_message_telechargement.png
 
+.. _suivi_demandes_avis:
+
+Demandes d'avis
+###############
+
+.. _suivi_demandes_avis_mise_a_jour_des_dates:
+
+=======================
+Mettre à jour les dates
+=======================
+
+(:menuselection:`Suivi --> Demandes D'Avis --> Mise À Jour Des Dates`)
+
+Cet écran permet de mettre à jour la date de réception de la demande d'avis.
+
+  .. image:: suivi_demandes_avis_maj_date.png
 
 .. _suivi_commissions:
 

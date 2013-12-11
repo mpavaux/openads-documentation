@@ -117,6 +117,30 @@ Le clique sur le lien de l'édition dans le portail d'action de la visualisation
 
 Le rapport d'instruction est à nouveau modifiable et supprimable.
 
+Finalisation des documents de la consultation
+=============================================
+
+Pour finaliser l'édition de la consultation, il faut cliquer sur le lien "Finaliser le document" du portail d'action de la visualisation.
+
+.. image:: portlet_finaliser_consultation.png
+
+Lorsque le document est finalisé certaines informations concernant le dossier
+lui sont associées lors de l'enregistrement.
+
+Au clique sur le lien de l'édition dans le portail d'action de la visualisation 
+de la consultation, le document sera ouvert depuis le stockage au format PDF.
+
+La consultation n'est plus supprimable.
+
+Il est aussi possible de dé-finaliser le document au clique sur le lien "Reprendre la rédaction du document".
+
+.. image:: portlet_definaliser.png
+
+Le clique sur le lien de l'édition dans le portail d'action de la visualisation 
+de la consultation ouvrira le document généré à la volée au format PDF.
+
+La consultation est à nouveau supprimable.
+
 
 Enregistrement de l'arrêté
 ==========================
