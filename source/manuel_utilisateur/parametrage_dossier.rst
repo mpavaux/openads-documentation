@@ -281,6 +281,9 @@ Les informations à saisir sont  :
   sont : "arrêté" pour permettre une gestion propre aux arrêtés, ou
   "incomplétude" ou "majoration de délais" pour permettre certains calculs dans
   les tableaux de bord de l'instructeur.
+* **non verrouillable** : permet d'identifier un événement comme non 
+  verrouillable. C'est-à-dire que l'événement d'instruction sera toujours
+  modifiable même si le dossier d'autorisation est clôturé.
 * **retour** : permet de distinguer un événement "retour", c'est-à-dire un 
   événement qui ne sera utilsé qu'en tant qu'événement retour AR ou événement
   retour de signature. Ce champs n'est plus modifiable après validation du
