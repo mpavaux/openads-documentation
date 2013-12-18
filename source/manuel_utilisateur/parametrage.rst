@@ -137,7 +137,35 @@ Les services
 
 (:menuselection:`Paramétrage --> Gestion des consultations --> Service`)
 
-Édition des services consultés.
+Ce menu sert au paramétrage des services consultés de l'application.
+
+.. image:: service_parametrage.png
+
+Dans le cadre 'Coordonnées', il faut saisir les coordonnées du service.
+
+Le champ 'notification par mail' sert à indiquer si le service souhaite être 
+notifié par mail lors de l'ajout d'une nouvelle demande de consultation.
+
+Le champ 'délai' indique le temps dont dispose le service pour répondre à une 
+demande de consultation.
+
+Le champ 'consultation papier' indique si un PDF doit être généré pour 
+l'instructeur au moment de la demande de consultation.
+
+Dans le cadre 'Validité' peuvent être indiquées les dates pour lesquelles une 
+demande de consultation à ces services est possible.
+
+Le champ 'type de consultation' spécifie le type de la consultation. Le type 
+choisi a un impact sur le logiciel. Par exemple, les demandes de consultation 
+avec avis attendu s'afficheront avec un fond jaune dans le tableau listant les
+demandes de consultation du dossier d'instruction.
+
+Le champ 'type d'édition de la consultation' sert à indiquer le type d'édition
+lié à la demande de consultation. Ce select est populé grâce aux états. 
+
+
+Pour qu'un état apparaisse dans la liste des types d'édition possible, il faut 
+que le libellé de l'état soit préfixé par 'consultation\_'.
 
 .. _parametrage_thematique_services:
 
