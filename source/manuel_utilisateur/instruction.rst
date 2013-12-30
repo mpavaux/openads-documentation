@@ -42,13 +42,37 @@ dans le système de stockage prédéfini ainsi que les lier au dossier d'instruc
 dans openADS. Les documents traités sont ensuite supprimés.
 
 ========================
-Evenements d'instruction
+Événements d'instruction
 ========================
 
-...
+.. image:: instruction_form_edition.png
+
+Événement
+=========
+
+* **événement** : sélection de l'événement d'instruction
+* **date d'événement** : date de l'événement (date du jour par défaut)
+* **lettre type** : choix de la lettre type affectée à cet événement d'instruction
+
+Dates
+=====
+
+Dates de suivi chronologique de l'événement d'instruction.
+
+* **date de finalisation du courrier**
+* **date d'envoi pour signature**
+* **date d'envoi RAR**
+* **date d'envoi au contrôle légalité**
+* **signataire**
+* **date de retour de signature**
+* **date de retour RAR**
+* **date de retour du contrôle de légalité**
 
 Compléments
 ===========
+
+Les champs de complément sont composés d'un éditeur riche permettant une mise en
+page complexe.
 
 Il est possible d'ajouter des compléments d'informations pour les événements 
 d'instruction depuis les blocs "Complément" et "Complément 2".

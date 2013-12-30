@@ -321,7 +321,7 @@ Les informations à saisir sont  :
   correspondant à l'événement à utiliser dans les règles de l'action. Les
   valeurs disponibles sont les valeurs du paramétrage des avis (voir
   :ref:`parametrage_dossiers_avis_decision`).
-* **lettre type** : (voir :ref:`parametrage_dossiers_om_lettretype`).
+* **lettre type** : (voir :ref:`parametrage_dossiers_om_etat_lettretype`).
 * **consultation** : cette case à cocher est présente pour afficher la liste
   des consultations dans l'édition.
 * **autorité compétente** : liste des autorité possible
@@ -679,31 +679,100 @@ La bible
 .. _parametrage_dossiers_editions:
 
 Les éditions
-#############
+############
 
 
-.. _parametrage_dossiers_om_etat:
+.. _parametrage_dossiers_om_etat_lettretype:
 
-=========
-Les états
-=========
+==========================
+Les états et lettres types
+==========================
 
 (:menuselection:`Paramétrage --> Éditions --> État`)
-
-...
-
-.. _parametrage_dossiers_om_lettretype:
-
-=================
-Les lettres types
-=================
-
 (:menuselection:`Paramétrage --> Éditions --> Lettre Type`)
 
-...
+Paramétrage des informations générales de l'édition
+=======================================================
 
+.. image:: parametrage_etat_lettretype_edition.png
 
-.. _parametrage_dossiers_om_logo:
+Les informations d'**édition** à saisir sont :
+
+* **id** : identifiant de l'état/lettre type.
+* **libellé** : libellé affiché dans l'application lors de la sélection d'une édition.
+* **actif** : permet de définir si l'édition est active ou non.
+
+.. note::
+
+    Les champs **id** et **libellé** sont obligatoires, les **id** actif sont uniques.
+
+Les champs de **paramètres généraux de l'édition** à saisir sont :
+
+* **orientation** : orientation de l'édition (portrait/paysage).
+* **format** : format de l'édition (A4/A3).
+* **logo** : sélection du logo depuis la table des logos configurés.
+* **logo haut/gauche** : position du coin haut/gauche du logo par rapport au coin
+  haut/gauche de l'édition.
+* **Marge gauche** : marge gauche de l'édition
+* **Marge haut** : marge haute de l'édition
+* **Marge droite** : marge droite de l'édition
+* **Marge bas** : marge basse de l'édition
+
+.. image:: parametrage_etat_lettretype_titre.png
+
+Paramétrage du titre de l'édition.
+====================================
+
+* **titre** : éditeur riche permettant une mise en page complexe.
+
+-----------------------------------
+Paramètres du titre de l'édition.
+-----------------------------------
+
+Positionnement :
+
+* **titre gauche** : positionnement du titre par rapport à la marge gauche de l'édition.
+* **titre haut** : positionnement du titre par rapport à la marge haute de l'édition.
+* **largeur de titre** : taille de la largeur du titre.
+* **hauteur** : hauteur minimum du titre.
+
+Bordure :
+
+* **bordure** : Affichage ou non d'une bordure.
+
+------------------------------------
+Paramètrage du corps de l'édition.
+------------------------------------
+
+.. image:: parametrage_etat_lettretype_corps.png
+
+* **corps** : éditeur riche permettant une mise en page complexe.
+
+.. note::
+
+    Il est possible d'ajouter les sous états paramétrés via le menu **Insérer->
+    Sous-états**, un sous-état de chaque type peut être affiché.
+    Il est possible d'appliquer une transformation en code-barres d'une sélection
+    en cliquant sur l'icône correspondante, de la même façon il est possible de 
+    mettre en majuscule une sélection (champ de fusion).
+
+------------------------------------------------
+Paramètrage des champs de fusions de l'édition
+------------------------------------------------
+
+.. image:: parametrage_etat_lettretype_sql.png
+
+* **SQL** : sélection d'un jeu de champs de fusion.
+
+------------------------------------------------
+Paramètrage des champs de fusions de l'édition
+------------------------------------------------
+
+.. image:: parametrage_etat_lettretype_sousetat.png
+
+* **Police personnalisée** : sélection de la police des sous-états.
+* **Couleur texte** : sélection de la couleur du texte des sous-états.
+
 
 =========
 Les logos
