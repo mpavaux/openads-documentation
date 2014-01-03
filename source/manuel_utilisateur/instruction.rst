@@ -35,9 +35,11 @@ Les documents numérisés ou repris doivent être placés dans le sous-dossier "
 du dossier configuré dans la variable $config['path_scan'] (dyn/config.inc.php).
 
 L'opérateur qui numérise les documents devra donc les déposer dans le sous dossier
-nommé de la même façon que le dossier d'instruction lié.
+nommé de la même façon que le dossier d'instruction lié. Par exemple, pour le 
+dossier d'instruction AT 013055 12 00001P0, on aura un dossier nommé 
+AT01305512.00001P0
 
-Un service automatique se chargera de traiter ces documents : les enregistrer
+Un service automatique (CRON) se chargera de traiter ces documents : les enregistrer
 dans le système de stockage prédéfini ainsi que les lier au dossier d'instruction
 dans openADS. Les documents traités sont ensuite supprimés.
 

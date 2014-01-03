@@ -84,9 +84,9 @@ Pour un autre dossier
 
 (:menuselection:`Guichet Unique --> Nouvelle demande --> Autre dossier`)
 
-La demande va se rattacher à un dossier d'autorisation existant. La première
-étape ici est donc la sélection/recherche du dossier d'instruction sur lequel
-va porter la demande.
+La demande va se rattacher à un dossier d'autorisation existant, peu importe leur 
+état. La première étape ici est donc la sélection/recherche du dossier d'instruction 
+sur lequel va porter la demande.
 
 Saisie commune (nouveau dossier ou dossier existant) de la nouvelle demande
 ===========================================================================
