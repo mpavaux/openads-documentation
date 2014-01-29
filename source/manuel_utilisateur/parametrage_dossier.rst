@@ -434,6 +434,8 @@ Elle accepte en paramètre de calcul :
 
 * la valeur initiale de l'un des champs disponibles pour le dossier
   d'instruction,
+* les valeurs du précédent dossier d'instruction (si ce n'est pas un 
+  dépôt inital, exemple dans le cas d'une prorogation),
 * des valeurs fixées dans le paramétrage de l'action,
 * des valeurs fixées dans le paramétrage de l'événement déclenchant l'action,
 * des formules de calcul.
