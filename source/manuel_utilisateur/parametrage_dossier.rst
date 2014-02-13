@@ -121,6 +121,61 @@ Les informations à saisir sont :
 * **mouvement sitadel** : type de mouvement sitadel, seul les dossiers dont le 
   type de mouvement sitadel est défini seront exportés.
 
+.. _parametrage_dossiers_contrainte:
+
+===============
+Les contraintes
+===============
+
+(:menuselection:`Paramétrage --> Dossiers --> Contrainte`)
+
+Le principe
+===========
+
+Les contraintes peuvent être appliquées sur un dossier (voir ??). 
+Certaines contraintes peuvent être ajoutées manuellement et d'autre sont récupérées depuis le SIG (voir 
+:ref:`parametrage_dossiers_synchronisation_contrainte`).
+
+Saisir une contraintes
+======================
+
+Les informations à saisir sont :
+
+* **libellé** : le libellé de la contrainte.
+* **nature** : la nature de la contrainte (POS ou PLU).
+* **ordre d'affichage** : positionnement lors de l'affichage des contraintes.
+* **groupe** : groupe de la contrainte.
+* **sous-groupe** : sous-groupe de la contrainte.
+* **texte** : texte de la contrainte.
+* **présentée aux services consultés** : la contrainte est visible par les 
+  services consultés.
+* **date de début de validité** : date de début de validité de la contrainte.
+* **date de fin de validité** : date de fin de validité de la contrainte.
+
+.. _parametrage_dossiers_synchronisation_contrainte:
+
+===============================
+Synchronisation des contraintes
+===============================
+
+(:menuselection:`Paramétrage --> Dossiers --> Synchronisation Des Contraintes`)
+
+Le principe
+===========
+
+Ce menu permet de synchroniser les contraintes du SIG avec celles de 
+l'application. Toutes les contraintes du SIG doivent être dans l'application.
+
+Seulement les contraintes qui sont référencées comme venant du SIG sont 
+impactées par les actions suivantes :
+
+Les contraintes existant dans le SIG mais pas dans l'application seront 
+ajoutées, les contraintes existant dans les deux cas seront mise à jour et les 
+contraintes exisant dans l'application mais pas dans le SIG seront archivé en 
+mettant la date du jour de la synchronisation dans le champ **date de fin de 
+validité**.
+
+.. image:: contrainte_synchronisation.png
 
 .. _parametrage_dossiers_demandes:
 

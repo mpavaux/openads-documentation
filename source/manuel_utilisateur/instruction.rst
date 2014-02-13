@@ -178,3 +178,56 @@ le compose sont envoyé au référentiel des arrêtés, et le document finalisé
 enregistré dans le systeme de fichiers associé à certaines informations (numéro 
 de l'arrêté dans le référentiel, informations concernant le signataire, le terrain,
 et l'arrêté).
+
+.. _instruction_dossier_contrainte:
+
+=============================
+Contraintes liées au dossier
+=============================
+
+.. _instruction_dossier_contrainte_view:
+
+Visualisation des contraintes liées au dossier
+===============================================
+
+Les contraintes affichées dans le tableau de données sont groupées par groupe et
+sous-groupe et sont classées par le numéro d'ordre d'affichage.
+
+Chaque contrainte possède un bouton raccourcis pour ouvrir le formulaire en 
+modification et un autre en mode suppression.
+Seulement le champ **texte complété** est modifiable.
+
+.. image:: instruction_dossier_contrainte_view.png
+
+.. _instruction_dossier_contrainte_add_man:
+
+Ajouter des contraintes manuellement
+====================================
+
+En cliquant sur le bouton **Ajouter des contraintes**, un formulaire présentant
+toutes les contraintes de l'application apparait.
+
+Les contraintes sont triées comme dans le tableau de données, par groupe, sous-groupe et par l'ordre d'affichage. Par défaut chaque groupe et sous-groupe sont
+repliés.
+
+Il suffit de cliquer sur un contrainte pour la sélectionner et de valider le
+formulaire pour que celle-ci soit ajouter au dossier. Un message de validation 
+apparait.
+
+.. image:: instruction_dossier_contrainte_form.png
+
+.. image:: instruction_dossier_contrainte_form_valide.png
+
+.. _instruction_dossier_contrainte_add_auto:
+
+Ajouter des contraintes automatiquement
+=======================================
+
+Depuis le formulaire de géolocalisation, il est possible de récupérées les 
+contraintes d'un dossier depuis le SIG automatiquement en cliquant sur l'action 
+**Récupérer les containtes**.
+Attention cette action écrasera les précédentes contraintes récupérées 
+automatiquement. Les contraintes récupérées automatiquement puis modifiées ne 
+sont plus référencées comme provenant du SIG.
+
+.. image:: instruction_geolocalisation_view.png
