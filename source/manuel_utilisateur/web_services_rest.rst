@@ -130,7 +130,7 @@ Liés à des CRONs
 Certaines fonctionnalités de l'application ont besoin d'être effectuées de 
 manière journalières. Elles ont été liées à un CRON.
 
-Quatre CRONs différents ont été configurés.
+Cinq CRONs différents ont été configurés.
 
 Le premier sert à mettre à jour les utilisateurs de l'application via un LDAP.
 
@@ -139,6 +139,6 @@ Le second met à jour les consultations dont la date tacite est passée.
 Le troisième met à jour les dossiers d'instruction dont la date tacité est 
 passée.
 
-Le dernier gère la péremption des dossiers d'autorisation.
+Le quatrième gère la péremption des dossiers d'autorisation.
 
-
+Le dernier synchronise les contraintes du SIG avec celles de l'application.
