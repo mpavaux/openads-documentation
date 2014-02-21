@@ -29,15 +29,27 @@ Les paramètres
 
 Une convention de nommage existe. Il faut préfixer par :
 
-- ged\_ les paramètres qui sont spécifiques à la GED ;
+* ged\_ les paramètres qui sont spécifiques à la GED ;
 
-- erp\_ les paramètres qui sont spécifiques à ERP ;
+* erp\_ les paramètres qui sont spécifiques à ERP ;
 
-- option\_ les paramètres qui sont spécifiques aux options ;
+* option\_ les paramètres qui sont spécifiques aux options ;
 
-- id\_ les paramètres qui contiendront un numéro d'identifiant ;
+* id\_ les paramètres qui contiendront un numéro d'identifiant ;
 
-- sig\_ les paramètres qui sont spécifiques au systeme d'information géographique.
+* sig\_ les paramètres qui sont spécifiques au systeme d'information géographique.
+
+
+Méthode d'utilisation :
+
+* option_contrainte_di : la valeur par défaut est 'aucune', exemple 
+  d'utilisation "liste_groupe=g1,g2...;liste_ssgroupe=sg1,sg2...;service_consulte=t".
+  Toutes les options sont optionnelles.
+  Les options liste_groupe et liste_ssgroupe peuvent contenir une valeur unique ou
+  plusieurs valeurs separees par une virgule, sans espace.
+  La derniere option service_consulte permet d'ajouter une condition sur le champ
+  du meme nom. Il peut prendre t (Oui) ou f (Non) comme valeur.
+
 
 Gestion Des Utilisateurs
 ########################
