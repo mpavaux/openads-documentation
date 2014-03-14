@@ -438,7 +438,7 @@ un seul événement.
 .. _parametrage_dossiers_etat:
 
 =========
-Les états 
+Les états
 =========
 
 (:menuselection:`Paramétrage --> Workflows --> État`)
@@ -749,7 +749,7 @@ Les états et lettres types
 (:menuselection:`Paramétrage --> Éditions --> Lettre Type`)
 
 Paramétrage des informations générales de l'édition
-=======================================================
+===================================================
 
 .. image:: parametrage_etat_lettretype_edition.png
 
@@ -778,13 +778,13 @@ Les champs de **paramètres généraux de l'édition** à saisir sont :
 .. image:: parametrage_etat_lettretype_titre.png
 
 Paramétrage du titre de l'édition.
-====================================
+==================================
 
 * **titre** : éditeur riche permettant une mise en page complexe.
 
------------------------------------
+---------------------------------
 Paramètres du titre de l'édition.
------------------------------------
+---------------------------------
 
 Positionnement :
 
@@ -797,9 +797,9 @@ Bordure :
 
 * **bordure** : Affichage ou non d'une bordure.
 
-------------------------------------
+----------------------------------
 Paramètrage du corps de l'édition.
-------------------------------------
+----------------------------------
 
 .. image:: parametrage_etat_lettretype_corps.png
 
@@ -813,23 +813,220 @@ Paramètrage du corps de l'édition.
     en cliquant sur l'icône correspondante, de la même façon il est possible de 
     mettre en majuscule une sélection (champ de fusion).
 
-------------------------------------------------
+----------------------------------------------
 Paramètrage des champs de fusions de l'édition
-------------------------------------------------
+----------------------------------------------
 
 .. image:: parametrage_etat_lettretype_sql.png
 
 * **SQL** : sélection d'un jeu de champs de fusion.
 
-------------------------------------------------
+----------------------------------------------
 Paramètrage des champs de fusions de l'édition
-------------------------------------------------
+----------------------------------------------
 
 .. image:: parametrage_etat_lettretype_sousetat.png
 
 * **Police personnalisée** : sélection de la police des sous-états.
 * **Couleur texte** : sélection de la couleur du texte des sous-états.
 
+-------------------------------------
+Paramètrage des tableaux des éditions
+-------------------------------------
+.. image:: parametrage_editon_tableau_creer.png
+
+* **Créer un tableau** :
+
+Choisir le nombre de lignes et de colonnes du tableau.
+
+.. note::
+
+    Il faut bien placer le curseur dans une des cellules du tableau que l'on 
+    souhaite paramétrer.
+    Idem pour le paramétrage des lignes et colonnes.
+
+.. image:: parametrage_editon_tableau_menu_parametrage.png
+
+.. image:: parametrage_editon_tableau_parametrage_generale.png
+
+* **Paramétrage générale du tableau** :
+
+    - Largeur :
+     
+    Ce champ sert à indiquer la largeur du tableau en % (UNIQUEMENT) par rapport 
+    à la largeur du PDF.
+         
+    Par exemple, si le PDF fait une largeur de 30 cm et que la lageur du tableau    
+    est de 10%, le tableau fera 3 cm de largeur sur le PDF.
+     
+    - Hauteur :
+         
+    Ce champ sert à indiquer la hauteur du tableau en % (UNIQUEMENT) par rapport 
+    à la hauteur du PDF.
+         
+    Par exemple, si le PDF fait une hauteur de 50 cm et que la hauteur du tableau    
+    est de 25%, le tableau fera 12.5 cm de hauteur sur le PDF.
+     
+    - Espacement inter-cellules :
+    
+    Espacement entre les cellules. En pixel.
+    
+    - Espace interne cellule :
+    
+    Espacement entre les bords de la cellule et son contenu. En pixel.
+    
+    - Bordure :
+    
+    Epaisseur des bordures du tableau. En pixel.
+    
+    - Titre :
+    
+    Lorsque cette case est cochée, elle permet de rajouter un titre au tableau.
+    
+    - Alignement :
+    
+    Permet de choisir le type d'alignement du texte dans le tableau. 
+    Valeurs possibles : n/a (aucun), Gauche, Centré, Droite.
+
+.. image:: parametrage_editon_tableau_suprimer.png
+
+* **Supprimer un tableau**
+
+.. image:: parametrage_editon_tableau_menu_parametrage_cellule.png
+
+.. image:: parametrage_editon_tableau_parametrage_cellule.png
+
+* **Paramétrage des cellules** :
+
+    - Largeur :
+    
+    Ce champ sert à indiquer la largeur de la colonne en % (UNIQUEMENT) par 
+    rapport à la largeur du tableau.
+         
+    Par exemple, si le tableau fait une largeur de 30 cm et que la largeur de la 
+    colonne est de 10%, la colonne fera 3 cm de largeur.
+    
+    - Hauteur :
+    
+    Ce champ sert à indiquer la hauteur de la colonne en % (UNIQUEMENT) par 
+    rapport à la hauteur du tableau.
+         
+    Par exemple, si le tableau fait une hauteur de 50 cm et que la hauteur de la
+    colonne est de 25%, la colonne fera 12.5 cm de hauteur.
+    
+    - Type de cellule :
+    
+    Permet de définir si c'est une cellule "normale" ou une cellule qui va servir 
+    d'en-tête dans le tableau.
+    Valeurs possibles : Cellule, Cellule d'en-tête.
+    
+    - Étendue :
+    
+    Paramètre sur quoi doivent s'appliquer les paramètres renseignés.
+    Valeurs possibles : n/a (aucun), Ligne, Colonne, Groupe de lignes, Groupe de 
+    colonnes.
+    
+    - Alignement :
+    
+    Permet de choisir le type d'alignement du texte dans la cellule. 
+    Valeurs possibles : n/a (aucun), Gauche, Centré, Droite.
+
+.. image:: parametrage_editon_tableau_menu_fusionner.png
+
+.. image:: parametrage_editon_tableau_fusionner.png
+
+* **Fusionner des cellules** :
+
+En sélectionnant les cellules à fusionner et en cliquant sur 
+Tableau → Cellule → Fusionner les cellules les cellules seront fusionnées.
+
+Si aucune cellule n'est sélectionnée, un menu apparaît :
+
+    - Colonnes :
+    
+    Nombre de colonnes qui vont être fusionnées à partir de la cellule dans 
+    laquelle le curseur est positionné.
+    
+    - Lignes :
+    
+    Nombre de lignes qui vont être fusionnées à partir de la cellule dans 
+    laquelle le curseur est positionné.
+
+.. image:: parametrage_editon_tableau_diviser.png
+
+* **Diviser les cellules** :
+
+Divise la cellule dans laquelle le curseur est positionné si elle avait été 
+fusionnée avant.
+
+.. image:: parametrage_editon_tableau_menu_ligne.png
+
+.. image:: parametrage_editon_tableau_parametrage_ligne.png
+
+* **Paramétrage des lignes** :
+
+    - Type de ligne :
+    
+    Permlet de définir le type de la ligne.
+    Valeurs possibles : En-tête, Corps, Pied.
+    
+    - Alignement :
+
+    Permet de choisir le type d'alignement du texte dans la ligne. 
+    Valeurs possibles : n/a (aucun), Gauche, Centré, Droite.
+
+    - Hauteur : 
+
+    Ce champ sert à indiquer la hauteur de la ligne en % (UNIQUEMENT) par 
+    rapport à la hauteur du tableau.
+         
+    Par exemple, si le tableau fait une hauteur de 50 cm et que la hauteur de la
+    ligne est de 25%, la ligne fera 12.5 cm de hauteur.
+
+.. image:: parametrage_editon_tableau_inserer_ligne.png
+
+* **Insérer une ligne** :
+
+Permet d'insérer une ligne avant ou après la ligne sur laquelle le curseur est 
+positionné.
+
+.. image:: parametrage_editon_tableau_effacer_ligne.png
+
+* **Éffacer une ligne** :
+
+Supprimer la ligne sur laquelle le curseur est positionné.
+
+.. image:: parametrage_editon_tableau_couper_ligne.png
+
+* **Couper une ligne** :
+
+Coupe la ligne sur laquelle le curseur est positionné.
+
+.. image:: parametrage_editon_tableau_copier_ligne.png
+
+* **Copier une ligne** :
+
+Copie la ligne sur laquelle le curseur est positionné.
+
+.. image:: parametrage_editon_tableau_coller_ligne.png
+
+* **Coller une ligne** :
+
+Colle la ligne qui avait été copiée/coupée avant ou après la ligne sur laquelle 
+le curseur est positionné.
+
+.. image:: parametrage_editon_tableau_inserer_colonne.png
+
+* **Insérer une colonne** :
+
+Insère une colonne avant ou après la colonne sur laquelle le curseur est 
+positionné.
+
+.. image:: parametrage_editon_tableau_effacer_colonne.png
+
+* **Éffacer une colonne** :
+
+Supprime la colonne sur laquelle le curseur est positionné.
 
 =========
 Les logos
