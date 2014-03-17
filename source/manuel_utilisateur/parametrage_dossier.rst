@@ -1028,6 +1028,23 @@ positionné.
 
 Supprime la colonne sur laquelle le curseur est positionné.
 
+----------------------------------------
+Paramètrage des code-barres des éditions
+----------------------------------------
+
+.. image:: parametrage_editon_codebarres_initial.png
+
+Saisir le champ de fusion
+
+.. image:: parametrage_editon_codebarres_select.png
+
+Sélectionner le champ de fusion
+
+.. image:: parametrage_editon_codebarres_ajout.png
+
+Cliquer sur le bouton de génération du code-barres puis valider le formulaire 
+pour enregistrer les changements
+
 =========
 Les logos
 =========
