@@ -696,6 +696,93 @@ Saisie de l'action
 
 .. _parametrage_dossiers_avis_decision:
 
+=================================
+Gestion de la majoration de délai
+=================================
+
+Le principe
+===========
+
+Pour la consultation de certains service, l'instructeur a besoin de prolonger le
+délai d'instruction.
+
+Exemple de déroulement :
+
+.. sidebar:: Note :
+
+    État initial : les délais, date limite d'instruction, état et événement suivant tacite sont initialisés en fonction de l'action choisi pour ce type d'événement.
+
+- dépôt de dossier PCI initial le 01/01/2013
+
+    - délai d'instruction = 3
+    - date limite de complétude = date_depot + 1
+    - événement tacite = accord tacite
+    - date limite d'instruction = date_depot + delai
+
+- envoi d'un courrier de majoration de délai pour consultation ABF
+
+    - type = majoration_delai
+    - délai = 6
+    - événement après RAR = majoration_delai_abf_ar
+
+
+- Retour de l'AR de majoration de délai consultation ABF
+
+    - date limite d'instruction : archive_date_dernier_depot + delai
+    - délai = archive_delai + 6 (6 mois est le délai de majoration_délai_abf)
+    - événement suivant tacite = accord tacite
+
+
+Configuration de la majoration
+==============================
+
+---------------------
+Saisie des événements
+---------------------
+
+(:menuselection:`Paramétrage --> Workflows --> Événements`)
+
+- Majoration de délai :
+
+    - type = majoration_delai
+    - délai = 6
+    - accord tacite = oui
+    - événement après RAR = majoration de délai après accusé de réception
+
+- Majoration de délai après accusé de réception :
+
+    - retour = oui
+    - action = modifier le délai d'instruction
+    - délai = 6
+    - accord tacite = oui
+    - événement suivant tacite = accord tacite
+
+- Accord tacite
+
+    - action = accepter un dossier tacitement
+    - état = accepté tacite
+    - accord tacite = Oui
+    - avis = accord tacite
+
+------------------
+Saisie des actions
+------------------
+
+(:menuselection:`Paramétrage --> Workflows --> Action`)
+
+- Modifier le délai d'instruction :
+
+    - règle délai = delai
+    - règle accord tacite = accord_tacite
+    - règle date_limite =  archive_date_dernier_depot + delai
+
+- Accepter un dossier tacitement :
+
+    - règle etat = etat
+    - règle avis = avis_decision
+    - règle date_validite = date_evenement + duree_validite
+    - règle date_decision = date_evenement
+
 ========
 Les avis
 ========
