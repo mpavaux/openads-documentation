@@ -668,6 +668,7 @@ Saisie des événements
 
 - incomplétude après accusé de réception :
 
+    - type = incomplétude
     - état = incomplétude notifiée
     - action = instruction suspendue, dossier incomplet
     - délai = 3
