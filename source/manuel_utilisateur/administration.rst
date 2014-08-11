@@ -42,14 +42,26 @@ Une convention de nommage existe. Il faut préfixer par :
 
 Méthode d'utilisation :
 
-* option_contrainte_di : la valeur par défaut est 'aucune', exemple 
+* option_sig : la valeur par défaut est 'aucun'. Les valeurs possibles sont
+  'sig_externe', 'sig_interne' ou 'aucun'.
+* option_referentiel_arrete : la valeur par défaut est 'false'. Les valeurs 
+  possibles sont 'true' ou 'false'.
+* option_localisation : la valeur par défaut est 'false'. Les valeurs possibles 
+  sont 'true' ou 'false'.
+* option_erp : la valeur par défaut est 'false'. Les valeurs possibles sont 
+  'true' ou 'false'.
+* option_contrainte_di : la valeur par défaut est 'aucun', exemple 
   d'utilisation "liste_groupe=g1,g2...;liste_ssgroupe=sg1,sg2...;service_consulte=t".
   Toutes les options sont optionnelles.
-  Les options liste_groupe et liste_ssgroupe peuvent contenir une valeur unique ou
-  plusieurs valeurs separees par une virgule, sans espace.
+  Les options liste_groupe et liste_ssgroupe peuvent contenir une valeur unique 
+  ou plusieurs valeurs separees par une virgule, sans espace.
   La derniere option service_consulte permet d'ajouter une condition sur le champ
   du meme nom. Il peut prendre t (Oui) ou f (Non) comme valeur.
+* option_afficher_division : la valeur par défaut est 'false'. Les valeurs 
+  possibles sont 'true' ou 'false'.
 
+La suppression d'une option entraîne la désactivation des fonctionnalités liées 
+à l'option.
 
 Gestion Des Utilisateurs
 ########################
