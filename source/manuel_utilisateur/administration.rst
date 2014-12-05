@@ -59,6 +59,9 @@ Méthode d'utilisation :
   du meme nom. Il peut prendre t (Oui) ou f (Non) comme valeur.
 * option_afficher_division : la valeur par défaut est 'false'. Les valeurs 
   possibles sont 'true' ou 'false'.
+* option_arrondissement : la valeur par défaut est 'false'. Les valeurs 
+  possibles sont 'true' ou 'false'.
+  Cette option indique si la commune est divisée en arrondissement.
 
 La suppression d'une option entraîne la désactivation des fonctionnalités liées 
 à l'option.
