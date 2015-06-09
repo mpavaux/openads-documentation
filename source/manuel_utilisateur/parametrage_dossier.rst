@@ -1133,6 +1133,26 @@ Sélectionner le champ de fusion
 Cliquer sur le bouton de génération du code-barres puis valider le formulaire 
 pour enregistrer les changements
 
+--------------------------------------------
+Ajout de paramètre spécifique dans l'édition
+--------------------------------------------
+Il est possible d'ajouter des paramètres spécifques dans les éditions.
+Pour cela, il faut ajouter un paramètre à l'application.
+
+(:menuselection:`Administration --> Paramètre`)
+
+.. sidebar:: Note :
+
+    Le paramètre ne doit pas commencer par option\_, ged\_, erp\_, sig\_ ou id\_.
+    
+Afin que le paramètre s'affiche dans l'édition, il faut l'ajouter précédé d'un &.
+
+Par exemple, le paramètre se nommant mail\_contact s'utilisera comme ceci :
+
+.. image:: parametrage_editon_parametre.png
+
+
+
 =========
 Les logos
 =========
