@@ -181,13 +181,13 @@ Dans le "Module Import ADS 2007" :
 - choisir le séparateur (, ou ;)
 - valider le formulaire d'import
 
-.. NOTE:: Le paramètre d'import "Importer les Id" ne change rien aux données importées.
+.. NOTE:: Le paramètre d'import "Importer les Id" ne change rien aux données importées : il est inutilisé.
   
+Une fois le chargement terminé un récapitulatif des traitements effectués est affiché, dans celui-ci un fichier de rejet est disponible.
 
-.. NOTE:: If you are reading this as HTML, please read
-   `<cheatsheet.txt>`_ instead to see the input syntax examples!
+Ce fichier de rejet contient toutes les lignes du csv importées qui sont en erreurs. Les erreurs sont ajoutées en fin de ligne dans une nouvelle colonne.
 
-
+Après correction ce ficher de rejet peut être ré-importé.
 
 
 .. _administration_generateur:
