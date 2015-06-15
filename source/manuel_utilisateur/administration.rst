@@ -184,6 +184,8 @@ Dans le "Module Import ADS 2007" :
 .. NOTE:: Le paramètre d'import "Importer les Id" ne change rien aux données importées.
   
 
+.. NOTE:: If you are reading this as HTML, please read
+   `<cheatsheet.txt>`_ instead to see the input syntax examples!
 
 
 
