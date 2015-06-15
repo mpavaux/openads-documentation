@@ -183,8 +183,6 @@ Dans le "Module Import ADS 2007" :
 
 .. note:
   Le paramètre d'import "Importer les Id" ne change rien aux données importées.
-.. note:
-  Le paramètre d'import "Importer les Id" ne change rien aux données importées.
   
 
 
