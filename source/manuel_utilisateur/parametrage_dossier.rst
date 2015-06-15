@@ -1152,6 +1152,17 @@ Par exemple, le paramètre se nommant mail\_contact s'utilisera comme ceci :
 .. image:: parametrage_editon_parametre.png
 
 
+---------------------------------------------
+Paramètrage des contraintes dans les éditions
+---------------------------------------------
+
+Pour afficher les contraintes du dossier, il faut saisir une variable de remplacement :
+
+* **&contraintes** : Affiche toutes les contraintes.
+
+* **&contraintes(liste_groupe=g1,g2...;liste_ssgroupe=sg1,sg2...;service_consulte=t)** : Les options liste_groupe et liste_ssgroupe sont optionnelles et peuvent contenir une valeur unique ou plusieurs valeurs separees par une virgule, sans espace.
+
+La dernière option service_consulte permet d'ajouter une condition sur le champ du même nom. Il peut prendre t (Oui) ou f (Non) comme valeur.
 
 =========
 Les logos
