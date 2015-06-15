@@ -181,8 +181,7 @@ Dans le "Module Import ADS 2007" :
 - choisir le séparateur (, ou ;)
 - valider le formulaire d'import
 
-.. note::
-  Le paramètre d'import "Importer les Id" ne change rien aux données importées.
+.. NOTE:: Le paramètre d'import "Importer les Id" ne change rien aux données importées.
   
 
 
