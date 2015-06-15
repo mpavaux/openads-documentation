@@ -168,6 +168,28 @@ Les imports
 
 Import des données au format CSV.
 
+(:menuselection:`Administration --> Options Avancées --> Import spécifique`)
+
+Import des données au format spécifique.
+========================================
+
+Ce menu permet d'accéder au module d'import des données au format ADS 2007.
+
+Dans le "Module Import ADS 2007" :
+
+- importer le fichier csv
+- choisir le séparateur (, ou ;)
+- valider le formulaire d'import
+
+.. note:
+  Le paramètre d'import "Importer les Id" ne change rien aux données importées.
+.. note:
+  Le paramètre d'import "Importer les Id" ne change rien aux données importées.
+  
+
+
+
+
 
 .. _administration_generateur:
 
