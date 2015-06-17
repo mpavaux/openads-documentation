@@ -182,6 +182,8 @@ Dans le "Module Import ADS 2007" :
 - valider le formulaire d'import
 
 .. NOTE:: Le paramètre d'import "Importer les Id" ne change rien aux données importées : il est inutilisé.
+
+.. NOTE:: L'encodage du fichier csv à importer doit être ISO-8859-15
   
 Une fois le chargement terminé un récapitulatif des traitements effectués est affiché, dans celui-ci un fichier de rejet est disponible.
 
