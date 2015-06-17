@@ -65,7 +65,7 @@ Dates de suivi chronologique de l'événement d'instruction.
 * **date d'envoi pour signature**
 * **date d'envoi RAR**
 * **date d'envoi au contrôle légalité**
-* **signataire**
+* **signataire** (on peut en sélectionner un par défaut, cf. `Paramétrage --> Organisation --> Signataire Arrêté`)
 * **date de retour de signature**
 * **date de retour RAR**
 * **date de retour du contrôle de légalité**

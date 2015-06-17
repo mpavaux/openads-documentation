@@ -102,6 +102,7 @@ Les signataires
 (:menuselection:`Paramétrage --> Organisation --> Signataire Arrêté`)
 
 Éditions des signataires d'arrêtés.
+En cochant la case "défaut" le signataire sera préselectionné lors de l'ajout d'une instruction.
 
 Gestion des commissions
 #######################
