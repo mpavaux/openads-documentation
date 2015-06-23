@@ -165,10 +165,36 @@ Une fois le formulaire validé, trois cas de figures sont possibles :
   
   .. image:: suivi_bordereaux_message_aucun_bordereau.png
 
-* soit la saisie est correcte, on obtient alors un lien vers le fichier pdf du
+* soit la saisie est correcte, on obtient alors un lien vers le fichier PDF du
   bordereau permettant de l'imprimer :
   
   .. image:: suivi_bordereaux_message_telechargement.png
+
+.. _suivi_bordereau_envoi_maire:
+
+==========================
+Bordereau d'envoi au maire
+==========================
+
+(:menuselection:`Suivi --> Suivi Des Pièces --> Bordereau d'envoi au maire`)
+
+Cet écran permet d'imprimer un bordereau à envoyer au maire, ayant pour objet
+la transmission d'une proposition de décision ou d'un courrier d'instruction
+selon que le type de l'événement soit respectivement un arrêté ou non.
+
+.. image:: suivi_bordereau_envoi_maire.png
+
+Une fois le formulaire validé, trois cas de figures sont possibles :
+
+* soit aucune date n'a été saisie
+
+* soit le code-barres fourni est invalide
+
+* soit la saisie est correcte, on obtient alors un lien vers le fichier PDF du
+  bordereau permettant de l'imprimer. De plus la date d'envoi à signature du maire
+  est mise à jour par celle saisie.
+
+.. image:: suivi_bordereau_envoi_maire_validation.png
 
 .. _suivi_demandes_avis:
 
