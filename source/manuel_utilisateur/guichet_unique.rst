@@ -91,6 +91,10 @@ sur lequel va porter la demande.
 Saisie commune (nouveau dossier ou dossier existant) de la nouvelle demande
 ===========================================================================
 
+Après la sélection du type de la demande, une fenêtre d'aide à la saisie
+affichera la liste des documents obligatoires, chaque élément de la liste
+devra être coché afin de continuer la saisie.
+
 Le reste de la saisie consiste en la saisie des informations suivantes :
 
 * la date de la demande
