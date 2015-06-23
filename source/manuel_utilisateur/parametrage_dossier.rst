@@ -262,7 +262,8 @@ Les informations à saisir sont :
   éventuellement modifier l'état du dossier d'instruction (voir
   :ref:`parametrage_dossiers_evenement`).
 * **documents obligatoires** : liste des documents obligatoires à la saisie de la demande.
-  Une ligne par document, si rien n'est saisi aucun document ne sera demandé.
+  Un document par ligne, si aucun document n'est saisi, aucun document ne sera demandé
+  lors de la demande.
 
 .. _parametrage_dossiers_cerfa:
 
