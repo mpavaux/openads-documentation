@@ -147,6 +147,8 @@ Dans le cadre 'Coordonnées', il faut saisir les coordonnées du service.
 Le champ 'notification par mail' sert à indiquer si le service souhaite être 
 notifié par mail lors de l'ajout d'une nouvelle demande de consultation.
 
+Le champ 'type de délai' spécifie le type du délai, c'est-à-dire si le calcul de la date limite doit être fait en mois ou en jours.
+
 Le champ 'délai' indique le temps dont dispose le service pour répondre à une 
 demande de consultation.
 
