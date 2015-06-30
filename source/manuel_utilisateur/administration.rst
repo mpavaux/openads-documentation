@@ -191,6 +191,10 @@ Ce fichier de rejet contient toutes les lignes du csv importées qui sont en err
 
 Après correction ce ficher de rejet peut être ré-importé.
 
+Des dossiers importés peuvent être mis à jour hors d'openADS, lors du prochain import les données du dossiers et des données techniques seront mises à jour.
+
+.. WARNING:: Les demandeurs ne sont pas mis à jour.
+
 
 .. _administration_generateur:
 
