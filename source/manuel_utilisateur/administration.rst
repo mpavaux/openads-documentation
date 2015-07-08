@@ -184,10 +184,18 @@ Dans le "Module Import ADS 2007" :
 .. NOTE:: Le paramètre d'import "Importer les Id" ne change rien aux données importées : il est inutilisé.
 
 .. NOTE:: L'encodage du fichier csv à importer doit être ISO-8859-15
+   Seuls les séparateurs , ou ; sont admis
   
 Une fois le chargement terminé un récapitulatif des traitements effectués est affiché, dans celui-ci un fichier de rejet est disponible.
 
 Ce fichier de rejet contient toutes les lignes du csv importées qui sont en erreurs. Les erreurs sont ajoutées en fin de ligne dans une nouvelle colonne.
+
+Exemples des erreurs typique :
+
+- Le code INSEE n'est pas paramétré : un code INSEE doit être défini pour chaque commune dans les paramètres.
+- Dossiers non clôturés (pas de date d'accord/rejet/refus tacite ou de date de décision).
+- Mauvais format des références cadastrales.
+- Dossier avec date de décision mais pas de nature de décision.
 
 Après correction ce ficher de rejet peut être ré-importé.
 
