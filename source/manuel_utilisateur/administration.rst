@@ -182,10 +182,12 @@ Dans le "Module Import ADS 2007" :
 - valider le formulaire d'import
 
 .. NOTE:: L'encodage du fichier csv à importer doit être ISO-8859-15.
-  Seuls les séparateurs , ou ; sont admis.
-  Les références cadastrales doivent être séparées par une virgule.
+          Seuls les séparateurs , ou ; sont admis.
+          Les références cadastrales doivent être séparées par une virgule.
   
 Une fois le chargement terminé un récapitulatif des traitements effectués est affiché, dans celui-ci un fichier de rejet est disponible.
+
+.. NOTE:: Si dans un dossier une date de decision est définie mais qu'il n'a pas de nature de decision alors le dossier est implicitement accordé.
 
 Ce fichier de rejet contient toutes les lignes du csv importées qui sont en erreurs. Les erreurs sont ajoutées en fin de ligne dans une nouvelle colonne.
 
