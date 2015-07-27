@@ -4,6 +4,29 @@
 Instruction
 ###########
 
+==================
+Le tableau de bord
+==================
+
+(:menuselection:`Instruction --> Tableau De Bord`)
+
+Le tableau de bord permet de lister les dossiers qui répondent à des critères particuliers.
+
+Widget - Dossiers auxquels on peut proposer une autre décision
+==============================================================
+
+Ce widget liste les dossiers pour lesquels on peut proposer une autre décision.
+
+Il s'agit de ceux dont le dernier événement d'instruction de type arrêté est finalisé,
+n'est pas de type retour et ne dispose d'aucune date renseignée parmi les suivantes :
+
+* date d'envoi pour signature ;
+* date de retour de signature ;
+* date d'envoi RAR ;
+* date de retour RAR ;
+* date d'envoi au contrôle légalité ;
+* date de retour du contrôle de légalité.
+
 =============================
 Gestion des pièces du dossier
 =============================
@@ -89,6 +112,17 @@ En laissant la souris sur le libellé une infobulle affichera le texte qui sera
 affiché.
 
 (Pour plus d'information sur la bible voir :ref:`parametrage_dossiers_bible`.)
+
+Suppression
+===========
+
+Il est possible de supprimer le dernier événement d'instruction créé s'il remplit
+ces critères :
+
+ - le dossier d'instruction rattaché n'est pas clôturé
+ - l'événement d'instruction n'est pas finalisé
+ - les dates suivantes ne sont pas renseignées : envoi pour signature, retour de signature, envoi RAR, re­tour RAR, envoi au contrôle légalité, retour du contrôle légalité
+ - l'événement lié n’est pas de type « retour »
 
 .. _instruction_complement:
 
