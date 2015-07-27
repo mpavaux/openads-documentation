@@ -17,6 +17,8 @@ Widget - Dossiers auxquels on peut proposer une autre décision
 
 Ce widget liste les dossiers pour lesquels on peut proposer une autre décision.
 
+.. image:: instructeur_tableau_de_bord_widget_decision.png
+
 Il s'agit de ceux dont le dernier événement d'instruction de type arrêté est finalisé,
 n'est pas de type retour et ne dispose d'aucune date renseignée parmi les suivantes :
 
