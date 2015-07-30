@@ -29,6 +29,29 @@ n'est pas de type retour et ne dispose d'aucune date renseignée parmi les suiva
 * date d'envoi au contrôle légalité ;
 * date de retour du contrôle de légalité.
 
+======================
+Dossiers d'instruction
+======================
+
+(:menuselection:`Instruction --> Dossiers D'instruction`)
+
+Cette rubrique propose des sous-menus qui ouvrent des tableaux permettant d'accéder
+à tout ou partie (filtre par statut) des dossiers d'instruction :
+
+* les encours de l'utilisateur connecté ;
+* tous les encours ;
+* les clôturés de l'utilisateur connecté ;
+* tous les clôturés ;
+* tous les dossiers via *Recherche*.
+
+=======
+Actions
+=======
+
++ Regénérer le récépissé
+    - Disponible si l'utilisateur a un droit spécifique, s'il n'y a qu'un événement d'instruction sur le dossier et qu'il s'agit du récépissé de la demande.
+    - Regénére l'événement d'instruction du récépissé de la demande et affiche un lien pour le télécharger.
+
 =============================
 Gestion des pièces du dossier
 =============================
