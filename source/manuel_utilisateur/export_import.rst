@@ -11,7 +11,15 @@ Export SITADEL
 
 (:menuselection:`Export / Import --> Export SITADEL`)
 
-...
+Ce menu sert à générer un export SITADEL.
+Pour cela, il faut choisir une date de début, une date de fin et un numéro d'ordre d'envoi.
+
+Le numéro d'ordre d'envoi est le numéro de version de votre export.
+
+Au préalable à cet export, il faut vérifier deux paramètres :
+
+* **region** : le code insee de la région de la commune qui génère l'export
+* **commune** : le code insee de la commune, sur trois chiffres, de la commune qui génère l'export
 
 .. _versement_archives:
 
