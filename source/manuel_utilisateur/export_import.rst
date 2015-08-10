@@ -19,7 +19,7 @@ Le numéro d'ordre d'envoi est le numéro de version de votre export.
 Au préalable à cet export, il faut vérifier deux paramètres (:menuselection:`Administration --> Paramètre`) :
 
 * **region** : le code insee de la région de la commune qui génère l'export
-* **commune** : le code insee de la commune, sur trois chiffres, de la commune qui génère l'export
+* **commune** : le code insee de la commune référente pour l'export, sur trois chiffres
 
 .. _versement_archives:
 
