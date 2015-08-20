@@ -44,6 +44,21 @@ Cette rubrique propose des sous-menus qui ouvrent des tableaux permettant d'acc�
 * tous les clôturés ;
 * tous les dossiers via *Recherche*.
 
+La taxe d'aménagement
+=====================
+
+Le paramétrage sur la taxe d'aménagement doit être fait pour que les informations concernant celle-ci s'affiche sur le dossier (:ref:`parametrage_taxe_amenagement`), le cerfa du dossier d'instruction doit aussi avoir les champs necessaires à la simulation.
+
+Dans le cadre de la taxe d'aménagement il y a :
+
+* le secteur communal, sélectionné automatiquement à l'ajout d'une demande si la collectivité en question à un seul secteur paramétré (il peut y avoir jusqu'à 20 secteurs par collectivité) ;
+* le montant liquidé de la part communale ;
+* le montant liquidé de la part départementale ;
+* le montant liquidé de la part régionale (seulement si la collectivité se situe en Île-de-France) ;
+* le montant liquidé total.
+
+Tous les montants sont calculés automatiquement à la validation des données techniques, ou lorsque le secteur communal du dossier d'instruction est modifié.
+
 =======
 Actions
 =======

@@ -104,6 +104,18 @@ Les signataires
 Éditions des signataires d'arrêtés.
 En cochant la case "défaut" le signataire sera préselectionné lors de l'ajout d'une instruction.
 
+
+.. _parametrage_taxe_amenagement:
+
+=====================
+La taxe d'aménagement
+=====================
+
+(:menuselection:`Paramétrage --> Organisation --> Taxe D'aménagement`)
+
+Éditions de la taxe d'aménagement par collectivité.
+Il ne peut y avoir qu'un seul paramétrage de taxe par collectivité. Sans ce paramétrage il n'est pas possible de simuler la taxe d'aménagement sur un dossier d'instruction.
+
 Gestion des commissions
 #######################
 
