@@ -12,14 +12,90 @@ Export SITADEL
 (:menuselection:`Export / Import --> Export SITADEL`)
 
 Ce menu sert à générer un export SITADEL.
-Pour cela, il faut choisir une date de début, une date de fin et un numéro d'ordre d'envoi.
+
+=============
+Configuration
+=============
+
+Au préalable, il faut vérifier que certains paramètres (:menuselection:`Administration --> Paramètre`) 
+soient correctement configurés :
+
+* **region** : doit contenir le code insee de la région de la commune qui génère l'export ;
+* **commune** : doit contenir le code insee de la commune référente pour l'export, sur trois chiffres.
+
+=========
+Exécution
+=========
+
+Afin de générer l'export SITADEL, vous devez choisir :
+
+* une date de début ;
+* une date de fin ; 
+* un numéro d'ordre d'envoi.
 
 Le numéro d'ordre d'envoi est le numéro de version de votre export.
 
-Au préalable à cet export, il faut vérifier deux paramètres (:menuselection:`Administration --> Paramètre`) :
+========
+Résultat
+========
 
-* **region** : le code insee de la région de la commune qui génère l'export
-* **commune** : le code insee de la commune référente pour l'export, sur trois chiffres
+Deux fichiers sont générés : l'export SITADEL, à envoyer au pôle statistiques de 
+votre région, et un fichier contenant les incohérences détectées dans les données.
+
+Ce second fichier n'a qu'un but informatif. Il indique quel dossier et quelle 
+information est incohérente.
+
+Charge reste à l'utilisateur d'agir, ou non, en fonction du contenu de ce fichier.
+
+Voici une liste exhaustive des messages qui peuvent être contenus dans ce fichier :
+
+**La SHON existante avant travaux et la SHON demolie sont nulles alors cela devrait être une nouvelle construction.**
+    → La nature du projet ou les surfaces saisies sont incorrectes
+
+**La SHON existante avant travaux ne doit pas est supérieure à la SHON démolie.**
+    → Les surfaces saisies ne sont pas correctes
+
+**La SHON demolie s'accompagne obligatoirement de la SHON existante avant travaux.**
+    → Les surfaces saisies ne sont pas correctes
+
+**Les SHON globales vouees a la transformation et issues de la transformation de doivent etre egales.**
+    → Les surfaces saisies ne sont pas correctes
+
+**Les SHON relatives a la transformation s'accompagnent obligatoirement de SHON existante avant travaux non nulle.**
+    → Les surfaces saisies ne sont pas correctes
+
+**Un nombre de logements demolis strictement positif doit s'accompagner obligatoirement de SHON demolie.**
+    → La surface démolie n'a pas été renseignée alors qu'elle aurait dû
+
+**Un nombre de logements crees strictement positif doit s'accompagner obligatoirement de SHON creee ou de SHON issue de la transformation ayant pour destination l'habitation.**
+    → La surface créée/transformée n'a pas été renseignée alors qu'elle aurait dû
+
+**La SHON creee ou issue de la transformation concernant le service public ou l'interet collectif doit obligatoirement s'accompagner du choix de destination des constructions.**
+    → La répartition des surfaces n'a pas été renseignée alors qu'elle aurait dû
+
+**La destination principale du logement mise a residence principale ou residence secondaire doit obligatoirement s'accompagner d'un mode d'utilisation a occupation personnelle.**
+    → Le mode d'utilisation du logement n'a pas été renseigné
+
+**Le nombre total de logements crees doit etre egal a la somme des nombres de logements crees ventiles par type de financement.**
+    → La somme total des logements par type de financement ne correspond pas au nombre total saisit
+
+**Le nombre total de logements crees doit etre egal a la totalisation de la repartition des logements par nombre de pieces.**
+    → La somme total des logements par nombre de pièce ne correspond pas au nombre total saisit
+
+**Une ouverture de chantier ne peut concerner qu'un permis autorise.**
+    → Deux DOC ont été déposées
+
+**La date d'ouverture de chantier doit être superieur a la date d'autorisation.**
+    → La date de dépôt du P0 doit être supérieure à la date de dépôt de la DOC
+
+**Un achevement de chantier ne peut concerner qu'un permis autorise.**
+    → Deux DAACT ont été déposées
+
+**Un achevement de chantier ne peut concerner qu'un permis sur lequel un chantier a ete ouvert.**
+    → La DOC n'a pas été déposée avant la DAACT
+
+**La date d'achevement de travaux doit etre superieur a la date d'ouverture des travaux.**
+    → La date d'ouverture de chantier doit être inférieure à la date d'achèvement des travaux 
 
 .. _versement_archives:
 
