@@ -143,17 +143,29 @@ Bordereaux
 
 (:menuselection:`Suivi --> Suivi Des Pièces --> Bordereaux`)
 
-Cet écran permet d'imprimer un bordereau permettant de lister tous les
-documents transmis à une date en particulier. Par exemple :
-* Bordereau des décisions,
-* Bordereau des avis du Maire au Préfet,
-* Bordereau contrôle de légalité,
-* Bordereau des courriers à la signature du Maire qui ne sont pas des décisions.
-
-L'écran permet de saisir la date d'envoi, qui est par défaut la date du jour et
-de sélectionner le bordereau souhaité dans la liste des bordereaux.
+L'objectif est d'assurer un meilleur suivi d'un envoi groupé de dossiers en signature.
 
 .. image:: suivi_bordereaux_formulaire.png
+
+Ainsi après avoir sélectionné le bordereau et renseigné un intervalle de dates (par défaut celle du jour), cet écran permet d'imprimer un tableau listant tous les dossiers y correspondants.
+
+Selon le bordereau choisi la date contrôlée sera différente :
+
+* Bordereau des décisions
+
+Liste les dossiers dont la dernière instruction a pour date d'envoi pour signature la date saisie et dont l'événement est de type arrêté.
+
+* Bordereau des courriers à la signature du Maire qui ne sont pas des décisions
+
+Liste les dossiers dont la dernière instruction a pour date d'envoi pour signature la date saisie et dont l'événement n'est pas de type arrêté.
+
+* Bordereau des avis du Maire au Préfet
+
+Liste les dossiers dont l'autorité compétente est l'État ou la commune pour État et dont la dernière instruction a pour date d'envoi RAR la date saisie. Il est également appliqué un filtre sur l'événement spécifique "avis du Maire". On peut spécifier ce dernier (paramètre *id_evenement_bordereau_avis_maire_prefet* auquel il faut donner l'identifiant de cet événement, plus d'information sur le paramétrage :ref:`ici <parametrage_parametre>`).
+
+* Bordereau des contrôles de légalité
+
+Liste les dossiers dont l'autorité compétente est la commune et dont la dernière instruction a pour date d'envoi au contrôle légalité la date saisie.
 
 Une fois le formulaire validé, trois cas de figures sont possibles :
 
@@ -169,6 +181,16 @@ Une fois le formulaire validé, trois cas de figures sont possibles :
   bordereau permettant de l'imprimer :
   
   .. image:: suivi_bordereaux_message_telechargement.png
+
+Les quatre colonnes du tableau généré sont les suivantes :
+
+* dossier
+
+* événement
+
+* coordonnées du demandeur
+
+* coordonnées du terrain
 
 .. _suivi_bordereau_envoi_maire:
 
