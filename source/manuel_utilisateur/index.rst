@@ -8,6 +8,7 @@ Manuel de l'utilisateur
 .. toctree::
     :numbered:
 
+    ergonomie/index.rst
     autorisations.rst
     guichet_unique.rst
     instruction.rst
