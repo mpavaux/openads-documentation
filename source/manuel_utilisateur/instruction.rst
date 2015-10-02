@@ -73,22 +73,29 @@ Gestion des pièces du dossier
 
 Chaque dossier d'instruction peut avoir plusieurs documents numérisés.
 
-Ils sont listés dans l'onglet "Pièces" et organisés par date et catégorie des documents.
-
-.. image:: piece_tab.png
-
-Au clic sur le nom du document, il sera ouvert depuis le stockage au format PDF.
-
-Pour ajouter un document il faut cliquer sur le "+" vert en haut de page à côtés de la mention "Ajouter un document".
+Pour ajouter un document, il faut cliquer sur la mention "+ Ajouter un document".
+Seuls les documents au format PDF sont autorisés.
 
 .. image:: piece_form.png
 
 Dans le formulaire qui apparaît tous les champs sont obligatoires :
 
-* **Fichier** : Documents au format PDF à envoyer en GED.
-* **Uid** : Documents au format PDF à envoyer dans le stockage.
+* **Fichier** : Document au format PDF a stocker.
 * **Date de création** : Date de création du document.
 * **Type de document** : Type du document.
+
+Les documents sont listés dans l'onglet "Pièces" et organisés par date et catégorie.
+
+.. image:: piece_tab.png
+
+Lors du clic sur le nom du document, le document sera ouvert en visualisation PDF.
+
+Pour ouvrir le formulaire de consultation de la pièce, il suffit de cliquer sur la flèche bleue à gauche ou sur le type du document à droite.
+Cette action est disponible seulement pour les utilisateurs ayant les droits dans le contexte d'un dossier d'instruction.
+
+Pour modifier la pièce, il faut cliquer sur l'action "modifier" disponible depuis le formulaire de consultation.
+
+La date et le type du document permettant de générer le nom de la pièce, en cas de modification de ceux-ci le nom du document sera régénéré.
 
 ===========================================
 Documents numérisés ou reprise de l'arriéré
