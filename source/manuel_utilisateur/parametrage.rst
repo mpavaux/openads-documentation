@@ -233,7 +233,12 @@ Les affectations automatiques
 
 (:menuselection:`Paramétrage --> Gestion des dossiers --> Affectation Automatique`)
 
-Configuration de l'affectation automatique des instructeurs aux dossiers par arrondissement, quartier et/ou section.
+Configuration de l'affectation automatique des instructeurs aux dossiers par
+arrondissement, quartier et/ou section.
+
+On peut choisir l'instructeur en fonction du type de dossier. Les DP et DPs sont
+le même dossier : cette distinction sert à déterminer si la DP doit être
+respectivement instruite en commune ou en communauté.
 
 .. _parametrage_autorite_competente:
 
