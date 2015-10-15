@@ -171,7 +171,7 @@ Dans le cadre 'Validité' peuvent être indiquées les dates pour lesquelles une
 demande de consultation à ces services est possible.
 
 Le champ 'type de consultation' spécifie le type de la consultation. Le type 
-choisi a un impact sur le logiciel.
+choisi a un impact sur le logiciel :
 
 - "Pour information", qui permet à l'instructeur de signaler à un service l'existence d'une opération en cours. Elle est strictement « informative » et n'implique pas de retour d'avis de la part du service concerné.
 - "Avec avis attendu", que l'instructeur déclenche lorsqu'il attend un retour d'avis de la part du service consulté. Elles s'afficheront avec un fond jaune dans le tableau listant les demandes de consultation du dossier d'instruction
