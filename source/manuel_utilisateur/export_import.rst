@@ -20,8 +20,8 @@ Configuration
 Au préalable, il faut vérifier que certains paramètres (:menuselection:`Administration --> Paramètre`) 
 soient correctement configurés et ceci pour la collectivité réalisant l'export (en cas d'EPCI la collectivité de niveau 2) :
 
-* **region** : doit contenir le code insee de la région, c'est-à-dire le service destinataire de l'export, sur deux caractères (exemple pour l'Ile-de-France = 11)
-* **commune** : doit contenir le code insee de la commune référente pour l'export, c'est-à-dire le service expéditeur sur trois caractères (la plus grosse des communes en cas d'EPCI)
+* **region** : doit contenir le code insee de la région, c'est-à-dire du service destinataire de l'export, sur deux caractères (exemple pour l'Ile-de-France = 11)
+* **commune** : doit contenir le code insee de la commune référente pour l'export, c'est-à-dire du service expéditeur sur trois caractères (la plus grosse des communes en cas d'EPCI)
 * **departement** : doit contenir le code insee du département dans lequel se trouve le service instructeur, sur 3 caractères (exemples : 001 à 095, 02A, 02B, 971...974)
 
 =========
