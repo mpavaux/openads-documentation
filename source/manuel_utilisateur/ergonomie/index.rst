@@ -15,6 +15,8 @@ La disposition des widgets est propre à chaque profil et peut être modifiée t
 Widgets
 -------
 
+.. _dossiers_limites:
+
 Widget "Dossiers limites"
 #########################
 

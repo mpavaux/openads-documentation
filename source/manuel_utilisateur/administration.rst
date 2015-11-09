@@ -122,7 +122,47 @@ Les widgets
 
 (:menuselection:`Administration --> Tableaux De Bord --> Widget`)
 
-Widget pour les tableaux de bord.
+Un widget, contraction de window (fenêtre) et gadget, est un composant du
+tableau de bord proposant des informations.
+
+Son paramètrage nécessite la saisie de quatre champs :
+
+* **libellé** : le titre du widget
+* **type** : *file* lorsqu'il s'agit d'un script ou *web* lorsqu'il s'agit d'un
+  appel à un web service
+* **script** ou **lien** selon respectivement le type *file* ou *web* : nom du
+  script ou URL du web service
+* **arguments** ou **texte** selon respectivement le type *file* ou *web* :
+  paramètres du script ou texte du widget (iframe, JavaScript, AJAX ...)
+
+Seuls les widgets de type *file* sont utilisés dans openADS.
+
+Les arguments sont déclarés ainsi :
+
+::
+
+  argument1=valeur1
+  argument2=valeur2
+
+Les scripts disponbiles sont les suivants :
+
+dossiers_limites
+================
+
+Ce widget permet d'afficher les dossiers d'instruction tacites dont la date
+limite est dans moins de X jours.
+Seuls les 10 premiers résultats sont affichés. Un lien *Voir +* permet d'accéder
+au listing complet.
+Davantage d'informations sont disponibles :ref:`ici<dossiers_limites>`.
+
+Trois arguments facultatifs faisant office de critères sont paramétrables :
+
+* **filtre** [par défaut *instructeur*] - les filtres disponbiles sont *aucun*,
+  *division* et *instructeur*
+* **nombre_de_jours** [par défaut *15*] - délai en jours avant la date limite à
+  partir duquel on souhaite voir apparaître les dossiers
+* **codes_datd** [par défaut tous les types sont affichés] - liste des types de
+  dossiers à afficher séparés par un point-virgule. exemple : *PCI;PCA;DPS;CUa;CUb*
 
 .. _administration_composition:
 
