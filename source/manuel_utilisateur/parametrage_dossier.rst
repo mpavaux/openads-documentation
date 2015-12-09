@@ -897,11 +897,15 @@ Paramètrage du corps de l'édition.
 
 .. note::
 
-    Il est possible d'ajouter les sous états paramétrés via le menu **Insérer->
+    Il est possible d'ajouter les sous-états paramétrés via le menu **Insérer->
     Sous-états**, un sous-état de chaque type peut être affiché.
-    Il est possible d'appliquer une transformation en code-barres d'une sélection
-    en cliquant sur l'icône correspondante, de la même façon il est possible de 
+
+    Vous pouvez également transformer en code-barres une sélection en cliquant
+    sur l'icône correspondante ; de la même façon il est possible de 
     mettre en majuscule une sélection (champ de fusion).
+
+    Enfin, lorsque le curseur de saisie se situe dans un tableau, l'icône du
+    fichier découpé permet de le rendre sécable/insécable.
 
 ----------------------------------------------
 Paramètrage des champs de fusions de l'édition
