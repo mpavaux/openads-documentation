@@ -53,7 +53,7 @@ Pour mettre à jour l'avis, l'utilisateur clique sur l'action de contexte Rendre
 un avis de la synthèse du dossier. Un formulaire apparaît en surimpression de la
 page courante, lui proposant de formuler son avis via trois champs :
 
-- Avis, qui propose une liste d'avis pré-définis : Favorable, Défavorable, Favorable avec reserve, tacite, Autre. Ce champ est obligatoire ;
+- Avis, qui propose une liste d'avis pré-définis : Favorable, Défavorable, Favorable avec réserve, Tacite, Autre. Ce champ est obligatoire ;
 - Motivation, qui lui permet de saisir du texte libre motivant son avis. Ce champ est facultatif ;
 - Retour d'avis, qui lui donne la possibilité de joindre un fichier au format PDF. Ce champ est également facultatif.
 
@@ -68,7 +68,7 @@ Demandes passées
 
 (:menuselection:`Demandes D'avis --> Demandes passées`)
 
-Ce menu permet d'accéder à la liste des demandes d'avis aux quelles le service
+Ce menu permet d'accéder à la liste des demandes d'avis auxquelles le service
 consulté à répondu.
 
 Ces demandes sont triées par date limite croissante.
