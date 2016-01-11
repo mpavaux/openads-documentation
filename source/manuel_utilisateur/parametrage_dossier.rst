@@ -1174,11 +1174,11 @@ Par exemple :
     liste de toutes les contraintes du dossier.
 
 - &contrainte(groupe=zonage,servitudes)
-    liste de toutes les contraintes de groupe 'zopnage' ou 'servitudes'.
+    liste de toutes les contraintes de groupe 'zonage' ou 'servitudes'.
 
-L'option service_consulte permet d'ajouter une condition sur le champ du même nom. Il peut prendre t (Oui) ou f (Non) comme valeur.
+L'option service_consulte permet d'ajouter une condition sur le champ du même nom. Elle peut prendre t (Oui) ou f (Non) comme valeur.
 
-La dernière option affichage_sans_arborescence permet d'avoir la liste des contraintes sans affichage des groupes, sous-groupes, et puces. Il peut prendre t (Oui) ou f (Non) comme valeur.
+La dernière option affichage_sans_arborescence permet d'avoir la liste des contraintes sans affichage des groupes, sous-groupes, et puces. Elle peut prendre t (Oui) ou f (Non) comme valeur.
 
 =========
 Les logos
