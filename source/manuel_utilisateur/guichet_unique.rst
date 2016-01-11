@@ -151,11 +151,11 @@ Lister les pétitionnaires fréquents
 (:menuselection:`Guichet Unique --> Nouvelle demande --> Pétitionnaire Fréquent`)
 
 Il est possible d'ajouter un pétitionnaire redondant dans la liste des
-pétitionnaires fréquents pour éviter de saisir ses informations à chaque nouvelle entré,
+pétitionnaires fréquents pour éviter de saisir ses informations à chaque nouvelle entrée,
 en cochant le champ "Sauvegarder (pétitionnaire fréquent)" avant de valider.
 
 Pour retrouver un pétitionnaire fréquent, il suffit de taper les trois premières 
-lettres de son nom ou de son prénom dans les champs adéquates et de cliquer sur
+lettres de son nom ou de son prénom dans les champs adéquats et de cliquer sur
 l'îcone de la loupe "Chercher un pétitionnaire".
 
 
@@ -212,7 +212,7 @@ d'instruction dans le formulaire puis de cliquer sur le bouton valider.
 
 .. image:: guichet_unique_affichage_reglementaire_attestation_formulaire.png
 
-Une fois le formulaire validé, trois cas de figures sont possibles :
+Une fois le formulaire validé, trois cas de figure sont possibles :
 
 * soit l'identifiant saisi ne correspond à aucun dossier d'instruction existant :
   
