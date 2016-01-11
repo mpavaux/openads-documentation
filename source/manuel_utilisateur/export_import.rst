@@ -50,7 +50,7 @@ Charge reste à l'utilisateur d'agir, ou non, en fonction du contenu de ce fichi
 
 Voici une liste exhaustive des messages qui peuvent être contenus dans ce fichier :
 
-**La SHON existante avant travaux et la SHON demolie sont nulles alors cela devrait être une nouvelle construction.**
+**La SHON existante avant travaux et la SHON démolie sont nulles alors cela devrait être une nouvelle construction.**
     → La nature du projet ou les surfaces saisies sont incorrectes
 
 **La SHON existante avant travaux ne doit pas est supérieure à la SHON démolie.**
@@ -59,43 +59,43 @@ Voici une liste exhaustive des messages qui peuvent être contenus dans ce fichi
 **La SHON demolie s'accompagne obligatoirement de la SHON existante avant travaux.**
     → Les surfaces saisies ne sont pas correctes
 
-**Les SHON globales vouees a la transformation et issues de la transformation de doivent etre egales.**
+**Les SHON globales vouées à la transformation et issues de la transformation doivent être égales.**
     → Les surfaces saisies ne sont pas correctes
 
-**Les SHON relatives a la transformation s'accompagnent obligatoirement de SHON existante avant travaux non nulle.**
+**Les SHON relatives à la transformation s'accompagnent obligatoirement de SHON existante avant travaux non nulle.**
     → Les surfaces saisies ne sont pas correctes
 
-**Un nombre de logements demolis strictement positif doit s'accompagner obligatoirement de SHON demolie.**
+**Un nombre de logements démolis strictement positif doit s'accompagner obligatoirement de SHON démolie.**
     → La surface démolie n'a pas été renseignée alors qu'elle aurait dû
 
-**Un nombre de logements crees strictement positif doit s'accompagner obligatoirement de SHON creee ou de SHON issue de la transformation ayant pour destination l'habitation.**
+**Un nombre de logements créés strictement positif doit s'accompagner obligatoirement de SHON créée ou de SHON issue de la transformation ayant pour destination l'habitation.**
     → La surface créée/transformée n'a pas été renseignée alors qu'elle aurait dû
 
-**La SHON creee ou issue de la transformation concernant le service public ou l'interet collectif doit obligatoirement s'accompagner du choix de destination des constructions.**
+**La SHON créée ou issue de la transformation concernant le service public ou l'intérêt collectif doit obligatoirement s'accompagner du choix de destination des constructions.**
     → La répartition des surfaces n'a pas été renseignée alors qu'elle aurait dû
 
-**La destination principale du logement mise a residence principale ou residence secondaire doit obligatoirement s'accompagner d'un mode d'utilisation a occupation personnelle.**
+**La destination principale du logement mise à residence principale ou residence secondaire doit obligatoirement s'accompagner d'un mode d'utilisation à occupation personnelle.**
     → Le mode d'utilisation du logement n'a pas été renseigné
 
-**Le nombre total de logements crees doit etre egal a la somme des nombres de logements crees ventiles par type de financement.**
-    → La somme total des logements par type de financement ne correspond pas au nombre total saisit
+**Le nombre total de logements créés doit être égal à la somme des nombres de logements créés ventilés par type de financement.**
+    → La somme total des logements par type de financement ne correspond pas au nombre total saisi
 
-**Le nombre total de logements crees doit etre egal a la totalisation de la repartition des logements par nombre de pieces.**
-    → La somme total des logements par nombre de pièce ne correspond pas au nombre total saisit
+**Le nombre total de logements créés doit être egal à la totalisation de la repartition des logements par nombre de pièces.**
+    → La somme total des logements par nombre de pièce ne correspond pas au nombre total saisi
 
-**Une ouverture de chantier ne peut concerner qu'un permis autorise.**
+**Une ouverture de chantier ne peut concerner qu'un permis autorisé.**
     → Deux DOC ont été déposées
 
-**La date d'ouverture de chantier doit être superieur a la date d'autorisation.**
+**La date d'ouverture de chantier doit être supérieure a la date d'autorisation.**
     → La date de dépôt du P0 doit être supérieure à la date de dépôt de la DOC
 
-**Un achevement de chantier ne peut concerner qu'un permis autorise.**
+**Un achèvement de chantier ne peut concerner qu'un permis autorisé.**
     → Deux DAACT ont été déposées
 
-**Un achevement de chantier ne peut concerner qu'un permis sur lequel un chantier a ete ouvert.**
+**Un achèvement de chantier ne peut concerner qu'un permis sur lequel un chantier a été ouvert.**
     → La DOC n'a pas été déposée avant la DAACT
 
-**La date d'achevement de travaux doit etre superieur a la date d'ouverture des travaux.**
+**La date d'achevement de travaux doit etre supérieure à la date d'ouverture des travaux.**
     → La date d'ouverture de chantier doit être inférieure à la date d'achèvement des travaux 
 
 .. _versement_archives:
@@ -126,7 +126,7 @@ Les informations à saisir sont :
 
 * **insee** : code INSEE à cinq chiffres. Si ce champ est renseigné, seulement
   les dossiers ayant le même code INSEE seront traités,
-* **fichier** : fichier csv comportant les données de mis à jour du numéro de
+* **fichier** : fichier csv comportant les données de mise à jour du numéro de
   versement,
 * **séparateur** : sélection du caractère utilisé pour la séparation des 
   colonnes dans le fichier csv (';' ou ',').
@@ -141,12 +141,12 @@ fichier csv.
 
 Le message indique :
 
-* le nombre de ligne lue : total des lignes ayant subit un taitement,
-* le nombre de ligne acceptée : total des lignes dont la mise à jour a été
+* le nombre de ligne lues : total des lignes ayant subi un taitement,
+* le nombre de ligne acceptées : total des lignes dont la mise à jour a été
   correctement effectuée,
-* le nombre de ligne rejetée : total des lignes qui n'ont pas put être traitées
+* le nombre de ligne rejetées : total des lignes qui n'ont pas pu être traitées
   (voir :ref:`versement_archives_liste_statut_ligne`),
-* le nombre de ligne ignorée : total des lignes qui n'ont pas été traitées car 
+* le nombre de ligne ignorées : total des lignes qui n'ont pas été traitées car 
   le code INSEE renseigné dans le formulaire n'est pas le même que celui de la 
   ligne,
 * la possiblité de télécharger le fichier CSV avec le détail pour chaque ligne.
@@ -175,7 +175,7 @@ ligne.
   la lettre 'W' (Exemple : 1025W),
 * **Numéro d'article** de 1 à 999999999999999.
 
-Exemple de fichier CSV correct en entré :
+Exemple de fichier CSV correct en entrée :
 
 03185;08;PC;1;0;1025W;111111
 
@@ -200,7 +200,7 @@ Liste des statuts de ligne
 Voici la liste des statuts possible pour une ligne du fichier CSV :
 
 * **ligne rejetée : nombre de séparateur incorrect.** Indique que la ligne peut 
-  être mal formaté, notamment au niveau du nombre de colonne,
+  être mal formatée, notamment au niveau du nombre de colonness,
 * **ligne rejetée : contenu non conforme.** Indique que certaines données sont 
   non conforme aux spécifications 
   (voir :ref:`versement_archives_format_donnees_entree`),
@@ -214,7 +214,7 @@ Exemple d'utilisation
 
 Avec comme code INSEE fournis : 01234.
 
-Fichier CSV en entré :
+Fichier CSV en entrée :
 
 03185;08;PC;1;0;1025W;111111
 
