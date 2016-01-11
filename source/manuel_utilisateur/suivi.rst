@@ -45,7 +45,7 @@ ainsi qu'un fichier, représentant le courrier.
 
 Un premier écran permet de rechercher la consultation : il suffit ici de saisir
 l'identifiant de la consultation pour laquelle on souhaite saisir un retour.
-Par exemple grâce au scan de code barre ou simplement en saisissant manuellement
+Par exemple grâce au scan de code-barre ou simplement en saisissant manuellement
 son identifiant.
 
 .. image:: suivi_retours_de_consultation_formulaire_recherche.png
@@ -83,7 +83,7 @@ retour AR ou retour signature), les dates potentiellement mises à jour,
 c'est-à-dire la date envoi/retour de signature, la date envoi/retour d'AR et la 
 date envoi/retour de contrôle de légalité, sont répliquées dans l'instruction 
 crée par l'événement retour paramétré afin que l'action puisse utiliser ces 
-données (Pour plus d'informations sur le paramètrage d'une action voir 
+données (pour plus d'informations sur le paramétrage d'une action voir 
 :ref:`parametrage_dossiers_action`).
 
 .. _suivi_envoi_lettre_rar:
@@ -269,9 +269,9 @@ Pour cela, il faut cliquer sur le lien "(OJ) Diffuser l'OJ" dans le portail d'ac
 
 .. image:: portlet_commission.png
 
-Le clique sur ce lien déclenche aussi la finalisation de l'édition de l'ordre du jour de la commission.
+Un clic sur ce lien déclenche aussi la finalisation de l'édition de l'ordre du jour de la commission.
 
-Le clique sur le lien de l'édition de l'ordre du jour dans le portail d'action ouvre le document depuis le stockage au format PDF.
+Le clic sur le lien de l'édition de l'ordre du jour dans le portail d'action ouvre le document depuis le stockage au format PDF.
 
 
 Diffusion du compte-rendu
@@ -283,9 +283,9 @@ Pour cela, il faut cliquer sur le lien "(CR) Diffuser le CR" dans le portail d'a
 
 .. image:: portlet_commission.png
 
-Le clique sur ce lien déclenche aussi la finalisation de l'édition du compte-rendu de la commission.
+Un clic sur ce lien déclenche aussi la finalisation de l'édition du compte-rendu de la commission.
 
-Le clique sur le lien de l'édition du compte-rendu dans le portail d'action ouvre le document depuis le stockage au format PDF.
+Le clic sur le lien de l'édition du compte-rendu dans le portail d'action ouvre le document depuis le stockage au format PDF.
 
 .. _suivi_commissions_demandes:
 
