@@ -36,7 +36,7 @@ Dossiers d'instruction
 (:menuselection:`Instruction --> Dossiers D'instruction`)
 
 Cette rubrique propose des sous-menus qui ouvrent des tableaux permettant d'accéder
-à tout ou partie (filtre par statut) des dossiers d'instruction :
+à tout ou une partie (filtre par statut) des dossiers d'instruction :
 
 * les encours de l'utilisateur connecté ;
 * tous les encours ;
@@ -49,7 +49,7 @@ La taxe d'aménagement
 
 Dans le cadre de la taxe d'aménagement il y a :
 
-* le secteur communal ; il est sélectionné automatiquement à l'ajout d'une demande si la collectivité en question à un seul secteur de paramétré (il peut y avoir jusqu'à 20 secteurs par collectivité) sinon, s'il y a en a plusieurs, il faut le choisir manuellement dans le dossier d'instruction ;
+* le secteur communal ; il est sélectionné automatiquement à l'ajout d'une demande si la collectivité en question a un seul secteur de paramétré (il peut y avoir jusqu'à 20 secteurs par collectivité) sinon, s'il y a en a plusieurs, il faut le choisir manuellement dans le dossier d'instruction ;
 * le montant liquidé de la part communale ;
 * le montant liquidé de la part départementale ;
 * le montant liquidé de la part régionale (seulement si la collectivité se situe en Île-de-France) ;
@@ -57,7 +57,7 @@ Dans le cadre de la taxe d'aménagement il y a :
 
 Tous les montants sont calculés automatiquement à la validation des données techniques, ou lorsque le secteur communal du dossier d'instruction est modifié.
 
-    .. important:: Le paramétrage sur la taxe d'aménagement doit être fait pour que les informations concernant celle-ci s'affiche sur le dossier (:ref:`parametrage_taxe_amenagement`), le cerfa du dossier d'instruction doit aussi avoir les champs necessaires à la simulation.
+    .. important:: Le paramétrage sur la taxe d'aménagement doit être fait pour que les informations concernant celle-ci s'affiche sur le dossier (:ref:`parametrage_taxe_amenagement`), le cerfa du dossier d'instruction doit aussi avoir les champs nécessaires à la simulation.
 
 =======
 Actions
@@ -65,7 +65,7 @@ Actions
 
 + Regénérer le récépissé
     - Disponible si l'utilisateur a un droit spécifique, s'il n'y a qu'un événement d'instruction sur le dossier et qu'il s'agit du récépissé de la demande.
-    - Regénére l'événement d'instruction du récépissé de la demande et affiche un lien pour le télécharger.
+    - Regénère l'événement d'instruction du récépissé de la demande et affiche un lien pour le télécharger.
 
 =============================
 Gestion des pièces du dossier
@@ -212,15 +212,15 @@ Pour finaliser l'édition du rapport d'instruction, il faut cliquer sur le lien 
 Lorsque le document est finalisé certaines informations concernant le dossier
 lui sont associées lors de l'enregistrement.
 
-Au clique sur le lien de l'édition dans le portail d'action de la visualisation du rapport d'instruction, le document sera ouvert depuis le stockage au format PDF.
+Au clic sur le lien de l'édition dans le portail d'action de la visualisation du rapport d'instruction, le document sera ouvert depuis le stockage au format PDF.
 
 Le rapport d'instruction n'est plus ni modifiable, ni supprimable.
 
-Il est aussi possible de dé-finaliser le document au clique sur le lien "Reprendre la rédaction du document".
+Il est aussi possible de dé-finaliser le document en cliquant sur le lien "Reprendre la rédaction du document".
 
 .. image:: portlet_definaliser.png
 
-Le clique sur le lien de l'édition dans le portail d'action de la visualisation du rapport d'instruction ouvrira le document généré à la volée au format PDF.
+Le clic sur le lien de l'édition dans le portail d'action de la visualisation du rapport d'instruction ouvrira le document généré à la volée au format PDF.
 
 Le rapport d'instruction est à nouveau modifiable et supprimable.
 
@@ -234,16 +234,16 @@ Pour finaliser l'édition de la consultation, il faut cliquer sur le lien "Final
 Lorsque le document est finalisé certaines informations concernant le dossier
 lui sont associées lors de l'enregistrement.
 
-Au clique sur le lien de l'édition dans le portail d'action de la visualisation 
+Au clic sur le lien de l'édition dans le portail d'action de la visualisation 
 de la consultation, le document sera ouvert depuis le stockage au format PDF.
 
 La consultation n'est plus supprimable.
 
-Il est aussi possible de dé-finaliser le document au clique sur le lien "Reprendre la rédaction du document".
+Il est aussi possible de dé-finaliser le document en cliquant sur le lien "Reprendre la rédaction du document".
 
 .. image:: portlet_definaliser.png
 
-Le clique sur le lien de l'édition dans le portail d'action de la visualisation 
+Le clic sur le lien de l'édition dans le portail d'action de la visualisation 
 de la consultation ouvrira le document généré à la volée au format PDF.
 
 La consultation est à nouveau supprimable.
@@ -253,9 +253,9 @@ Enregistrement de l'arrêté
 ==========================
 
 Lors de la finalisation d'un évènement d'instruction de type arrêté le document
-est enregistré sur le systeme de fichier.
+est enregistré sur le systeme de fichiers.
 Lorsqu'il revient après signature par l'autorité compétente, les informations qui
-le compose sont envoyé au référentiel des arrêtés, et le document finalisé est
+le composent sont envoyées au référentiel des arrêtés, et le document finalisé est
 enregistré dans le systeme de fichiers associé à certaines informations (numéro 
 de l'arrêté dans le référentiel, informations concernant le signataire, le terrain,
 et l'arrêté).
@@ -274,7 +274,7 @@ Visualisation des contraintes liées au dossier
 Les contraintes affichées dans le tableau de données sont groupées par groupe et
 sous-groupe et sont classées par le numéro d'ordre d'affichage.
 
-Chaque contrainte possède un bouton raccourcis pour ouvrir le formulaire en 
+Chaque contrainte possède un bouton raccourci pour ouvrir le formulaire en 
 modification et un autre en mode suppression.
 Seulement le champ **texte complété** est modifiable.
 
@@ -286,13 +286,13 @@ Ajouter des contraintes manuellement
 ====================================
 
 En cliquant sur le bouton **Ajouter des contraintes**, un formulaire présentant
-toutes les contraintes de l'application apparait.
+toutes les contraintes de l'application apparaît.
 
-Les contraintes sont triées comme dans le tableau de données, par groupe, sous-groupe et par l'ordre d'affichage. Par défaut chaque groupe et sous-groupe sont
-repliés.
+Les contraintes sont triées comme dans le tableau de données, par groupe, sous-groupe et par ordre d'affichage. Par défaut chaque groupe et sous-groupe est
+replié.
 
 Il suffit de cliquer sur un contrainte pour la sélectionner et de valider le
-formulaire pour que celle-ci soit ajouter au dossier. Un message de validation 
+formulaire pour que celle-ci soit ajoutée au dossier. Un message de validation 
 apparait.
 
 .. image:: instruction_dossier_contrainte_form.png
@@ -304,7 +304,7 @@ apparait.
 Ajouter des contraintes automatiquement
 =======================================
 
-Depuis le formulaire de géolocalisation, il est possible de récupérées les 
+Depuis le formulaire de géolocalisation, il est possible de récupérer les 
 contraintes d'un dossier depuis le SIG automatiquement en cliquant sur l'action 
 **Récupérer les containtes**.
 Attention cette action écrasera les précédentes contraintes récupérées 
