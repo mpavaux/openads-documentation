@@ -58,6 +58,7 @@ Contributeurs
 * Thierry Benita
 * Matthias Broquet
 * Nicolas Haye
+* Jean-Yves Madier
 * Florent Michon
 * Virginie Pihour
 * François Raynaud
