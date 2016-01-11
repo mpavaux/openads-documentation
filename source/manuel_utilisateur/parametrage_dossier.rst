@@ -22,7 +22,7 @@ Le principe
 
 Ce type de dossier d'autorisation peut également être appelé la série. C'est à
 ce niveau que la numérotation des dossiers est gérée.
-Lorsqu'un type de dossier d'autorisation est créé, modifié ou supprimé, la serie
+Lorsqu'un type de dossier d'autorisation est créé, modifié ou supprimé, la série
 correspondante est créée, mise à jour ou supprimée.
 
 Saisir un type de dossier d'autorisation
@@ -133,7 +133,7 @@ Le principe
 ===========
 
 Les contraintes peuvent être appliquées sur un dossier (voir ??). 
-Certaines contraintes peuvent être ajoutées manuellement et d'autre sont récupérées depuis le SIG (voir 
+Certaines contraintes peuvent être ajoutées manuellement et d'autres sont récupérées depuis le SIG (voir 
 :ref:`parametrage_dossiers_synchronisation_contrainte`).
 
 Saisir une contraintes
@@ -171,7 +171,7 @@ impactées par les actions suivantes :
 
 Les contraintes existant dans le SIG mais pas dans l'application seront 
 ajoutées, les contraintes existant dans les deux cas seront mise à jour et les 
-contraintes exisant dans l'application mais pas dans le SIG seront archivé en 
+contraintes exisant dans l'application mais pas dans le SIG seront archivées en 
 mettant la date du jour de la synchronisation dans le champ **date de fin de 
 validité**.
 
@@ -227,7 +227,7 @@ Le principe
 Chaque demande est d'un type en particulier, cela permet de confitionner
 lorsque celle-ci sera disponible dans les interfaces et les traitements
 qui seront appliqués lors de sa création. Par exemple : la création ou non d'un
-dossier d'instruction, le besoin de qualification
+dossier d'instruction, le besoin de qualification.
 
 Saisir un type de demande
 =========================
@@ -320,7 +320,7 @@ d'instruction, de :
 * modifier l'état du dossier d'instruction,
 * générer un document PDF, lettre au pétitionnaire ou acte, au moyen d'une
   lettre type,
-* déclencher des suivi de dates et des actions spécifiques pour les arrêtés.
+* déclencher des suivis de dates et des actions spécifiques pour les arrêtés.
 
 Les événements d'instruction disponibles dans l'interface dépendent de l'état
 dans lequel est le dossier d'instruction.
@@ -343,7 +343,7 @@ Les informations à saisir sont  :
   modifiable même si le dossier d'autorisation est clôturé.
 * **retour** : permet de distinguer un événement "retour", c'est-à-dire un 
   événement qui ne sera utilsé qu'en tant qu'événement retour AR ou événement
-  retour de signature. Ce champs n'est plus modifiable après validation du
+  retour de signature. Ce champ n'est plus modifiable après validation du
   formulaire d'ajout.
 * **état(s) source** : liste des états depuis lequel cet événement est
   disponible(voir :ref:`parametrage_dossiers_etat`).
@@ -354,7 +354,7 @@ Les informations à saisir sont  :
   formulaire d'ajout d'événement d'instruction si le résultat de la formule est
   faux.
 
-  Champs utilisable : [archive_date_dernier_depot] [archive_date_complet]
+  Champs utilisables : [archive_date_dernier_depot] [archive_date_complet]
   [archive_date_rejet] [archive_date_limite]
   [archive_date_notification_delai] [archive_date_decision]
   [archive_date_validite] [archive_date_achevement]
@@ -398,7 +398,7 @@ Paramétrage d'un événement ayant un "événement retour signature" ou un "év
 
 Contexte : lorsqu'un événement possède un événement retour AR ou un événement
 retour de signature, c'est, en général, cet événement lié qui effectue le
-recalcule des dates. Pour cela il lui faut les mêmes paramètres que son
+recalcul des dates. Pour cela il lui faut les mêmes paramètres que son
 événement principal.
 
 Dans un premier temps, il va falloir saisir l'événement retour signature et/ou 
@@ -409,7 +409,7 @@ lié. C'est cette option qui va servir à distinguer cet événement des autres.
 
 N.B. : Une fois la case "retour" cochée, les champs délai, accord tacite, délai 
 notification, avis, événement retour AR et événement lors du retour de signature
-ne seront plus modifiable.
+ne seront plus modifiables.
 
 Une fois le(s) événement(s) lié(s) saisie(s), l'événement principal (celui qui 
 précéde l'événement retour signature et/ou l'événement retour AR) peut être saisi 
@@ -625,7 +625,7 @@ Exemple de déroulement :
     - date limite d'instruction = date_evenement + delai
     - événement suivant tacite = rejet tacite
 
-    .. tip:: À ce moment de l'instruction des événements d'instruction peuvent être ajouté. Malgré que les délais de l'instruction soient suspendus, ils sont sauvegardés et peuvent être mis à jour.
+    .. tip:: À ce moment de l'instruction des événements d'instruction peuvent être ajoutés. Malgré que les délais de l'instruction soient suspendus, ils sont sauvegardés et peuvent être mis à jour.
 
 .. sidebar:: Note :
 
@@ -706,14 +706,14 @@ Gestion de la majoration de délai
 Le principe
 ===========
 
-Pour la consultation de certains service, l'instructeur a besoin de prolonger le
+Pour la consultation de certains services, l'instructeur a besoin de prolonger le
 délai d'instruction.
 
 Exemple de déroulement :
 
 .. sidebar:: Note :
 
-    État initial : les délais, date limite d'instruction, état et événement suivant tacite sont initialisés en fonction de l'action choisi pour ce type d'événement.
+    État initial : les délais, date limite d'instruction, état et événement suivant tacite sont initialisés en fonction de l'action choisie pour ce type d'événement.
 
 - dépôt de dossier PCI initial le 01/01/2013
 
@@ -888,7 +888,7 @@ Bordure :
 * **bordure** : Affichage ou non d'une bordure.
 
 ----------------------------------
-Paramètrage du corps de l'édition.
+Paramétrage du corps de l'édition.
 ----------------------------------
 
 .. image:: parametrage_etat_lettretype_corps.png
@@ -908,7 +908,7 @@ Paramètrage du corps de l'édition.
     fichier découpé permet de le rendre sécable/insécable.
 
 ----------------------------------------------
-Paramètrage des champs de fusions de l'édition
+Paramétrage des champs de fusions de l'édition
 ----------------------------------------------
 
 .. image:: parametrage_etat_lettretype_sql.png
@@ -916,7 +916,7 @@ Paramètrage des champs de fusions de l'édition
 * **SQL** : sélection d'un jeu de champs de fusion.
 
 ----------------------------------------------
-Paramètrage des champs de fusions de l'édition
+Paramétrage des champs de fusions de l'édition
 ----------------------------------------------
 
 .. image:: parametrage_etat_lettretype_sousetat.png
@@ -925,7 +925,7 @@ Paramètrage des champs de fusions de l'édition
 * **Couleur texte** : sélection de la couleur du texte des sous-états.
 
 -------------------------------------
-Paramètrage des tableaux des éditions
+Paramétrage des tableaux des éditions
 -------------------------------------
 .. image:: parametrage_editon_tableau_creer.png
 
@@ -1123,7 +1123,7 @@ positionné.
 Supprime la colonne sur laquelle le curseur est positionné.
 
 ----------------------------------------
-Paramètrage des code-barres des éditions
+Paramétrage des code-barres des éditions
 ----------------------------------------
 
 .. image:: parametrage_editon_codebarres_initial.png
@@ -1159,7 +1159,7 @@ Par exemple, le paramètre se nommant mail\_contact s'utilisera comme ceci :
 
 
 ---------------------------------------------
-Paramètrage des contraintes dans les éditions
+Paramétrage des contraintes dans les éditions
 ---------------------------------------------
 
 Pour afficher les contraintes du dossier, il faut saisir une variable de remplacement :
