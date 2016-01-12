@@ -1118,7 +1118,7 @@ positionné.
 
 .. image:: parametrage_editon_tableau_effacer_colonne.png
 
-* **Éffacer une colonne** :
+* **Effacer une colonne** :
 
 Supprime la colonne sur laquelle le curseur est positionné.
 
@@ -1166,7 +1166,7 @@ Pour afficher les contraintes du dossier, il faut saisir une variable de remplac
 
 * **&contraintes** : Affiche toutes les contraintes.
 
-* **&contraintes(liste_groupe=g1,g2...;liste_ssgroupe=sg1,sg2...;service_consulte=t;affichage_sans_arborescence=t)** : Toutes les options sont optionnelles. Les options liste_groupe et liste_ssgroupe peuvent contenir une valeur unique ou plusieurs valeurs separees par une virgule, sans espace. Chaque valeur est un texte qui va être recherché dans le nom de groupe ou de sous-groupe en fonction du critère.
+* **&contraintes(liste_groupe=g1,g2...;liste_ssgroupe=sg1,sg2...;service_consulte=t;affichage_sans_arborescence=t)** : Toutes les options sont optionnelles. Les options liste_groupe et liste_ssgroupe peuvent contenir une valeur unique ou plusieurs valeurs separées par une virgule, sans espace. Chaque valeur est un texte qui va être recherché dans le nom de groupe ou de sous-groupe en fonction du critère.
 
 Par exemple :
 
