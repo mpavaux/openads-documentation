@@ -140,7 +140,7 @@ Les avis de consultations
 
 (:menuselection:`Paramétrage --> Gestion des consultations --> Avis Consultation`)
 
-Éditions des différents avis possibles en reponse aux consultations de services
+Éditions des différents avis possibles en réponse aux consultations de services
 
 .. _parametrage_service:
 
@@ -175,13 +175,13 @@ choisi a un impact sur le logiciel :
 
 - "Pour information", qui permet à l'instructeur de signaler à un service l'existence d'une opération en cours. Elle est strictement « informative » et n'implique pas de retour d'avis de la part du service concerné.
 - "Avec avis attendu", que l'instructeur déclenche lorsqu'il attend un retour d'avis de la part du service consulté. Elles s'afficheront avec un fond jaune dans le tableau listant les demandes de consultation du dossier d'instruction
-- "Pour conformité", similaire à la précédente, mais qui n'intervient pas au même moment au cours du processus métier : le contenu de la demande de consultation et le délai associé diffèrent.
+- "Pour conformité", similaire à la précédente, mais qui n'intervient pas au même moment au cours du processus métier : le contenu de la demande de consultation et le délai associé différent.
 
 Le champ 'type d'édition de la consultation' sert à indiquer le type d'édition
 lié à la demande de consultation. Ce select est populé grâce aux états. 
 
 
-Pour qu'un état apparaisse dans la liste des types d'édition possible, il faut 
+Pour qu'un état apparaisse dans la liste des types d'édition possibles, il faut 
 que le libellé de l'état soit préfixé par 'consultation\_'.
 
 .. _parametrage_thematique_services:
@@ -215,7 +215,7 @@ Les états des dossiers d'autorisation
 
 (:menuselection:`Paramétrage --> Gestion des dossiers --> États Des Dossiers D'autorisation`)
 
-Liste des états de dossiers d'autorisation possible.
+Liste des états de dossiers d'autorisation possibles.
 
 .. _parametrage_lien_evenement_da:
 
@@ -246,4 +246,4 @@ Les autorités compétentes
 
 (:menuselection:`Paramétrage --> Gestion des dossiers --> Autorité Compétentes`)
 
-Édition des autorités compétentes possible pour les dossiers de l'application.
+Édition des autorités compétentes possibles pour les dossiers de l'application.
