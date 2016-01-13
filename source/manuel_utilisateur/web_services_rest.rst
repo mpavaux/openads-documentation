@@ -128,7 +128,7 @@ Liés à des CRONs
 ################
 
 Certaines fonctionnalités de l'application ont besoin d'être effectuées de 
-manière journalières. Elles ont été liées à un CRON.
+manière journalière. Elles ont été liées à un CRON.
 
 Cinq CRONs différents ont été configurés.
 
