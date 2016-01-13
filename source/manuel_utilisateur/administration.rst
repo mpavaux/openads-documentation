@@ -61,7 +61,7 @@ Méthode d'utilisation :
   possibles sont 'true' ou 'false'.
 * option_arrondissement : la valeur par défaut est 'false'. Les valeurs 
   possibles sont 'true' ou 'false'.
-  Cette option indique si la commune est divisée en arrondissement.
+  Cette option indique si la commune est divisée en arrondissements.
 
 La suppression d'une option entraîne la désactivation des fonctionnalités liées 
 à l'option.
@@ -78,7 +78,7 @@ Les profils
 
 (:menuselection:`Administration --> Gestion Des Utilisateurs --> Profil`)
 
-Édition des profils présentes dans l'application.
+Édition des profils présents dans l'application.
 
 .. _administration_droit:
 
@@ -88,7 +88,7 @@ Les droits
 
 (:menuselection:`Administration --> Gestion Des Utilisateurs --> Droit`)
 
-Édition des droits présentes dans l'application.
+Édition des droits présents dans l'application.
 
 .. _administration_utilisateur:
 
@@ -98,7 +98,7 @@ Les utilisateurs
 
 (:menuselection:`Administration --> Gestion Des Utilisateurs --> Utilisateur`)
 
-Édition des utilisateurs présentes dans l'application.
+Édition des utilisateurs présents dans l'application.
 
 .. _administration_annuaire:
 
@@ -144,7 +144,7 @@ Les arguments sont déclarés ainsi :
   argument1=valeur1
   argument2=valeur2
 
-Les scripts disponbiles sont les suivants :
+Les scripts disponibles sont les suivants :
 
 dossiers_limites
 ================
@@ -157,10 +157,10 @@ Davantage d'informations sont disponibles :ref:`ici<dossiers_limites>`.
 
 Trois arguments facultatifs faisant office de critères sont paramétrables :
 
-* **filtre** [par défaut *instructeur*] - les filtres disponbiles sont *aucun*,
+* **filtre** [par défaut *instructeur*] - les filtres disponibles sont *aucun*,
   *division* et *instructeur*
 * **nombre_de_jours** [par défaut *15*] - délai en jours avant la date limite à
-  partir duquel on souhaite voir apparaître les dossiers
+  partir de laquelle on souhaite voir apparaître les dossiers
 * **codes_datd** [par défaut tous les types sont affichés] - liste des types de
   dossiers à afficher séparés par un point-virgule. exemple : *PCI;PCA;DPS;CUa;CUb*
 
@@ -231,9 +231,9 @@ Une fois le chargement terminé un récapitulatif des traitements effectués est
 
 .. NOTE:: Si dans un dossier une date de decision est définie mais qu'il n'a pas de nature de decision alors le dossier est implicitement accordé.
 
-Ce fichier de rejet contient toutes les lignes du csv importées qui sont en erreurs. Les erreurs sont ajoutées en fin de ligne dans une nouvelle colonne.
+Ce fichier de rejet contient toutes les lignes du csv importées qui sont en erreur. Les erreurs sont ajoutées en fin de ligne dans une nouvelle colonne.
 
-Exemples des erreurs typique :
+Exemple d'erreurs typiques :
 
 - Le code INSEE n'est pas paramétré : un code INSEE doit être défini pour chaque commune dans les paramètres.
 - Dossiers non clôturés (pas de date d'accord/rejet/refus tacite ou de date de décision).
@@ -253,4 +253,4 @@ Le générateur
 
 (:menuselection:`Administration --> Options Avancées --> Générateur`)
 
-Le générateur de fichier de l'application.
+Le générateur de fichiers de l'application.
