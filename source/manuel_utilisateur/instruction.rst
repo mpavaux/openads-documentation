@@ -44,6 +44,13 @@ Cette rubrique propose des sous-menus qui ouvrent des tableaux permettant d'acc�
 * tous les clôturés ;
 * tous les dossiers via *Recherche*.
 
+Visualisation des dossiers d'instruction
+========================================
+
+Depuis le fieldset des pétitionnaires :
+
+* si l'option d'accès au portail citoyen est activé (:ref:`parametrage_parametre`.), le champ **clé d'accès au portail citoyen** affiche la chaîne de caractère nécessaire au pétitionnaire pour accèder à la visualisation de son autorisation depuis le portail citoyen.
+
 La taxe d'aménagement
 =====================
 
