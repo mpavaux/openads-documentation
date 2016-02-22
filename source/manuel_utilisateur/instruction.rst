@@ -70,9 +70,19 @@ Tous les montants sont calculés automatiquement à la validation des données t
 Actions
 =======
 
-+ Regénérer le récépissé
-    - Disponible si l'utilisateur a un droit spécifique, s'il n'y a qu'un événement d'instruction sur le dossier et qu'il s'agit du récépissé de la demande.
-    - Regénère l'événement d'instruction du récépissé de la demande et affiche un lien pour le télécharger.
+Régénérer le récépissé
+======================
+* Disponible si l'utilisateur a un droit spécifique, s'il n'y a qu'un événement d'instruction sur le dossier et qu'il s'agit du récépissé de la demande.
+* Régénère l'événement d'instruction du récépissé de la demande et affiche un lien pour le télécharger.
+
+Générer la clé d'accès au portail citoyen
+=========================================
+Si l'option portail_acces_citoyen n'était pas activée lors de la création du dossier, alors celui-ci n'a pas de clé d'accès au portail citoyen.
+Cette action permet de générer une clé d'accès, qui permettra au demandeur de suivre l'avancement de sa demande via le portail citoyen.
+
+Régénérer la clé d'accès au portail citoyen
+=========================================
+L'action génère une nouvelle clé d'accès qui écrase l'ancienne, ce qui la rend inutilisable. Cette action n'est disponible que pour les administrateurs.
 
 =============================
 Gestion des pièces du dossier
