@@ -81,7 +81,7 @@ Si l'option portail_acces_citoyen n'était pas activée lors de la création du 
 Cette action permet de générer une clé d'accès, qui permettra au demandeur de suivre l'avancement de sa demande via le portail citoyen.
 
 Régénérer la clé d'accès au portail citoyen
-=========================================
+===========================================
 L'action génère une nouvelle clé d'accès qui écrase l'ancienne, ce qui la rend inutilisable. Cette action n'est disponible que pour les administrateurs.
 
 =============================
