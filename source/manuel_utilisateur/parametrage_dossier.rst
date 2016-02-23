@@ -915,10 +915,6 @@ Paramétrage des champs de fusions de l'édition
 
 * **SQL** : sélection d'un jeu de champs de fusion.
 
-----------------------------------------------
-Paramétrage des champs de fusions de l'édition
-----------------------------------------------
-
 .. image:: parametrage_etat_lettretype_sousetat.png
 
 * **Police personnalisée** : sélection de la police des sous-états.
