@@ -9,7 +9,7 @@ Portail citoyen
 Le formulaire d'accès au suivi de dossier
 #########################################
 
-Si l'option accès portail citoyen détaillée dans :ref:`cette rubrique <parametrage_parametre>`
+Si l'option d'accès au portail citoyen détaillée dans :ref:`cette rubrique <parametrage_parametre>`
 est activée, les pétitionnaires ont la possibilité de suivre l'avancement de leur demande
 en temps réel par le biais du portail citoyen, en se munissant simplement de leurs
 identifiants.
