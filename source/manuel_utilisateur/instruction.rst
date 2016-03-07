@@ -49,7 +49,9 @@ Visualisation des dossiers d'instruction
 
 Depuis le fieldset des pétitionnaires :
 
-* si l'option d'accès au portail citoyen (:ref:`parametrage_parametre`.) est activée, le champ **clé d'accès au portail citoyen** affiche le code d'accès nécessaire au pétitionnaire pour accèder à la visualisation de son autorisation depuis le portail citoyen.
+.. image:: instruction_dossier_instruction_form_petitionnaires_fieldset.png
+
+* si l'option d'accès au portail citoyen détaillée dans :ref:`cette rubrique <parametrage_parametre>` est activée, le champ **clé d'accès au portail citoyen** affiche le code d'accès nécessaire au pétitionnaire pour accèder à la visualisation de son autorisation depuis le portail citoyen.
 
 La taxe d'aménagement
 =====================
@@ -77,11 +79,17 @@ Régénérer le récépissé
 
 Générer la clé d'accès au portail citoyen
 =========================================
-Si l'option d'accès au portail citoyen (:ref:`parametrage_parametre`.) n'était pas activée lors de la création du dossier, alors celui-ci n'a pas de clé d'accès au portail citoyen.
+
+.. image:: instruction_portlet_generate_citizen_access_key.png
+
+Si l'option d'accès au portail citoyen détaillée dans :ref:`cette rubrique <parametrage_parametre>` n'est pas activée lors de la création du dossier, alors celui-ci n'a pas de clé d'accès au portail citoyen.
 Cette action permet de générer une clé d'accès, qui permettra au demandeur de suivre l'avancement de sa demande via le portail citoyen.
 
 Régénérer la clé d'accès au portail citoyen
 ===========================================
+
+.. image:: instruction_portlet_regenerate_citizen_access_key.png
+
 L'action génère une nouvelle clé d'accès qui écrase l'ancienne, ce qui la rend inutilisable. Cette action n'est disponible que pour les administrateurs et demande une confirmation de la part de l'utilisateur.
 
 =============================
