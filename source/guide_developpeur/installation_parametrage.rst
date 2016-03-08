@@ -11,6 +11,7 @@ Documents numérisés ou reprise de l'arriéré
 ===========================================
 
 Pour utiliser la fonctionnalité de récupération automatique de document numérisé, il est nécessaire d'activer l'option **option_digitalization_folder**, pour ce faire il suffit d'ajouter l'option dans le fichier **dyn/config.inc.php**.
+
 L'emplacement des documents doit être, également, spécifié dans le fichier **dyn/config.inc.php** avec le paramètre **digitalization_folder_path**. Ce répertoire devra obligatoirement contenir deux sous-répertoires **Todo** et **Done**, le premier permettant de stocker les documents à traiter et le second qui permet de consulter les documents traités.
 
 .. code-block:: php
@@ -24,7 +25,7 @@ Exemple d'arborescence :
 
 .. code-block:: bash
 
-    var/
+    var
     └── digitalization
         ├── Done
         │   └── CU0000001600011.P0
@@ -36,4 +37,5 @@ Exemple d'arborescence :
                 └── 20160206DGPA01.pdf
 
 Un service automatique (CRON) se chargera de traiter ces documents : les enregistrer dans le système de stockage prédéfini ainsi que les lier au dossier d'instruction dans openADS.
+
 Les répertoires des documents traités sont ensuite déplacés dans le répertoire **Done** pour être supprimés par un autre service automatique.
