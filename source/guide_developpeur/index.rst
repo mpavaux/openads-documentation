@@ -1,25 +1,14 @@
-.. _index:
+.. _guide_developpeur:
 
-
-
-Nous vous proposons dans ce chapître de décrire l'intégration d'openFoncier dans le SIG
-
-- principes d'une application composite (mashup)
-
-- integration avec des vues (exemple de dynmap)
-
-- integration avec des liens (exemple de dynmap)
-
-- les fonds de cartes internet
-
-- le tableau de bord parametrable (widget)
-
-
+####################
+Guide du développeur
+####################
 
 .. toctree::
+    :numbered:
 
     principes_integration.rst
     geolocalisation.rst
     widget.rst
     migration.rst
-
+    installation_parametrage.rst
