@@ -167,11 +167,12 @@ Ce menu permet de synchroniser les contraintes du SIG avec celles de
 l'application. Cette action va d'abord rapatrier toutes les contraintes du SIG,
 et les comparer avec les contraintes déjà présentes dans openADS. Les contraintes
 présentes sur le SIG ne seront pas modifiées par openADS.
+Le code INSEE de l'agglo est envoyé en paramètre au SIG.
 
 .. image:: contrainte_synchronisation.png
 
 * **X contrainte(s) ajoutée(s)** : Contraintes importées dans openADS à partir du SIG
-* **X contraintes à modifier** : Contraintes ayant subi une modification de groupe, sous-groupe ou libelle etc. dans openADS
+* **X contraintes à modifier** : Contraintes ayant subi une modification de groupe, sous-groupe ou libelle etc. sur le SIG
 * **X contrainte(s) archivée(s)** : Contraintes n'étant plus valides
 
 .. sidebar:: Note :
@@ -187,16 +188,13 @@ contraintes, elles sont marquées comme ayant été importées à partir du SIG.
 
 Quand on effectue une nouvelle synchronisation des contraintes, 3 cas de figure se
 présentent :
+
 * les contraintes qui existent dans le SIG mais pas dans openADS seront ajoutées.
 * les contraintes existant sur le SIG et sur openADS seront mises à jour
 * les contraintes venant du SIG présentes dans l'application mais pas dans le
 SIG seront archivées en mettant la date du jour de la synchronisation dans le champ **date de fin de 
 validité**.
-- &contrainte :
-    liste de toutes les contraintes du dossier.
 
-- &contrainte(groupe=zonage,servitudes)
-    liste de toutes les contraintes de groupe 'zonage' ou 'servitudes'.
 Les contraintes n'étant pas référencées comme venant du SIG
 ===========================================================
 
@@ -205,7 +203,7 @@ comme provenant du SIG.
 
 Quand une synchronisation des contraintes est lancée, ces contraintes sont ignorées et
 restent dans le même état, même si elles ont le même groupe, sous-groupe ou libellé
-qu'une contrainte importée du SIG, des contraintes peuvent donc être en doublon.
+qu'une contrainte importée du SIG. Des contraintes peuvent donc être en doublon.
 
 
 .. _parametrage_dossiers_demandes:
