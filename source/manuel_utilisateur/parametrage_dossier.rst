@@ -167,7 +167,6 @@ Ce menu permet de synchroniser les contraintes du SIG avec celles de
 l'application. Cette action va d'abord rapatrier toutes les contraintes du SIG,
 et les comparer avec les contraintes déjà présentes dans openADS. Les contraintes
 présentes sur le SIG ne seront pas modifiées par openADS.
-Le code INSEE de l'agglo est envoyé en paramètre au SIG.
 
 .. image:: contrainte_synchronisation.png
 
@@ -189,11 +188,9 @@ contraintes, elles sont marquées comme ayant été importées à partir du SIG.
 Quand on effectue une nouvelle synchronisation des contraintes, 3 cas de figure se
 présentent :
 
-* les contraintes qui existent dans le SIG mais pas dans openADS seront ajoutées.
-* les contraintes existant sur le SIG et sur openADS seront mises à jour
-* les contraintes venant du SIG présentes dans l'application mais pas dans le
-SIG seront archivées en mettant la date du jour de la synchronisation dans le champ **date de fin de 
-validité**.
+* Les contraintes qui existent dans le SIG mais pas dans openADS seront ajoutées.
+* Les contraintes existant sur le SIG et sur openADS seront mises à jour.
+* Les contraintes venant du SIG présentes dans l'application mais pas dans le SIG seront archivées en mettant la date du jour de la synchronisation dans le champ **date de fin de validité**.
 
 Les contraintes n'étant pas référencées comme venant du SIG
 ===========================================================
