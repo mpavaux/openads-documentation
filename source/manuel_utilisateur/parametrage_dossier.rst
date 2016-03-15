@@ -176,7 +176,7 @@ présentes sur le SIG ne seront pas modifiées par openADS.
 
 .. sidebar:: Note :
 
-    Les contraintes dans l'application sont comparées avec celles du SIG seulement par rapport à leur identifiant "numero".
+    Les contraintes de l'application sont comparées avec celles du SIG sur la base de l'identifiant de la contrainte sur le SIG.
     
 
 Les contraintes référencées comme venant du SIG
@@ -189,7 +189,7 @@ Quand on effectue une nouvelle synchronisation des contraintes, 3 cas de figure 
 présentent :
 
 * Les contraintes existent sur le SIG mais pas dans openADS : elles seront ajoutées.
-* Les contraintes existent sur le SIG ET dans openADS : elles seront mises à jour avec les informations du SIG.
+* Les contraintes existent sur le SIG ET dans openADS : les libellés, groupes et sous-groupes seront mis à jour avec les informations du SIG.
 * Les contraintes n'existent plus sur le SIG mais sont toujours présentes dans l'application : elles seront archivées en mettant la date du jour de la synchronisation dans le champ **date de fin de validité**.
 
 Les contraintes n'étant pas référencées comme venant du SIG
