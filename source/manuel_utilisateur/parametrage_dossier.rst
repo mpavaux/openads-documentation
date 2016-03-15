@@ -14,7 +14,7 @@ Les dossiers
 Les types de dossier d'autorisation
 ===================================
 
-(:menuselection:`Paramétrage --> Dossiers --> Type DA`)
+(:menuselection:`Paramétrage Dossiers --> Dossiers --> Type DA`)
 
 
 Le principe
@@ -51,7 +51,7 @@ Les informations à saisir sont :
 Les types de dossier d'autorisation détaillés
 =============================================
 
-(:menuselection:`Paramétrage --> Dossiers --> Type DA Détaillé`)
+(:menuselection:`Paramétrage Dossiers --> Dossiers --> Type DA Détaillé`)
 
 Le principe
 ===========
@@ -90,7 +90,7 @@ Les informations à saisir sont :
 Les types de dossier d'instruction
 ==================================
 
-(:menuselection:`Paramétrage --> Dossiers --> Type DI`)
+(:menuselection:`Paramétrage Dossiers --> Dossiers --> Type DI`)
 
 Le principe
 ===========
@@ -127,7 +127,7 @@ Les informations à saisir sont :
 Les contraintes
 ===============
 
-(:menuselection:`Paramétrage --> Dossiers --> Contrainte`)
+(:menuselection:`Paramétrage Dossiers --> Dossiers --> Contrainte`)
 
 Le principe
 ===========
@@ -158,24 +158,51 @@ Les informations à saisir sont :
 Synchronisation des contraintes
 ===============================
 
-(:menuselection:`Paramétrage --> Dossiers --> Synchronisation Des Contraintes`)
+(:menuselection:`Paramétrage Dossiers --> Dossiers --> Synchronisation Des Contraintes`)
 
 Le principe
 ===========
 
 Ce menu permet de synchroniser les contraintes du SIG avec celles de 
-l'application. Toutes les contraintes du SIG doivent être dans l'application.
-
-Seulement les contraintes qui sont référencées comme venant du SIG sont 
-impactées par les actions suivantes :
-
-Les contraintes existant dans le SIG mais pas dans l'application seront 
-ajoutées, les contraintes existant dans les deux cas seront mise à jour et les 
-contraintes exisant dans l'application mais pas dans le SIG seront archivées en 
-mettant la date du jour de la synchronisation dans le champ **date de fin de 
-validité**.
+l'application. Cette action va d'abord rapatrier toutes les contraintes du SIG,
+et les comparer avec les contraintes déjà présentes dans openADS. Les contraintes
+présentes sur le SIG ne seront pas modifiées par openADS.
 
 .. image:: contrainte_synchronisation.png
+
+* **X contrainte(s) ajoutée(s)** : Contraintes importées dans openADS à partir du SIG
+* **X contraintes à modifier** : Contraintes ayant subi une modification de groupe, sous-groupe ou libelle etc. dans openADS
+* **X contrainte(s) archivée(s)** : Contraintes n'étant plus valides
+
+.. sidebar:: Note :
+
+    Les contraintes dans l'application sont comparées avec celles du SIG seulement sur leur identifiant "numero".
+    
+
+Les contraintes référencées comme venant du SIG
+===============================================
+
+Lorsque des contraintes sont importées dans openADS via la synchronisation des
+contraintes, elles sont marquées comme ayant été importées à partir du SIG.
+
+Quand on effectue une nouvelle synchronisation des contraintes, 3 cas de figure se
+présentent :
+- les contraintes qui existent dans le SIG mais pas dans openADS seront ajoutées.
+- les contraintes existant sur le SIG et sur openADS seront mises à jour
+- les contraintes venant du SIG présentes dans l'application mais pas dans le
+SIG seront archivées en mettant la date du jour de la synchronisation dans le champ **date de fin de 
+validité**.
+
+Les contraintes n'étant pas référencées comme venant du SIG
+===========================================================
+
+Les contraintes créées manuellement dans l'application ne sont pas référencées
+comme provenant du SIG.
+
+Quand une synchronisation des contraintes est lancée, ces contraintes sont ignorées et
+restent dans le même état, même si elles ont le même groupe, sous-groupe ou libellé
+qu'une contrainte importée du SIG, des contraintes peuvent donc être en doublon.
+
 
 .. _parametrage_dossiers_demandes:
 
@@ -188,7 +215,7 @@ Les demandes
 Les natures de demande
 ======================
 
-(:menuselection:`Paramétrage --> Demandes --> Nature Demande`)
+(:menuselection:`Paramétrage Dossiers --> Demandes --> Nature Demande`)
 
 Le principe
 ===========
@@ -219,7 +246,7 @@ Les informations à saisir sont :
 Les types de demande
 ====================
 
-(:menuselection:`Paramétrage --> Demandes --> Type Demande`)
+(:menuselection:`Paramétrage Dossiers --> Demandes --> Type Demande`)
 
 Le principe
 ===========
@@ -270,7 +297,7 @@ Les informations à saisir sont :
 Les CERFA
 #########
 
-(:menuselection:`Paramétrage --> Dossiers --> Cerfa`)
+(:menuselection:`Paramétrage Dossiers --> Dossiers --> Cerfa`)
 
 .. image:: parametrage_cerfa_form.png
 
@@ -300,7 +327,7 @@ Les workflows
 Les événements
 ==============
 
-(:menuselection:`Paramétrage --> Workflows --> Événement`)
+(:menuselection:`Paramétrage Dossiers --> Workflows --> Événement`)
 
 Le principe
 ===========
@@ -443,7 +470,7 @@ un seul événement.
 Les états
 =========
 
-(:menuselection:`Paramétrage --> Workflows --> État`)
+(:menuselection:`Paramétrage Dossiers --> Workflows --> État`)
 
 Le principe
 ===========
@@ -478,7 +505,7 @@ Les informations à saisir sont :
 Les actions
 ===========
 
-(:menuselection:`Paramétrage --> Workflows --> Action`)
+(:menuselection:`Paramétrage Dossiers --> Workflows --> Action`)
 
 Le principe
 ===========
@@ -660,7 +687,7 @@ Configuration de l'incomplétude
 Saisie des événements
 ---------------------
 
-(:menuselection:`Paramétrage --> Workflows --> Événements`)
+(:menuselection:`Paramétrage Dossiers --> Workflows --> Événements`)
 
 - notification de pièces manquantes :
 
@@ -689,7 +716,7 @@ Saisie des événements
 Saisie de l'action
 ------------------
 
-(:menuselection:`Paramétrage --> Workflows --> Action`)
+(:menuselection:`Paramétrage Dossiers --> Workflows --> Action`)
 
 - instruction suspendue, dossier incomplet :
 
@@ -743,7 +770,7 @@ Configuration de la majoration
 Saisie des événements
 ---------------------
 
-(:menuselection:`Paramétrage --> Workflows --> Événements`)
+(:menuselection:`Paramétrage Dossiers --> Workflows --> Événements`)
 
 - Majoration de délai :
 
@@ -771,7 +798,7 @@ Saisie des événements
 Saisie des actions
 ------------------
 
-(:menuselection:`Paramétrage --> Workflows --> Action`)
+(:menuselection:`Paramétrage Dossiers --> Workflows --> Action`)
 
 - Modifier le délai d'instruction :
 
@@ -790,7 +817,7 @@ Saisie des actions
 Les avis
 ========
 
-(:menuselection:`Paramétrage --> Workflows --> Avis Décision`)
+(:menuselection:`Paramétrage Dossiers --> Workflows --> Avis Décision`)
 
 Le principe
 ===========
@@ -818,7 +845,7 @@ Les informations à saisir sont :
 La bible
 ========
 
-(:menuselection:`Paramétrage --> Workflows --> Bible`)
+(:menuselection:`Paramétrage Dossiers --> Workflows --> Bible`)
 
 ...
 
@@ -835,8 +862,8 @@ Les éditions
 Les états et lettres types
 ==========================
 
-(:menuselection:`Paramétrage --> Éditions --> État`)
-(:menuselection:`Paramétrage --> Éditions --> Lettre Type`)
+(:menuselection:`Paramétrage Dossiers --> Éditions --> État`)
+(:menuselection:`Paramétrage Dossiers --> Éditions --> Lettre Type`)
 
 Paramétrage des informations générales de l'édition
 ===================================================
@@ -1180,7 +1207,7 @@ La dernière option affichage_sans_arborescence permet d'avoir la liste des cont
 Les logos
 =========
 
-(:menuselection:`Paramétrage --> Éditions --> Logo`)
+(:menuselection:`Paramétrage Dossiers --> Éditions --> Logo`)
 
 ...
 
