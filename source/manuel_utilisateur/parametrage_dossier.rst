@@ -188,9 +188,9 @@ contraintes, elles sont marquées comme ayant été importées à partir du SIG.
 Quand on effectue une nouvelle synchronisation des contraintes, 3 cas de figure se
 présentent :
 
-* Les contraintes qui existent dans le SIG mais pas dans openADS seront ajoutées.
-* Les contraintes existant sur le SIG et sur openADS seront mises à jour.
-* Les contraintes venant du SIG présentes dans l'application mais pas dans le SIG seront archivées en mettant la date du jour de la synchronisation dans le champ **date de fin de validité**.
+* Les contraintes existent sur le SIG mais pas dans openADS : elles seront ajoutées.
+* Les contraintes existent sur le SIG ET dans openADS : elles seront mises à jour avec les informations du SIG.
+* Les contraintes n'existent plus sur le SIG mais sont toujours présentes dans l'application : elles seront archivées en mettant la date du jour de la synchronisation dans le champ **date de fin de validité**.
 
 Les contraintes n'étant pas référencées comme venant du SIG
 ===========================================================
