@@ -315,9 +315,9 @@ Ajouter des contraintes automatiquement
 
 .. note::
 
-    Cette action nécéssite d'avoir au préalable récupéré toutes les contraintes
+    Cette action nécessite d'avoir au préalable récupéré toutes les contraintes
     du SIG par le biais du menu **Synchronisation des contraintes**
-    (voir :ref:`_parametrage_dossiers_synchronisation_contrainte:`.)
+    (voir :ref:`parametrage_dossiers_synchronisation_contrainte`).
     
 Depuis le formulaire de géolocalisation, il est possible de récupérer les 
 contraintes d'un dossier depuis le SIG automatiquement en cliquant sur l'action 
