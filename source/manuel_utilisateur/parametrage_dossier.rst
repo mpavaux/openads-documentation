@@ -176,7 +176,7 @@ présentes sur le SIG ne seront pas modifiées par openADS.
 
 .. sidebar:: Note :
 
-    Les contraintes dans l'application sont comparées avec celles du SIG seulement sur leur identifiant "numero".
+    Les contraintes dans l'application sont comparées avec celles du SIG seulement par rapport à leur identifiant "numero".
     
 
 Les contraintes référencées comme venant du SIG
