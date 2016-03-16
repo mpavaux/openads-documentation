@@ -1,15 +1,15 @@
 .. _connecteur_sig:
 
 ###################
-les connecteurs SIG
+Les connecteurs SIG
 ###################
 
-Les connecteurs SIG permettent de faire le lien entre openads et differents SIG.
+Les connecteurs SIG permettent de faire le lien entre openads et différents SIG.
 
 Description de la configuration des connecteurs
 ###############################################
 
-La configuration du plugin est stoquées dans dyn/sig.inc.php.
+La configuration du plugin est définie dans dyn/sig.inc.php.
 
 Exemple :
 
@@ -22,16 +22,16 @@ Exemple :
         ),
     );
 
-.. important:: L'option "option_sig" doit être positionnée à la valeur "sig_externe"
+.. important:: Le paramètre "option_sig" doit être positionnée à la valeur "sig_externe"
 
 .. important:: La clé sig-default doit être ajoutée au script database.inc.php.
                La clé du tabeau de configuration du SIG correspond à l'identifiant
                de la collectivité pour laquelle le connecteur est disponible
-               (si collectivité multi, les collectivités mono auront accés
+               (si collectivité multi, les collectivités mono auront accès
                au connecteur SIG)
 
-.. important:: Les paramètres "connector" et "path" sont obligatoire quelque
-                soit le connecteur. D'autres paramètres specifiques aux connecteurs
+.. important:: Les paramètres "connector" et "path" sont obligatoires quelque
+                soit le connecteur. D'autres paramètres spécifiques aux connecteurs
                 pourront y être ajoutés.
 
 Dans cet exemple, le connecteur geoads_generic.class.php contenu dans le dossier
