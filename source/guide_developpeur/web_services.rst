@@ -1,8 +1,8 @@
 .. _web_services_rest:
 
-#################
-Web-services REST
-#################
+############
+Web Services
+############
 
 Entrants (ERP → ADS)
 ####################

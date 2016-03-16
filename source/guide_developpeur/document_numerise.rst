@@ -1,14 +1,8 @@
-.. _installation_parametrage:
-
-############################################
-Installation et paramétrage de l'application
-############################################
-
 .. _document_numerise:
 
-===========================================
+###########################################
 Documents numérisés ou reprise de l'arriéré
-===========================================
+###########################################
 
 Pour utiliser la fonctionnalité de récupération automatique de document numérisé, il est nécessaire d'activer l'option **option_digitalization_folder**, pour ce faire il suffit d'ajouter l'option dans le fichier **dyn/config.inc.php**.
 

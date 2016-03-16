@@ -1,8 +1,8 @@
-.. _connecteur_sig:
+.. _geolocalisation_plugin_connecteur_sig:
 
-###################
-Les connecteurs SIG
-###################
+#######################
+Plugin 'connecteur SIG'
+#######################
 
 Les connecteurs SIG permettent de faire le lien entre openads et différents SIG.
 
