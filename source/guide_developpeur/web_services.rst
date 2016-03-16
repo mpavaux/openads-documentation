@@ -4,141 +4,459 @@
 Web Services
 ############
 
-Entrants (ERP → ADS)
-####################
 
-.. _web_services_rest_arretes:
+.. _web_services_ressource_maintenance:
 
-===================
+Ressource "maintenance"
+#######################
+
+================================================
+Synchronisation des utilisateurs via un annuaire
+================================================
+
+.. http:post:: /services/rest_entry.php/maintenance
+
+   **Requête** :
+
+   .. sourcecode:: http
+      
+      POST /services/rest_entry.php/maintenance HTTP/1.1
+
+      [
+        {
+          "module": "user"
+        }
+      ]
+
+   :statuscode 200: ...
+   :statuscode 404: ...
+
+
+==============================================
+Traitement des retours de consultation périmés
+==============================================
+
+.. http:post:: /services/rest_entry.php/maintenance
+
+   **Requête** :
+
+   .. sourcecode:: http
+      
+      POST /services/rest_entry.php/maintenance HTTP/1.1
+
+      [
+        {
+          "module": "consultation"
+        }
+      ]
+
+   :statuscode 200: ...
+   :statuscode 404: ...
+
+
+========================================
+Traitement des événements suivant tacite
+========================================
+
+.. http:post:: /services/rest_entry.php/maintenance
+
+   **Requête** :
+
+   .. sourcecode:: http
+      
+      POST /services/rest_entry.php/maintenance HTTP/1.1
+
+      [
+        {
+          "module": "instruction"
+        }
+      ]
+
+   :statuscode 200: ...
+   :statuscode 404: ...
+
+
+==========================================================
+Importation des documents numérisés
+==========================================================
+
+.. http:post:: /services/rest_entry.php/maintenance
+
+   **Requête** :
+
+   .. sourcecode:: http
+      
+      POST /services/rest_entry.php/maintenance HTTP/1.1
+
+      [
+        {
+            "module": "import",
+            "data": {
+                // Ces deux paramètres sont facultatifs
+                "Todo" : "chemin_dossier_source", // ou "" pour utiliser le chemin dans la configuration
+                "Done" : "chemin_dossier_destination" // ou "" pour utiliser le chemin dans la configuration   
+            }
+        }
+      ]
+
+   :statuscode 200: ...
+   :statuscode 404: ...
+
+
+==========================================================
+Purge des documents numérisés
+==========================================================
+
+.. http:post:: /services/rest_entry.php/maintenance
+
+   **Requête** :
+
+   .. sourcecode:: http
+      
+      POST /services/rest_entry.php/maintenance HTTP/1.1
+
+      [
+        {
+            "module": "purge",
+            "data": {
+                // Ces trois paramètres sont facultatifs
+                "dossier": "chemin_dossier", // ou "" pour utiliser le chemin dans la configuration
+                "nombre_de_jour": nombre_de_jour, // ou "" pour n'imposer aucunes limites,
+                "dossier_vide" : true // ou false pour supprimer le répertoire si celui-ci est vide.
+            }
+        }
+      ]
+
+   :statuscode 200: ...
+   :statuscode 404: ...
+
+
+==========================================================
+Mise à jour de l'état des dossiers d'autorisations périmés
+==========================================================
+
+.. http:post:: /services/rest_entry.php/maintenance
+
+   **Requête** :
+
+   .. sourcecode:: http
+      
+      POST /services/rest_entry.php/maintenance HTTP/1.1
+
+      [
+        {
+            "module": "update_dossier_autorisation",
+        }
+      ]
+
+   :statuscode 200: ...
+   :statuscode 404: ...
+
+
+==========================================================
+Synchronisation des contraintes depuis le SIG
+==========================================================
+
+.. http:post:: /services/rest_entry.php/maintenance
+
+   **Requête** :
+
+   .. sourcecode:: http
+      
+      POST /services/rest_entry.php/maintenance HTTP/1.1
+
+      [
+        {
+            "module": "contrainte",
+        }
+      ]
+
+   :statuscode 200: ...
+   :statuscode 404: ...
+
+
+
+.. _web_services_ressource_arretes:
+
 Ressource "arretes"
-===================
+###################
 
 Cette ressource permet de mettre à jour le numéro d'arrêté d'un dossier 
 d'instruction.
 
-.. _web_services_rest_consultations:
+=================
+Vocabulaire `PUT`
+=================
 
-=========================
+*URI* :
+
+`services/rest_entry.php/arretes/<ID>`
+
+
+
+
+.. _web_services_ressource_consultations:
+
 Ressource "consultations"
-=========================
+#########################
 
 Cette ressource permet de mettre à jour une consultation d'openADS dont le retour 
 d'avis du service aura été saisie dans son propre logiciel (ERP).
 
-.. _web_services_rest_dossier_autorisations:
+=================
+Vocabulaire `PUT`
+=================
 
-=================================
+*URI* :
+
+`services/rest_entry.php/consultations/<ID>`
+
+*Exemples de contenu* :
+
+Retour d'avis d'une consultation sans fichier :
+
+.. code-block:: javascript
+
+    {
+        "date_retour": "14/01/2012",
+        "avis": "Favorable"
+    }
+
+
+Retour d'avis d'une consultation avec fichier :
+
+.. code-block:: javascript
+
+    {
+        "date_retour": "14/01/2012",
+        "avis": "Favorable",
+        "fichier_base64": "JVBERi0xLjQKJcOkw7zDtsOfCjIgM",
+        "nom_fichier": "plop.pdf"
+    }
+
+
+
+.. _web_services_ressource_dossier_autorisations:
+
 Ressource "dossier_autorisations"
-=================================
+#################################
 
-Cette ressource va mettre à jour les données d'un dossier d'autorisation dans 
-différent cas : ouverture de l'ERP (assignation d'un numéro ERP au bâtiment) et
-arrêté d'ouverture signé.
+Cette ressource permet d'interfacer un dossier d'autorisation.
 
-On pourra à partir de cette ressource consulter certaines des données 
-des dossiers d'autorisations.
+========================================
+Arrêté effectué sur l'AT (Échange n°208)
+========================================
 
-.. _web_services_rest_dossier_instructions:
 
-================================
+.. http:put:: /services/rest_entry.php/dossier_autorisations/(string:dossier_autorisation_id)
+
+   **Exemple de requête** :
+
+   .. sourcecode:: http
+      
+      PUT /services/rest_entry.php/dossier_autorisations/PC0130551601234 HTTP/1.1
+
+        {
+            "arrete_effectue":"some",
+            "date_arrete":"04/06/2014"
+        }
+
+   :statuscode 200: ...
+   :statuscode 404: ...
+
+
+===================================================================
+Mise à jour du statut ouvert de l'établissement ERP (Échange n°202)
+===================================================================
+
+.. code-block:: javascript
+
+    {
+        "erp_ouvert":"12345",
+        "date_arrete":"some"
+    }
+
+============================================================
+Mise à jour du numéro de l'établissement ERP (Échange n°201)
+============================================================
+
+.. code-block:: javascript
+
+    {
+        "numero_erp":"12345",
+        "avis":"some"
+    }
+
+
+=================
+Vocabulaire `GET`
+=================
+
+*URI* :
+
+`services/rest_entry.php/dossier_autorisations/<ID>`
+
+
+
+.. _web_services_ressource_dossier_instructions:
+
 Ressource "dossier_instructions"
-================================
+################################
 
-Cette ressource sert à signaler qu'un dossier d'instruction de type AT est 
-complété ou clôturé.
+Cette ressource permet d'interfacer un dossier d'instruction.
 
-Pour que cette ressource ajoute au dossier d'instruction ciblé le bon événement
-de complétude ou de clôture, il faut renseigner les identifants des événements dans 
-les paramètres 'id_evenement_completude_at' et 'id_evenement_cloture_at'.
+=============
+Échange n°211
+=============
 
-(:menuselection:`Administration --> Paramètre`)
+.. http:put:: /services/rest_entry.php/dossier_instructions/(string:dossier_instruction_id)
 
-.. _web_services_rest_maintenance:
+   **Exemple de requête** :
 
-=======================
-Ressource "maintenance"
-=======================
+   .. sourcecode:: http
+      
+      PUT /services/rest_entry.php/dossier_instructions/PC0130551601234P0 HTTP/1.1
 
-Les actions de cette ressource sont expliquées dans 
-:ref:`Liés à des CRONs <web_services_rest_lies_a_des_crons>`
+        {
+            "message":"clos",
+            "date":"27/10/2013"
+        }
 
-.. _web_services_rest_messages:
+   :statuscode 200: ...
+   :statuscode 404: ...
 
-====================
+=============
+Échange n°210
+=============
+
+.. http:put:: /services/rest_entry.php/dossier_instructions/(string:dossier_instruction_id)
+
+   **Exemple de requête** :
+
+   .. sourcecode:: http
+      
+      PUT /services/rest_entry.php/dossier_instructions/PC0130551601234P0 HTTP/1.1
+
+        {
+            "message":"complet",
+            "date":"27/10/2013"
+        }
+
+   :statuscode 200: ...
+   :statuscode 404: ...
+
+
+.. _web_services_ressource_messages:
+
 Ressource "messages"
-====================
-
-Cette ressource permet d'indiquer au service ADS qu'un dossier d'instruction est
-complet ou pas, d'indiquer d'un dossier a été qualifié ou que certains dossiers 
-d'instruction sont à enjeux.
-
-Sortants (ADS → ERP)
 ####################
 
-============
-Consultation
-============
+Cette ressource permet d'interfacer un message.
 
-Une demande d'instruction d'un dossier d'instruction de type PC pour un ERP 
-et l'ajout d'une consultation ERP pour conformité sur un dossier d'instruction 
-de type PC déclenchent l'envoi d'un message vers ERP.
+=============
+Échange n°204
+=============
 
-===========
-Instruction
-===========
+.. http:post:: /services/rest_entry.php/messages
 
-Les actions qui déclenchent l'envoi d'un message vers le référentiel arrêté sont :
+   **Exemple de requête** :
 
-- l'ajout de l'événement d'instruction d'arrêté sur un dossier d'instruction de type PC ;
+   .. sourcecode:: http
+      
+      POST /services/rest_entry.php/messages HTTP/1.1
 
-- l'ajout de l'événement d'instruction d'arrêté sur un dossier d'instruction.
+        {
+            "type": "Mise à jour de complétude ERP ACC",
+            "date": "16/06/2014 14:12",
+            "emetteur": "John Doe",
+            "dossier_instruction": "PD12R0001",
+            "contenu": {
+                "Complétude ERP ACC": "non",
+                "Motivation Complétude ERP ACC": "Lorem ipsum dolor sit amet..."
+            }
+        }
 
-Une fois la décision de conformité rendue un message est envoyé vers ERP.
+   :statuscode 200: ...
+   :statuscode 404: ...
 
-=====
-Pièce
-=====
 
-L'ajout de pièces à un dossier d'instruction de type AT déclenche l'envoi d'un 
-message vers ERP.
+=============
+Échange n°205
+=============
 
-=====================
-Dossier d'instruction
-=====================
+.. http:post:: /services/rest_entry.php/messages
 
-Les actions qui déclenchent l'envoi d'un message vers ERP sont :
+   **Exemple de requête** :
 
-- le dépôt d'un dossier d'instruction de type DAT ;
+   .. sourcecode:: http
+      
+      POST /services/rest_entry.php/messages HTTP/1.1
 
-- la demande d'ouverture d'un ERP sur un dossier d'instruction de type DAT ;
+        {
+            "type": "Mise à jour de complétude ERP SECU",
+            "date": "16/06/2014 14:12",
+            "emetteur": "John Doe",
+            "dossier_instruction": "PD12R0001",
+            "contenu": {
+                "Complétude ERP SECU": "oui",
+                "Motivation Complétude ERP SECU": "Lorem ipsum dolor sit amet..."
+            }
+        }
 
-- si on annule la demande précédente ;
+   :statuscode 200: ...
+   :statuscode 404: ...
 
-- la demande d'ouverture d'un ERP sur un dossier d'instruction de type PC ;
 
-- si un dossier d'instruction de type DAT a besoin de la qualification URBA ;
+=============
+Échange n°206
+=============
 
-- la demande de complétude d'un dossier d'instruction de type PC pour un ERP ;
+.. http:post:: /services/rest_entry.php/messages
 
-- la demande de qualification d'un dossier d'instruction de type PC pour un ERP.
+   **Exemple de requête** :
 
-.. _web_services_rest_lies_a_des_crons:
+   .. sourcecode:: http
+      
+      POST /services/rest_entry.php/messages HTTP/1.1
 
-Liés à des CRONs
-################
+        {
+            "type": "Mise à jour de qualification",
+            "date": "16/06/2014 14:12",
+            "emetteur": "John Doe",
+            "dossier_instruction": "PD12R0001",
+            "contenu": {
+                "Confirmation ERP": "oui",
+                "Type de dossier ERP": "Lorem ipsum dolor sit amet...",
+                "Catégorie de dossier ERP": "Lorem ipsum dolor sit amet..."
+            }
+        }
 
-Certaines fonctionnalités de l'application ont besoin d'être effectuées de 
-manière journalière. Elles ont été liées à un CRON.
+   :statuscode 200: ...
+   :statuscode 404: ...
 
-Cinq CRONs différents ont été configurés.
 
-Le premier sert à mettre à jour les utilisateurs de l'application via un LDAP.
+=============
+Échange n°207
+=============
 
-Le second met à jour les consultations dont la date tacite est passée.
+.. http:post:: /services/rest_entry.php/messages
 
-Le troisième met à jour les dossiers d'instruction dont la date tacité est 
-passée.
+   **Exemple de requête** :
 
-Le quatrième gère la péremption des dossiers d'autorisation.
+   .. sourcecode:: http
+      
+      POST /services/rest_entry.php/messages HTTP/1.1
 
-Le dernier synchronise les contraintes du SIG avec celles de l'application.
+        {
+            "type": "Dossier à enjeux ERP",
+            "date": "16/06/2014 14:12",
+            "emetteur": "John Doe",
+            "dossier_instruction": "PD12R0001",
+            "contenu": {
+                "Dossier à enjeux ERP" : "oui"
+            }
+        }
+
+   :statuscode 200: ...
+   :statuscode 404: ...
+
