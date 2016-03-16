@@ -24,7 +24,7 @@ Exemple :
 
 .. important:: Le paramètre "option_sig" doit être positionnée à la valeur "sig_externe"
 
-.. important:: La clé sig-default doit être ajoutée au script database sig.inc.php.
+.. important:: La clé sig-default doit être ajoutée au script database.inc.php.
                La clé du tabeau de configuration du SIG correspond à l'identifiant
                de la collectivité pour laquelle le connecteur est disponible
                (si collectivité multi, les collectivités mono auront accès
