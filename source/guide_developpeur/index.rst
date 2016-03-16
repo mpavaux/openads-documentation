@@ -12,3 +12,4 @@ Guide du développeur
     widget.rst
     migration.rst
     installation_parametrage.rst
+    plugins.rst
