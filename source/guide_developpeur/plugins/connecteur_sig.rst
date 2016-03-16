@@ -1,7 +1,7 @@
 .. _connecteur_sig:
 
 ###################
-les connecteurs SIG
+Les connecteurs SIG
 ###################
 
 Les connecteurs SIG permettent de faire le lien entre openads et différents SIG.
