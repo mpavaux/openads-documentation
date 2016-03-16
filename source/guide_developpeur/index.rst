@@ -9,7 +9,7 @@ Guide du développeur
 
     principes_integration.rst
     geolocalisation.rst
-    widget.rst
-    migration.rst
     installation_parametrage.rst
     plugins.rst
+    web_services_rest.rst
+
