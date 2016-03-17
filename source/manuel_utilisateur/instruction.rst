@@ -77,6 +77,8 @@ Régénérer le récépissé
 * Disponible si l'utilisateur a un droit spécifique, s'il n'y a qu'un événement d'instruction sur le dossier et qu'il s'agit du récépissé de la demande.
 * Régénère l'événement d'instruction du récépissé de la demande et affiche un lien pour le télécharger.
 
+.. _instruction_portlet_generate_citizen_access_key:
+
 Générer la clé d'accès au portail citoyen
 =========================================
 
@@ -84,6 +86,8 @@ Générer la clé d'accès au portail citoyen
 
 Si l'option d'accès au portail citoyen détaillée dans :ref:`cette rubrique <parametrage_parametre>` n'est pas activée lors de la création du dossier, alors celui-ci n'a pas de clé d'accès au portail citoyen.
 Cette action permet de générer une clé d'accès, qui permettra au demandeur de suivre l'avancement de sa demande via le portail citoyen.
+
+.. _instruction_portlet_regenerate_citizen_access_key:
 
 Régénérer la clé d'accès au portail citoyen
 ===========================================
