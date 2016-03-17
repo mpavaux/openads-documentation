@@ -14,165 +14,172 @@ Ressource "maintenance"
 Synchronisation des utilisateurs via un annuaire
 ================================================
 
-.. http:post:: /services/rest_entry.php/maintenance
+.. http:post:: /openads/services/rest_entry.php/maintenance
 
-   **Requête** :
+   **Exemple de requête** :
 
    .. sourcecode:: http
       
-      POST /services/rest_entry.php/maintenance HTTP/1.1
+      POST /openads/services/rest_entry.php/maintenance HTTP/1.1
+      Host: localhost
 
-      [
-        {
-          "module": "user"
-        }
-      ]
+      {
+        "module": "user"
+      }
 
-   :statuscode 200: ...
-   :statuscode 404: ...
+   **Exemple de réponse** :
+
+   .. sourcecode:: http
+
+      HTTP/1.1 500 Internal Server Error
+      Content-Type: text/javascript
+
+      {
+        "http_code": 500,
+        "http_code_message": "500 Internal Server Error",
+        "message": "Erreur interne"
+      }
+
+   :statuscode 200: Tout s'est déroulé correctement.
+   :statuscode 500: Erreur interne.
 
 
 ==============================================
 Traitement des retours de consultation périmés
 ==============================================
 
-.. http:post:: /services/rest_entry.php/maintenance
+.. http:post:: /openads/services/rest_entry.php/maintenance
 
-   **Requête** :
+   **Exemple de requête** :
 
    .. sourcecode:: http
       
-      POST /services/rest_entry.php/maintenance HTTP/1.1
+      POST /openads/services/rest_entry.php/maintenance HTTP/1.1
+      Host: localhost
 
-      [
-        {
-          "module": "consultation"
-        }
-      ]
+      {
+        "module": "consultation"
+      }
 
-   :statuscode 200: ...
-   :statuscode 404: ...
+   **Exemple de réponse** :
+
+   .. sourcecode:: http
+
+      HTTP/1.1 200 OK
+      Content-Type: text/javascript
+
+      {
+        "http_code": 200,
+        "http_code_message": "200 OK",
+        "message": "Aucune mise a jour."
+      }
+
 
 
 ========================================
 Traitement des événements suivant tacite
 ========================================
 
-.. http:post:: /services/rest_entry.php/maintenance
+.. http:post:: /openads/services/rest_entry.php/maintenance
 
-   **Requête** :
+   **Exemple de requête** :
 
    .. sourcecode:: http
       
-      POST /services/rest_entry.php/maintenance HTTP/1.1
+      POST /openads/services/rest_entry.php/maintenance HTTP/1.1
+      Host: localhost
 
-      [
-        {
-          "module": "instruction"
-        }
-      ]
+      {
+        "module": "instruction"
+      }
 
-   :statuscode 200: ...
-   :statuscode 404: ...
 
 
 ==========================================================
 Importation des documents numérisés
 ==========================================================
 
-.. http:post:: /services/rest_entry.php/maintenance
+.. http:post:: /openads/services/rest_entry.php/maintenance
 
-   **Requête** :
+   **Exemple de requête** :
 
    .. sourcecode:: http
       
-      POST /services/rest_entry.php/maintenance HTTP/1.1
+      POST /openads/services/rest_entry.php/maintenance HTTP/1.1
+      Host: localhost
 
-      [
-        {
-            "module": "import",
-            "data": {
-                // Ces deux paramètres sont facultatifs
-                "Todo" : "chemin_dossier_source", // ou "" pour utiliser le chemin dans la configuration
-                "Done" : "chemin_dossier_destination" // ou "" pour utiliser le chemin dans la configuration   
-            }
+      {
+        "module": "import",
+        "data": {
+          // Ces deux paramètres sont facultatifs
+          "Todo" : "chemin_dossier_source", // ou "" pour utiliser le chemin dans la configuration
+          "Done" : "chemin_dossier_destination" // ou "" pour utiliser le chemin dans la configuration   
         }
-      ]
+      }
 
-   :statuscode 200: ...
-   :statuscode 404: ...
 
 
 ==========================================================
 Purge des documents numérisés
 ==========================================================
 
-.. http:post:: /services/rest_entry.php/maintenance
+.. http:post:: /openads/services/rest_entry.php/maintenance
 
-   **Requête** :
+   **Exemple de requête** :
 
    .. sourcecode:: http
       
-      POST /services/rest_entry.php/maintenance HTTP/1.1
+      POST /openads/services/rest_entry.php/maintenance HTTP/1.1
+      Host: localhost
 
-      [
-        {
-            "module": "purge",
-            "data": {
-                // Ces trois paramètres sont facultatifs
-                "dossier": "chemin_dossier", // ou "" pour utiliser le chemin dans la configuration
-                "nombre_de_jour": nombre_de_jour, // ou "" pour n'imposer aucunes limites,
-                "dossier_vide" : true // ou false pour supprimer le répertoire si celui-ci est vide.
-            }
+      {
+        "module": "purge",
+        "data": {
+          // Ces trois paramètres sont facultatifs
+          "dossier": "chemin_dossier", // ou "" pour utiliser le chemin dans la configuration
+          "nombre_de_jour": nombre_de_jour, // ou "" pour n'imposer aucunes limites,
+          "dossier_vide" : true // ou false pour supprimer le répertoire si celui-ci est vide.
         }
-      ]
+      }
 
-   :statuscode 200: ...
-   :statuscode 404: ...
 
 
 ==========================================================
 Mise à jour de l'état des dossiers d'autorisations périmés
 ==========================================================
 
-.. http:post:: /services/rest_entry.php/maintenance
+.. http:post:: /openads/services/rest_entry.php/maintenance
 
-   **Requête** :
+   **Exemple de requête** :
 
    .. sourcecode:: http
       
-      POST /services/rest_entry.php/maintenance HTTP/1.1
+      POST /openads/services/rest_entry.php/maintenance HTTP/1.1
+      Host: localhost
 
-      [
-        {
-            "module": "update_dossier_autorisation",
-        }
-      ]
+      {
+        "module": "update_dossier_autorisation",
+      }
 
-   :statuscode 200: ...
-   :statuscode 404: ...
 
 
 ==========================================================
 Synchronisation des contraintes depuis le SIG
 ==========================================================
 
-.. http:post:: /services/rest_entry.php/maintenance
+.. http:post:: /openads/services/rest_entry.php/maintenance
 
-   **Requête** :
+   **Exemple de requête** :
 
    .. sourcecode:: http
       
-      POST /services/rest_entry.php/maintenance HTTP/1.1
+      POST /openads/services/rest_entry.php/maintenance HTTP/1.1
+      Host: localhost
 
-      [
-        {
-            "module": "contrainte",
-        }
-      ]
+      {
+        "module": "contrainte",
+      }
 
-   :statuscode 200: ...
-   :statuscode 404: ...
 
 
 
@@ -184,55 +191,56 @@ Ressource "arretes"
 Cette ressource permet de mettre à jour le numéro d'arrêté d'un dossier 
 d'instruction.
 
-=================
-Vocabulaire `PUT`
-=================
 
-*URI* :
+.. http:put:: /openads/services/rest_entry.php/arretes/()
 
-`services/rest_entry.php/arretes/<ID>`
+   **Exemple de requête** :
 
+   .. sourcecode:: http
+      
+      POST /openads/services/rest_entry.php/arretes/ HTTP/1.1
+      Host: localhost
 
+      {
+      }
 
-
-.. _web_services_ressource_consultations:
 
 Ressource "consultations"
 #########################
 
-Cette ressource permet de mettre à jour une consultation d'openADS dont le retour 
-d'avis du service aura été saisie dans son propre logiciel (ERP).
+Cette ressource permet d'interfacer une consultation de service.
 
-=================
-Vocabulaire `PUT`
-=================
+======================================
+Retour de consultation (Échange n°209)
+======================================
 
-*URI* :
+.. http:put:: /openads/services/rest_entry.php/consultations/(int:consultation_id)
 
-`services/rest_entry.php/consultations/<ID>`
+   **Exemple de requête** : Retour d'avis d'une consultation sans fichier
 
-*Exemples de contenu* :
+   .. sourcecode:: http
+      
+      PUT /openads/services/rest_entry.php/consultations/12 HTTP/1.1
+      Host: localhost
 
-Retour d'avis d'une consultation sans fichier :
-
-.. code-block:: javascript
-
-    {
+      {
         "date_retour": "14/01/2012",
         "avis": "Favorable"
-    }
+      }
 
+   **Exemple de requête** : Retour d'avis d'une consultation avec fichier
 
-Retour d'avis d'une consultation avec fichier :
+   .. sourcecode:: http
+      
+      PUT /openads/services/rest_entry.php/consultations/12 HTTP/1.1
+      Host: localhost
 
-.. code-block:: javascript
-
-    {
+      {
         "date_retour": "14/01/2012",
         "avis": "Favorable",
         "fichier_base64": "JVBERi0xLjQKJcOkw7zDtsOfCjIgM",
         "nom_fichier": "plop.pdf"
-    }
+      }
 
 
 
@@ -248,53 +256,72 @@ Arrêté effectué sur l'AT (Échange n°208)
 ========================================
 
 
-.. http:put:: /services/rest_entry.php/dossier_autorisations/(string:dossier_autorisation_id)
+.. http:put:: /openads/services/rest_entry.php/dossier_autorisations/(string:dossier_autorisation_id)
 
    **Exemple de requête** :
 
    .. sourcecode:: http
       
-      PUT /services/rest_entry.php/dossier_autorisations/PC0130551601234 HTTP/1.1
+      PUT /openads/services/rest_entry.php/dossier_autorisations/PC0130551601234 HTTP/1.1
+      Host: localhost
 
-        {
-            "arrete_effectue":"some",
-            "date_arrete":"04/06/2014"
-        }
+      {
+        "arrete_effectue":"some",
+        "date_arrete":"04/06/2014"
+      }
 
-   :statuscode 200: ...
-   :statuscode 404: ...
 
 
 ===================================================================
 Mise à jour du statut ouvert de l'établissement ERP (Échange n°202)
 ===================================================================
 
-.. code-block:: javascript
+.. http:put:: /openads/services/rest_entry.php/dossier_autorisations/(string:dossier_autorisation_id)
 
-    {
+   **Exemple de requête** :
+
+   .. sourcecode:: http
+      
+      PUT /openads/services/rest_entry.php/dossier_autorisations/PC0130551601234 HTTP/1.1
+      Host: localhost
+
+      {
         "erp_ouvert":"12345",
         "date_arrete":"some"
-    }
+      }
 
 ============================================================
 Mise à jour du numéro de l'établissement ERP (Échange n°201)
 ============================================================
 
-.. code-block:: javascript
+.. http:put:: /openads/services/rest_entry.php/dossier_autorisations/(string:dossier_autorisation_id)
 
-    {
+   **Exemple de requête** :
+
+   .. sourcecode:: http
+      
+      PUT /openads/services/rest_entry.php/dossier_autorisations/PC0130551601234 HTTP/1.1
+      Host: localhost
+
+      {
         "numero_erp":"12345",
         "avis":"some"
-    }
+      }
 
 
-=================
-Vocabulaire `GET`
-=================
+===============
+(Échange n°203)
+===============
 
-*URI* :
+.. http:put:: /openads/services/rest_entry.php/dossier_autorisations/(string:dossier_autorisation_id)
 
-`services/rest_entry.php/dossier_autorisations/<ID>`
+   **Exemple de requête** :
+
+   .. sourcecode:: http
+      
+      GET /openads/services/rest_entry.php/dossier_autorisations/PC0130551601234 HTTP/1.1
+      Host: localhost
+
 
 
 
@@ -309,41 +336,39 @@ Cette ressource permet d'interfacer un dossier d'instruction.
 Échange n°211
 =============
 
-.. http:put:: /services/rest_entry.php/dossier_instructions/(string:dossier_instruction_id)
+.. http:put:: /openads/services/rest_entry.php/dossier_instructions/(string:dossier_instruction_id)
 
    **Exemple de requête** :
 
    .. sourcecode:: http
       
-      PUT /services/rest_entry.php/dossier_instructions/PC0130551601234P0 HTTP/1.1
+      PUT /openads/services/rest_entry.php/dossier_instructions/PC0130551601234P0 HTTP/1.1
+      Host: localhost
 
         {
             "message":"clos",
             "date":"27/10/2013"
         }
 
-   :statuscode 200: ...
-   :statuscode 404: ...
 
 =============
 Échange n°210
 =============
 
-.. http:put:: /services/rest_entry.php/dossier_instructions/(string:dossier_instruction_id)
+.. http:put:: /openads/services/rest_entry.php/dossier_instructions/(string:dossier_instruction_id)
 
    **Exemple de requête** :
 
    .. sourcecode:: http
       
-      PUT /services/rest_entry.php/dossier_instructions/PC0130551601234P0 HTTP/1.1
+      PUT /openads/services/rest_entry.php/dossier_instructions/PC0130551601234P0 HTTP/1.1
+      Host: localhost
 
         {
             "message":"complet",
             "date":"27/10/2013"
         }
 
-   :statuscode 200: ...
-   :statuscode 404: ...
 
 
 .. _web_services_ressource_messages:
@@ -357,13 +382,14 @@ Cette ressource permet d'interfacer un message.
 Échange n°204
 =============
 
-.. http:post:: /services/rest_entry.php/messages
+.. http:post:: /openads/services/rest_entry.php/messages
 
    **Exemple de requête** :
 
    .. sourcecode:: http
       
-      POST /services/rest_entry.php/messages HTTP/1.1
+      POST /openads/services/rest_entry.php/messages HTTP/1.1
+      Host: localhost
 
         {
             "type": "Mise à jour de complétude ERP ACC",
@@ -376,22 +402,20 @@ Cette ressource permet d'interfacer un message.
             }
         }
 
-   :statuscode 200: ...
-   :statuscode 404: ...
 
 
 =============
 Échange n°205
 =============
 
-.. http:post:: /services/rest_entry.php/messages
+.. http:post:: /openads/services/rest_entry.php/messages
 
    **Exemple de requête** :
 
    .. sourcecode:: http
       
-      POST /services/rest_entry.php/messages HTTP/1.1
-
+      POST /openads/services/rest_entry.php/messages HTTP/1.1
+      Host: localhost
         {
             "type": "Mise à jour de complétude ERP SECU",
             "date": "16/06/2014 14:12",
@@ -403,60 +427,56 @@ Cette ressource permet d'interfacer un message.
             }
         }
 
-   :statuscode 200: ...
-   :statuscode 404: ...
 
 
 =============
 Échange n°206
 =============
 
-.. http:post:: /services/rest_entry.php/messages
+.. http:post:: /openads/services/rest_entry.php/messages
 
    **Exemple de requête** :
 
    .. sourcecode:: http
       
-      POST /services/rest_entry.php/messages HTTP/1.1
+      POST /openads/services/rest_entry.php/messages HTTP/1.1
+      Host: localhost
 
-        {
-            "type": "Mise à jour de qualification",
-            "date": "16/06/2014 14:12",
-            "emetteur": "John Doe",
-            "dossier_instruction": "PD12R0001",
-            "contenu": {
-                "Confirmation ERP": "oui",
-                "Type de dossier ERP": "Lorem ipsum dolor sit amet...",
+      {
+        "type": "Mise à jour de qualification",
+        "date": "16/06/2014 14:12",
+        "emetteur": "John Doe",
+        "dossier_instruction": "PD12R0001",
+        "contenu": {
+          "Confirmation ERP": "oui",
+          "Type de dossier ERP": "Lorem ipsum dolor sit amet...",
                 "Catégorie de dossier ERP": "Lorem ipsum dolor sit amet..."
             }
-        }
+        } 
 
-   :statuscode 200: ...
-   :statuscode 404: ...
 
 
 =============
 Échange n°207
 =============
 
-.. http:post:: /services/rest_entry.php/messages
+.. http:post:: /openads/services/rest_entry.php/messages
 
    **Exemple de requête** :
 
    .. sourcecode:: http
       
-      POST /services/rest_entry.php/messages HTTP/1.1
+      POST /openads/services/rest_entry.php/messages HTTP/1.1
+      Host: localhost
 
-        {
-            "type": "Dossier à enjeux ERP",
-            "date": "16/06/2014 14:12",
-            "emetteur": "John Doe",
-            "dossier_instruction": "PD12R0001",
-            "contenu": {
-                "Dossier à enjeux ERP" : "oui"
-            }
+      {
+        "type": "Dossier à enjeux ERP",
+        "date": "16/06/2014 14:12",
+        "emetteur": "John Doe",
+        "dossier_instruction": "PD12R0001",
+        "contenu": {
+          "Dossier à enjeux ERP" : "oui"
         }
+      }
 
-   :statuscode 200: ...
-   :statuscode 404: ...
 
