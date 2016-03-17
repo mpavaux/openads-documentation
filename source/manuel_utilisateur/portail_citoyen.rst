@@ -7,7 +7,7 @@ Portail citoyen
 Lors de l’enregistrement d'un nouveau dossier au guichet unique, le citoyen reçoit son récépissé. Celui-ci l'informe des modalités, délais correspondant à son dossier et, lorsque l'accès au portail citoyen est activé, des modalités de connexion (adresse web et clé d'accès) au portail citoyen.
 Il pourra alors se rendre à l'adresse indiquée sur le récépissé et accéder à la synthèse de son dossier d'autorisation.
 
-Il est également possible, lorsque l'accès au portail citoyen est activé, de :ref:`générer <instruction_portlet_generate_citizen_access_key>` ou de :ref:`régénérer <instruction_portlet_regenerate_citizen_access_key>` une clé de connexion depuis le dossier d'instruction et de la transmettre au pétitionnaire grâce à l'événement d'instruction par défaut "**Lettre d'information d'accès citoyen**"
+Il est également possible, lorsque l'accès au portail citoyen est activé, de :ref:`générer <instruction_portlet_generate_citizen_access_key>` ou de :ref:`régénérer <instruction_portlet_regenerate_citizen_access_key>` une clé de connexion depuis le dossier d'instruction et de la transmettre au pétitionnaire grâce à l'événement d'instruction "Lettre d'information d'accès citoyen" disponible par défaut dans l'application.
 
 .. _portail_citoyen_configuration:
 
