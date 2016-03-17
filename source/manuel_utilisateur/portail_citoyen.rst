@@ -4,24 +4,25 @@
 Portail citoyen
 ###############
 
-Si l'option d'accès au portail citoyen détaillée dans :ref:`cette rubrique <parametrage_parametre>`
-est activée, les pétitionnaires ont la possibilité de suivre l'avancement de leur demande
-en temps réel par le biais du portail citoyen.
+Lors de l’enregistrement d'un nouveau dossier au guichet unique, le citoyen reçoit son récépissé. Celui-ci l'informe des modalités, délais correspondant à son dossier et, lorsque l'accès au portail citoyen est activé, des modalités de connexion (adresse web et clé d'accès) au portail citoyen.
+Il pourra alors se rendre à l'adresse indiquée sur le récépissé et accéder à la synthèse de son dossier d'autorisation.
 
-.. _portail_citoyen_adresse:
+Il est également possible, lorsque l'accès au portail citoyen est activé, de :ref:`générer <instruction_portlet_generate_citizen_access_key>` ou de :ref:`régénérer <instruction_portlet_regenerate_citizen_access_key>` une clé de connexion depuis le dossier d'instruction et de la transmettre au pétitionnaire grâce à l'événement d'instruction par défaut "**Lettre d'information d'accès citoyen**"
 
-Le lien vers le portail citoyen
-###############################
+.. _portail_citoyen_configuration:
 
-Depuis les éditions, afin de renseigner les pétitionnaires sur la possibilité d'accéder à un portail citoyen, il est conseillé d'utiliser la variable de remplacement **acces_citoyen**.
-Cette variable est interprétée seulement si l'option d'accès au portail citoyen est activée.
-Elle pourrait contenir un texte d'explication sur la connexion, par exemple "Vous pouvez consulter directement votre dossier par internet à l'adresse &acces_citoyen_adresse et en saisissant votre numéro de dossier ainsi que la clé d'accès [cle_acces_citoyen]."
+Configuration du portail citoyen
+################################
 
-La variable de remplacement **acces_citoyen_adresse** définit le lien vers le portail citoyen.
-Le portail citoyen est capable d'être intégré à un site internet.
+Liste des points de configuration :
 
-Le champ de fusion **[cle_acces_citoyen]**, étant disponible sur toutes les éditions d'instruction, permet d'afficher la clé générée automatiquement à la création du dossier. Elle se compose de quatre groupes de quatre chiffres séparés par des tirets.
-Exemple : "0000-1111-2222-3333".
+* **option_portail_acces_citoyen** : permet d'activer ou de désactiver l'accès au portail citoyen. La valeur à saisir pour l'activer est "**true**" et celle pour la désactiver est "**false**". Par défaut, la valeur est "false".
+
+* **acces_citoyen** : depuis les éditions, afin de renseigner les pétitionnaires sur la possibilité d'accéder à un portail citoyen, il est conseillé d'utiliser cette variable de remplacement intelligente. Elle ne sera pas interprétée si l'option est désactivée. Par défaut sa valeur est "Vous pouvez consulter directement votre dossier par internet à l'adresse **&acces_citoyen_adresse** et en saisissant votre numéro de dossier ainsi que la clé d'accès **[cle_acces_citoyen]**."
+
+* **acces_citoyen_adresse** : définit le lien vers le portail citoyen. Par exemple "citoyen.openmairie.org/openads/". Le portail citoyen est capable d'être intégré sur un site internet.
+
+* **[cle_acces_citoyen]** : ce champ de fusion, utilisé par défaut dans **acces_citoyen**, est disponible sur toutes les éditions d'instruction. Il permet d'afficher la clé de connexion propre à chaque dossier qui se compose de quatre groupes de quatre chiffres séparés par des tirets. Par exemple "0000-1111-2222-3333".
 
 .. _portail_citoyen_page_acces:
 
