@@ -174,11 +174,6 @@ présentes sur le SIG ne seront pas modifiées par openADS.
 * **X contraintes à modifier** : Contraintes ayant subi une modification de groupe, sous-groupe ou libelle etc. sur le SIG
 * **X contrainte(s) archivée(s)** : Contraintes n'étant plus valides
 
-.. sidebar:: Note :
-
-    Les contraintes de l'application sont comparées avec celles du SIG sur la base de l'identifiant de la contrainte sur le SIG.
-    
-
 Les contraintes référencées comme venant du SIG
 ===============================================
 
