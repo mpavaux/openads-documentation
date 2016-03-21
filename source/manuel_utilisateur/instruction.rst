@@ -331,3 +331,17 @@ automatiquement. Les contraintes récupérées automatiquement puis modifiées n
 sont plus référencées comme provenant du SIG.
 
 .. image:: instruction_geolocalisation_view.png
+
+=============
+Dossiers liés
+=============
+
+.. image:: instruction_dossiers_lies.png
+
+Cet onglet liste les dossiers d'autorisation et d'instruction qui sont liés au DI sur
+lequel on se situe. Il est composé de 3 tableaux :
+
+    * En orange : le dossier d'autorisation rattaché au DI courant.
+    * En violet : le ou les DI liés au même dossier d'autorisation que le DI courant.
+    * En vert : le ou les dossiers d'autorisation ayant au moins une parcelle en commun
+    avec le DI courant.
