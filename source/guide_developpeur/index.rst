@@ -5,6 +5,7 @@ Guide du développeur
 ####################
 
 .. toctree::
+    :maxdepth: 2
     :numbered:
 
     geolocalisation.rst
