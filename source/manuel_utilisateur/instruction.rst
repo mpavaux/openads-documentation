@@ -343,5 +343,5 @@ lequel on se situe. Il est composé de 3 tableaux :
 
     * En orange : le dossier d'autorisation rattaché au DI courant.
     * En violet : le ou les DI liés au même dossier d'autorisation que le DI courant.
-    * En vert : le ou les dossiers d'autorisation ayant au moins une parcelle en commun
-    avec le DI courant.
+    * En vert : le ou les dossiers d'autorisation ayant au moins une parcelle en commun avec le DI courant.
+
