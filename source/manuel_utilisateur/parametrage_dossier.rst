@@ -402,6 +402,7 @@ Les informations à saisir sont  :
 * **lettre type** : (voir :ref:`parametrage_dossiers_om_etat_lettretype`).
 * **consultation** : cette case à cocher est présente pour afficher la liste
   des consultations dans l'édition.
+* **phase** : liste à choix des :ref:`phases <parametrage_phase>` à afficher sur la lettre recommandée.
 * **autorité compétente** : liste des autorité possible
   des consultations dans l'édition.
 * **événement suivant tacite** : événement déclenché automatiquement lorsque la
