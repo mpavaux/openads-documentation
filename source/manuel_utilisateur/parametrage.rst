@@ -267,4 +267,4 @@ Le formulaire est constitué de seulement trois champs :
 
 Les codes des phases permettent un aiguillage efficace lors du retour de l'avis de réception des lettres recommandées.
 
-Le code de la phase est affichée seulement sur les lettres recommandées des :ref:`événements <parametrage_dossiers_evenement>` dont la phase est paramétrée.
+Le code de la phase est affichée seulement sur les :ref:`lettres recommandées <suivi_envoi_lettre_rar>` des :ref:`événements <parametrage_dossiers_evenement>` dont la phase est paramétrée.
