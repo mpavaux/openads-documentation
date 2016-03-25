@@ -193,26 +193,36 @@ Finalisation
 Finalisation des documents de l'instruction
 ===========================================
 
+Le principe
+###########
+
 Pour finaliser l'édition de l'instruction, il faut cliquer sur le lien "Finaliser le document" du portail d'action de la visualisation.
 
 .. image:: portlet_finaliser.png
 
-Au clique sur le lien de l'édition dans le portail d'action de la visualisation de l'instruction, le document sera ouvert depuis le stockage au format PDF.
+Au clic sur le lien de l'édition dans le portail d'action de la visualisation de l'instruction, le document sera ouvert depuis le stockage au format PDF.
 
 L'instruction n'est plus ni modifiable, ni supprimable.
 
-Il est aussi possible de dé-finaliser le document au clique sur le lien "Reprendre la rédaction du document".
+Il est aussi possible de dé-finaliser le document au clic sur le lien "Reprendre la rédaction du document".
 
 .. image:: portlet_definaliser.png
 
 Lorsque le document est finalisé certaines informations concernant le dossier
 lui sont associées lors de l'enregistrement.
 
-Il est aussi possible de dé-finaliser le document au clique sur le lien "Reprendre la rédaction du document".
+Il est aussi possible de dé-finaliser le document au clic sur le lien "Reprendre la rédaction du document".
 
-Le clique sur le lien de l'édition dans le portail d'action de la visualisation de l'instruction ouvrira le document généré à la volée au format PDF.
+Le clic sur le lien de l'édition dans le portail d'action de la visualisation de l'instruction ouvrira le document généré à la volée au format PDF.
 
 L'instruction est à nouveau modifiable et supprimable.
+
+La mise à jour des dates depuis l'instruction
+#############################################
+
+Les profils administrateur ont accès, lorsqu'une instruction est finalisée, à la modification des dates sans avoir à définaliser l'instruction. Il faut pour cela cliquer sur le bouton du portail d'action "Suivi des dates" :
+
+.. image:: instruction_portlet_mise_a_jour_des_dates.png
 
 
 Finalisation des documents du rapport d'instruction
