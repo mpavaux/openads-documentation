@@ -218,7 +218,7 @@ Le clic sur le lien de l'édition dans le portail d'action de la visualisation d
 L'instruction est à nouveau modifiable et supprimable.
 
 La mise à jour des dates de suivi depuis l'instruction
-#############################################
+######################################################
 
 Les profils administrateur ont accès, lorsqu'une instruction est finalisée, à la modification des dates de suivi sans avoir à définaliser l'instruction. Il faut pour cela cliquer sur le bouton du portail d'action "Suivi des dates".
 
