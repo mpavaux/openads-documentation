@@ -103,13 +103,13 @@ est adapté pour être imprimé sur les pré-imprimés RAR de La Poste.
 
 Un seul fichier contient tous les RAR dans l'ordre de bip.
 
-Exemple avec étiquette de la poste :
+Exemple avec une étiquette de la poste :
 
 .. image:: suivi_envoi_lettre_rar_pdf.png
 
-Si l'événement d'instruction dont on notifie le demandeur, possède une :ref:`phase <parametrage_phase>` alors une ligne est ajoutée dans le champ "retour à" de l'avis de réception avec le code de cette phase et le libellé de la division à laquelle est affecté le dossier.
+Si l'événement d'instruction dont on notifie le demandeur, possède une :ref:`phase <parametrage_phase>` alors une ligne est ajoutée dans l'encadré **"retour à"** de l'avis de réception avec le code de cette phase et le libellé de la division à laquelle est affecté le dossier.
 
-Exemple de l'affichage de la phase avec étiquette de la poste :
+Exemple de l'affichage de la phase et de la division avec une étiquette de la poste (la phase à la valeur **"SUIVI"** et la division **"DIVISION H"**) :
 
 .. image:: suivi_envoi_lettre_rar_pdf_phase.png
 
