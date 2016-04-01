@@ -256,15 +256,13 @@ Les phases
 
 (:menuselection:`Paramétrage --> Gestion des dossiers --> Phase`)
 
-Configuration des phases qui sont des indicateurs d'avancement des dossiers d'instruction.
+La phase est un indicateur permettant un pré-aiguillage des courriers lors d'un retour d'avis de réception d'une :ref:`lettre recommandée <suivi_envoi_lettre_rar>`.
+Son affichage ne se fera que si elle est paramétrée sur l':ref:`événement <parametrage_dossiers_evenement>` qui génère une édition adressée au demandeur.
+
 Le formulaire est constitué de seulement trois champs :
 
-  * **code** : code de la phase sur 15 caractères ;
+  * **code** : code de la phase sur 15 caractères, c'est la valeur affichée sur les lettres recommandées ;
   * **date de début de validité** : date de la mise en service de la phase (par défaut la date courante) ;
-  * **date de fin de validité** : date de fin se service de la phase, après cette date la phase ne sera plus sélectionnable depuis les événements.
+  * **date de fin de validité** : date de fin de service de la phase, après cette date la phase ne sera plus sélectionnable depuis les événements.
 
 .. image:: parametrage_phase.png
-
-Les codes des phases permettent un aiguillage efficace lors du retour de l'avis de réception des lettres recommandées.
-
-Le code de la phase est affiché seulement sur les :ref:`lettres recommandées <suivi_envoi_lettre_rar>` des :ref:`événements <parametrage_dossiers_evenement>` dont la phase est paramétrée.
