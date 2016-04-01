@@ -196,11 +196,11 @@ Finalisation des documents de l'instruction
 Le principe
 ###########
 
-Pour finaliser l'édition de l'instruction, il faut cliquer sur le lien "Finaliser le document" du portail d'action de la visualisation.
+Pour finaliser l'édition de l'instruction, il faut cliquer sur le lien "Finaliser le document" du portlet d'actions contextuelles de la visualisation.
 
 .. image:: portlet_finaliser.png
 
-Au clic sur le lien de l'édition dans le portail d'action de la visualisation de l'instruction, le document sera ouvert depuis le stockage au format PDF.
+Au clic sur le lien de l'édition dans le portlet d'actions contextuelles de la visualisation de l'instruction, le document sera ouvert depuis le stockage au format PDF.
 
 L'instruction n'est plus ni modifiable, ni supprimable.
 
@@ -213,7 +213,7 @@ lui sont associées lors de l'enregistrement.
 
 Il est aussi possible de dé-finaliser le document au clic sur le lien "Reprendre la rédaction du document".
 
-Le clic sur le lien de l'édition dans le portail d'action de la visualisation de l'instruction ouvrira le document généré à la volée au format PDF.
+Le clic sur le lien de l'édition dans le portlet d'actions contextuelles de la visualisation de l'instruction ouvrira le document généré à la volée au format PDF.
 
 L'instruction est à nouveau modifiable et supprimable.
 
@@ -228,14 +228,14 @@ Les dates de suivi n'étant pas affichées dans le document PDF de l'instruction
 Finalisation des documents du rapport d'instruction
 ===================================================
 
-Pour finaliser l'édition du rapport d'instruction, il faut cliquer sur le lien "Finaliser le document" du portail d'action de la visualisation.
+Pour finaliser l'édition du rapport d'instruction, il faut cliquer sur le lien "Finaliser le document" du portlet d'actions contextuelles de la visualisation.
 
 .. image:: portlet_finaliser.png
 
 Lorsque le document est finalisé certaines informations concernant le dossier
 lui sont associées lors de l'enregistrement.
 
-Au clic sur le lien de l'édition dans le portail d'action de la visualisation du rapport d'instruction, le document sera ouvert depuis le stockage au format PDF.
+Au clic sur le lien de l'édition dans le portlet d'actions contextuelles de la visualisation du rapport d'instruction, le document sera ouvert depuis le stockage au format PDF.
 
 Le rapport d'instruction n'est plus ni modifiable, ni supprimable.
 
@@ -243,21 +243,21 @@ Il est aussi possible de dé-finaliser le document en cliquant sur le lien "Repr
 
 .. image:: portlet_definaliser.png
 
-Le clic sur le lien de l'édition dans le portail d'action de la visualisation du rapport d'instruction ouvrira le document généré à la volée au format PDF.
+Le clic sur le lien de l'édition dans le portlet d'actions contextuelles de la visualisation du rapport d'instruction ouvrira le document généré à la volée au format PDF.
 
 Le rapport d'instruction est à nouveau modifiable et supprimable.
 
 Finalisation des documents de la consultation
 =============================================
 
-Pour finaliser l'édition de la consultation, il faut cliquer sur le lien "Finaliser le document" du portail d'action de la visualisation.
+Pour finaliser l'édition de la consultation, il faut cliquer sur le lien "Finaliser le document" du portlet d'actions contextuelles de la visualisation.
 
 .. image:: portlet_finaliser_consultation.png
 
 Lorsque le document est finalisé certaines informations concernant le dossier
 lui sont associées lors de l'enregistrement.
 
-Au clic sur le lien de l'édition dans le portail d'action de la visualisation 
+Au clic sur le lien de l'édition dans le portlet d'actions contextuelles de la visualisation 
 de la consultation, le document sera ouvert depuis le stockage au format PDF.
 
 La consultation n'est plus supprimable.
@@ -266,7 +266,7 @@ Il est aussi possible de dé-finaliser le document en cliquant sur le lien "Repr
 
 .. image:: portlet_definaliser.png
 
-Le clic sur le lien de l'édition dans le portail d'action de la visualisation 
+Le clic sur le lien de l'édition dans le portlet d'actions contextuelles de la visualisation 
 de la consultation ouvrira le document généré à la volée au format PDF.
 
 La consultation est à nouveau supprimable.

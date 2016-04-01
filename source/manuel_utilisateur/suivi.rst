@@ -275,13 +275,13 @@ Diffusion de l'ordre du jour
 
 Dans la visualisation d'une commission, il est possible de diffuser via mail l'ordre du jour de la commission à la liste de diffusion.
 
-Pour cela, il faut cliquer sur le lien "(OJ) Diffuser l'OJ" dans le portail d'action.
+Pour cela, il faut cliquer sur le lien "(OJ) Diffuser l'OJ" dans le portlet d'actions contextuelles.
 
 .. image:: portlet_commission.png
 
 Un clic sur ce lien déclenche aussi la finalisation de l'édition de l'ordre du jour de la commission.
 
-Le clic sur le lien de l'édition de l'ordre du jour dans le portail d'action ouvre le document depuis le stockage au format PDF.
+Le clic sur le lien de l'édition de l'ordre du jour dans le portlet d'actions contextuelles ouvre le document depuis le stockage au format PDF.
 
 
 Diffusion du compte-rendu
@@ -289,13 +289,13 @@ Diffusion du compte-rendu
 
 Dans la visualisation d'une commission, il est possible de diffuser via mail le compte-rendu de la commission à la liste de diffusion.
 
-Pour cela, il faut cliquer sur le lien "(CR) Diffuser le CR" dans le portail d'action.
+Pour cela, il faut cliquer sur le lien "(CR) Diffuser le CR" dans le portlet d'actions contextuelles.
 
 .. image:: portlet_commission.png
 
 Un clic sur ce lien déclenche aussi la finalisation de l'édition du compte-rendu de la commission.
 
-Le clic sur le lien de l'édition du compte-rendu dans le portail d'action ouvre le document depuis le stockage au format PDF.
+Le clic sur le lien de l'édition du compte-rendu dans le portlet d'actions contextuelles ouvre le document depuis le stockage au format PDF.
 
 .. _suivi_commissions_demandes:
 
