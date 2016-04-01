@@ -348,10 +348,9 @@ Dossiers liés
 
 .. image:: instruction_dossiers_lies.png
 
-Cet onglet liste les dossiers d'autorisation et d'instruction qui sont liés au DI sur
-lequel on se situe. Il est composé de 3 tableaux :
+L'onglet **DA** permet d'obtenir les dossiers liés au dossier courant, et d'accéder directement à la fiche détaillée de ces dossiers en cliquant sur n'importe quel élément du tableau. Les dossiers suivants seront affichés :
 
-    * En orange : le dossier d'autorisation rattaché au DI courant.
+    * En orange : le dossier d'autorisation du DI courant.
     * En violet : le ou les DI liés au même dossier d'autorisation que le DI courant.
     * En vert : le ou les dossiers d'autorisation ayant au moins une parcelle en commun avec le DI courant.
 
