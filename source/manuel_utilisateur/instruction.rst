@@ -126,6 +126,21 @@ Pour modifier la pièce, il faut cliquer sur l'action "modifier" disponible depu
 
 La date et le type du document permettant de générer le nom de la pièce, en cas de modification de ceux-ci le nom du document sera régénéré.
 
+Il est possible de télécharger l'ensemble des pièces du dossier en cliquant sur le bouton correspondant :
+
+.. image:: bouton_telecharger_archive.png
+
+Après avoir cliqué sur le lien un message de confirmation vous demandera de valider votre téléchargement.
+Les documents seront placés dans une archive zip qui sera proposée au téléchargement.
+
+.. image:: lien_telecharger_archive.png
+
+
+.. note::
+
+    Selon le déploiement de l'application la création de cette archive peut être longue.
+    Si la fenêtre du navigateur ou de la génération de l'archve sont fermées l'archive ne sera pas proposée au téléchargement.
+
 ========================
 Événements d'instruction
 ========================
