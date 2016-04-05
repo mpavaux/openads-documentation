@@ -224,6 +224,7 @@ Les dates de suivi n'étant pas affichées dans le document PDF de l'instruction
 
 .. image:: instruction_portlet_mise_a_jour_des_dates.png
 
+.. image:: maj_date_instruction.png.png
 
 Finalisation des documents du rapport d'instruction
 ===================================================
