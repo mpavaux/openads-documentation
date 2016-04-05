@@ -77,9 +77,11 @@ Chaque type consultation possède son code couleur :
 
 - Jaune : pour conformité
 - Gris : pour information
-- sans : avis attendu
+- sans : avec avis attendu
 
-En cliquant sur la demande d'avis l'utilisateur accède à la synthèse du dossier.
+En cliquant sur la demande d'avis l'utilisateur accède au résumé de la demande, à l'avis rendu, ainsi qu'à la synthèse du dossier d'instruction.
+
+.. image:: service_consulte_demande_avis_passee_form.png
 
 Export des demandes d'avis passées
 ==================================

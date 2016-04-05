@@ -18,5 +18,4 @@ Manuel de l'utilisateur
     parametrage_dossier.rst
     parametrage.rst
     administration.rst
-    web_services_rest.rst
     portail_citoyen.rst

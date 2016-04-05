@@ -5,11 +5,11 @@ Guide du développeur
 ####################
 
 .. toctree::
+    :maxdepth: 2
     :numbered:
 
-    principes_integration.rst
     geolocalisation.rst
-    widget.rst
-    migration.rst
-    installation_parametrage.rst
-    plugins.rst
+    document_numerise.rst
+    interface_avec_le_referentiel_erp.rst
+    web_services.rst
+

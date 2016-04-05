@@ -77,6 +77,8 @@ Régénérer le récépissé
 * Disponible si l'utilisateur a un droit spécifique, s'il n'y a qu'un événement d'instruction sur le dossier et qu'il s'agit du récépissé de la demande.
 * Régénère l'événement d'instruction du récépissé de la demande et affiche un lien pour le télécharger.
 
+.. _instruction_portlet_generate_citizen_access_key:
+
 Générer la clé d'accès au portail citoyen
 =========================================
 
@@ -84,6 +86,8 @@ Générer la clé d'accès au portail citoyen
 
 Si l'option d'accès au portail citoyen détaillée dans :ref:`cette rubrique <parametrage_parametre>` n'est pas activée lors de la création du dossier, alors celui-ci n'a pas de clé d'accès au portail citoyen.
 Cette action permet de générer une clé d'accès, qui permettra au demandeur de suivre l'avancement de sa demande via le portail citoyen.
+
+.. _instruction_portlet_regenerate_citizen_access_key:
 
 Régénérer la clé d'accès au portail citoyen
 ===========================================
@@ -189,39 +193,49 @@ Finalisation
 Finalisation des documents de l'instruction
 ===========================================
 
-Pour finaliser l'édition de l'instruction, il faut cliquer sur le lien "Finaliser le document" du portail d'action de la visualisation.
+Le principe
+###########
+
+Pour finaliser l'édition de l'instruction, il faut cliquer sur le lien "Finaliser le document" du portlet d'actions contextuelles de la visualisation.
 
 .. image:: portlet_finaliser.png
 
-Au clique sur le lien de l'édition dans le portail d'action de la visualisation de l'instruction, le document sera ouvert depuis le stockage au format PDF.
+Au clic sur le lien de l'édition dans le portlet d'actions contextuelles de la visualisation de l'instruction, le document sera ouvert depuis le stockage au format PDF.
 
 L'instruction n'est plus ni modifiable, ni supprimable.
 
-Il est aussi possible de dé-finaliser le document au clique sur le lien "Reprendre la rédaction du document".
+Il est aussi possible de dé-finaliser le document au clic sur le lien "Reprendre la rédaction du document".
 
 .. image:: portlet_definaliser.png
 
 Lorsque le document est finalisé certaines informations concernant le dossier
 lui sont associées lors de l'enregistrement.
 
-Il est aussi possible de dé-finaliser le document au clique sur le lien "Reprendre la rédaction du document".
+Il est aussi possible de dé-finaliser le document au clic sur le lien "Reprendre la rédaction du document".
 
-Le clique sur le lien de l'édition dans le portail d'action de la visualisation de l'instruction ouvrira le document généré à la volée au format PDF.
+Le clic sur le lien de l'édition dans le portlet d'actions contextuelles de la visualisation de l'instruction ouvrira le document généré à la volée au format PDF.
 
 L'instruction est à nouveau modifiable et supprimable.
+
+La mise à jour des dates de suivi depuis l'instruction
+######################################################
+
+Les dates de suivi n'étant pas affichées dans le document PDF de l'instruction, elles sont modifiables une fois l'instruction  finalisée. Il faut pour cela cliquer sur le bouton du portlet d'actions contextuelles "Suivi des dates".
+
+.. image:: instruction_portlet_mise_a_jour_des_dates.png
 
 
 Finalisation des documents du rapport d'instruction
 ===================================================
 
-Pour finaliser l'édition du rapport d'instruction, il faut cliquer sur le lien "Finaliser le document" du portail d'action de la visualisation.
+Pour finaliser l'édition du rapport d'instruction, il faut cliquer sur le lien "Finaliser le document" du portlet d'actions contextuelles de la visualisation.
 
 .. image:: portlet_finaliser.png
 
 Lorsque le document est finalisé certaines informations concernant le dossier
 lui sont associées lors de l'enregistrement.
 
-Au clic sur le lien de l'édition dans le portail d'action de la visualisation du rapport d'instruction, le document sera ouvert depuis le stockage au format PDF.
+Au clic sur le lien de l'édition dans le portlet d'actions contextuelles de la visualisation du rapport d'instruction, le document sera ouvert depuis le stockage au format PDF.
 
 Le rapport d'instruction n'est plus ni modifiable, ni supprimable.
 
@@ -229,21 +243,21 @@ Il est aussi possible de dé-finaliser le document en cliquant sur le lien "Repr
 
 .. image:: portlet_definaliser.png
 
-Le clic sur le lien de l'édition dans le portail d'action de la visualisation du rapport d'instruction ouvrira le document généré à la volée au format PDF.
+Le clic sur le lien de l'édition dans le portlet d'actions contextuelles de la visualisation du rapport d'instruction ouvrira le document généré à la volée au format PDF.
 
 Le rapport d'instruction est à nouveau modifiable et supprimable.
 
 Finalisation des documents de la consultation
 =============================================
 
-Pour finaliser l'édition de la consultation, il faut cliquer sur le lien "Finaliser le document" du portail d'action de la visualisation.
+Pour finaliser l'édition de la consultation, il faut cliquer sur le lien "Finaliser le document" du portlet d'actions contextuelles de la visualisation.
 
 .. image:: portlet_finaliser_consultation.png
 
 Lorsque le document est finalisé certaines informations concernant le dossier
 lui sont associées lors de l'enregistrement.
 
-Au clic sur le lien de l'édition dans le portail d'action de la visualisation 
+Au clic sur le lien de l'édition dans le portlet d'actions contextuelles de la visualisation 
 de la consultation, le document sera ouvert depuis le stockage au format PDF.
 
 La consultation n'est plus supprimable.
@@ -252,7 +266,7 @@ Il est aussi possible de dé-finaliser le document en cliquant sur le lien "Repr
 
 .. image:: portlet_definaliser.png
 
-Le clic sur le lien de l'édition dans le portail d'action de la visualisation 
+Le clic sur le lien de l'édition dans le portlet d'actions contextuelles de la visualisation 
 de la consultation ouvrira le document généré à la volée au format PDF.
 
 La consultation est à nouveau supprimable.
@@ -327,3 +341,16 @@ automatiquement. Les contraintes récupérées automatiquement puis modifiées n
 sont plus référencées comme provenant du SIG.
 
 .. image:: instruction_geolocalisation_view.png
+
+=============
+Dossiers liés
+=============
+
+.. image:: instruction_dossiers_lies.png
+
+L'onglet **DA** permet d'obtenir les dossiers liés au dossier courant, et d'accéder directement à la fiche détaillée de ces dossiers en cliquant sur n'importe quel élément des tableaux. Les dossiers suivants seront affichés :
+
+    * En orange : le dossier d'autorisation du DI courant.
+    * En violet : le ou les DI liés au même dossier d'autorisation que le DI courant.
+    * En vert : le ou les dossiers d'autorisation ayant au moins une parcelle en commun avec le DI courant.
+

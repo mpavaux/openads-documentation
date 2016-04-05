@@ -247,3 +247,22 @@ Les autorités compétentes
 (:menuselection:`Paramétrage --> Gestion des dossiers --> Autorité Compétentes`)
 
 Édition des autorités compétentes possibles pour les dossiers de l'application.
+
+.. _parametrage_phase:
+
+==========
+Les phases
+==========
+
+(:menuselection:`Paramétrage --> Gestion des dossiers --> Phase`)
+
+La phase est un indicateur permettant un pré-aiguillage des courriers lors d'un retour d'avis de réception d'une :ref:`lettre recommandée <suivi_envoi_lettre_rar>`.
+Son affichage ne se fera que si elle est paramétrée sur l':ref:`événement <parametrage_dossiers_evenement>` qui génère une édition adressée au demandeur.
+
+Le formulaire est constitué de seulement trois champs :
+
+  * **code** : code de la phase sur 15 caractères, c'est la valeur affichée sur les lettres recommandées ;
+  * **date de début de validité** : date de la mise en service de la phase (par défaut la date courante) ;
+  * **date de fin de validité** : date de fin de service de la phase, après cette date la phase ne sera plus sélectionnable depuis les événements.
+
+.. image:: parametrage_phase.png

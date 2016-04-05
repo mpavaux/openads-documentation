@@ -15,7 +15,7 @@ Liste des dossiers d'autorisation
 
 Il est possible de lister les dossiers d'autorisation depuis le menu "Autorisation".
 
-Ces dossiers d'autorisation sont listés par ordre alphabétique.
+Les dossiers d'autorisation sont listés par ordre alphabétique.
 
 Une recherche peut être effectuée sur plusieurs critères :
 
@@ -62,7 +62,7 @@ La visualisation contient deux blocs d'informations :
 Mise à jour des informations
 ============================
 
-Il exite 3 groupes d'informations :
+Il existe 3 groupes d'informations :
 
 - celles mises à jour lors de la création d'un dossier d'instruction initial ou lorsqu'un dossier d'instruction est accepté :
 
@@ -79,13 +79,42 @@ Il exite 3 groupes d'informations :
     - date de dépôt DOC : date d'ouverture de chantier du dernier dossier d'instruction accepté
     - date de dépôt DAACT : date de fin de chantier du dernier dossier d'instruction accepté
 
-- trois informations concernant l'état du dossier d'autorisation :
+- des informations relatives à l'état du dossier d'autorisation :
 
     - l'état du dernier dossier d'instruction
-    - l'état du dossier d'instruction initial après décision si un seul dossier d'instruction, sinon l'état du dernier dossier d'instruction accepté
-    - l'avis de la décision du dossier d'instruction initial après décision si un seul dossier d'instruction, sinon l'avis de la décision du dernier dossier d'instruction accepté
+    - l'état du dossier d'instruction initial après décision si il existe un seul dossier d'instruction, sinon l'état du dernier dossier d'instruction accepté
+    - l'avis de la décision du dossier d'instruction initial après décision si il existe un seul dossier d'instruction, sinon l'avis de la décision du dernier dossier d'instruction accepté
 
-Ces informations sont recalculées à chaques ajout, modification, suppression des dossiers d'instruction et évènements d'instruction.
+
+Cycle de mise à jour
+====================
+
+Plusieurs facteurs peuvent déclencher la mise à jour de ces informations :
+
+    - l'ajout, la modification ou la suppression de dossiers d'instruction 
+    - l'ajout, la modification ou la suppression d'évènements d'instruction
+
+Lors du dépôt du dossier d'instruction initial, le dossier d'autorisation est créé.
+Les informations qui y sont répliquées sont celles du dossier d'instruction initial.
+
+Par la suite, le dossier d'autorisation est mis à jour dans le cas d'une décision apportée sur un dossier d'instruction, dont l'avis fait partie de la liste suivante :
+
+    - Favorable
+    - Accord Tacite
+    - Favorable avec Reserves
+    - Accord prorogation
+    - Annulation par tribunal
+    - DOC enregistrée
+    - dossier d'autorisationACT enregistrée
+    - conforme
+    - Accord prorogation Tacite
+    - Autorisation annulée
+    - ...
+
+Attention, cette liste peut ne pas être exhaustive et n'est pas figée. Elle dépend du paramétrage des dossiers, du workflow, etc.
+
+Certaines informations du dossier d'autorisation peuvent également être mises à jour automatiquement, en fonction de critères temporels (ex : état de l'autorisation dans le cas de la péremption de la date de validité).
+
 
 Autres informations accessibles
 ===============================

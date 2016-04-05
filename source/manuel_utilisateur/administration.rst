@@ -65,7 +65,7 @@ Méthode d'utilisation :
 * **option_instructeur_division_numero_dossier** : la valeur par défaut est *false*. Les valeurs 
   possibles sont *true* ou *false*.
   Cette option indique si le numéro de dossier tient compte de la vision de l'instructeur auquel il est affecté.
-* **option_portail_acces_citoyen** : si cette option est activée, l'ajout de nouvelle demande génère une clé d'accès au portail citoyen pour les pétitionnaires. Cette clé est affichée sur le dossier d'instruction et il devient possible de générer ou régénérer une clé d'accès depuis celui-ci. Les valeurs possibles sont *true* ou *false* (par défaut *false*).
+* **option_portail_acces_citoyen** : permet d'activer ou de désactiver l'accès au :ref:`portail citoyen <portail_citoyen>`.
 
 La suppression d'une option entraîne la désactivation des fonctionnalités liées 
 à l'option.
