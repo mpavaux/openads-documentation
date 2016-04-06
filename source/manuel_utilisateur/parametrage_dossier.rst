@@ -371,9 +371,10 @@ Les informations à saisir sont  :
 * **type(s) de DI concerné(s)** : liste des types de dossier d'instruction pour
   lesquels cet événement est disponible (voir
   :ref:`parametrage_dossiers_dossier_instruction_type`).
-* **restriction** : formule optionnelle permettant de refuser la validation du
-  formulaire d'ajout d'événement d'instruction si le résultat de la formule est
-  faux.
+* **restriction** : condition optionnelle permettant de refuser la validation du
+  formulaire d'ajout d'événement d'instruction si le résultat est faux. Il est
+  possible de vérifier deux conditions simultanément avec un OU logique ou un ET
+  logique (cf. ci-après les types d'opérateurs et exemples).
 
   Champs utilisables : [archive_date_dernier_depot] [archive_date_complet]
   [archive_date_rejet] [archive_date_limite]
@@ -384,9 +385,20 @@ Les informations à saisir sont  :
   [archive_delai_incompletude]
   [duree_validite] [delai]
   [delai_notification] [date_evenement]
-  [duree_validite_parametrage].
+  [duree_validite_parametrage][date_depot].
 
-  Exemple : date_evenement <= archive_date_dernier_depot + 1.
+  Trois types d'opérateurs sont disponibles :
+
+  * de comparaison :  >=, <=, == et != ;
+  * d'affectation : + et - ;
+  * logiques : && et ||.
+
+  Exemples :
+
+  * date_evenement <= archive_date_dernier_depot + 1
+
+  * date_evenement <= archive_date_dernier_depot && archive_date_complet == date_depot
+
 * **action** : c'est l'action déclenchée par cet événement. Les valeurs
   disponibles sont les valeurs du paramétrage des actions (voir
   :ref:`parametrage_dossiers_action`).
