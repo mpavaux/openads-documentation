@@ -102,6 +102,9 @@ Gestion des pièces du dossier
 
 Chaque dossier d'instruction peut avoir plusieurs documents numérisés.
 
+Ajouter une pièce
+=================
+
 Pour ajouter un document, il faut cliquer sur la mention "+ Ajouter un document".
 Seuls les documents au format PDF sont autorisés.
 
@@ -122,9 +125,15 @@ Lors du clic sur le nom du document, le document sera ouvert en visualisation PD
 Pour ouvrir le formulaire de consultation de la pièce, il suffit de cliquer sur la flèche bleue à gauche ou sur le type du document à droite.
 Cette action est disponible seulement pour les utilisateurs ayant les droits dans le contexte d'un dossier d'instruction.
 
+Modifier une pièce
+==================
+
 Pour modifier la pièce, il faut cliquer sur l'action "modifier" disponible depuis le formulaire de consultation.
 
 La date et le type du document permettant de générer le nom de la pièce, en cas de modification de ceux-ci le nom du document sera régénéré.
+
+Télécharger toutes les pièces
+=============================
 
 Il est possible de télécharger l'ensemble des pièces du dossier en cliquant sur le bouton correspondant :
 
@@ -139,7 +148,7 @@ Les documents seront placés dans une archive zip qui sera proposée au téléch
 .. note::
 
     Selon le déploiement de l'application la création de cette archive peut être longue.
-    Si la fenêtre du navigateur ou de la génération de l'archve sont fermées l'archive ne sera pas proposée au téléchargement.
+    Si le navigateur et fermé ou que l'utilisateur poursuit la navigation, la génération de l'archve se termine mais l'archive ne sera pas proposée au téléchargement.
 
 ========================
 Événements d'instruction
