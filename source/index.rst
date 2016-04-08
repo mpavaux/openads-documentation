@@ -30,6 +30,7 @@ Manuel de l'utilisateur
 =======================
 
 .. toctree::
+   :maxdepth: 4
 
    manuel_utilisateur/index.rst
 
@@ -38,6 +39,7 @@ Guide du développeur
 ====================
 
 .. toctree::
+   :maxdepth: 4
 
    guide_developpeur/index.rst
 

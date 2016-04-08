@@ -19,3 +19,4 @@ Manuel de l'utilisateur
     parametrage.rst
     administration.rst
     portail_citoyen.rst
+    profils/index.rst
