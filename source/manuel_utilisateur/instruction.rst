@@ -244,9 +244,11 @@ L'instruction est à nouveau modifiable et supprimable.
 La mise à jour des dates de suivi depuis l'instruction
 ######################################################
 
-Les dates de suivi n'étant pas affichées dans le document PDF de l'instruction, elles sont modifiables une fois l'instruction  finalisée. Il faut pour cela cliquer sur le bouton du portlet d'actions contextuelles "Suivi des dates".
+Les dates de suivi n'étant pas affichées dans le document PDF de l'instruction, elles sont modifiables une fois l'instruction finalisée. Il faut pour cela cliquer sur le bouton du portlet d'actions contextuelles "Suivi des dates".
 
 .. image:: instruction_portlet_mise_a_jour_des_dates.png
+
+On arrive alors sur la page suivante où seules les dates de suivi sont modifiables.
 
 .. image:: maj_date_instruction.png
 
