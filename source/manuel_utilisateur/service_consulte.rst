@@ -31,7 +31,7 @@ Chaque type consultation possède son code couleur :
 - Gris : demande pour information
 - sans : demande avec avis attendu
 
-En cliquant sur la demande d'avis l'utilisateur accède à la synthèse du dossier.
+En cliquant sur la demande d'avis l'utilisateur accède à la synthèse du dossier qu'il peut marquer/dé-marquer.
 
 .. _service_consulte_demandes_avis_en_cours:
 

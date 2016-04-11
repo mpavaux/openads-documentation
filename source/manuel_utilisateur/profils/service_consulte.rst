@@ -56,6 +56,8 @@ Demandes en cours
   - Visualiser la liste des pièces
   - Télécharger le fichier d'une pièce
   - Télécharger toutes les pièces
+  - Marquer un dossier
+  - Dé-marquer un dossier
 
 
 Demandes passées
