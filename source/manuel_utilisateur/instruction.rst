@@ -230,7 +230,7 @@ L'instruction n'est plus ni modifiable, ni supprimable.
 
 Il est aussi possible de dé-finaliser le document au clic sur le lien "Reprendre la rédaction du document".
 
-.. image:: portlet_definaliser.png
+.. image:: instruction_portlet_mise_a_jour_des_dates.png
 
 Lorsque le document est finalisé certaines informations concernant le dossier
 lui sont associées lors de l'enregistrement.
