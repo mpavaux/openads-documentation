@@ -25,6 +25,8 @@ connecté.
 
 Ces demandes sont triées par date limite croissante.
 
+.. image:: service_consulte_types_demande_avis.png
+
 Chaque type consultation possède son code couleur :
 
 - Jaune : demande pour conformité
