@@ -132,12 +132,12 @@ Les contraintes
 Le principe
 ===========
 
-Les contraintes peuvent être appliquées sur un dossier (voir ??). 
+Les contraintes peuvent être appliquées sur un dossier (voir :ref:`instruction_dossier_contrainte`). 
 Certaines contraintes peuvent être ajoutées manuellement et d'autres sont récupérées depuis le SIG (voir 
 :ref:`parametrage_dossiers_synchronisation_contrainte`).
 
-Saisir une contraintes
-======================
+Saisir une contrainte
+=====================
 
 Les informations à saisir sont :
 
