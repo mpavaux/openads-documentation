@@ -23,6 +23,11 @@ Demandes en cours
 Ce menu permet d'accéder à la liste des demandes d'avis en cours, envoyées au service
 connecté.
 
+La liste des demandes d'avis en cours se compose des demandes d'avis dont :
+
+- la date limite n'est pas dépassée
+- l'avis n'a pas été rendu
+
 Ces demandes sont triées par date limite croissante.
 
 .. image:: service_consulte_types_demande_avis.png
@@ -72,6 +77,11 @@ Demandes passées
 
 Ce menu permet d'accéder à la liste des demandes d'avis auxquelles le service
 consulté à répondu.
+
+La liste des demandes d'avis passées se compose des demandes d'avis dont :
+
+- la date limite est dépassée
+- l'avis a été rendu
 
 Ces demandes sont triées par date limite croissante.
 
