@@ -1,5 +1,5 @@
 #########################
-Profil 'SERVICE CONSULTÉ'
+Profil *SERVICE CONSULTÉ*
 #########################
 
 Description
@@ -20,81 +20,109 @@ L'utilisateur qui a ce profil doit forcément être rattaché à un ou plusieurs
 Fonctionnalités disponibles
 ===========================
 
-Rubrique "Autorisation"
+Tableau de bord
+---------------
+
+Widget *Redirection*
+####################
+
+- Rediriger l'utilisateur vers la liste des demandes d'avis en cours.
+
+Rubrique *Autorisation*
 -----------------------
 
-Dossiers d'autorisation
-#######################
+*Dossiers d'autorisation*
+#########################
 
 - Visualiser la liste des dossiers d'autorisation sur lesquels un des services de l'utilisateur a été consulté.
 - Accéder à la fiche de visualisation du dossier d'autorisation.
 
-  Action(s) disponible(s) :
+  Action(s) disponible(s) par onglet :
 
-  - Visualiser les données techniques en cours de validité
-  - Visualiser la liste des pièces du dossier d'autorisation
-  - Télécharger le fichier d'une pièce
-  - Télécharger toutes les pièces du dossier d'autorisation
+  - *Dossier d'autorisation* :
+
+    - Visualiser les données techniques en cours de validité
+
+  - *Pièce(s)* :
+
+    - Visualiser la liste des pièces du dossier d'autorisation
+    - Télécharger le fichier d'une pièce
+    - Télécharger toutes les pièces du dossier d'autorisation
 
 
-Rubrique "Demandes d'avis"
+Rubrique *Demandes d'avis*
 --------------------------
 
-Demandes en cours
-#################
+*Demandes en cours*
+###################
 
 - Visualiser la liste des demandes d'avis en cours sur lesquelles un des services de l'utilisateur a été consulté.
 - Télécharger au format CSV la liste des demandes d'avis en cours sur lesquelles un des services de l'utilisateur a été consulté.
 - Accéder à la fiche de visualisation d'une demande d'avis en cours sur laquelle un des services de l'utilisateur a été consulté.
 
-  Action(s) disponible(s) sur la demande d'avis en cours :
+  Action(s) disponible(s) par onglet :
 
-  - Visualiser les informations de la demande d'avis
-  - Visualiser les principales caractéristiques du projet
-  - Rendre un avis
-  - Visualiser la demande d'avis au format PDF
-  - Visualiser la liste des pièces
-  - Télécharger le fichier d'une pièce
-  - Télécharger toutes les pièces
-  - Marquer un dossier
-  - Dé-marquer un dossier
+  - *Demande d'avis en cours* :
+
+    - Visualiser les informations de la demande d'avis
+    - Visualiser les principales caractéristiques du projet
+    - Rendre un avis
+    - Visualiser la demande d'avis au format PDF
+    - Marquer un dossiers
+    - Dé-marquer un dossier
+
+  - *Pièce(s)* :
+
+    - Visualiser la liste des pièces
+    - Télécharger le fichier d'une pièce
+    - Télécharger toutes les pièces
 
 
-Demandes passées
-################
+*Demandes passées*
+##################
 
 - Visualiser la liste des demandes d'avis passées sur lesquelles un des services de l'utilisateur a été consulté.
 - Télécharger au format CSV la liste des demandes d'avis passées sur lesquelles un des services de l'utilisateur a été consulté.
 - Accéder à la fiche de visualisation d'une demande d'avis passée sur laquelle un des services de l'utilisateur a été consulté.
 
-  Action(s) disponible(s) sur la demande d'avis passée :
+  Action(s) disponible(s) par onglet :
 
-  - Visualiser les informations de la demande d'avis
-  - Visualiser les principales caractéristiques du projet
-  - Visualiser les informations du retour d'avis
-  - Télécharger le fichier joint au retour d'avis
-  - Visualiser la demande d'avis au format PDF
-  - Visualiser la liste des pièces
-  - Télécharger le fichier d'une pièce
-  - Télécharger toutes les pièces
+  - *Demande d'avis passée* :
+
+    - Visualiser les informations de la demande d'avis
+    - Visualiser les principales caractéristiques du projet
+    - Visualiser les informations du retour d'avis
+    - Télécharger le fichier joint au retour d'avis
+    - Visualiser la demande d'avis au format PDF
+
+  - *Pièce(s)* :
+
+    - Visualiser la liste des pièces
+    - Télécharger le fichier d'une pièce
+    - Télécharger toutes les pièces
 
 
-Exports
-#######
+*Exports*
+#########
 
 - Visualiser la liste des demandes d'avis sur lesquelles un des services de l'utilisateur a été consulté.
 - Télécharger au format CSV la liste des demandes d'avis sur lesquelles un des services de l'utilisateur a été consulté.
 - Accéder à la fiche de visualisation d'une demande d'avis sur laquelle un des services de l'utilisateur a été consulté.
 
-  Action(s) disponible(s) sur la demande d'avis :
+  Action(s) disponible(s) par onglet :
 
-  - Visualiser les informations de la demande d'avis
-  - Visualiser les principales caractéristiques du projet
-  - Visualiser les informations du retour d'avis
-  - Télécharger le fichier joint au retour d'avis
-  - Visualiser la demande d'avis au format PDF
-  - Visualiser la liste des pièces
-  - Télécharger le fichier d'une pièce
-  - Télécharger toutes les pièces
+  - *Demande d'avis* :
+
+    - Visualiser les informations de la demande d'avis
+    - Visualiser les principales caractéristiques du projet
+    - Visualiser les informations du retour d'avis
+    - Télécharger le fichier joint au retour d'avis
+    - Visualiser la demande d'avis au format PDF
+
+  - *Pièce(s)* :
+
+    - Visualiser la liste des pièces
+    - Télécharger le fichier d'une pièce
+    - Télécharger toutes les pièces
 
 
