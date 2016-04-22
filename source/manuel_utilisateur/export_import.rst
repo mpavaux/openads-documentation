@@ -250,9 +250,19 @@ Statistiques à la demande
 Ce menu permet d'exporter des dossiers d'instruction selon plusieurs critères et avec des
 détails différents.
 
-  * **dossier_depots_division**
-  
-    - Export de tous les dossiers, avec les champs suivants disponibles :
+  * **dossier_depots_division** : *tous les dossiers*
+
+    - Filtre
+
+      + date de dépôt
+
+    - Tri
+
+      + code de division
+      + date de dépôt
+      + nom d'instructeur
+
+    - Champs
 
       + N° de dossier
       + Division
@@ -260,9 +270,18 @@ détails différents.
       + Pétitionnaire principal
       + Adresse du terrain
       
-  * **dossier_detaillee**
-  
-    - Export des dossiers du type sélectionné, avec les champs suivants disponibles :
+  * **dossier_detaillee** : *dossiers du type de dossier d'autorisation sélectionné*
+
+    - Filtre
+
+      + date de dépôt
+
+    - Tri
+
+      + date de décision
+      + date de dépôt
+
+    - Champs
 
       + numéro de dossier
       + date de dépôt
@@ -284,9 +303,18 @@ détails différents.
       + autorité compétente
       + décision
 
-  * **dossier_detaillee_accordes**
-  
-    - Export des dossiers accordés, avec les champs suivants disponibles :
+  * **dossier_detaillee_accordes** : *dossiers accordés du type de dossier d'autorisation sélectionné*
+
+    - Filtre
+
+      + date de décision
+
+    - Tri
+
+      + date de décision
+      + date de dépôt
+
+    - Champs
 
       + numéro de dossier
       + date de dépôt
@@ -308,9 +336,18 @@ détails différents.
       + autorité compétente
       + décision
 
-  * **dossier_detaillee_detail**
+  * **dossier_detaillee_detail** : *dossiers de type CU*
 
-    - Export des dossiers de type CU, avec les champs suivants disponibles :
+    - Filtre
+
+      + date de décision
+
+    - Tri
+
+      + date de décision
+      + date de dépôt
+
+    - Champs
 
       + numéro de dossier
       + date de dépôt
@@ -332,9 +369,18 @@ détails différents.
       + autorité compétente
       + décision 
 
-  * **dossier_detaillee_refuses**
+  * **dossier_detaillee_refuses** : *dossiers du type de dossier d'autorisation sélectionné qui ont reçu un avis "Défavorable"*
 
-    - Export des dossiers du type sélectionné qui ont eu un avis "Dévaforable", avec les champs suivants disponibles :
+    - Filtre
+
+      + date de décision
+
+    - Tri
+
+      + date de décision
+      + date de dépôt
+
+    - Champs
 
       + numéro de dossier
       + date de dépôt
@@ -356,18 +402,58 @@ détails différents.
       + autorité compétente
       + décision 
   
-  * **dossier_premiers_depots_dttm**
+  * **dossier_premiers_depots_dttm** : *dossiers du type de dossier d'instruction sélectionné*
 
-    - Dossiers qui sont du type de dossier d'instruction sélectionné, avec les champs suivants disponibles :
-    
+    - Filtre
+
+      + date de décision
+
+    - Tri
+
+      + date de décision
+      + date de dépôt
+
+    - Champs
+
       + N° de dossier
       + Date de dépôt
       + Pétitionnaire principal
       + Adresse du terrain
 
-  * **dossier_simplifiee_accordes**
+  * **dossier_simplifiee** : *dossiers du type de dossier d'autorisation sélectionné*
 
-    - Export des dossiers ayant eu un avis "Favorable", avec les champs suivants disponibles :
+    - Filtre
+
+      + date de dépôt
+
+    - Tri
+
+      + date de dépôt
+      + année
+      + version
+
+    - Champs
+
+      + numéro de dossier
+      + date de dépôt
+      + petitionnaire principal
+      + adresse du terrain
+      + shon
+      + libellé de la destination
+      + hauteur de la construction
+
+  * **dossier_simplifiee_accordes** : *dossiers du type de dossier d'autorisation sélectionné qui ont reçu un avis "Favorable"*
+
+    - Filtre
+
+      + date de décision
+
+    - Tri
+
+      + date de décision
+      + date de dépôt
+
+    - Champs
 
       + numéro de dossier
       + date de décision
@@ -377,9 +463,17 @@ détails différents.
       + libellé de la destination
       + hauteur de la construction
 
-  * **dossier_simplifiee_deposes**
+  * **dossier_simplifiee_deposes** : *dossiers en cours de type "Initial" et du type de dossier d'autorisation sélectionné*
 
-    - Export de tous les dossiers en cours, de type "Initial", avec les champs suivants disponibles :
+    - Filtre
+
+      + date de dépôt
+
+    - Tri
+
+      + date de dépôt
+
+    - Champs
 
       + numéro de dossier
       + date de dépôt
@@ -389,9 +483,18 @@ détails différents.
       + libellé de la destination
       + hauteur de la construction
 
-  * **dossier_simplifiee_refuses**
+  * **dossier_simplifiee_refuses** : *dossiers du type de dossier d'autorisation sélectionné qui ont reçu un avis "Défavorable"*
 
-    - Export des dossiers ayant eu un avis "Défavorable", avec les champs suivants disponibles :
+    - Filtre
+
+      + date de décision
+
+    - Tri
+
+      + date de dépôt
+      + date de décision
+
+    - Champs
 
       + numéro de dossier
       + date de dépôt
@@ -401,9 +504,15 @@ détails différents.
       + libellé de la destination
       + hauteur de la construction
   
-  * **dossier_transmission_dttm_signature_prefet**
+  * **dossier_transmission_dttm_signature_prefet** : *dossiers du type de dossier d'instruction sélectionné*
 
-    - Export des dossiers qui sont du type de dossier d'instruction détaillé sélectionné, avec les champs suivants disponibles :
+    - Filtre
+
+      + date de retour de signature
+
+    - Aucun tri proposé
+
+    - Champs
 
       + N° de dossier
       + date de retour signature
