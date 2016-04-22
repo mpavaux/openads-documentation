@@ -157,34 +157,5 @@ Fonctionnalités disponibles
 *Statistiques à la demande*
 ###########################
 
-Exporter des données de dossiers avec choix des critères et paramètres de sortie :
-
-  * dossier_depots_division
-  
-    - Export de tous les dossiers, triés par division
-      
-  * dossier_detaillee
-  
-    - Export de des dossiers d'instruction pour un type de dossier donné
-
-  * dossier_detaillee_detail
-
-    - Export des dossiers de type CU avec d'autres informations
-
-  * dossier_detaillee_refuses
-
-    - Export des dossiers du type sélectionné qui ont eu un avis "Dévaforable"
-
-  * dossier_premiers_depots_dttm
-
-  * dossier_simplifiee_deposes
-
-    - Export de tous les dossiers en cours, de type "Initial"
-
-  * dossier_simplifiee_refuses
-
-    - Export des dossiers ayant eu un avis "Défavorable"
-
-  * dossier_transmission_dttm_signature_prefet
-
-    - Export des données d'un type de dossier d'instruction détaillé particulier
+* Exporter une liste de dossiers d'instruction selon leur type, et avec des détails 
+  différents selon la requête utilisée.
