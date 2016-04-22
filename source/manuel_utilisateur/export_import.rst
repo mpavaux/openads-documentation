@@ -242,3 +242,170 @@ Fichier CSV en sortie :
 mmmmmmmjjjjjkkkklllll;"ligne rejetée : nombre de séparateur incorrect."
 
 aa;aa;aa;aa;aa;aa;aa;"ligne rejetée : contenu non conforme."
+
+
+Statistiques à la demande
+#########################
+
+Ce menu permet d'exporter des dossiers d'instruction selon plusieurs critères et avec des
+détails différents.
+
+  * **dossier_depots_division**
+  
+    - Export de tous les dossiers, avec les champs suivants disponibles :
+
+      + N° de dossier
+      + Division
+      + Date de dépôt
+      + Pétitionnaire principal
+      + Adresse du terrain
+      
+  * **dossier_detaillee**
+  
+    - Export des dossiers du type sélectionné, avec les champs suivants disponibles :
+
+      + numéro de dossier
+      + date de dépôt
+      + date d'ouverture de chantier
+      + date de demande
+      + date achèvement
+      + date prévue de recevabilité
+      + destination des surfaces
+      + petitionnaire principal
+      + adresse du terrain
+      + référence cadastrale
+      + date de décision
+      + shon
+      + architecte
+      + affectation_surface
+      + nature des travaux
+      + nature du financement
+      + nombre de logements
+      + autorité compétente
+      + décision
+
+  * **dossier_detaillee_accordes**
+  
+    - Export des dossiers accordés, avec les champs suivants disponibles :
+
+      + numéro de dossier
+      + date de dépôt
+      + date d'ouverture de chantier
+      + date de demande
+      + date achèvement
+      + date prévue de recevabilité
+      + destination des surfaces
+      + petitionnaire principal
+      + adresse du terrain
+      + référence cadastrale
+      + date de décision
+      + shon
+      + architecte
+      + affectation_surface
+      + nature des travaux
+      + nature du financement
+      + nombre de logements
+      + autorité compétente
+      + décision
+
+  * **dossier_detaillee_detail**
+
+    - Export des dossiers de type CU, avec les champs suivants disponibles :
+
+      + numéro de dossier
+      + date de dépôt
+      + date d'ouverture de chantier
+      + date de demande
+      + date achèvement
+      + date prévue de recevabilité
+      + destination des surfaces
+      + petitionnaire principal
+      + adresse du terrain
+      + référence cadastrale
+      + date de décision
+      + shon
+      + architecte
+      + affectation_surface
+      + nature des travaux
+      + nature du financement
+      + nombre de logements
+      + autorité compétente
+      + décision 
+
+  * **dossier_detaillee_refuses**
+
+    - Export des dossiers du type sélectionné qui ont eu un avis "Dévaforable", avec les champs suivants disponibles :
+
+      + numéro de dossier
+      + date de dépôt
+      + date d'ouverture de chantier
+      + date de demande
+      + date achèvement
+      + date prévue de recevabilité
+      + destination des surfaces
+      + petitionnaire principal
+      + adresse du terrain
+      + référence cadastrale
+      + date de décision
+      + shon
+      + architecte
+      + affectation_surface
+      + nature des travaux
+      + nature du financement
+      + nombre de logements
+      + autorité compétente
+      + décision 
+  
+  * **dossier_premiers_depots_dttm**
+
+    - Dossiers qui sont du type de dossier d'instruction sélectionné, avec les champs suivants disponibles :
+    
+      + N° de dossier
+      + Date de dépôt
+      + Pétitionnaire principal
+      + Adresse du terrain
+
+  * **dossier_simplifiee_accordes**
+
+    - Export des dossiers ayant eu un avis "Favorable", avec les champs suivants disponibles :
+
+      + numéro de dossier
+      + date de décision
+      + petitionnaire principal
+      + adresse du terrain
+      + shon
+      + libellé de la destination
+      + hauteur de la construction
+
+  * **dossier_simplifiee_deposes**
+
+    - Export de tous les dossiers en cours, de type "Initial", avec les champs suivants disponibles :
+
+      + numéro de dossier
+      + date de dépôt
+      + petitionnaire principal
+      + adresse du terrain
+      + shon
+      + libellé de la destination
+      + hauteur de la construction
+
+  * **dossier_simplifiee_refuses**
+
+    - Export des dossiers ayant eu un avis "Défavorable", avec les champs suivants disponibles :
+
+      + numéro de dossier
+      + date de dépôt
+      + petitionnaire principal
+      + adresse du terrain
+      + shon
+      + libellé de la destination
+      + hauteur de la construction
+  
+  * **dossier_transmission_dttm_signature_prefet**
+
+    - Export des dossiers qui sont du type de dossier d'instruction détaillé sélectionné, avec les champs suivants disponibles :
+
+      + N° de dossier
+      + date de retour signature
+      + pétitionnaire principal
+      + adresse du terrain
