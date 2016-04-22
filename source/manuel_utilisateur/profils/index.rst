@@ -10,4 +10,5 @@ Profils
 
     guichet_unique.rst
     instructeur.rst
+    qualificateur.rst
     service_consulte.rst
