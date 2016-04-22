@@ -206,6 +206,7 @@ Action(s) disponible(s) par onglet :
     - Visualiser l'édition d'une consultation.
     - Finaliser l'édition d'une consultation.
     - Reprendre la rédaction de l'édition d'une consultation.
+    - Marquer comme lu
 
   - *Commission(s)* :
 
@@ -253,3 +254,60 @@ Action(s) disponible(s) par onglet :
     - Visualiser la liste des dossiers d'instruction portant sur la même autorisation.
     - Visualiser la liste des dossiers d'autorisation liés géographiquement.
     - Accéder à chacun de ces dossiers.
+
+
+Dossier à qualifier
+###################
+
+- Visualiser la liste des dossiers d'instruction à qulifié instruits par la division l'instructeur connecté.
+- Accéder aux dossiers d'instruction dans le sig
+
+La liste des autres actions est disponible dans la partie `Recherche`_.
+
+Architecte fréquent
+###################
+
+- Visualiser la liste des architectes frequents
+- Rechercher un architecte fréquent
+- Imprimer la liste des architectes fréquent présents dans la liste
+- Consulter un architecte fréquent
+
+(Consultation) Mes retours
+##########################
+
+- Visualiser la liste des dossiers d'instruction instruits l'instructeur connecté pour lesquels un avis a été rendu et qu'il n'a pas encore été lu.
+- Accéder à la fiche de visualisation de la consultation dont l'avis a été rendu dans le contexte du dossier d'instruction.
+
+La liste des autres actions est disponible dans la partie `Recherche`_.
+
+(Consultation) Tous les retours
+###############################
+
+- Visualiser la liste des dossiers d'instruction instruits par la division de l'instructeur connecté pour lesquels un avis a été rendu et qu'il n'a pas encore été lu.
+- Accéder à la fiche de visualisation de la consultation dont l'avis a été rendu dans le contexte du dossier d'instruction.
+
+La liste des autres actions est disponible dans la partie `Recherche`_.
+
+Mes messages
+############
+
+- Visualiser la liste des dossiers d'instruction instruits par l'instructeur connecté qui ont des messages non lus.
+- Accéder à la fiche de visualisation du message dans le contexte du dossier d'instruction.
+
+Tous les messages
+#################
+
+- Visualiser la liste des dossiers d'instruction instruits par la division de l'instructeur connecté qui ont des messages non lus.
+- Accéder à la fiche de visualisation du message dans le contexte du dossier d'instruction.
+
+(Commission) Mes retours
+########################
+
+- Visualiser la liste des dossiers d'instruction instruits par l'instructeur connecté qui ont un retour de commission non lu.
+- Accéder à la fiche de visualisation du message dans le contexte du dossier d'instruction.
+
+(Commission) Tous les retours
+#############################
+
+- Visualiser la liste des dossiers d'instruction instruits par la division de l'instructeur connecté qui ont un retour de commission non lu.
+- Accéder à la fiche de visualisation du message dans le contexte du dossier d'instruction.
