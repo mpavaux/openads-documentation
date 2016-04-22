@@ -34,8 +34,8 @@ Widget *Recherche accès direct*
 
 - Rechercher un dossier d'instruction par son identifiant
 
-Widget *Dossiers à qualifer*
-############################
+Widget *Dossiers à qualifier*
+#############################
 
 - Visualiser la liste des dossiers d'instruction à qualifier qui ne sont pas ERP, affecté à l'utilisateur connecté
 - Accéder aux dossiers d'instruction à qualifier qui ne sont pas ERP, affecté à l'utilisateur connecté
@@ -80,6 +80,8 @@ Widget *Mes retours de commission*
 
 - Visualiser la liste des demandes de passages en commission
 - Accéder aux demandes de passages en commission
+
+.. _profil_instructeur_rubrique_autorisation:
 
 Rubrique *Autorisation*
 -----------------------
@@ -259,7 +261,7 @@ Action(s) disponible(s) par onglet :
 Dossier à qualifier
 ###################
 
-- Visualiser la liste des dossiers d'instruction à qulifié instruits par la division l'instructeur connecté.
+- Visualiser la liste des dossiers d'instruction a qualifier instruits par la division l'instructeur connecté.
 - Accéder aux dossiers d'instruction dans le sig
 
 La liste des autres actions est disponible dans la partie `Recherche`_.
@@ -267,7 +269,7 @@ La liste des autres actions est disponible dans la partie `Recherche`_.
 Architecte fréquent
 ###################
 
-- Visualiser la liste des architectes frequents
+- Visualiser la liste des architectes fréquents
 - Rechercher un architecte fréquent
 - Imprimer la liste des architectes fréquent présents dans la liste
 - Consulter un architecte fréquent

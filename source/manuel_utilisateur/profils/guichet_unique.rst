@@ -56,6 +56,8 @@ Fonctionnalités disponibles
 
   * Accéder à la fiche de visualisation du dossier d'instruction
 
+.. _profil_guichet_unique_rubrique_guichet_unique:
+
 *Guichet unique*
 ----------------
 
