@@ -12,3 +12,4 @@ Profils
     instructeur.rst
     qualificateur.rst
     service_consulte.rst
+    service_consulte_interne.rst

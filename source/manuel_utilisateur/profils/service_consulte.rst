@@ -28,6 +28,8 @@ Widget *Redirection*
 
 - Rediriger l'utilisateur vers la liste des demandes d'avis en cours.
 
+.. _profil_service_consulte_rubrique_autorisation:
+
 Rubrique *Autorisation*
 -----------------------
 
@@ -49,6 +51,7 @@ Rubrique *Autorisation*
     - Télécharger le fichier d'une pièce
     - Télécharger toutes les pièces du dossier d'autorisation
 
+.. _profil_service_consulte_rubrique_demande_avis:
 
 Rubrique *Demandes d'avis*
 --------------------------
