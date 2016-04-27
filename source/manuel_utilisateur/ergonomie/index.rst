@@ -34,7 +34,7 @@ Trois filtres sont disponibles sur ce widget (le filtre est paramétrable par l'
 
 Par défaut, tous les types de dossiers apparaissent dans ce listing (les types sont paramétrables par l'administrateur).
 
-A tout moment, au survol de l'icône d'information du widget, une descrption permet d'indiquer quels sont les paramètres appliqués sur le widget.
+A tout moment, au survol de l'icône d'information du widget, une description permet d'indiquer quels sont les paramètres appliqués sur le widget.
 
 Le listing présente les informations suivantes :
 
