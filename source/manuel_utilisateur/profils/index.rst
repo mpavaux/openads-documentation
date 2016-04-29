@@ -13,3 +13,4 @@ Profils
     qualificateur.rst
     service_consulte.rst
     service_consulte_interne.rst
+    suivi.rst
