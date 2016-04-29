@@ -164,9 +164,10 @@ Le principe
 ===========
 
 Ce menu permet de synchroniser les contraintes du SIG avec celles de 
-l'application. Cette action va d'abord rapatrier toutes les contraintes du SIG,
-et les comparer avec les contraintes déjà présentes dans openADS. Les contraintes
-présentes sur le SIG ne seront pas modifiées par openADS.
+l'application. openADS va récupérer l'ensemble des contraintes du SIG,
+et les comparer avec les contraintes déjà présentes dans la base de données de l'application,
+sur la base de leur identifiant de contrainte. Les contraintes présentes sur le SIG ne
+seront pas modifiées par openADS.
 
 .. image:: contrainte_synchronisation.png
 
@@ -196,6 +197,10 @@ comme provenant du SIG.
 Quand une synchronisation des contraintes est lancée, ces contraintes sont ignorées et
 restent dans le même état, même si elles ont le même groupe, sous-groupe ou libellé
 qu'une contrainte importée du SIG. Des contraintes peuvent donc être en doublon.
+
+Les contraintes de l'application sont comparées avec celles du SIG sur la base de l'identifiant de la contrainte sur le SIG.
+
+Lorsque l'action "synchroniser les contraintes" est lancée, les champs numero, groupe, sous-groupe et libelle sont récupérés à partir du SIG de chaque contrainte sont récupérés. Les contraintes sont dans un état "générique", les textes à trous comme "distance du puits : ..... m" ne sont pas complétés.
 
 
 .. _parametrage_dossiers_demandes:

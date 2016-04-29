@@ -316,6 +316,8 @@ et l'arrêté).
 Contraintes liées au dossier
 =============================
 
+Des contraintes (ou risques) peuvent être ajoutées à un dossier.
+
 .. _instruction_dossier_contrainte_view:
 
 Visualisation des contraintes liées au dossier
@@ -349,25 +351,8 @@ apparait.
 
 .. image:: instruction_dossier_contrainte_form_valide.png
 
-.. _instruction_dossier_contrainte_add_auto:
-
-Ajouter des contraintes automatiquement
-=======================================
-
-.. note::
-
-    Cette action nécessite d'avoir au préalable récupéré toutes les contraintes
-    du SIG par le biais du menu **Synchronisation des contraintes**
-    (voir :ref:`parametrage_dossiers_synchronisation_contrainte`).
-    
-Depuis le formulaire de géolocalisation, il est possible de récupérer les 
-contraintes d'un dossier depuis le SIG automatiquement en cliquant sur l'action 
-**Récupérer les containtes**.
-Attention cette action écrasera les précédentes contraintes récupérées 
-automatiquement. Les contraintes récupérées automatiquement puis modifiées ne 
-sont plus référencées comme provenant du SIG.
-
-.. image:: instruction_geolocalisation_view.png
+Les contraintes peuvent aussi être récupérées automatiquement à partir d'un SIG si
+celui-ci est configuré, (voir :ref:`instruction_geolocalisation` ).
 
 =============
 Dossiers liés
@@ -380,4 +365,61 @@ L'onglet **DA** permet d'obtenir les dossiers liés au dossier courant, et d'acc
     * En orange : le dossier d'autorisation du DI courant.
     * En violet : le ou les DI liés au même dossier d'autorisation que le DI courant.
     * En vert : le ou les dossiers d'autorisation ayant au moins une parcelle en commun avec le DI courant.
+
+.. _instruction_geolocalisation:
+
+==================
+La géolocalisation
+==================
+
+L'action Géolocalisation est disponible seulement pour les communes paramétrées. Elle 
+permet, pour les dossiers qui ont des références cadastrales renseignées, de récupérer des
+données géographiques à partir du SIG paramétré.
+
+Pour ouvrir l'overlay de géolocalisation, cliquer sur le bouton "Géolocalisation" sur
+l'onglet principal du DI.
+
+.. image:: instruction_portlet_geolocalisation.png
+
+L'overlay de géolocalisation est le suivant.
+
+.. image:: instruction_geolocalisation_view.png
+
+
+Vérifier les parcelles
+======================
+
+Cette action permet de vérifier si les parcelles définies dans le dossier existent au
+niveau du SIG. Cette étape est nécessaire a l'exécution des autres traitements.
+
+Calculer l'emprise
+==================
+
+L'emprise est le total de la surface des parcelles. Le calcul de l'emprise est requis pour
+pouvoir calculer le centroïde des parcelles.
+
+Dessiner l'emprise
+==================
+
+Dans le cas où le calcul de l'emprise a échoué du côté du SIG, cette action permet d'être
+redirigé sur le SIG, sur lequel il est alors possible de dessiner l'emprise à la main.
+
+Calculer le centroïde
+=====================
+
+Le centroïde est le point représentatif de l'emprise calculée précedement. Il est ensuite
+récupéré et stocké dans le dossier d'instruction.
+
+Récupérer les contraintes
+=========================
+
+Cette action permet de récupérer les contraintes du SIG qui sont applicables aux parcelles
+du dossier. Ces contraintes peuvent appartenir à la communauté de communes aussi bien qu'à
+la commune.
+
+L'action "J'ai de la chance"
+============================
+
+Ce bouton permet un lancement automatique, à la chaine, de toutes les actions de
+géolocalisation d'un dossier décrites précedement. Il permet de gagner du temps.
 
