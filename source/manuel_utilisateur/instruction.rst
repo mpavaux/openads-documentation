@@ -310,6 +310,20 @@ enregistré dans le systeme de fichiers associé à certaines informations (num�
 de l'arrêté dans le référentiel, informations concernant le signataire, le terrain,
 et l'arrêté).
 
+Notifier la commune par courriel
+================================
+
+Un événement d'instruction est notifiable par courriel aux communes.
+
+.. image:: notifier_commune.png
+
+Les quatre conditions suivantes doivent être satisfaites pour rendre l'action disponible :
+
+* :ref:`paramétrage <parametrage_parametre>` renseigné ;
+* événement d'instruction finalisé ;
+* être rattaché à la communauté de communes ;
+* disposer du profil instructeur polyvalent ou administrateur général.
+
 .. _instruction_dossier_contrainte:
 
 =============================
