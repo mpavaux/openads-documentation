@@ -4,30 +4,6 @@
 Instruction
 ###########
 
-==================
-Le tableau de bord
-==================
-
-(:menuselection:`Instruction --> Tableau De Bord`)
-
-Le tableau de bord permet de lister les dossiers qui répondent à des critères particuliers.
-
-Widget - Dossiers auxquels on peut proposer une autre décision
-==============================================================
-
-Ce widget liste les dossiers pour lesquels on peut proposer une autre décision.
-
-.. image:: instructeur_tableau_de_bord_widget_decision.png
-
-Il s'agit de ceux dont le dernier événement d'instruction de type arrêté est finalisé,
-n'est pas de type retour et ne dispose d'aucune date renseignée parmi les suivantes :
-
-* date d'envoi pour signature ;
-* date de retour de signature ;
-* date d'envoi RAR ;
-* date de retour RAR ;
-* date d'envoi au contrôle légalité ;
-* date de retour du contrôle de légalité.
 
 ======================
 Dossiers d'instruction

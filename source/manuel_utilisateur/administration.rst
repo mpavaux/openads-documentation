@@ -161,23 +161,44 @@ Les arguments sont déclarés ainsi :
 
 Les scripts disponibles sont les suivants :
 
+.. _administration_widget_consultation_retours:
+
+consultation_retours
+====================
+
+Ce widget permet d'afficher le nombre de retours de consultation marqués comme 'non lu' pour les dossiers de l'utilisateur correspondant au filtre paramétrable. Un lien *Voir +* permet d'accéder au listing complet. Les informations fonctionnelles sont disponibles :ref:`ici<widget_consultation_retours>`.
+
+Un argument facultatif est paramétrable :
+
+* **filtre** [par défaut *instructeur*] - les filtres disponibles sont *aucun*, *division* et *instructeur*
+
+
+.. _administration_widget_dossiers_limites:
+
 dossiers_limites
 ================
 
-Ce widget permet d'afficher les dossiers d'instruction tacites dont la date
-limite est dans moins de X jours.
-Seuls les 10 premiers résultats sont affichés. Un lien *Voir +* permet d'accéder
-au listing complet.
-Davantage d'informations sont disponibles :ref:`ici<dossiers_limites>`.
+Ce widget permet d'afficher les dossiers d'instruction tacites dont la date limite est dans moins de X jours. Seuls les 10 premiers résultats sont affichés. Un lien *Voir +* permet d'accéder au listing complet. Les informations fonctionnelles sont disponibles :ref:`ici<widget_dossiers_limites>`.
 
-Trois arguments facultatifs faisant office de critères sont paramétrables :
+Trois arguments facultatifs sont paramétrables :
 
-* **filtre** [par défaut *instructeur*] - les filtres disponibles sont *aucun*,
-  *division* et *instructeur*
-* **nombre_de_jours** [par défaut *15*] - délai en jours avant la date limite à
-  partir de laquelle on souhaite voir apparaître les dossiers
-* **codes_datd** [par défaut tous les types sont affichés] - liste des types de
-  dossiers à afficher séparés par un point-virgule. exemple : *PCI;PCA;DPS;CUa;CUb*
+* **filtre** [par défaut *instructeur*] - les filtres disponibles sont *aucun*, *division* et *instructeur*
+* **nombre_de_jours** [par défaut *15*] - délai en jours avant la date limite à partir de laquelle on souhaite voir apparaître les dossiers
+* **codes_datd** [par défaut tous les types sont affichés] - liste des types de dossiers à afficher séparés par un point-virgule. exemple : *PCI;PCA;DPS;CUa;CUb*
+
+
+.. _administration_widget_messages_retours:
+
+messages_retours
+================
+
+Ce widget permet d'afficher le nombre de retours de consultation marqués comme 'non lu' pour les dossiers de l'utilisateur correspondant au filtre paramétrable. Un lien *Voir +* permet d'accéder au listing complet. Les informations fonctionnelles sont disponibles :ref:`ici<widget_messages_retours>`.
+
+Un argument facultatif est paramétrable :
+
+* **filtre** [par défaut *instructeur*] - les filtres disponibles sont *aucun*, *division* et *instructeur*
+
+
 
 .. _administration_composition:
 

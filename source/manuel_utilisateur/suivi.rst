@@ -11,14 +11,6 @@ Le menu
 
 .. image:: suivi_menu.png
 
-.. _suivi_tableau_de_bord:
-
-Le tableau de bord
-##################
-
-(:menuselection:`Suivi --> Tableau De Bord`)
-
-Pour l'instant le tableau de bord suivi ne comporte aucun widget.
 
 .. _suivi_suivi_des_pieces:
 

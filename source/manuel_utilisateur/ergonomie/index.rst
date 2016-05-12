@@ -15,7 +15,7 @@ La disposition des widgets est propre à chaque profil et peut être modifiée t
 Widgets
 -------
 
-.. _dossiers_limites:
+.. _widget_dossiers_limites:
 
 Widget "Dossiers limites"
 #########################
@@ -24,15 +24,15 @@ Widget "Dossiers limites"
 
 Orienté Instruction.
 
-L'objet de ce widget est de présenter un listing des dix dossiers d'instruction qui sont tacites dont la date limite est dans moins de X jours (le nombre de jours est paramétrable par l'administrateur). 
+L'objet de ce widget est de présenter un listing des dix dossiers d'instruction qui sont tacites dont la date limite est dans moins de X jours (le nombre de jours est :ref:`paramétrable <administration_widget_dossiers_limites>` par l'administrateur). 
 
-Trois filtres sont disponibles sur ce widget (le filtre est paramétrable par l'administrateur) :
+Trois filtres sont disponibles sur ce widget (le filtre est :ref:`paramétrable <administration_widget_dossiers_limites>` par l'administrateur) :
 
 - filtre par instructeur : on présente uniquement les dossiers dont il est spécifiquement instructeur.
 - filtre par division : on présente tous les dossiers de la division de l'instructeur.
 - aucun filtre : tous les dossiers auxquels l'utilisateurs a accès (si l'utilisateur appartient à une commune niveau mono, alors l'utilisateur n'a accès qu'aux dossiers de sa commune et si l'utilisateur appartient à une commune multi, alors l'utilisateur a accès à tous les dossiers).
 
-Par défaut, tous les types de dossiers apparaissent dans ce listing (les types sont paramétrables par l'administrateur).
+Par défaut, tous les types de dossiers apparaissent dans ce listing (les types sont :ref:`paramétrable <administration_widget_dossiers_limites>` par l'administrateur).
 
 A tout moment, au survol de l'icône d'information du widget, une description permet d'indiquer quels sont les paramètres appliqués sur le widget.
 
@@ -48,6 +48,8 @@ Un lien sur chaque enregistrement permet d'accéder à la fiche de visualisation
 Un lien "Voir +" permet d'accéder au listing des mêmes dossiers sans limite de nombre.
 
 
+.. _widget_recherche_dossier:
+
 Widget "Recherche Dossier"
 ##########################
 
@@ -56,4 +58,97 @@ Widget "Recherche Dossier"
 Orienté Instruction.
 
 L'objet de ce widget est de présenter un champ de saisie de recherche de dossier d'instruction avec accès direct. C'est-à-dire que si le code du dossier est saisi dans son intégralité on accède directement à la fiche de visualisation du dossier d'instruction, par contre si le code du dossier n'est pas saisi dans son intégralité, alors si au moins un résultat correspond alors on accède à un listing de dossiers d'instructions avec l'élément saisi comme recherche pré-rempli (une recherche avancée permet alors de compléter la recherche).
+
+
+.. _widget_consultation_retours:
+
+Widget "Retours de Consultation"
+################################
+
+.. image:: widget_consultation_retours.png
+
+Orienté Instruction.
+
+L'objet de ce widget est d'alerter l'utilisateur sur le nombre de retours de consultation marqués comme 'non lu'. En effet, lorsque l'instructeur a créé une consultation sur un dossier, la réponse à la consultation peut se faire par plusieurs sources : le service consulté si celui ci a un compte sur openADS, la cellule suivi qui a pu recevoir le retour par courrier et le saisir lui-même ou un traitement automatique aui au bout du délai de consultation émet un retour tacite. Lorsque une de ces réponses à lieu alors la consultation est marquée comme 'non lu' pour que l'instructeur puisse en avoir connaissance et le nombre de ces consultations apparaît dans ce widget entouré d'un rond bleu.
+
+Lorsqu'aucun retour de consultation n'est marqué comme 'non lu' alors un message l'indique à l'utilisateur.
+
+Trois filtres sont disponibles sur ce widget (le filtre est :ref:`paramétrable <administration_widget_consultation_retours>` par l'administrateur) :
+
+- filtre par instructeur : on présente uniquement les dossiers dont il est spécifiquement instructeur.
+- filtre par division : on présente tous les dossiers de la division de l'instructeur.
+- aucun filtre : tous les dossiers auxquels l'utilisateurs a accès (si l'utilisateur appartient à une commune niveau mono, alors l'utilisateur n'a accès qu'aux dossiers de sa commune et si l'utilisateur appartient à une commune multi, alors l'utilisateur a accès à tous les dossiers).
+
+A tout moment, au survol de l'icône d'information du widget, une description permet d'indiquer quels sont les paramètres appliqués sur le widget.
+
+Un lien "Voir +" permet d'accéder au listing avec les mêmes options de filtre.
+
+
+.. _widget_messages_retours:
+
+Widget "Retours de Messages"
+############################
+
+.. image:: widget_messages_retours.png
+
+Orienté Instruction.
+
+L'objet de ce widget est d'alerter l'utilisateur sur le nombre de messages marqués comme 'non lu'. En effet, lors de divers événements sur le dossier, des messages peuvent avertir l'instructeur qu'ils ont eu lieu (par exemple : l'ajout d'une pièce sur le dossier). Ce message est alors marqué comme 'non lu' pour que l'instructeur puisse en avoir connaissance et le nombre de ces messages apparaît dans ce widget entouré d'un rond bleu.
+
+Lorsqu'aucun message n'est marqué comme 'non lu' alors un message l'indique à l'utilisateur.
+
+Trois filtres sont disponibles sur ce widget (le filtre est :ref:`paramétrable <administration_widget_messages_retours>` par l'administrateur) :
+
+- filtre par instructeur : on présente uniquement les dossiers dont il est spécifiquement instructeur.
+- filtre par division : on présente tous les dossiers de la division de l'instructeur.
+- aucun filtre : tous les dossiers auxquels l'utilisateurs a accès (si l'utilisateur appartient à une commune niveau mono, alors l'utilisateur n'a accès qu'aux dossiers de sa commune et si l'utilisateur appartient à une commune multi, alors l'utilisateur a accès à tous les dossiers).
+
+A tout moment, au survol de l'icône d'information du widget, une description permet d'indiquer quels sont les paramètres appliqués sur le widget.
+
+Un lien "Voir +" permet d'accéder au listing avec les mêmes options de filtre.
+
+
+.. _widget_nouvelle_demande_nouveau_dossier:
+
+Widget "Nouvelle demande 'nouveau dossier'"
+###########################################
+
+.. image:: widget_nouvelle_demande_nouveau_dossier.png
+
+Orienté Guichet.
+
+Raccourci permet d'accéder directement au formulaire de saisie d'une nouvelle demande dans le cadre du dépôt d'un nouveau dossier.
+
+
+.. _widget_nouvelle_demande_autre_dossier:
+
+Widget "Nouvelle demande 'autres dossiers'"
+###########################################
+
+.. image:: widget_nouvelle_demande_autre_dossier.png
+
+Orienté Guichet.
+
+Raccourci permet d'accéder directement au formulaire de recherche d'un dossier existant pour y ajouter une nouvelle demande.
+
+
+.. _widget_dossiers_evenement_retour_finalise:
+
+Widget "Dossiers auxquels on peut proposer une autre décision"
+##############################################################
+
+.. image:: widget_dossiers_evenement_retour_finalise.png
+
+Ce widget liste les dossiers pour lesquels on peut proposer une autre décision.
+
+Il s'agit de ceux dont le dernier événement d'instruction de type arrêté est finalisé,
+n'est pas de type retour et ne dispose d'aucune date renseignée parmi les suivantes :
+
+* date d'envoi pour signature ;
+* date de retour de signature ;
+* date d'envoi RAR ;
+* date de retour RAR ;
+* date d'envoi au contrôle légalité ;
+* date de retour du contrôle de légalité.
+
 

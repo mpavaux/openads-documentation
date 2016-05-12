@@ -4,15 +4,6 @@
 Service consulté
 ################
 
-.. _service_consulte_tableau_de_bord:
-
-Le tableau de bord
-##################
-
-(:menuselection:`Demandes D'avis --> Tableau De Bord`)
-
-Pour l'instant le tableau de bord service consulté ne comporte aucun widget.
-
 .. _service_consulte_demandes_en_cours:
 
 Demandes en cours
