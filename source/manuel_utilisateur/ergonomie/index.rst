@@ -81,7 +81,7 @@ Trois filtres sont disponibles sur ce widget (le filtre est :ref:`paramétrable 
 
 A tout moment, au survol de l'icône d'information du widget, une description permet d'indiquer quels sont les paramètres appliqués sur le widget.
 
-Un lien "Voir +" permet d'accéder au listing avec les mêmes options de filtre.
+Le menu d'openADS propose autant de listings que de filtres possibles : ainsi le lien "Voir +" redirige vers le tableau adéquat.
 
 
 .. _widget_messages_retours:
@@ -105,7 +105,7 @@ Trois filtres sont disponibles sur ce widget (le filtre est :ref:`paramétrable 
 
 A tout moment, au survol de l'icône d'information du widget, une description permet d'indiquer quels sont les paramètres appliqués sur le widget.
 
-Un lien "Voir +" permet d'accéder au listing avec les mêmes options de filtre.
+Le menu d'openADS propose autant de listings que de filtres possibles : ainsi le lien "Voir +" redirige vers le tableau adéquat.
 
 
 .. _widget_nouvelle_demande_nouveau_dossier:
