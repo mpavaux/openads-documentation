@@ -13,12 +13,12 @@ La disposition des widgets est propre à chaque profil et peut être modifiée t
 
 
 Widgets
--------
+=======
 
 .. _widget_dossiers_limites:
 
 Widget "Dossiers limites"
-#########################
+-------------------------
 
 .. image:: widget_dossiers_limites.png
 
@@ -51,7 +51,7 @@ Un lien "Voir +" permet d'accéder au listing des mêmes dossiers sans limite de
 .. _widget_recherche_dossier:
 
 Widget "Recherche Dossier"
-##########################
+--------------------------
 
 .. image:: widget_recherche_dossier.png
 
@@ -63,7 +63,7 @@ L'objet de ce widget est de présenter un champ de saisie de recherche de dossie
 .. _widget_consultation_retours:
 
 Widget "Retours de Consultation"
-################################
+--------------------------------
 
 .. image:: widget_consultation_retours.png
 
@@ -87,7 +87,7 @@ Le menu d'openADS propose autant de listings que de filtres possibles : ainsi le
 .. _widget_messages_retours:
 
 Widget "Retours de Messages"
-############################
+----------------------------
 
 .. image:: widget_messages_retours.png
 
@@ -111,7 +111,7 @@ Le menu d'openADS propose autant de listings que de filtres possibles : ainsi le
 .. _widget_nouvelle_demande_nouveau_dossier:
 
 Widget "Nouvelle demande 'nouveau dossier'"
-###########################################
+-------------------------------------------
 
 .. image:: widget_nouvelle_demande_nouveau_dossier.png
 
@@ -123,7 +123,7 @@ Raccourci permet d'accéder directement au formulaire de saisie d'une nouvelle d
 .. _widget_nouvelle_demande_autre_dossier:
 
 Widget "Nouvelle demande 'autres dossiers'"
-###########################################
+-------------------------------------------
 
 .. image:: widget_nouvelle_demande_autre_dossier.png
 
@@ -135,7 +135,7 @@ Raccourci permet d'accéder directement au formulaire de recherche d'un dossier 
 .. _widget_nouvelle_demande_dossier_encours:
 
 Widget "Nouvelle demande 'dossiers en cours'"
-#############################################
+---------------------------------------------
 
 .. image:: widget_nouvelle_demande_dossier_encours.png
 
@@ -147,7 +147,7 @@ Raccourci permet d'accéder directement au formulaire de recherche d'un dossier 
 .. _widget_dossiers_evenement_retour_finalise:
 
 Widget "Dossiers auxquels on peut proposer une autre décision"
-##############################################################
+--------------------------------------------------------------
 
 .. image:: widget_dossiers_evenement_retour_finalise.png
 
