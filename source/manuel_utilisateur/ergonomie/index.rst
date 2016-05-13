@@ -129,7 +129,19 @@ Widget "Nouvelle demande 'autres dossiers'"
 
 Orienté Guichet.
 
-Raccourci permet d'accéder directement au formulaire de recherche d'un dossier existant pour y ajouter une nouvelle demande.
+Raccourci permet d'accéder directement au formulaire de recherche d'un dossier en cours ou d'une autorisation existante pour y ajouter une nouvelle demande.
+
+
+.. _widget_nouvelle_demande_dossier_encours:
+
+Widget "Nouvelle demande 'dossiers en cours'"
+#############################################
+
+.. image:: widget_nouvelle_demande_dossier_encours.png
+
+Orienté Guichet.
+
+Raccourci permet d'accéder directement au formulaire de recherche d'un dossier en cours pour y ajouter une nouvelle demande.
 
 
 .. _widget_dossiers_evenement_retour_finalise:
