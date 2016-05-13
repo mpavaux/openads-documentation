@@ -344,6 +344,27 @@ apparait.
 Les contraintes peuvent aussi être récupérées automatiquement à partir d'un SIG si
 celui-ci est configuré, (voir :ref:`instruction_geolocalisation` ).
 
+========
+Messages
+========
+
+.. image:: instruction_dossier_message_tab.png
+
+L'onglet **Message(s)** permet de lister et consulter tous les messages du dossier d'instruction.
+
+
+Lorsque des événements ont lieu sur le dossier alors des messages sont susceptibles d'être créés afin d'avertir l’instructeur (par exemple l’ajout d’une pièce sur le dossier). Un nouveau message est marqué par défaut comme 'non lu'. Une action disponible depuis son formulaire de consultation permet de le marquer comme lu :
+
+.. image:: instruction_dossier_message_form.png
+
+Les messages marqués comme 'non lu' sont listés dans les tableaux du menu *Instruction* > *Messages* :
+
+* *Mes Messages*
+* *Messages De Ma Division*
+* *Tous Les Messages*
+
+Un clic sur une ligne de résultat redirige directement vers le message non lu.
+
 =============
 Dossiers liés
 =============
