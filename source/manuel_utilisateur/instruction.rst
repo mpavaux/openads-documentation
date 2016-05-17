@@ -352,8 +352,9 @@ Messages
 
 L'onglet **Message(s)** permet de lister et consulter tous les messages du dossier d'instruction.
 
+Lorsque des événements ont lieu sur le dossier alors des messages sont susceptibles d'être créés afin d'avertir l’instructeur (par exemple l’ajout d’une pièce sur le dossier). Un nouveau message est marqué par défaut comme non lu. Tant qu'un message reste non lu, aucun message notifiant la même action ne sera ajouté. Si c'est l'instructeur affecté au dossier d'instruction qui effectue une action notifiée, alors le message créé sera marqué comme lu.
 
-Lorsque des événements ont lieu sur le dossier alors des messages sont susceptibles d'être créés afin d'avertir l’instructeur (par exemple l’ajout d’une pièce sur le dossier). Un nouveau message est marqué par défaut comme 'non lu'. Une action disponible depuis son formulaire de consultation permet de le marquer comme lu :
+Une action disponible depuis son formulaire de consultation permet de le marquer comme lu :
 
 .. image:: instruction_dossier_message_form.png
 
@@ -363,7 +364,7 @@ Les messages marqués comme 'non lu' sont listés dans les tableaux du menu *Ins
 * *Messages De Ma Division*
 * *Tous Les Messages*
 
-Un clic sur une ligne de résultat redirige directement vers le message non lu.
+Un clic sur une ligne de résultat redirige directement vers le message non lu dans le contexte du dossier d'instruction.
 
 =============
 Dossiers liés
