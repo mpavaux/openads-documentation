@@ -518,3 +518,39 @@ détails différents.
       + date de retour signature
       + pétitionnaire principal
       + adresse du terrain
+
+  * **statistiques_usage** : *tous les dossiers (filtrés éventuellement par la collectivité de l'utilisateur si commune)*
+
+    - Filtre
+
+      + date de dépôt
+      + date de décision
+
+    - Tri
+
+      + référence du dossier d'instruction
+      + date de dépôt
+
+    - Champs
+
+      + référence du dossier d'instruction
+      + référence du dossier d'autorisation
+      + commune du dossier
+      + division du dossier
+      + code du type de DA détaillé
+      + libellé du type de DA détaillé
+      + code du type de DI
+      + libellé du type de DI
+      + identifiant de l'instructeur
+      + nom de l'instructeur
+      + division de l'instructeur
+      + direction de l'instructeur
+      + date de dépôt
+      + date de limite d'instruction
+      + date de décision
+      + état du dossier
+      + nombre total d'événements d'instructions du dossier
+      + nombre total de consultations du dossier
+      + simulation de taxes (part communale)
+      + simulation de taxes (part départementale)
+      + simulation de taxes (total)
