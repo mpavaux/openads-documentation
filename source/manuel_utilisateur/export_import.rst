@@ -266,6 +266,8 @@ Tous les dossiers.
   * date de dépôt
   * nom d'instructeur
 
+* Aucun choix de champ à afficher n'est proposé. Tous les champs suivants seront récupérés.
+
 * Champs
 
   * N° de dossier
@@ -274,20 +276,27 @@ Tous les dossiers.
   * Pétitionnaire principal
   * Adresse du terrain
 
+.. note::
+
+  * La saisie des dates est obligatoire.
+
 =================
 dossier_detaillee
 =================
 
-Dossiers du type de dossier d'autorisation sélectionné.
+Tous les dossiers.
 
 * Filtre
 
   * date de dépôt
+  * type de dossier d'autorisation
 
 * Tri
 
   * date de décision
   * date de dépôt
+
+* Les champs suivants sont par défaut affichés. On peut les désélectionner un à un.
 
 * Champs
 
@@ -310,21 +319,28 @@ Dossiers du type de dossier d'autorisation sélectionné.
   * nombre de logements
   * autorité compétente
   * décision
+
+.. note::
+
+  * La saisie des dates et du type de dossier d'autorisation est obligatoire.
 
 ==========================
 dossier_detaillee_accordes
 ==========================
 
-Dossiers accordés du type de dossier d'autorisation sélectionné.
+Dossiers qui ont reçu un avis *Favorable*.
 
 * Filtre
 
   * date de décision
+  * type de dossier d'autorisation
 
 * Tri
 
   * date de décision
   * date de dépôt
+
+* Les champs suivants sont par défaut affichés. On peut les désélectionner un à un.
 
 * Champs
 
@@ -347,6 +363,10 @@ Dossiers accordés du type de dossier d'autorisation sélectionné.
   * nombre de logements
   * autorité compétente
   * décision
+
+.. note::
+
+  * La saisie des dates et du type de dossier d'autorisation est obligatoire.
 
 ========================
 dossier_detaillee_detail
@@ -363,6 +383,8 @@ Dossiers de type CU.
   * date de décision
   * date de dépôt
 
+* Les champs suivants sont par défaut affichés. On peut les désélectionner un à un.
+
 * Champs
 
   * numéro de dossier
@@ -384,21 +406,29 @@ Dossiers de type CU.
   * nombre de logements
   * autorité compétente
   * décision
+
+.. note::
+
+  * La saisie des dates est obligatoire.
+  * Les dossiers pour lesquels il n'y a pas eu de décision n'apparaîtront pas dans les résultats.
 
 =========================
 dossier_detaillee_refuses
 =========================
 
-Dossiers du type de dossier d'autorisation sélectionné qui ont reçu un avis *Défavorable*.
+Dossiers qui ont reçu un avis *Défavorable*.
 
 * Filtre
 
   * date de décision
+  * type de dossier d'autorisation
 
 * Tri
 
   * date de décision
   * date de dépôt
+
+* Les champs suivants sont par défaut affichés. On peut les désélectionner un à un.
 
 * Champs
 
@@ -422,20 +452,26 @@ Dossiers du type de dossier d'autorisation sélectionné qui ont reçu un avis *
   * autorité compétente
   * décision
 
+.. note::
+
+  * La saisie des dates et du type de dossier d'autorisation est obligatoire.
+
 ============================
 dossier_premiers_depots_dttm
 ============================
 
-Dossiers du type de dossier d'instruction sélectionné.
+Tous les dossiers.
 
 * Filtre
 
-  * date de décision
+  * date de dépôt
+  * type de dossier d'instruction
 
 * Tri
 
-  * date de décision
   * date de dépôt
+
+* Aucun choix de champ à afficher n'est proposé. Tous les champs suivants seront récupérés.
 
 * Champs
 
@@ -444,15 +480,21 @@ Dossiers du type de dossier d'instruction sélectionné.
   * Pétitionnaire principal
   * Adresse du terrain
 
+.. note::
+
+  * La saisie des dates et du type de dossier d'instruction est obligatoire.
+  * Les dossiers pour lesquels il n'y a pas eu de décision n'apparaîtront pas dans les résultats.
+
 ==================
 dossier_simplifiee
 ==================
 
-Dossiers du type de dossier d'autorisation sélectionné.
+Tous les dossiers.
 
 * Filtre
 
   * date de dépôt
+  * type de dossier d'autorisation
 
 * Tri
 
@@ -460,6 +502,8 @@ Dossiers du type de dossier d'autorisation sélectionné.
   * année
   * version
 
+* Les champs suivants sont par défaut affichés. On peut les désélectionner un à un.
+
 * Champs
 
   * numéro de dossier
@@ -469,21 +513,28 @@ Dossiers du type de dossier d'autorisation sélectionné.
   * shon
   * libellé de la destination
   * hauteur de la construction
+
+.. note::
+
+  * La saisie des dates et du type de dossier d'autorisation est obligatoire.
 
 ===========================
 dossier_simplifiee_accordes
 ===========================
 
-Dossiers du type de dossier d'autorisation sélectionné qui ont reçu un avis *Favorable*.
+Dossiers qui ont reçu un avis *Favorable*.
 
 * Filtre
 
   * date de décision
+  * type de dossier d'autorisation
 
 * Tri
 
   * date de décision
   * date de dépôt
+
+* Les champs suivants sont par défaut affichés. On peut les désélectionner un à un.
 
 * Champs
 
@@ -494,20 +545,27 @@ Dossiers du type de dossier d'autorisation sélectionné qui ont reçu un avis *
   * shon
   * libellé de la destination
   * hauteur de la construction
+
+.. note::
+
+  * La saisie des dates et du type de dossier d'autorisation est obligatoire.
 
 ==========================
 dossier_simplifiee_deposes
 ==========================
 
-Dossiers en cours de type *Initial* et du type de dossier d'autorisation sélectionné.
+Dossiers en cours de type *Initial*.
 
 * Filtre
 
   * date de dépôt
+  * type de dossier d'autorisation
 
 * Tri
 
   * date de dépôt
+
+* Les champs suivants sont par défaut affichés. On peut les désélectionner un à un.
 
 * Champs
 
@@ -518,6 +576,10 @@ Dossiers en cours de type *Initial* et du type de dossier d'autorisation sélect
   * shon
   * libellé de la destination
   * hauteur de la construction
+
+.. note::
+
+  * La saisie des dates et du type de dossier d'autorisation est obligatoire.
 
 ==========================
 dossier_simplifiee_refuses
@@ -534,6 +596,8 @@ Dossiers du type de dossier d'autorisation sélectionné qui ont reçu un avis *
   * date de dépôt
   * date de décision
 
+* Les champs suivants sont par défaut affichés. On peut les désélectionner un à un.
+
 * Champs
 
   * numéro de dossier
@@ -543,6 +607,10 @@ Dossiers du type de dossier d'autorisation sélectionné qui ont reçu un avis *
   * shon
   * libellé de la destination
   * hauteur de la construction
+
+.. note::
+
+  * La saisie des dates est obligatoire.
 
 ==========================================
 dossier_transmission_dttm_signature_prefet
@@ -554,7 +622,9 @@ Dossiers du type de dossier d'instruction sélectionné.
 
   * date de retour de signature
 
-* Aucun tri proposé
+* Aucun choix de tri n'est proposé. Les dossiers sont classés automatiquement par ordre alphabétique de leur référence.
+
+* Aucun choix de champ à afficher n'est proposé. Tous les champs suivants seront récupérés.
 
 * Champs
 
@@ -563,24 +633,25 @@ Dossiers du type de dossier d'instruction sélectionné.
   * pétitionnaire principal
   * adresse du terrain
 
+.. note::
+
+  * La saisie des dates est obligatoire.
+  * Les dossiers pour lesquels il n'y a pas eu de retour de signature du Préfet n'apparaîtront pas dans les résultats.
+
 ==================
 statistiques_usage
 ==================
 
-Il peut être possible d'affecter à posteriori certains dossiers d'instruction de la
-même autorisation à la commune (par exemple DOC et DAACT dans le cadre d'un PC)
-alors que les autres dossiers d'instructions sont confiés au service mutualisé (permis
-initial, modificatif, transfert). Dans ce cadre les statistiques d'usage permettent
-d'établir des chiffres concernant les dossiers déposés et la répartition équilibrée
-de la charge de travail par instructeur.
+Ces statistiques évoluées permettent d'exporter les données de l'instruction de tous les dossiers.
 
 * Filtre
 
-  * date de dépôt (intervalle de dates : aucune n'est obligatoire)
-  * date de décision (intervalle de dates : aucune n'est obligatoire mais en renseigner au moins une limitera les résultats aux dossiers ayant reçu une décision)
-  * éventuellement la collectivité de l'utilisateur s'il est rattaché à une commune (filtre automatique)
+  * date de dépôt
+  * date de décision
 
-* Aucun tri proposé
+* Aucun choix de tri n'est proposé. Les dossiers sont classés automatiquement par ordre alphabétique de leur référence.
+
+* Aucun choix de champ à afficher n'est proposé. Tous les champs suivants seront récupérés.
 
 * Champs
 
@@ -605,3 +676,9 @@ de la charge de travail par instructeur.
   * simulation de taxes (part communale)
   * simulation de taxes (part départementale)
   * simulation de taxes (total)
+
+.. note::
+
+  * La saisie des dates est facultative.
+  * Si l'on filtre par date de décision, les dossiers pour lesquels il n'y a pas eu de décision n'apparaîtront pas dans les résultats.
+  * Si l'utilisateur n'est pas rattaché à la communauté, seuls les dossiers de sa commune sont listés.
