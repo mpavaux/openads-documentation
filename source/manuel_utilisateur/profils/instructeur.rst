@@ -110,6 +110,7 @@ Dossiers d'autorisation
     - accéder à la consultation des dossiers d'instruction
     - accéder au dossier d'instruction dans le sig (si paramétré)
 
+.. _profil_instructeur_rubrique_instruction:
 
 Rubrique *Instruction*
 ----------------------
