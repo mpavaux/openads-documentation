@@ -29,18 +29,14 @@ Les paramètres
 
 Une convention de nommage existe. Il faut préfixer par :
 
-* ged\_ les paramètres qui sont spécifiques à la GED ;
+* **ged\_** les paramètres spécifiques à la GED ;
+* **erp\_** les paramètres spécifiques à ERP ;
+* **option\_** les paramètres spécifiques aux options ;
+* **id\_** les paramètres contenant un numéro d'identifiant ;
+* **sig\_** les paramètres spécifiques au systeme d'information géographique;
+* **param_courriel_de_notification_commune** les paramètres spécifiques aux notifications par courriel aux communes.
 
-* erp\_ les paramètres qui sont spécifiques à ERP ;
-
-* option\_ les paramètres qui sont spécifiques aux options ;
-
-* id\_ les paramètres qui contiendront un numéro d'identifiant ;
-
-* sig\_ les paramètres qui sont spécifiques au systeme d'information géographique.
-
-
-Méthode d'utilisation :
+Utilisation des options :
 
 * **option_sig** : la valeur par défaut est *aucun*. Les valeurs possibles sont
   *sig_externe*, *sig_interne* ou *aucun*.
@@ -66,13 +62,29 @@ Méthode d'utilisation :
   possibles sont *true* ou *false*.
   Cette option indique si le numéro de dossier tient compte de la vision de l'instructeur auquel il est affecté.
 * **option_portail_acces_citoyen** : permet d'activer ou de désactiver l'accès au :ref:`portail citoyen <portail_citoyen>`.
+* **option_notification_piece_numerisee** : permet d'activer ou de désactiver l'ajout de :ref:`message de notification <instruction_dossier_message>`.
 
-La suppression d'une option entraîne la désactivation des fonctionnalités liées 
-à l'option.
+.. note::
+
+  La suppression d'une option entraîne la désactivation des fonctionnalités liées 
+  à l'option.
+
+Utilisation des paramètres de notification :
+
+* **param_courriel_de_notification_commune** : paramètre commune listant les adresses mails de notification (une par ligne).
+* **param_courriel_de_notification_commune_objet_depuis_instruction** : paramètre communauté spécifiant l'objet du courriel.
+* **param_courriel_de_notification_commune_modele_depuis_instruction** : paramètre communauté (écrasable par la commune) spécifiant le modèle du corps du courriel.
+
+.. note::
+
+  Il est possible de renseigner des variables de remplacement dans l'objet et le corps du courriel :
+
+  * **<DOSSIER_INSTRUCTION>** pour le numéro du dossier (objet et corps) ;
+  * **<URL_INSTRUCTION>** pour le lien direct vers l'événement d'instruction (corps uniquement) ;
+  * **<ID_INSTRUCTION>** pour l'identifiant unique de l'événement d'instruction (corps uniquement).
 
 Gestion Des Utilisateurs
 ########################
-
 
 .. _administration_profil:
 
@@ -150,23 +162,44 @@ Les arguments sont déclarés ainsi :
 
 Les scripts disponibles sont les suivants :
 
+.. _administration_widget_consultation_retours:
+
+consultation_retours
+====================
+
+Ce widget permet d'afficher le nombre de retours de consultation marqués comme 'non lu' pour les dossiers de l'utilisateur correspondant au filtre paramétrable. Un lien *Voir +* permet d'accéder au listing complet. Les informations fonctionnelles sont disponibles :ref:`ici<widget_consultation_retours>`.
+
+Un argument facultatif est paramétrable :
+
+* **filtre** [par défaut *instructeur*] - les filtres disponibles sont *aucun*, *division* et *instructeur*
+
+
+.. _administration_widget_dossiers_limites:
+
 dossiers_limites
 ================
 
-Ce widget permet d'afficher les dossiers d'instruction tacites dont la date
-limite est dans moins de X jours.
-Seuls les 10 premiers résultats sont affichés. Un lien *Voir +* permet d'accéder
-au listing complet.
-Davantage d'informations sont disponibles :ref:`ici<dossiers_limites>`.
+Ce widget permet d'afficher les dossiers d'instruction tacites dont la date limite est dans moins de X jours. Seuls les 10 premiers résultats sont affichés. Un lien *Voir +* permet d'accéder au listing complet. Les informations fonctionnelles sont disponibles :ref:`ici<widget_dossiers_limites>`.
 
-Trois arguments facultatifs faisant office de critères sont paramétrables :
+Trois arguments facultatifs sont paramétrables :
 
-* **filtre** [par défaut *instructeur*] - les filtres disponibles sont *aucun*,
-  *division* et *instructeur*
-* **nombre_de_jours** [par défaut *15*] - délai en jours avant la date limite à
-  partir de laquelle on souhaite voir apparaître les dossiers
-* **codes_datd** [par défaut tous les types sont affichés] - liste des types de
-  dossiers à afficher séparés par un point-virgule. exemple : *PCI;PCA;DPS;CUa;CUb*
+* **filtre** [par défaut *instructeur*] - les filtres disponibles sont *aucun*, *division* et *instructeur*
+* **nombre_de_jours** [par défaut *15*] - délai en jours avant la date limite à partir de laquelle on souhaite voir apparaître les dossiers
+* **codes_datd** [par défaut tous les types sont affichés] - liste des types de dossiers à afficher séparés par un point-virgule. exemple : *PCI;PCA;DPS;CUa;CUb*
+
+
+.. _administration_widget_messages_retours:
+
+messages_retours
+================
+
+Ce widget permet d'afficher le nombre de retours de consultation marqués comme 'non lu' pour les dossiers de l'utilisateur correspondant au filtre paramétrable. Un lien *Voir +* permet d'accéder au listing complet. Les informations fonctionnelles sont disponibles :ref:`ici<widget_messages_retours>`.
+
+Un argument facultatif est paramétrable :
+
+* **filtre** [par défaut *instructeur*] - les filtres disponibles sont *aucun*, *division* et *instructeur*
+
+
 
 .. _administration_composition:
 

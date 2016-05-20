@@ -4,30 +4,6 @@
 Instruction
 ###########
 
-==================
-Le tableau de bord
-==================
-
-(:menuselection:`Instruction --> Tableau De Bord`)
-
-Le tableau de bord permet de lister les dossiers qui répondent à des critères particuliers.
-
-Widget - Dossiers auxquels on peut proposer une autre décision
-==============================================================
-
-Ce widget liste les dossiers pour lesquels on peut proposer une autre décision.
-
-.. image:: instructeur_tableau_de_bord_widget_decision.png
-
-Il s'agit de ceux dont le dernier événement d'instruction de type arrêté est finalisé,
-n'est pas de type retour et ne dispose d'aucune date renseignée parmi les suivantes :
-
-* date d'envoi pour signature ;
-* date de retour de signature ;
-* date d'envoi RAR ;
-* date de retour RAR ;
-* date d'envoi au contrôle légalité ;
-* date de retour du contrôle de légalité.
 
 ======================
 Dossiers d'instruction
@@ -310,6 +286,20 @@ enregistré dans le systeme de fichiers associé à certaines informations (num�
 de l'arrêté dans le référentiel, informations concernant le signataire, le terrain,
 et l'arrêté).
 
+Notifier la commune par courriel
+================================
+
+Un événement d'instruction est notifiable par courriel aux communes.
+
+.. image:: notifier_commune.png
+
+Les quatre conditions suivantes doivent être satisfaites pour rendre l'action disponible :
+
+* :ref:`paramétrage <parametrage_parametre>` renseigné ;
+* événement d'instruction finalisé ;
+* être rattaché à la communauté de communes ;
+* disposer du profil instructeur polyvalent ou administrateur général.
+
 .. _instruction_dossier_contrainte:
 
 =============================
@@ -353,6 +343,30 @@ apparait.
 
 Les contraintes peuvent aussi être récupérées automatiquement à partir d'un SIG si
 celui-ci est configuré, (voir :ref:`instruction_geolocalisation` ).
+
+.. _instruction_dossier_message:
+
+========
+Messages
+========
+
+.. image:: instruction_dossier_message_tab.png
+
+L'onglet **Message(s)** permet de lister et consulter tous les messages du dossier d'instruction.
+
+Lorsque des événements ont lieu sur le dossier alors des messages sont susceptibles d'être créés afin d'avertir l’instructeur (par exemple l’ajout d’une pièce sur le dossier), à condition que l'option :ref:`'option_notification_piece_numerisee' <parametrage_parametre>` soit activée. Un nouveau message est marqué par défaut comme non lu. Tant qu'un message reste non lu, aucun message notifiant la même action ne sera ajouté. Si c'est l'instructeur affecté au dossier d'instruction qui effectue une action notifiée, alors le message créé sera marqué comme lu.
+
+Une action disponible depuis son formulaire de consultation permet de le marquer comme lu :
+
+.. image:: instruction_dossier_message_form.png
+
+Les messages marqués comme 'non lu' sont listés dans les tableaux du menu *Instruction* > *Messages* :
+
+* *Mes Messages*
+* *Messages De Ma Division*
+* *Tous Les Messages*
+
+Un clic sur une ligne de résultat redirige directement vers le message non lu dans le contexte du dossier d'instruction.
 
 =============
 Dossiers liés

@@ -250,271 +250,435 @@ Statistiques à la demande
 Ce menu permet d'exporter des dossiers d'instruction selon plusieurs critères et avec des
 détails différents.
 
-  * **dossier_depots_division** : *tous les dossiers*
+=======================
+dossier_depots_division
+=======================
 
-    - Filtre
+Tous les dossiers.
 
-      + date de dépôt
-
-    - Tri
-
-      + code de division
-      + date de dépôt
-      + nom d'instructeur
-
-    - Champs
-
-      + N° de dossier
-      + Division
-      + Date de dépôt
-      + Pétitionnaire principal
-      + Adresse du terrain
-      
-  * **dossier_detaillee** : *dossiers du type de dossier d'autorisation sélectionné*
-
-    - Filtre
-
-      + date de dépôt
-
-    - Tri
-
-      + date de décision
-      + date de dépôt
-
-    - Champs
+* Filtre
 
-      + numéro de dossier
-      + date de dépôt
-      + date d'ouverture de chantier
-      + date de demande
-      + date achèvement
-      + date prévue de recevabilité
-      + destination des surfaces
-      + petitionnaire principal
-      + adresse du terrain
-      + référence cadastrale
-      + date de décision
-      + shon
-      + architecte
-      + affectation_surface
-      + nature des travaux
-      + nature du financement
-      + nombre de logements
-      + autorité compétente
-      + décision
-
-  * **dossier_detaillee_accordes** : *dossiers accordés du type de dossier d'autorisation sélectionné*
-
-    - Filtre
-
-      + date de décision
-
-    - Tri
-
-      + date de décision
-      + date de dépôt
-
-    - Champs
-
-      + numéro de dossier
-      + date de dépôt
-      + date d'ouverture de chantier
-      + date de demande
-      + date achèvement
-      + date prévue de recevabilité
-      + destination des surfaces
-      + petitionnaire principal
-      + adresse du terrain
-      + référence cadastrale
-      + date de décision
-      + shon
-      + architecte
-      + affectation_surface
-      + nature des travaux
-      + nature du financement
-      + nombre de logements
-      + autorité compétente
-      + décision
-
-  * **dossier_detaillee_detail** : *dossiers de type CU*
-
-    - Filtre
-
-      + date de décision
-
-    - Tri
-
-      + date de décision
-      + date de dépôt
+  * date de dépôt
 
-    - Champs
+* Tri
 
-      + numéro de dossier
-      + date de dépôt
-      + date d'ouverture de chantier
-      + date de demande
-      + date achèvement
-      + date prévue de recevabilité
-      + destination des surfaces
-      + petitionnaire principal
-      + adresse du terrain
-      + référence cadastrale
-      + date de décision
-      + shon
-      + architecte
-      + affectation_surface
-      + nature des travaux
-      + nature du financement
-      + nombre de logements
-      + autorité compétente
-      + décision 
+  * code de division
+  * date de dépôt
+  * nom d'instructeur
 
-  * **dossier_detaillee_refuses** : *dossiers du type de dossier d'autorisation sélectionné qui ont reçu un avis "Défavorable"*
+* Aucun choix de champ à afficher n'est proposé. Tous les champs suivants seront récupérés.
 
-    - Filtre
+* Champs
 
-      + date de décision
+  * N° de dossier
+  * Division
+  * Date de dépôt
+  * Pétitionnaire principal
+  * Adresse du terrain
 
-    - Tri
+.. note::
 
-      + date de décision
-      + date de dépôt
+  * La saisie des dates est obligatoire.
 
-    - Champs
+=================
+dossier_detaillee
+=================
 
-      + numéro de dossier
-      + date de dépôt
-      + date d'ouverture de chantier
-      + date de demande
-      + date achèvement
-      + date prévue de recevabilité
-      + destination des surfaces
-      + petitionnaire principal
-      + adresse du terrain
-      + référence cadastrale
-      + date de décision
-      + shon
-      + architecte
-      + affectation_surface
-      + nature des travaux
-      + nature du financement
-      + nombre de logements
-      + autorité compétente
-      + décision 
-  
-  * **dossier_premiers_depots_dttm** : *dossiers du type de dossier d'instruction sélectionné*
+Tous les dossiers.
 
-    - Filtre
+* Filtre
 
-      + date de décision
+  * date de dépôt
+  * type de dossier d'autorisation
 
-    - Tri
+* Tri
 
-      + date de décision
-      + date de dépôt
+  * date de décision
+  * date de dépôt
 
-    - Champs
+* Les champs suivants sont par défaut affichés. On peut les désélectionner un à un.
 
-      + N° de dossier
-      + Date de dépôt
-      + Pétitionnaire principal
-      + Adresse du terrain
+* Champs
 
-  * **dossier_simplifiee** : *dossiers du type de dossier d'autorisation sélectionné*
+  * numéro de dossier
+  * date de dépôt
+  * date d'ouverture de chantier
+  * date de demande
+  * date achèvement
+  * date prévue de recevabilité
+  * destination des surfaces
+  * petitionnaire principal
+  * adresse du terrain
+  * référence cadastrale
+  * date de décision
+  * shon
+  * architecte
+  * affectation_surface
+  * nature des travaux
+  * nature du financement
+  * nombre de logements
+  * autorité compétente
+  * décision
 
-    - Filtre
+.. note::
 
-      + date de dépôt
+  * La saisie des dates et du type de dossier d'autorisation est obligatoire.
 
-    - Tri
+==========================
+dossier_detaillee_accordes
+==========================
 
-      + date de dépôt
-      + année
-      + version
+Dossiers qui ont reçu un avis *Favorable*.
 
-    - Champs
+* Filtre
 
-      + numéro de dossier
-      + date de dépôt
-      + petitionnaire principal
-      + adresse du terrain
-      + shon
-      + libellé de la destination
-      + hauteur de la construction
+  * date de décision
+  * type de dossier d'autorisation
 
-  * **dossier_simplifiee_accordes** : *dossiers du type de dossier d'autorisation sélectionné qui ont reçu un avis "Favorable"*
+* Tri
 
-    - Filtre
+  * date de décision
+  * date de dépôt
 
-      + date de décision
+* Les champs suivants sont par défaut affichés. On peut les désélectionner un à un.
 
-    - Tri
+* Champs
 
-      + date de décision
-      + date de dépôt
+  * numéro de dossier
+  * date de dépôt
+  * date d'ouverture de chantier
+  * date de demande
+  * date achèvement
+  * date prévue de recevabilité
+  * destination des surfaces
+  * petitionnaire principal
+  * adresse du terrain
+  * référence cadastrale
+  * date de décision
+  * shon
+  * architecte
+  * affectation_surface
+  * nature des travaux
+  * nature du financement
+  * nombre de logements
+  * autorité compétente
+  * décision
+
+.. note::
+
+  * La saisie des dates et du type de dossier d'autorisation est obligatoire.
+
+========================
+dossier_detaillee_detail
+========================
 
-    - Champs
+Dossiers de type CU.
 
-      + numéro de dossier
-      + date de décision
-      + petitionnaire principal
-      + adresse du terrain
-      + shon
-      + libellé de la destination
-      + hauteur de la construction
+* Filtre
 
-  * **dossier_simplifiee_deposes** : *dossiers en cours de type "Initial" et du type de dossier d'autorisation sélectionné*
+  * date de décision
 
-    - Filtre
+* Tri
 
-      + date de dépôt
+  * date de décision
+  * date de dépôt
 
-    - Tri
+* Les champs suivants sont par défaut affichés. On peut les désélectionner un à un.
 
-      + date de dépôt
+* Champs
 
-    - Champs
+  * numéro de dossier
+  * date de dépôt
+  * date d'ouverture de chantier
+  * date de demande
+  * date achèvement
+  * date prévue de recevabilité
+  * destination des surfaces
+  * petitionnaire principal
+  * adresse du terrain
+  * référence cadastrale
+  * date de décision
+  * shon
+  * architecte
+  * affectation_surface
+  * nature des travaux
+  * nature du financement
+  * nombre de logements
+  * autorité compétente
+  * décision
 
-      + numéro de dossier
-      + date de dépôt
-      + petitionnaire principal
-      + adresse du terrain
-      + shon
-      + libellé de la destination
-      + hauteur de la construction
+.. note::
 
-  * **dossier_simplifiee_refuses** : *dossiers du type de dossier d'autorisation sélectionné qui ont reçu un avis "Défavorable"*
+  * La saisie des dates est obligatoire.
+  * Les dossiers pour lesquels il n'y a pas eu de décision n'apparaîtront pas dans les résultats.
 
-    - Filtre
+=========================
+dossier_detaillee_refuses
+=========================
 
-      + date de décision
+Dossiers qui ont reçu un avis *Défavorable*.
 
-    - Tri
+* Filtre
 
-      + date de dépôt
-      + date de décision
+  * date de décision
+  * type de dossier d'autorisation
 
-    - Champs
+* Tri
 
-      + numéro de dossier
-      + date de dépôt
-      + petitionnaire principal
-      + adresse du terrain
-      + shon
-      + libellé de la destination
-      + hauteur de la construction
-  
-  * **dossier_transmission_dttm_signature_prefet** : *dossiers du type de dossier d'instruction sélectionné*
+  * date de décision
+  * date de dépôt
 
-    - Filtre
+* Les champs suivants sont par défaut affichés. On peut les désélectionner un à un.
 
-      + date de retour de signature
+* Champs
 
-    - Aucun tri proposé
+  * numéro de dossier
+  * date de dépôt
+  * date d'ouverture de chantier
+  * date de demande
+  * date achèvement
+  * date prévue de recevabilité
+  * destination des surfaces
+  * petitionnaire principal
+  * adresse du terrain
+  * référence cadastrale
+  * date de décision
+  * shon
+  * architecte
+  * affectation_surface
+  * nature des travaux
+  * nature du financement
+  * nombre de logements
+  * autorité compétente
+  * décision
 
-    - Champs
+.. note::
 
-      + N° de dossier
-      + date de retour signature
-      + pétitionnaire principal
-      + adresse du terrain
+  * La saisie des dates et du type de dossier d'autorisation est obligatoire.
+
+============================
+dossier_premiers_depots_dttm
+============================
+
+Tous les dossiers.
+
+* Filtre
+
+  * date de dépôt
+  * type de dossier d'instruction
+
+* Tri
+
+  * date de dépôt
+
+* Aucun choix de champ à afficher n'est proposé. Tous les champs suivants seront récupérés.
+
+* Champs
+
+  * N° de dossier
+  * Date de dépôt
+  * Pétitionnaire principal
+  * Adresse du terrain
+
+.. note::
+
+  * La saisie des dates et du type de dossier d'instruction est obligatoire.
+  * Les dossiers pour lesquels il n'y a pas eu de décision n'apparaîtront pas dans les résultats.
+
+==================
+dossier_simplifiee
+==================
+
+Tous les dossiers.
+
+* Filtre
+
+  * date de dépôt
+  * type de dossier d'autorisation
+
+* Tri
+
+  * date de dépôt
+  * année
+  * version
+
+* Les champs suivants sont par défaut affichés. On peut les désélectionner un à un.
+
+* Champs
+
+  * numéro de dossier
+  * date de dépôt
+  * petitionnaire principal
+  * adresse du terrain
+  * shon
+  * libellé de la destination
+  * hauteur de la construction
+
+.. note::
+
+  * La saisie des dates et du type de dossier d'autorisation est obligatoire.
+
+===========================
+dossier_simplifiee_accordes
+===========================
+
+Dossiers qui ont reçu un avis *Favorable*.
+
+* Filtre
+
+  * date de décision
+  * type de dossier d'autorisation
+
+* Tri
+
+  * date de décision
+  * date de dépôt
+
+* Les champs suivants sont par défaut affichés. On peut les désélectionner un à un.
+
+* Champs
+
+  * numéro de dossier
+  * date de décision
+  * petitionnaire principal
+  * adresse du terrain
+  * shon
+  * libellé de la destination
+  * hauteur de la construction
+
+.. note::
+
+  * La saisie des dates et du type de dossier d'autorisation est obligatoire.
+
+==========================
+dossier_simplifiee_deposes
+==========================
+
+Dossiers en cours de type *Initial*.
+
+* Filtre
+
+  * date de dépôt
+  * type de dossier d'autorisation
+
+* Tri
+
+  * date de dépôt
+
+* Les champs suivants sont par défaut affichés. On peut les désélectionner un à un.
+
+* Champs
+
+  * numéro de dossier
+  * date de dépôt
+  * petitionnaire principal
+  * adresse du terrain
+  * shon
+  * libellé de la destination
+  * hauteur de la construction
+
+.. note::
+
+  * La saisie des dates et du type de dossier d'autorisation est obligatoire.
+
+==========================
+dossier_simplifiee_refuses
+==========================
+
+Dossiers du type de dossier d'autorisation sélectionné qui ont reçu un avis *Défavorable*.
+
+* Filtre
+
+  * date de décision
+
+* Tri
+
+  * date de dépôt
+  * date de décision
+
+* Les champs suivants sont par défaut affichés. On peut les désélectionner un à un.
+
+* Champs
+
+  * numéro de dossier
+  * date de dépôt
+  * petitionnaire principal
+  * adresse du terrain
+  * shon
+  * libellé de la destination
+  * hauteur de la construction
+
+.. note::
+
+  * La saisie des dates est obligatoire.
+
+==========================================
+dossier_transmission_dttm_signature_prefet
+==========================================
+
+Dossiers du type de dossier d'instruction sélectionné.
+
+* Filtre
+
+  * date de retour de signature
+
+* Aucun choix de tri n'est proposé. Les dossiers sont classés automatiquement par ordre alphabétique de leur référence.
+
+* Aucun choix de champ à afficher n'est proposé. Tous les champs suivants seront récupérés.
+
+* Champs
+
+  * N° de dossier
+  * date de retour signature
+  * pétitionnaire principal
+  * adresse du terrain
+
+.. note::
+
+  * La saisie des dates est obligatoire.
+  * Les dossiers pour lesquels il n'y a pas eu de retour de signature du Préfet n'apparaîtront pas dans les résultats.
+
+==================
+statistiques_usage
+==================
+
+Ces statistiques évoluées permettent d'exporter les données de l'instruction de tous les dossiers.
+
+* Filtre
+
+  * date de dépôt
+  * date de décision
+
+* Aucun choix de tri n'est proposé. Les dossiers sont classés automatiquement par ordre alphabétique de leur référence.
+
+* Aucun choix de champ à afficher n'est proposé. Tous les champs suivants seront récupérés.
+
+* Champs
+
+  * référence du dossier d'instruction
+  * référence du dossier d'autorisation
+  * commune du dossier
+  * division du dossier
+  * code du type de DA détaillé
+  * libellé du type de DA détaillé
+  * code du type de DI
+  * libellé du type de DI
+  * identifiant de l'instructeur
+  * nom de l'instructeur
+  * division de l'instructeur
+  * direction de l'instructeur
+  * date de dépôt
+  * date de limite d'instruction
+  * date de décision
+  * état du dossier
+  * nombre total d'événements d'instructions du dossier
+  * nombre total de consultations du dossier
+  * simulation de taxes (part communale)
+  * simulation de taxes (part départementale)
+  * simulation de taxes (total)
+
+.. note::
+
+  * La saisie des dates est facultative.
+  * Si l'on filtre par date de décision, les dossiers pour lesquels il n'y a pas eu de décision n'apparaîtront pas dans les résultats.
+  * Si l'utilisateur n'est pas rattaché à la communauté, seuls les dossiers de sa commune sont listés.

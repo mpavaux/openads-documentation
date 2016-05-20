@@ -11,34 +11,6 @@ Le menu
 
 .. image:: guichet_unique_menu.png
 
-.. _guichet_unique_tableau_de_bord:
-
-Le tableau de bord
-##################
-
-(:menuselection:`Guichet Unique --> Tableau De Bord`)
-
-Le tableau de bord permet simplement de présenter des raccourcis vers les
-écrans de création d'une nouvelle demande en fonction de sa nature. 
-
-=========================================================
-Widget - Nouvelle demande qui concerne un nouveau dossier
-=========================================================
-
-Ce widget est un raccourci qui permet d'accéder plus rapidement au formulaire
-de saisie d'une nouvelle demande qui concerne un nouveau dossier.
-
-.. image:: guichet_unique_tableau_de_bord_widget_nouveau_dossier.png
-
-==========================================================
-Widget - Nouvelle demande qui concerne un dossier existant
-==========================================================
-
-Ce widget est un raccourci qui permet d'accéder plus rapidement au formulaire
-de saisie d'une nouvelle demande qui concerne un dossier existant.
-
-.. image:: guichet_unique_tableau_de_bord_widget_dossier_existant.png
-
 .. _guichet_unique_nouvelle_demande:
 
 Les nouvelles demandes
