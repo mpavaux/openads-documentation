@@ -5,6 +5,21 @@ INSTRUCTEUR POLYVALENT
 Description
 ===========
 
+C'est le profil utilisé par les instructeurs des communautés de communes dans le cas d'une utilisation de l'application multi-communes.
+
+Il va leur permettre :
+
+- d'instruire les dossiers d'instruction qui leurs sont affecté.
+- d'ajouter des demandes de passage en commission
+- de consulter des services
+- d'accéder aux dossiers liés
+
+
+L'utilisateur qui a ce profil doit forcément être rattaché à un instructeur qui
+lui est rattaché à une division pour pouvoir visualiser les dossiers qui lui sont
+affectés ou affectés aux instructeurs de sa division.
+Cet utilisateur doit être liée à la collectivité de la communauté de communes.
+
 Fonctionnalités disponibles
 ===========================
 
@@ -67,14 +82,52 @@ Menu
 Rubrique *Autorisation*
 -----------------------
 
-Rubrique *Guichet Unique*
--------------------------
+Actions identiques à celles du profil "instructeur" (cf :ref:`Rubrique autorisation<profil_instructeur_rubrique_autorisation>`)
 
 Rubrique *Instruction*
 ----------------------
 
+Actions identiques à celles du profil "instructeur" (cf :ref:`Rubrique instruction<profil_instructeur_rubrique_instruction>`)
+
+Depuis la consultation d'un événement d'instruction finalisé l'instructeur peut notifier la commune du dossier
+
+Rubrique *Guichet Unique*
+-------------------------
+
+Actions identiques à celles du profil "guichet" (cf :ref:`Rubrique guichet unique<profil_guichet_unique_rubrique_guichet_unique>`)
+
+.. _profil_instructeur_polyvalent_rubrique_suivi:
+
 Rubrique *Suivi*
 ----------------
 
+(Suivi des pièces) Mise à jour des dates
+########################################
+
+- Mettre à jour les dates de suivi d'événements d'instruction.
+- Visualiser la synthèse des date de suivi d'événements d'instruction.
+
+Envoi lettre RAR
+################
+
+- Télécharger au format PDF l'édition des pré-imprimés RAR.
+
+Bordereaux
+##########
+
+- Télécharger le bordereau d'envoi des dossiers compris dans un intervalle de dates.
+
+(Demandes d'avis) Mise à jour des dates
+#######################################
+
+- Mettre à jour les dates de retour de consultation de service.
+
+Retours de consultation
+#######################
+
+- Saisir le retour d'avis du service consulté.
+
 Rubrique *Export / Import*
 --------------------------
+
+Actions identiques à celles du profil "suivi" (cf :ref:`Rubrique suivi<profil_suivi_rubrique_export>`)

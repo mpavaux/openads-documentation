@@ -86,6 +86,8 @@ Retours de consultation
 
 - Visualiser la liste des dossiers d'instruction qui ont une demande de passage en commission.
 
+.. _profil_suivi_rubrique_export:
+
 Rubrique *Export / Import*
 --------------------------
 

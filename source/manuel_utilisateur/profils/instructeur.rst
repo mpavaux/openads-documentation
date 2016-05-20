@@ -5,7 +5,7 @@ INSTRUCTEUR
 Description
 ===========
 
-C'est le profil utilisé pour les instructeurs. Il va leur permettre :
+C'est le profil utilisé par les instructeurs. Il va leur permettre :
 
 - d'instruire les dossiers d'instruction qui leurs sont affecté.
 - d'ajouter des demandes de passage en commission
@@ -233,6 +233,8 @@ Action(s) disponible(s) par onglet :
   - *Message(s)* :
 
     - Visualiser la liste des messages du dossier d'instruction.
+    - Consulter un message
+    - Marquer le message comme lu
 
   - *Bloc-note* :
 
