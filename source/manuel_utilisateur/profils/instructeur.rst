@@ -1,6 +1,6 @@
-####################
-Profil *INSTRUCTEUR*
-####################
+###########
+INSTRUCTEUR
+###########
 
 Description
 ===========
@@ -17,12 +17,13 @@ L'utilisateur qui a ce profil doit forcément être rattaché à un instructeur 
 lui est rattaché à une division pour pouvoir visualiser les dossiers qui lui sont
 affectés ou affectés aux instructeurs de sa division.
 
-
 Fonctionnalités disponibles
 ===========================
 
 Tableau de bord
 ---------------
+
+.. image:: dashboard_instr.png
 
 Widget *Infos profil*
 #####################
@@ -40,13 +41,11 @@ Widget *Dossiers à qualifier*
 - Visualiser la liste des dossiers d'instruction à qualifier qui ne sont pas ERP, affecté à l'utilisateur connecté
 - Accéder aux dossiers d'instruction à qualifier qui ne sont pas ERP, affecté à l'utilisateur connecté
 
-
-Widget *Dossiers auxquels on peut porposer une autre décision*
+Widget *Dossiers auxquels on peut proposer une autre décision*
 ##############################################################
 
 - Visualiser la liste des dossiers d'instruction dont l'utilisateur connecté peut changer la décision
 - Accéder aux dossiers d'instruction dont l'utilisateur connecté peut changer la décision
-
 
 Widget *Dossiers limite à 15 jours*
 ###################################
@@ -54,20 +53,17 @@ Widget *Dossiers limite à 15 jours*
 - Visualiser la liste des dossiers d'instruction affecté à l'utilisateur connecté dont la date limite arrive bientôt à échéance
 - Accéder aux dossiers d'instruction affecté à l'utilisateur connecté dont la date limite arrive bientôt à échéance
 
-
 Widget *Dossiers événement incomplet ou majoration sans RAR*
-#############################################################
+############################################################
 
 - Visualiser la liste des dossiers d'instruction affecté à l'utilisateur connecté dont l'incomplétude n'a pas été notifié au demandeur
 - Accéder aux dossiers d'instruction affecté à l'utilisateur connecté dont l'incomplétude n'a pas été notifié au demandeur
-
 
 Widget *Mes retours de consultation*
 ####################################
 
 - Visualiser la liste des consultations des dossiers d'instruction affecté à l'utilisateur dont un avis a été rendu
 - Accéder aux consultations des dossiers d'instruction affecté à l'utilisateur dont un avis a été rendu
-
 
 Widget *Mes messages*
 #####################
@@ -82,6 +78,11 @@ Widget *Mes retours de commission*
 - Accéder aux demandes de passages en commission
 
 .. _profil_instructeur_rubrique_autorisation:
+
+Menu
+----
+
+.. image:: menu_instr.png
 
 Rubrique *Autorisation*
 -----------------------

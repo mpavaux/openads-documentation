@@ -1,6 +1,6 @@
-#################################
-Profil *SERVICE CONSULTÉ INTERNE*
-#################################
+########################
+SERVICE CONSULTÉ INTERNE
+########################
 
 Description
 ===========
@@ -23,10 +23,12 @@ Fonctionnalités disponibles
 Tableau de bord
 ---------------
 
-Widget *Redirection*
-####################
+Tableau de bord innaccessible : redirection automatique vers la liste des demandes d'avis en cours.
 
-- Rediriger l'utilisateur vers la liste des demandes d'avis en cours.
+Menu
+----
+
+.. image:: menu_consu.png
 
 Rubrique *Autorisation*
 -----------------------
@@ -40,7 +42,7 @@ Rubrique *Autorisation*
 Actions identiques à celles du profil "service consulté" (cf :ref:`Rubrique autorisation<profil_service_consulte_rubrique_autorisation>`)
 
 
-Rubrique *Demandes d'avis*
+Rubrique *Demandes D'avis*
 --------------------------
 
 Actions identiques à celles du profil "service consulté" (cf :ref:`Demandes d'avis<profil_service_consulte_rubrique_demande_avis>`)

@@ -1,6 +1,6 @@
-######################
-Profil *CELLULE SUIVI*
-######################
+#############
+CELLULE SUIVI
+#############
 
 Description
 ===========
@@ -15,6 +15,16 @@ C'est le profil utilisé pour le service de suivi. Il va leur permettre :
 
 Fonctionnalités disponibles
 ===========================
+
+Tableau de bord
+---------------
+
+Aucun widget.
+
+Menu
+----
+
+.. image:: menu_suivi.png
 
 Rubrique *Autorisation*
 -----------------------
@@ -76,7 +86,7 @@ Retours de consultation
 
 - Visualiser la liste des dossiers d'instruction qui ont une demande de passage en commission.
 
-Rubrique *Export / import*
+Rubrique *Export / Import*
 --------------------------
 
 Export Sitadel

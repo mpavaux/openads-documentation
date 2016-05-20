@@ -1,6 +1,6 @@
-######################
-Profil *DIVISIONNAIRE*
-######################
+#############
+DIVISIONNAIRE
+#############
 
 Description
 ===========
@@ -18,6 +18,27 @@ affectés ou affectés aux instructeurs de sa division.
 
 Fonctionnalités disponibles
 ===========================
+
+Tableau de bord
+---------------
+
+.. image:: dashboard_divi.png
+
+Widget *Infos profil*
+#####################
+
+- Visualiser les informations du profil de l'utilisateur connecté
+
+Widget *Dossiers limites à 15 jours*
+####################################
+
+- Visualiser la liste des dossiers d'instruction affecté à l'utilisateur connecté dont la date limite arrive bientôt à échéance
+- Accéder aux dossiers d'instruction affecté à l'utilisateur connecté dont la date limite arrive bientôt à échéance
+
+Menu
+----
+
+.. image:: menu_divi.png
 
 Tableau de bord
 ---------------

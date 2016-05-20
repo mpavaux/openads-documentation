@@ -1,6 +1,6 @@
-#########################
-Profil *SERVICE CONSULTÉ*
-#########################
+################
+SERVICE CONSULTÉ
+################
 
 Description
 ===========
@@ -23,12 +23,14 @@ Fonctionnalités disponibles
 Tableau de bord
 ---------------
 
-Widget *Redirection*
-####################
-
-- Rediriger l'utilisateur vers la liste des demandes d'avis en cours.
+Tableau de bord innaccessible : redirection automatique vers la liste des demandes d'avis en cours.
 
 .. _profil_service_consulte_rubrique_autorisation:
+
+Menu
+----
+
+.. image:: menu_consu.png
 
 Rubrique *Autorisation*
 -----------------------
@@ -53,7 +55,7 @@ Rubrique *Autorisation*
 
 .. _profil_service_consulte_rubrique_demande_avis:
 
-Rubrique *Demandes d'avis*
+Rubrique *Demandes D'avis*
 --------------------------
 
 *Demandes en cours*
@@ -127,5 +129,3 @@ Rubrique *Demandes d'avis*
     - Visualiser la liste des pièces
     - Télécharger le fichier d'une pièce
     - Télécharger toutes les pièces
-
-

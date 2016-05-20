@@ -1,6 +1,6 @@
-######################
-Profil *QUALIFICATEUR*
-######################
+#############
+QUALIFICATEUR
+#############
 
 Description
 ===========
@@ -17,6 +17,8 @@ Fonctionnalités disponibles
 Tableau de bord
 ---------------
 
+.. image:: dashboard_qualif.png
+
 Widget *Infos profil*
 #####################
 
@@ -28,13 +30,18 @@ Widget *Dossiers à qualifier*
 - Visualiser la liste des dossiers d'instruction à qualifier qui ne sont pas ERP, affecté à l'utilisateur connecté
 - Accéder aux dossiers d'instruction à qualifier qui ne sont pas ERP, affecté à l'utilisateur connecté
 
+Menu
+----
+
+.. image:: menu_qualif.png
+
 Rubrique *Autorisation*
 -----------------------
 
 Actions identiques à celles du profil instructeur (cf :ref:`Rubrique autorisation<profil_instructeur_rubrique_autorisation>`)
 
 
-Rubrique *Guichet unique*
+Rubrique *Guichet Unique*
 -------------------------
 
 Actions identiques à celles du profil guichet unique (cf :ref:`Rubrique guichet unique<profil_guichet_unique_rubrique_guichet_unique>`)
@@ -109,7 +116,7 @@ Action(s) disponible(s) par onglet :
     - Visualiser la liste des dossiers d'autorisation liés géographiquement.
     - Accéder à chacun de ces dossiers.
 
-*Export / import*
+*Export / Import*
 -----------------
 
 *Statistiques à la demande*

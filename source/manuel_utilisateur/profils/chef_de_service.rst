@@ -1,6 +1,6 @@
-########################
-Profil *CHEF DE SERVICE*
-########################
+###############
+CHEF DE SERVICE
+###############
 
 Description
 ===========
@@ -21,16 +21,23 @@ Fonctionnalités disponibles
 Tableau de bord
 ---------------
 
+.. image:: dashboard_chef.png
+
 Widget *Infos profil*
 #####################
 
 - Visualiser les informations du profil de l'utilisateur connecté
 
-Widget *Dossiers limite à 15 jours*
-###################################
+Widget *Dossiers limites à 15 jours*
+####################################
 
-- Visualiser la liste de tous les dossiers d'instruction dont la date limite arrive bientôt à échéance
-- Accéder aux dossiers d'instruction dont la date limite arrive bientôt à échéance
+- Visualiser la liste des dossiers d'instruction affecté à l'utilisateur connecté dont la date limite arrive bientôt à échéance
+- Accéder aux dossiers d'instruction affecté à l'utilisateur connecté dont la date limite arrive bientôt à échéance
+
+Menu
+----
+
+.. image:: menu_chef.png
 
 Rubrique *Autorisation*
 -----------------------
@@ -204,4 +211,4 @@ Tous les messages
 #############################
 
 - Liste toujours vide car ce profil n'est pas lié à un instructeur.
-- Accéder à la fiche de visualisation du me
+- Accéder à la fiche de visualisation du message dans le contexte du dossier d'instruction.

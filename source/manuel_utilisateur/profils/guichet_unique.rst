@@ -1,6 +1,6 @@
-#######################
-Profil *GUICHET UNIQUE*
-#######################
+##############
+GUICHET UNIQUE
+##############
 
 Description
 ===========
@@ -18,8 +18,30 @@ L'utilisateur qui a ce profil doit forcément être rattaché à un ou plusieurs
 Fonctionnalités disponibles
 ===========================
 
-*Autorisation*
---------------
+Tableau de bord
+---------------
+
+.. image:: dashboard_guichet.png
+
+Widget *Nouveau dossier*
+########################
+
+Widget *Autres dossiers*
+########################
+
+Widget *Dossiers auxquels on peut proposer une autre décision*
+##############################################################
+
+- Visualiser la liste des dossiers d'instruction dont l'utilisateur connecté peut changer la décision
+- Accéder aux dossiers d'instruction dont l'utilisateur connecté peut changer la décision
+
+Menu
+----
+
+.. image:: menu_guichet.png
+
+Rubrique *Autorisation*
+-----------------------
 
 *Dossiers d'autorisation*
 #########################
@@ -58,15 +80,8 @@ Fonctionnalités disponibles
 
 .. _profil_guichet_unique_rubrique_guichet_unique:
 
-*Guichet unique*
-----------------
-
-*Tableau de bord*
-#################
-
-* Widget *Nouveau dossier*
-* Widget *Autres dossiers*
-* Widget *Dossiers auxquels on peut proposer une autre décision*
+Rubrique *Guichet Unique*
+-------------------------
 
 *Nouveau dossier*
 #################
@@ -126,8 +141,8 @@ Fonctionnalités disponibles
 
 * Générer et afficher l'attestation d'affichage réglementaire
 
-*Instruction*
--------------
+Rubrique *Instruction*
+----------------------
 
 *Recherche*
 ###########
@@ -153,8 +168,8 @@ Fonctionnalités disponibles
   * Visualiser la liste et accéder aux ou les DI liés au même dossier d’autorisation que le DI courant
   * Visualiser la liste et accéder à la fiche de visualisation du dossier d'instruction
 
-*Export / import*
------------------
+Rubrique *Export / Import*
+--------------------------
 
 *Statistiques à la demande*
 ###########################
