@@ -34,6 +34,8 @@ Dossiers d'autorisation
 
 Actions identiques à celles du profil instructeur (cf :ref:`Rubrique autorisation<profil_instructeur_rubrique_autorisation>`)
 
+.. _profil_suivi_rubrique_suivi:
+
 Rubrique *Suivi*
 ----------------
 

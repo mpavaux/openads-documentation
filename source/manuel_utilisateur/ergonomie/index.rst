@@ -2,6 +2,14 @@
 Ergonomie
 #########
 
+Profils
+=======
+
+.. toctree::
+    :numbered:
+
+    profils/index.rst
+
 Tableau de bord
 ===============
 

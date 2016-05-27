@@ -40,8 +40,13 @@ Menu
 Rubrique *Autorisation*
 -----------------------
 
+Actions identiques à celles du profil instructeur (cf :ref:`Rubrique autorisation<profil_instructeur_rubrique_autorisation>`)
+
 Rubrique *Guichet Unique*
 -------------------------
+
+Actions identiques à celles du profil guichet unique (cf :ref:`Rubrique guichet unique<guichet_unique>`)
+
 
 Rubrique *Instruction*
 ----------------------

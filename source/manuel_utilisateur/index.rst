@@ -8,7 +8,6 @@ Manuel de l'utilisateur
 .. toctree::
     :numbered:
 
-    ergonomie/index.rst
     autorisations.rst
     guichet_unique.rst
     instruction.rst
@@ -19,4 +18,4 @@ Manuel de l'utilisateur
     parametrage.rst
     administration.rst
     portail_citoyen.rst
-    profils/index.rst
+    ergonomie/index.rst
