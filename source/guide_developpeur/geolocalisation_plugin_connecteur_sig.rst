@@ -28,8 +28,7 @@ Liste des paramètres obligatoires :
 - **option_sig** doit être positionnée à la valeur "sig_externe"
 - **connector** défini le type de connecteur (Dans cet exemple, le connecteur geoads_generic.class.php contenu dans le dossier "obj" sera instancié.)
 - **path** défini le chemin du connecteur
-- **sig_treatment_mod** permet de définir
-    le mode de synchronisation des contraintes :
+- **sig_treatment_mod** permet de définir le mode de synchronisation des contraintes :
    
     - "mono" : permet d'affecter les contraintes d'un SIG à chaque collectivité
         de l'application via le code insee fourni lors de l'appel au web service.
