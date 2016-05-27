@@ -26,8 +26,7 @@ Exemple :
 Liste des paramètres obligatoires :
 
 - **option_sig** doit être positionnée à la valeur "sig_externe"
-- **connector** défini le type de connecteur (Dans cet exemple, le connecteur geoads_generic.class.php contenu dans le dossier
-"obj" sera instancié.)
+- **connector** défini le type de connecteur (Dans cet exemple, le connecteur geoads_generic.class.php contenu dans le dossier "obj" sera instancié.)
 - **path** défini le chemin du connecteur
 - **sig_treatment_mod** permet de définir
     le mode de synchronisation des contraintes :
