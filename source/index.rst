@@ -15,7 +15,7 @@ openADS 4.0 documentation
 
 
 Opérationnel depuis la réforme du 1er Octobre 2007, openFoncier (premier nom de
-l'outil) puis openADS a donc plusieurs années d'expérience et apparait
+l'outil) puis openADS (http://www.openmairie.org/catalogue/openads) a donc plusieurs années d'expérience et apparait
 aujourd'hui comme l'alternative libre, avec une architecture full web, aux
 solutions propriétaires. 
 
