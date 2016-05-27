@@ -16,27 +16,26 @@ Exemple :
 .. code:: php
     
     $conf["sig-default"] = array (
+        "sig_treatment_mod" => "mono",
         "2" => array(
             'connector' => 'generic',
             'path' => '../obj/',
         ),
     );
 
-.. important:: Le paramètre "option_sig" doit être positionnée à la valeur "sig_externe"
+Liste des paramètres obligatoires :
 
-.. important:: La clé sig-default doit être ajoutée au script database.inc.php.
-               La clé du tabeau de configuration du SIG correspond à l'identifiant
-               de la collectivité pour laquelle le connecteur est disponible
-               (si collectivité multi, les collectivités mono auront accès
-               au connecteur SIG)
+- **option_sig** doit être positionnée à la valeur "sig_externe"
+- **connector** défini le type de connecteur (Dans cet exemple, le connecteur geoads_generic.class.php contenu dans le dossier "obj" sera instancié.)
+- **path** défini le chemin du connecteur
+- **sig_treatment_mod** permet de définir le mode de synchronisation des contraintes :
+    - "mono" : permet d'affecter les contraintes d'un SIG à chaque collectivité de l'application via le code insee fourni lors de l'appel au web service. Chaque commune n'accés qu'aux contraintes afféctées lors de la synchronisation.
+    - "multi" : permet d'affecter toutes les contraintes du SIG à la collectivité correspondant à la communauté de commune. Ces contraintes seront disponible pour toutes les communes de la communauté.
 
-.. important:: Les paramètres "connector" et "path" sont obligatoires quelque
-                soit le connecteur. D'autres paramètres spécifiques aux connecteurs
-                pourront y être ajoutés.
 
-Dans cet exemple, le connecteur geoads_generic.class.php contenu dans le dossier
-"obj" sera instancié.
-
+La clé "sig-default" doit être ajoutée au script database.inc.php.
+La clé du tabeau de configuration du SIG correspond à l'identifiant de la collectivité pour laquelle le connecteur est disponible (si collectivité multi, les collectivités mono auront accès au connecteur SIG)
+D'autres paramètres spécifiques aux connecteurs pourront être ajoutés au tableau de paramétrage.
 
 Description du script
 #####################

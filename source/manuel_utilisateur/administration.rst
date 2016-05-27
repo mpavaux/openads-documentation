@@ -200,6 +200,16 @@ Un argument facultatif est paramétrable :
 * **filtre** [par défaut *instructeur*] - les filtres disponibles sont *aucun*, *division* et *instructeur*
 
 
+.. _administration_widget_dossiers_evenement_incomplet_majoration:
+
+dossiers_evenement_incomplet_majoration
+=======================================
+
+Ce widget présente les dossiers les plus récents (10 max.) sur lesquels ont été appliqué un événement de majoration ou d'incomplétude avec une date d'envoi de lettre RAR renseignée pour cet événement, et dont la date de retour RAR de l'événement n'a pas été complétée. Un lien "Voir tous les dossiers évènement incomplet ou majoration sans RAR" permet d'accéder au listing complet. Les informations fonctionnelles sont disponibles  :ref:`ici<widget_dossiers_evenement_incomplet_majoration>`.
+
+Un argument facultatif est paramétrable :
+
+* **filtre** [par défaut *instructeur*] - les filtres disponibles sont *aucun*, *division* et *instructeur*
 
 .. _administration_composition:
 

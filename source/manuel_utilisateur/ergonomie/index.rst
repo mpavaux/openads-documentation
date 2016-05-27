@@ -164,3 +164,30 @@ n'est pas de type retour et ne dispose d'aucune date renseignée parmi les suiva
 * date de retour du contrôle de légalité.
 
 
+.. _widget_dossiers_evenement_incomplet_majoration:
+
+Widget "Dossiers événement incomplet ou majoration sans RAR"
+------------------------------------------------------------
+
+.. image:: widget_dossiers_evenement_incomplet_majoration.png
+
+Orienté Instruction.
+
+L'objet de ce widget est de présenter un listing de dix dossiers d'instruction maximum sur lesquels ont été appliqué un événement de majoration ou d'incomplétude avec une date d'envoi de lettre RAR renseignée pour cet événement, et dont la date de retour RAR de l'événement n'a pas été complétée. Les dossiers sont triés du plus récent au plus ancien.
+
+Trois filtres sont disponibles sur ce widget (le filtre est :ref:`paramétrable <administration_widget_dossiers_evenement_incomplet_majoration>` par l'administrateur) :
+
+- filtre par instructeur : on présente uniquement les dossiers dont il est spécifiquement instructeur.
+- filtre par division : on présente tous les dossiers de la division de l'instructeur.
+- aucun filtre : tous les dossiers auxquels l'utilisateurs a accès (si l'utilisateur appartient à une commune niveau mono, alors l'utilisateur n'a accès qu'aux dossiers de sa commune et si l'utilisateur appartient à une commune multi, alors l'utilisateur a accès à tous les dossiers).
+
+A tout moment, au survol de l'icône d'information du widget, une description permet d'indiquer quels sont les paramètres appliqués sur le widget.
+
+Le listing présente les informations suivantes :
+
+- le libellé du dossier d'instruction,
+- la date de dépôt du dossier,
+
+Un lien sur chaque enregistrement permet d'accéder à la fiche de visualisation du dossier d'instruction.
+
+Un lien "Voir tous les dossiers évènement incomplet ou majoration sans RAR" permet d'accéder au listing des mêmes dossiers sans limite de nombre.
