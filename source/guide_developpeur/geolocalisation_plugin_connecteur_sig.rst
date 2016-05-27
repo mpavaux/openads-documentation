@@ -29,12 +29,8 @@ Liste des paramètres obligatoires :
 - **connector** défini le type de connecteur (Dans cet exemple, le connecteur geoads_generic.class.php contenu dans le dossier "obj" sera instancié.)
 - **path** défini le chemin du connecteur
 - **sig_treatment_mod** permet de définir le mode de synchronisation des contraintes :
-    - "mono" : permet d'affecter les contraintes d'un SIG à chaque collectivité
-        de l'application via le code insee fourni lors de l'appel au web service.
-        Chaque commune n'accés qu'aux contraintes afféctées lors de la synchronisation.
-   - "multi" : permet d'affecter toutes les contraintes du SIG à la collectivité
-        correspondant à la communauté de commune. Ces contraintes seront disponible
-        pour toutes les communes de la communauté.
+    - "mono" : permet d'affecter les contraintes d'un SIG à chaque collectivité de l'application via le code insee fourni lors de l'appel au web service. Chaque commune n'accés qu'aux contraintes afféctées lors de la synchronisation.
+    - "multi" : permet d'affecter toutes les contraintes du SIG à la collectivité correspondant à la communauté de commune. Ces contraintes seront disponible pour toutes les communes de la communauté.
 
 
 La clé "sig-default" doit être ajoutée au script database.inc.php.
