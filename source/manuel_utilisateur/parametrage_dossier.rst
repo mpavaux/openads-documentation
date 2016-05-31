@@ -117,7 +117,7 @@ Les informations à saisir sont :
   paramétrage en détail dans un objectif de le documenter.
 * **type de dossier d'autorisation détaillé** : (voir
   :ref:`parametrage_dossiers_dossier_autorisation_type_detaille`)
-* **suffixe** : precise le numéro de dossier doit prendre un suffixe
+* **suffixe** : en décochant l'option on désactive le suffixe dans la numérotation du dossier. À n'utiliser que pour les types de DI initiaux afin de ne pas afficher le *P0*.
 * **mouvement sitadel** : type de mouvement sitadel, seul les dossiers dont le 
   type de mouvement sitadel est défini seront exportés.
 
