@@ -2,14 +2,6 @@
 Ergonomie
 #########
 
-Profils
-=======
-
-.. toctree::
-    :numbered:
-
-    profils/index.rst
-
 Tableau de bord
 ===============
 
@@ -199,3 +191,11 @@ Le listing présente les informations suivantes :
 Un lien sur chaque enregistrement permet d'accéder à la fiche de visualisation du dossier d'instruction.
 
 Un lien "Voir tous les dossiers évènement incomplet ou majoration sans RAR" permet d'accéder au listing des mêmes dossiers sans limite de nombre.
+
+Profils
+=======
+
+.. toctree::
+    :numbered:
+
+    profils/index.rst

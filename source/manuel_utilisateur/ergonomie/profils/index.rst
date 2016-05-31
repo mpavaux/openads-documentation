@@ -1,10 +1,3 @@
-#######
-Profils
-#######
-
-...
-
-
 .. toctree::
     :maxdepth: 1
 
