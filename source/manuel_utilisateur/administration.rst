@@ -80,8 +80,11 @@ Utilisation des paramètres de notification :
   Il est possible de renseigner des variables de remplacement dans l'objet et le corps du courriel :
 
   * **<DOSSIER_INSTRUCTION>** pour le numéro du dossier (objet et corps) ;
-  * **<URL_INSTRUCTION>** pour le lien direct vers l'événement d'instruction (corps uniquement) ;
-  * **<ID_INSTRUCTION>** pour l'identifiant unique de l'événement d'instruction (corps uniquement).
+  * **<ID_INSTRUCTION>** pour l'identifiant unique de l'événement d'instruction (corps uniquement) ;
+  * **<URL_INSTRUCTION>** pour le lien direct vers l'événement d'instruction (corps uniquement).
+  
+  Dans certains cas de figure, le remplacement de <URL_INSTRUCTION> ne fonctionne pas à cause de redirections réseaux, il est alors possible de modifier cette variable de remplacement par : <a href="https://VOTRE_SERVEUR/spg/direct_link.php?obj=dossier_instruction&action=3&direct_field=dossier&direct_form=instruction&direct_action=3&direct_idx=<ID_INSTRUCTION>">https://VOTRE_SERVEUR/spg/direct_link.php?obj=dossier_instruction&action=3&direct_field=dossier&direct_form=instruction&direct_action=3&direct_idx=<ID_INSTRUCTION></a>
+
 
 Gestion Des Utilisateurs
 ########################
