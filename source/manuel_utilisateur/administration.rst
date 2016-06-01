@@ -83,7 +83,15 @@ Utilisation des paramètres de notification :
   * **<ID_INSTRUCTION>** pour l'identifiant unique de l'événement d'instruction (corps uniquement) ;
   * **<URL_INSTRUCTION>** pour le lien direct vers l'événement d'instruction (corps uniquement).
   
-  Dans certains cas de figure, le remplacement de <URL_INSTRUCTION> ne fonctionne pas à cause de redirections réseaux, il est alors possible de modifier cette variable de remplacement par : <a href="https://VOTRE_SERVEUR/spg/direct_link.php?obj=dossier_instruction&action=3&direct_field=dossier&direct_form=instruction&direct_action=3&direct_idx=<ID_INSTRUCTION>">https://VOTRE_SERVEUR/spg/direct_link.php?obj=dossier_instruction&action=3&direct_field=dossier&direct_form=instruction&direct_action=3&direct_idx=<ID_INSTRUCTION></a>
+  Dans certains cas de figure, l'adresse **<URL_INSTRUCTION>** ne fonctionne pas. Si vous ne souhaitez pas faire appel à la génération automatique du lien, il faut écrire manuellement :
+
+  **<a href="** *[LIEN]* **">** *[LIEN]* **</a>**
+
+  en remplaçant *[LIEN]* par :
+
+  *[SITE_WEB]* **/spg/direct_link.php?obj=dossier_instruction&action=3&direct_field=dossier&direct_form=instruction&direct_action=3&direct_idx=<ID_INSTRUCTION>**
+
+  où *[SITE_WEB]* est l'adresse de la racine du logiciel (par exemple https://openads.maville.fr).
 
 
 Gestion Des Utilisateurs
