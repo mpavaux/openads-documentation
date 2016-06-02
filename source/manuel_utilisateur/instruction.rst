@@ -53,6 +53,32 @@ Régénérer le récépissé
 * Disponible si l'utilisateur a un droit spécifique, s'il n'y a qu'un événement d'instruction sur le dossier et qu'il s'agit du récépissé de la demande.
 * Régénère l'événement d'instruction du récépissé de la demande et affiche un lien pour le télécharger.
 
+
+.. _instruction_portlet_rapport_instruction:
+
+Rapport d'instruction
+=====================
+
+Le rapport d'instruction est utilisé comme un document de travail par l'instructeur.
+Il peut être imprimé à plusieurs étapes de la vie du dossier (présenté à une commission
+par exemple).
+
+.. image:: instruction_portlet_rapport_instruction.png
+
+Ce document est composé d'un en-tête avec des informations générales sur le dossier, puis des blocs
+de texte et de l'option suivante :
+
+* L'analyse réglementaire : ce champ contient le corps de l'analyse de l'instructeur, il est fait pour être mis à jour tout au long de l'instruction.
+* La description du projet : cette zone de texte qui est pré-remplie avec la valeur de la nature des travaux.
+* La proposition de décision : une liste à choix de propositions.
+
+Une fois le rapport enregistré, il est possible de sortir une édition PDF contenant ces informations à partir du modèle de l'état *Rapport d'instruction*.
+
+.. note::
+    La valeur par défaut du champ d'analyse réglementaire est définie dans le paramètre **rapport_instruction_analyse_reglementaire**.
+    Les options de proposition disponibles sont choisies dans le paramètre **rapport_instruction_proposition_decision**.
+
+
 .. _instruction_portlet_generate_citizen_access_key:
 
 Générer la clé d'accès au portail citoyen
