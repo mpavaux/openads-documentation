@@ -182,28 +182,7 @@ Synchronisation des contraintes depuis le SIG
 
 
 
-
-.. _web_services_ressource_arretes:
-
-Ressource "arretes"
-###################
-
-Cette ressource permet de mettre à jour le numéro d'arrêté d'un dossier 
-d'instruction.
-
-
-.. http:put:: /openads/services/rest_entry.php/arretes/()
-
-   **Exemple de requête** :
-
-   .. sourcecode:: http
-      
-      POST /openads/services/rest_entry.php/arretes/ HTTP/1.1
-      Host: localhost
-
-      {
-      }
-
+.. _web_services_ressource_consultations:
 
 Ressource "consultations"
 #########################

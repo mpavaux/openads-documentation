@@ -301,17 +301,6 @@ de la consultation ouvrira le document généré à la volée au format PDF.
 La consultation est à nouveau supprimable.
 
 
-Enregistrement de l'arrêté
-==========================
-
-Lors de la finalisation d'un évènement d'instruction de type arrêté le document
-est enregistré sur le systeme de fichiers.
-Lorsqu'il revient après signature par l'autorité compétente, les informations qui
-le composent sont envoyées au référentiel des arrêtés, et le document finalisé est
-enregistré dans le systeme de fichiers associé à certaines informations (numéro 
-de l'arrêté dans le référentiel, informations concernant le signataire, le terrain,
-et l'arrêté).
-
 Notifier la commune par courriel
 ================================
 
