@@ -27,7 +27,29 @@ Synchronisation des utilisateurs via un annuaire
         "module": "user"
       }
 
-   **Exemple de réponse** :
+   **Exemples de réponse** :
+
+   .. sourcecode:: http
+
+      HTTP/1.1 200 OK
+      Content-Type: text/javascript
+
+      {
+        "http_code": 200,
+        "http_code_message": "200 OK",
+        "message": "Synchronisation terminée."
+      }
+
+   .. sourcecode:: http
+
+      HTTP/1.1 200 OK
+      Content-Type: text/javascript
+
+      {
+        "http_code": 200,
+        "http_code_message": "200 OK",
+        "message": "L'option 'annuaire' n'est pas configurée."
+      }
 
    .. sourcecode:: http
 
