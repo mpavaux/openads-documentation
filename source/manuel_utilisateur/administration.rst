@@ -290,6 +290,7 @@ Une fois le chargement terminé un récapitulatif des traitements effectués est
 
 .. NOTE:: Si dans un dossier une date de decision est définie mais qu'il n'a pas de nature de decision alors le dossier est implicitement accordé.
 .. NOTE:: Le suffixe "P0" est ajouté à la fin de chaque numéro de dossier initial seulement si le suffixe est activé pour le type de dossier d'instruction importé.
+
 Ce fichier de rejet contient toutes les lignes du csv importées qui sont en erreur. Les erreurs sont ajoutées en fin de ligne dans une nouvelle colonne.
 
 Exemple d'erreurs typiques :
