@@ -57,7 +57,12 @@ Widget "Recherche Dossier"
 
 Orienté Instruction.
 
-L'objet de ce widget est de présenter un champ de saisie de recherche de dossier d'instruction avec accès direct. C'est-à-dire que si le code du dossier est saisi dans son intégralité on accède directement à la fiche de visualisation du dossier d'instruction, par contre si le code du dossier n'est pas saisi dans son intégralité, alors si au moins un résultat correspond alors on accède à un listing de dossiers d'instructions avec l'élément saisi comme recherche pré-rempli (une recherche avancée permet alors de compléter la recherche).
+Ce widget permet de rechercher un dossier, et d'y accéder directement depuis le tableau de bord. Si le code du dossier est saisi dans son intégralité et que le numéro de dossier n'est pas ambigu (s'il existe un seul dossier commencant par ce numéro), on accède directement à la fiche de visualisation du dossier d'instruction. Par contre si le numéro de dossier saisi n'est pas suffisamment explicite et que plusieurs résultats correspondent, alors on accède à un listing de dossiers d'instruction qui contiennent le numéro recherché (une recherche avancée permet alors d'affiner les résultats).
+
+Exemples :
+
+- Recherche du dossier PC 013055 0001 et il n'y a pas de dossier sur existant → Accès direct au dossier
+- Recherche du dossier PC 013055 0002 mais le dossier PC 013055 0002M01 existe → Redirection vers la recherche car il y a 2 résultats.
 
 
 .. _widget_consultation_retours:
