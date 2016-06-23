@@ -53,7 +53,7 @@ Voici une liste exhaustive des messages qui peuvent être contenus dans ce fichi
 **La SHON existante avant travaux et la SHON démolie sont nulles alors cela devrait être une nouvelle construction.**
     → La nature du projet ou les surfaces saisies sont incorrectes
 
-**La SHON existante avant travaux ne doit pas est supérieure à la SHON démolie.**
+**La SHON existante avant travaux ne doit pas être supérieure à la SHON démolie.**
     → Les surfaces saisies ne sont pas correctes
 
 **La SHON demolie s'accompagne obligatoirement de la SHON existante avant travaux.**
