@@ -59,19 +59,19 @@ Voici une liste exhaustive des messages qui peuvent être contenus dans ce fichi
 **La SHON demolie s'accompagne obligatoirement de la SHON existante avant travaux.**
     → Les surfaces saisies ne sont pas correctes
 
-**Les SHON globales vouées à la transformation et issues de la transformation doivent être égales.**
+**Les SHON globales supprimées par changement de destination ou de sous-destination et créées par le même changement doivent être égales.**
     → Les surfaces saisies ne sont pas correctes
 
-**Les SHON relatives à la transformation s'accompagnent obligatoirement de SHON existante avant travaux non nulle.**
+**Les SHON créées par changement de destination ou de sous-destination s'accompagnent obligatoirement de SHON existante avant travaux non nulle.**
     → Les surfaces saisies ne sont pas correctes
 
 **Un nombre de logements démolis strictement positif doit s'accompagner obligatoirement de SHON démolie.**
     → La surface démolie n'a pas été renseignée alors qu'elle aurait dû
 
-**Un nombre de logements créés strictement positif doit s'accompagner obligatoirement de SHON créée ou de SHON issue de la transformation ayant pour destination l'habitation.**
-    → La surface créée/transformée n'a pas été renseignée alors qu'elle aurait dû
+**Un nombre de logements créés strictement positif doit s'accompagner obligatoirement de SHON créées ou de SHON créées par changement de destination ou de sous-destination ayant pour destination l'habitation.**
+    → La surface créée/créée par changement n'a pas été renseignée alors qu'elle aurait dû
 
-**La SHON créée ou issue de la transformation concernant le service public ou l'intérêt collectif doit obligatoirement s'accompagner du choix de destination des constructions.**
+**La SHON créée ou créée par changement de destination ou de sous-destination concernant le service public ou l'interet collectif doit obligatoirement s'accompagner du choix de destination des constructions.**
     → La répartition des surfaces n'a pas été renseignée alors qu'elle aurait dû
 
 **La destination principale du logement mise à residence principale ou residence secondaire doit obligatoirement s'accompagner d'un mode d'utilisation à occupation personnelle.**
