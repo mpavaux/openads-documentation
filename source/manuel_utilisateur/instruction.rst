@@ -254,6 +254,12 @@ On arrive alors sur la page suivante où seules les dates de suivi sont modifiab
 
 .. image:: maj_date_instruction.png
 
+.. note::
+
+  Pour avoir accès à cette action il faut que le dossier ne soit pas clôturé et :
+   - si on est instructeur, soit être celui du dossier ou tout au moins de sa division, soit être un instructeur polyvalent de la commune du dossier dont l'instruction a été déléguée à la communauté ;
+   - sinon être soit de la communauté (par exemple un administrateur), soit de la commune du dossier (par exemple le profil *GUICHET SUIVI*).
+
 Finalisation des documents du rapport d'instruction
 ===================================================
 
