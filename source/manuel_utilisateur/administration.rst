@@ -33,9 +33,13 @@ Une convention de nommage existe. Il faut préfixer par :
 * **erp\_** les paramètres spécifiques à ERP ;
 * **option\_** les paramètres spécifiques aux options ;
 * **id\_** les paramètres contenant un numéro d'identifiant ;
-* **sig\_** les paramètres spécifiques au systeme d'information géographique;
-* **param_courriel_de_notification_commune\_** les paramètres spécifiques aux notifications par courriel aux communes.
-* **rapport_instruction\_** les paramètres spécifiques au rapport d'instruction;
+* **sig\_** les paramètres spécifiques au systeme d'information géographique ;
+* **param_courriel_de_notification_commune\_** les paramètres spécifiques aux notifications par courriel aux communes ;
+* **rapport_instruction\_** les paramètres spécifiques au rapport d'instruction.
+
+Autres paramètres :
+
+* **da_listing_pieces_filtre** la liste des codes de type de document accessibles depuis le dossier d'autorisation, séparés par un point-virgule s'il y en a plusieurs.
 
 Utilisation des options :
 
