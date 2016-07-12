@@ -40,19 +40,6 @@ Menu
 
 .. image:: menu_divi.png
 
-Tableau de bord
----------------
-
-Widget *Infos profil*
-#####################
-
-- Visualiser les informations du profil de l'utilisateur connecté
-
-Widget *Dossiers limite à 15 jours*
-###################################
-
-- Visualiser la liste des dossiers d'instruction affecté à la division de l'utilisateur connecté dont la date limite arrive bientôt à échéance
-- Accéder aux dossiers d'instruction affecté à la division de l'utilisateur connecté dont la date limite arrive bientôt à échéance
 
 Rubrique *Autorisation*
 -----------------------
