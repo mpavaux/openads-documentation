@@ -35,7 +35,8 @@ Dossiers d'autorisation
   - *Dossier d'autorisation* :
 
     - Visualiser les lots
-    - visualiser les décisions prises sur les dossiers d'instruction
+    - Visualiser les décisions prises sur les dossiers d'instruction
+    - Visualiser les données techniques en cours de validité
 
   - *Pièce(s)* :
 

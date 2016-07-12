@@ -201,6 +201,20 @@ Profils
 =======
 
 .. toctree::
-    :numbered:
+    :maxdepth: 1
 
-    profils/index.rst
+    profils/guichet_unique.rst
+    profils/instructeur.rst
+    profils/qualificateur.rst
+    profils/service_consulte.rst
+    profils/service_consulte_interne.rst
+    profils/suivi.rst
+    profils/visualisation_da.rst
+    profils/visualisation_da_di.rst
+    profils/divisionnaire.rst
+    profils/chef_de_service.rst
+    profils/instructeur_service.rst
+    profils/guichet_suivi.rst
+    profils/administrateur_general.rst
+    profils/instructeur_polyvalent.rst
+    profils/instructeur_polyvalent_commune.rst
