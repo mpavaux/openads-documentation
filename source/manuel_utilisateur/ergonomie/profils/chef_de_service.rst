@@ -48,34 +48,6 @@ Actions identiques à celles du profil "instructeur" (cf :ref:`Rubrique autorisa
 Rubrique *Instruction*
 ----------------------
 
-Mes encours
-###########
-
-- Liste toujours vide car ce profil n'est pas lié à un instructeur.
-
-La liste des autres actions est disponible dans la partie `Recherche`_.
-
-Tous les encours
-################
-
-- Liste toujours vide car ce profil n'est pas lié à un instructeur.
-
-La liste des autres actions est disponible dans la partie `Recherche`_.
-
-Mes clôturés
-############
-
-- Liste toujours vide car ce profil n'est pas lié à un instructeur.
-
-La liste des autres actions est disponible dans la partie `Recherche`_.
-
-Tous les clôturés
-#################
-
-- Liste toujours vide car ce profil n'est pas lié à un instructeur.
-
-La liste des autres actions est disponible dans la partie `Recherche`_.
-
 Recherche
 #########
 
