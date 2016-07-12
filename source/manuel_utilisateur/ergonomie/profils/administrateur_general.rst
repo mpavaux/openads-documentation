@@ -84,6 +84,23 @@ Actions identiques à celles du profil "suivi" (cf :ref:`Rubrique Export / Impor
 
 Rubrique *Paramétrage Dossiers*
 -------------------------------
+CERFA
+#####
+- Visualiser la liste des CERFA.
+- Ajouter un CERFA.
+- Accéder à la fiche de visualisation d'un CERFA.
+- Modifier le texte d'un CERFA.
+- Supprimer un CERFA.
+
+Action(s) disponible(s) par onglet :
+
+  - *Type de dossier d'autorisation détaillé* :
+
+    - Visualiser la liste des types de dossier d'autorisation détaillé liés au type de dossier d'autorisation.
+    - Ajouter un type de dossier d'autorisation détaillé au type de dossier d'autorisation.
+    - Accéder à la fiche de visualisation d'un type de dossier d'autorisation détaillé.
+    - Modifier le texte d'un type de dossier d'autorisation détaillé.
+    - Supprimer un type de dossier d'autorisation détaillé.
 
 Type DA
 #######
@@ -495,6 +512,24 @@ Affectation automatique
 - Accéder à la fiche de visualisation d'une affectation.
 - Modifier le texte d'une affectation.
 - Supprimer une affectation.
+
+Autorité compétente
+###################
+
+- Visualiser la liste des autorités compétentes.
+- Ajouter une autorité compétente.
+- Accéder à la fiche de visualisation d'une autorité compétente.
+- Modifier une autorité compétente.
+- Supprimer une autorité compétente.
+
+Phase
+#####
+
+- Visualiser la liste des phases.
+- Ajouter une phase.
+- Accéder à la fiche de visualisation d'une phase.
+- Modifier une phase.
+- Supprimer une phase.
 
 Rubrique *Administration*
 -------------------------
