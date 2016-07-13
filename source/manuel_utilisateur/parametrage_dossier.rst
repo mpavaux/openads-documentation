@@ -362,9 +362,7 @@ Les informations à saisir sont  :
 * **libellé** : texte affiché dans l'interface lors du choix d'un événement à
   créer.
 * **type** : permet de qualifier un type d'événement. Les valeurs disponibles
-  sont : "arrêté" pour permettre une gestion propre aux arrêtés, ou
-  "incomplétude" ou "majoration de délais" pour permettre certains calculs dans
-  les tableaux de bord de l'instructeur.
+  sont : "arrêté" pour permettre une gestion propre aux arrêtés, "incomplétude" ou "majoration de délais" pour permettre certains calculs dans les tableaux de bord de l'instructeur et "affichage" permettant de ne pas compter l'instruction comme instruisant le dossier.
 * **non verrouillable** : permet d'identifier un événement comme non 
   verrouillable. C'est-à-dire que l'événement d'instruction sera toujours
   modifiable même si le dossier d'autorisation est clôturé.
