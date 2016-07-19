@@ -98,14 +98,37 @@ Action(s) disponible(s) par onglet :
     - Ajouter plusieurs consultations au dossier d'instruction.
     - Accéder à la fiche de visualisation d'une consultation.
     - Visualiser l'édition d'une consultation.
+    
+  - *Commission(s)* :
+
+    - Visualiser la liste des commissions du dossier d'instruction.
+    - Ajouter une demande de passage en commission pour le dossier d’instruction courant.
+    - Accéder à la fiche de visualisation d’une commission.
+    - Modifier une demande de passage en commission.
+    - Supprimer une demande de passage en commission.
+    
+  - Lot(s) :
+
+    - Visualiser la liste des lots du dossier d’instruction.
+    - Ajouter un lot au dossier d’instruction.
+    - Accéder à la fiche de visualisation d’un lot.
+    - Modifier un lot.
+    - Supprimer un lot.
+    - Éditer les données techniques du lot.
+    - Transférer ce lot aux nouveaux demandeurs
+
+  - Bloc-note :
+
+    - Visualiser la liste des notes du dossier d’instruction.
+    - Ajouter une note au dossier d’instruction.
+    - Accéder à la fiche de visualisation d’une note.
+    - Modifier une note.
+    - Supprimer une note.
 
   - *Pièce(s)* :
 
     - Visualiser la liste des pièces du dossier d'instruction.
-    - Ajouter une pièce au dossier d'instruction.
     - Accéder à la fiche de visualisation d'une pièce.
-    - Modifier une pièce.
-    - Supprimer une pièce.
     - Télécharger le fichier d'une pièce.
     - Télécharger toutes les pièces du dossier d'instruction.
 
