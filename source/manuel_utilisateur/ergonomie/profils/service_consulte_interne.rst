@@ -41,6 +41,40 @@ Rubrique *Autorisation*
 
 Actions identiques à celles du profil "service consulté" (cf :ref:`Rubrique autorisation<profil_service_consulte_rubrique_autorisation>`)
 
+Rubrique *Instruction*
+----------------------
+
+*Recherche*
+##############
+
+- Visualiser la liste des dossiers d'instruction de la collectivité de l'instructeur connecté ou de toutes les collectivités si l'instructeur appartient à la collectivité multi.
+- Rechercher des dossiers d'instruction en fonction de plusieurs critères.
+- Accéder aux dossiers d'instruction dans le sig
+- Accéder à la fiche de visualisation d'un dossier d'instruction
+
+.. sidebar:: Note :
+
+    Les actions SIG sont disponibles si celui-ci est paramétré pour la collectivité du dossier d'instruction.
+
+Action(s) disponible(s) par onglet :
+
+  - *DI* :
+
+    - Afficher l'édition de récapitulatif du dossier d'instruction
+
+  - *Pièce(s)* :
+
+    - Visualiser la liste des pièces du dossier d'instruction.
+    - Accéder à la fiche de visualisation d'une pièce.
+    - Télécharger le fichier d'une pièce.
+    - Télécharger toutes les pièces du dossier d'instruction.
+
+  - *DA* :
+
+    - Visualiser les informations du dossier d'autorisation.
+    - Visualiser la liste des dossiers d'instruction portant sur la même autorisation.
+    - Visualiser la liste des dossiers d'autorisation liés géographiquement.
+    - Accéder à chacun de ces dossiers.
 
 Rubrique *Demandes D'avis*
 --------------------------
