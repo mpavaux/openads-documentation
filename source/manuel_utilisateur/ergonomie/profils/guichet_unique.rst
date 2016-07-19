@@ -153,20 +153,24 @@ Rubrique *Instruction*
 * Recherche simple et avancée d'un dossier d'instruction
 * Accéder à la fiche de visualisation du dossier d'instruction
 
-**Onglets**
+Action(s) disponible(s) par onglet :
 
-* *Pièces*
+  - *DI* :
 
-  * Visualiser la liste des pièces
+    - Afficher l'édition de récapitulatif du dossier d'instruction
 
-  * Télécharger le fichier d'une pièce
-  * Télécharger toutes les pièces du dossier d'autorisation
+  - *Pièce(s)* :
 
-* *DA*
+    - Visualiser la liste des pièces du dossier d'instruction.
+    - Télécharger le fichier d'une pièce.
+    - Télécharger toutes les pièces du dossier d'instruction.
 
-  * Visualiser la liste et accéder aux dossier d'autorisation du DI courant
-  * Visualiser la liste et accéder aux ou les DI liés au même dossier d’autorisation que le DI courant
-  * Visualiser la liste et accéder à la fiche de visualisation du dossier d'instruction
+  - *DA* :
+
+    - Visualiser les informations du dossier d'autorisation.
+    - Visualiser la liste des dossiers d'instruction portant sur la même autorisation.
+    - Visualiser la liste des dossiers d'autorisation liés géographiquement.
+    - Accéder à chacun de ces dossiers.
 
 Rubrique *Export / Import*
 --------------------------
