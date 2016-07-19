@@ -139,11 +139,12 @@ Action(s) disponible(s) par onglet :
     - Visualiser la liste des dossiers d'autorisation liés géographiquement.
     - Accéder à chacun de ces dossiers.
 
+*Rubrique Suivi*
+----------------
+
+Actions identiques à celles du profil cellule suivi (cf :ref:`Rubrique suivi<profil_suivi_rubrique_suivi>`)
+
 *Export / Import*
 -----------------
 
-*Statistiques à la demande*
-###########################
-
-* Exporter une liste de dossiers d'instruction selon leur type, et avec des détails 
-  différents selon la requête utilisée.
+Actions identiques à celles du profil cellule suivi (cf :ref:`Rubrique suivi<profil_suivi_rubrique_export>`)
