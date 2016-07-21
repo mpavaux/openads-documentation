@@ -60,6 +60,7 @@ Contributeurs
 * Matthias Broquet
 * Nicolas Haye
 * Jean-Yves Madier
+* Nicolas Meucci
 * Florent Michon
 * Virginie Pihour
 * François Raynaud
