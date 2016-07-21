@@ -23,7 +23,7 @@ Vous devez avoir installé :
 
 - un serveur web (apache, ...)
 - PHP
-- le moteur de base de donnees PostGreSQL
+- le moteur de base de donnees PostGreSQL avec l'extension PostGIS
 
 
 Sous windows, il est facile de trouver de la documentation pour l'installation
