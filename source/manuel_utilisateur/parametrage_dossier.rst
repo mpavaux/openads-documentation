@@ -166,11 +166,11 @@ Le principe
 Ce menu permet de synchroniser les contraintes du SIG avec celles de l'application.
 openADS va récupérer l'ensemble des contraintes du SIG, et les comparer avec les
 contraintes déjà présentes dans la base de données de l'application, sur la base de leur
-identifiant (numéro) de contrainte. Les contraintes présentes sur le SIG ne seront pas
+identifiant unique de contrainte. Les contraintes présentes sur le SIG ne seront pas
 modifiées par openADS.
 Les informations suivantes de la contrainte sont récupérées du SIG : 
 
-* numero
+* identifiant
 * groupe
 * sous-groupe
 * libelle
@@ -178,7 +178,7 @@ Les informations suivantes de la contrainte sont récupérées du SIG :
 .. image:: contrainte_synchronisation.png
 
 * **X contrainte(s) ajoutée(s)** : Contraintes importées dans openADS à partir du SIG
-* **X contraintes à modifier** : Contraintes ayant subi une modification de groupe, sous-groupe ou libelle etc. sur le SIG
+* **X contrainte(s) modifiée(s)** : Contraintes déjà présentes dans openADS, mises à jour avec les dernières informations du SIG.
 * **X contrainte(s) archivée(s)** : Contraintes n'étant plus valides
 
 Les contraintes référencées comme venant du SIG
