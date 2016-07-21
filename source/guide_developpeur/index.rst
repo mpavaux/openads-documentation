@@ -4,6 +4,7 @@
 Guide du développeur
 ####################
 
+
 Stratégie
 #########
 
@@ -16,6 +17,7 @@ Sommaire
     :maxdepth: 2
     :numbered:
 
+    installation.rst
     geolocalisation.rst
     document_numerise.rst
     interface_avec_le_referentiel_erp.rst
