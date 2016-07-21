@@ -47,8 +47,7 @@ Guide du développeur
 Bibliographie
 =============
 
-* http://www.cgedd.developpement-durable.gouv.fr/IMG/pdf/007015-01_rapport_cle2e9419.pdf
-* http://www.openmairie.org/telechargement/openMairie-Guidedudveloppeur.pdf/view
+* http://docs.openmairie.org/?project=framework
 
 
 Contributeurs
