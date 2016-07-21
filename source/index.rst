@@ -14,16 +14,9 @@ openADS 4.0 documentation
     California 94105, USA.
 
 
-Opérationnel depuis la réforme du 1er Octobre 2007, openFoncier (premier nom de
-l'outil) puis openADS (http://www.openmairie.org/catalogue/openads) a donc plusieurs années d'expérience et apparait
-aujourd'hui comme l'alternative libre, avec une architecture full web, aux
-solutions propriétaires. 
+openADS est un logiciel libre de gestion de l'urbanisme. Il permet le suivi de l'instruction des demandes de permis et d'autorisations. openADS comprend la gestion de l'enchainement des tâches, des délais légaux et de la prise en compte des contraintes du PLU, avec possibilité d'affichage cartographique et bien plus encore. Opérationnel depuis la réforme du 1er Octobre 2007, openFoncier (premier nom de l'outil) puis openADS a donc plusieurs années d'expérience et apparait aujourd'hui comme l'alternative libre, avec une architecture full web, aux solutions propriétaires. http://www.openmairie.org/catalogue/openads
 
-Ce document a pour but de guider les utilisateurs et les développeurs dans la
-prise en main du projet.
-
-Bonne lecture et n'hésitez pas à nous faire part de vos remarques à l'adresse
-suivante : contact@openmairie.org !
+Ce document a pour but de guider les utilisateurs et les développeurs dans la prise en main du projet. Bonne lecture et n'hésitez pas à venir discuter du projet avec la communauté à l'adresse suivante : https://communaute.openmairie.org/c/openads
 
 
 Manuel de l'utilisateur
