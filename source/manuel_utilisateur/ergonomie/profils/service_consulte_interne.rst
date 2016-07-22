@@ -44,8 +44,8 @@ Actions identiques à celles du profil "service consulté" (cf :ref:`Rubrique au
 Rubrique *Instruction*
 ----------------------
 
-*Recherche*
-##############
+Recherche
+#########
 
 - Visualiser la liste des dossiers d'instruction de la collectivité de l'instructeur connecté ou de toutes les collectivités si l'instructeur appartient à la collectivité multi.
 - Rechercher des dossiers d'instruction en fonction de plusieurs critères.
@@ -60,12 +60,13 @@ Action(s) disponible(s) par onglet :
 
   - *DI* :
 
+    - Accéder a la fiche de visualisation des données techniques
+    - Accéder au dossier d'instruction dans le SIG
     - Afficher l'édition de récapitulatif du dossier d'instruction
 
   - *Pièce(s)* :
 
     - Visualiser la liste des pièces du dossier d'instruction.
-    - Accéder à la fiche de visualisation d'une pièce.
     - Télécharger le fichier d'une pièce.
     - Télécharger toutes les pièces du dossier d'instruction.
 
@@ -74,6 +75,7 @@ Action(s) disponible(s) par onglet :
     - Visualiser les informations du dossier d'autorisation.
     - Visualiser la liste des dossiers d'instruction portant sur la même autorisation.
     - Visualiser la liste des dossiers d'autorisation liés géographiquement.
+    - Accéder aux dossiers d'instruction portant sur la même autorisation dans le SIG
     - Accéder à chacun de ces dossiers.
 
 Rubrique *Demandes D'avis*

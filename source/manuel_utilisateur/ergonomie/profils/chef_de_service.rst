@@ -66,6 +66,21 @@ Action(s) disponible(s) par onglet :
 
     - Modifier le dossier d'instruction
     - Afficher l'édition de récapitulatif du dossier d'instruction
+    - Accéder a la fiche de visualisation des données techniques
+    - Modifier les données techniques
+    - Accéder à l'édition du rapport d'instruction
+    - Modifier le rapport d'instruction
+    - Visualiser le rapport d'instruction
+    - Finaliser le rapport d'instruction
+    - Reprendre la rédaction du rapport d'instruction
+    - Accéder aux actions de géolocalisation
+    - Lancer toutes les actions de géolocalisation
+    - Vérifier les parcelles
+    - Calculer l'emprise
+    - Dessiner l'emprise
+    - Calculer le centroïde
+    - Récupérer les contraintes
+    - Accéder au dossier d'instruction dans le SIG
 
   - *Contrainte(s)* :
 
@@ -114,10 +129,6 @@ Action(s) disponible(s) par onglet :
   - *Pièce(s)* :
 
     - Visualiser la liste des pièces du dossier d'instruction.
-    - Ajouter une pièce au dossier d'instruction.
-    - Accéder à la fiche de visualisation d'une pièce.
-    - Modifier une pièce.
-    - Supprimer une pièce.
     - Télécharger le fichier d'une pièce.
     - Télécharger toutes les pièces du dossier d'instruction.
 

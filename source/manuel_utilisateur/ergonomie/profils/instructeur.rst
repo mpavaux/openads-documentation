@@ -247,7 +247,6 @@ Action(s) disponible(s) par onglet :
   - *Pièce(s)* :
 
     - Visualiser la liste des pièces du dossier d'instruction.
-    - Accéder à la fiche de visualisation d'une pièce.
     - Télécharger le fichier d'une pièce.
     - Télécharger toutes les pièces du dossier d'instruction.
 
@@ -274,6 +273,9 @@ Architecte fréquent
 - Rechercher un architecte fréquent
 - Imprimer la liste des architectes fréquent présents dans la liste
 - Consulter un architecte fréquent
+- Marquer non fréquent un architecte fréquent
+- Modifier un architecte non fréquent
+- Supprimer un architecte non fréquent
 
 (Consultation) Mes retours
 ##########################
