@@ -371,6 +371,100 @@ Cette ressource permet d'interfacer un dossier d'instruction.
         }
 
 
+===============================
+Détail de dossier d'instruction
+===============================
+
+.. http:get:: /openads/services/rest_entry.php/dossier_instructions/(string:dossier_instruction_id)
+
+   **Exemple de requête sur dossier avec en pétionnaire principal une personne physique** :
+
+   .. sourcecode:: http
+      
+      GET /openads/services/rest_entry.php/dossier_instructions/PC0130551601234P0 HTTP/1.1
+      Host: localhost
+
+        {
+          "dossier_instruction": "PC0130551600001P0",
+          "dossier_autorisation": "PC0130551600001",
+          "terrain_adresse_voie_numero": "10",
+          "terrain_adresse_lieu_dit": "Les Baïsses",
+          "terrain_adresse_code_postal": "13333",
+          "terrain_adresse_cedex": "13366",
+          "terrain_adresse_voie": "rue du 14 juillet",
+          "terrain_adresse_bp": "13380",
+          "terrain_adresse_localite": "Marseille",
+          "terrain_superficie": "22",
+          "references_cadastrales": [
+            {
+              "prefixe": "202",
+              "quartier": "810",
+              "section": "A",
+              "parcelle": "0020"
+            },
+            {
+              "prefixe": "202",
+              "quartier": "810",
+              "section": "A",
+              "parcelle": "0021"
+            },
+            {
+              "prefixe": "202",
+              "quartier": "810",
+              "section": "A",
+              "parcelle": "0022"
+            }
+          ],
+          "dossier_autorisation_type": "Permis de construire",
+          "dossier_autorisation_type_detaille": "Permis de construire pour une maison individuelle et / ou ses annexes",
+          "collectivite": "MARSEILLE",
+          "instructeur": "Louis Laurent",
+          "division": "subdivision H",
+          "etat_dossier": "dossier rejeter manque de pieces",
+          "statut_dossier": "cloture",
+          "date_depot_initial": "2016-07-25",
+          "date_limite_instruction": "2016-09-25",
+          "date_decision": "2016-07-25",
+          "enjeu_urbanisme": "false",
+          "enjeu_erp": "false",
+          "petitionnaire_principal": {
+            "demandeur": "13",
+            "qualite": "particulier",
+            "particulier_civilite": "Monsieur",
+            "particulier_nom": "LOUIS",
+            "particulier_prenom": "Daniel",
+            "particulier_date_naissance": "1982-10-20",
+            "particulier_commune_naissance": "Puyricard",
+            "particulier_departement_naissance": "13",
+            "numero": "20",
+            "voie": "rue du 14 juillet",
+            "complement": "Bat A2",
+            "lieu_dit": "Lambda",
+            "localite": "Marseille",
+            "code_postal": "13013",
+            "bp": "13099",
+            "cedex": "13010",
+            "pays": "France",
+            "division_territoriale": "DH3",
+            "telephone_fixe": "0406042266",
+            "telephone_mobile": "0622334123",
+            "indicatif": "33",
+            "courriel": "d.louis@wanadoo.fr",
+            "fax": "0406042270"
+          },
+          "donnees_techniques": {
+            "co_tot_log_nb": "52",
+            "co_cstr_exist": "true",
+            "co_uti_pers": "true",
+            "co_uti_vente": "true",
+            "co_uti_loc": "true",
+            "su_tot_shon_tot": "40",
+            "su_avt_shon_tot": "20",
+            "am_lot_max_nb": "100",
+            "am_empl_nb": "23"
+          }
+        }
+
 
 .. _web_services_ressource_messages:
 
