@@ -385,17 +385,17 @@ Détail de dossier d'instruction
       Host: localhost
 
         {
-          "dossier_instruction": "PC0130551600001P0",
-          "dossier_autorisation": "PC0130551600001",
-          "terrain_adresse_voie_numero": "10",
-          "terrain_adresse_lieu_dit": "Les Baïsses",
-          "terrain_adresse_code_postal": "13333",
-          "terrain_adresse_cedex": "13366",
-          "terrain_adresse_voie": "rue du 14 juillet",
-          "terrain_adresse_bp": "13380",
-          "terrain_adresse_localite": "Marseille",
-          "terrain_superficie": "22",
-          "references_cadastrales": [
+          "dossier_instruction": "PC0130551600001P0", // identifiant du dossier d'instruction
+          "dossier_autorisation": "PC0130551600001", // identifiant du dossier d'autorisation
+          "terrain_adresse_voie_numero": "10", // numéro de la voie de l'adresse du terrain
+          "terrain_adresse_lieu_dit": "Les Baïsses", // lieu dit du terrain
+          "terrain_adresse_code_postal": "13333", // code postal du terrain
+          "terrain_adresse_cedex": "13366", // cedex de l'adresse du terrain
+          "terrain_adresse_voie": "rue du 14 juillet", // voie de l'adresse du terrain
+          "terrain_adresse_bp": "13380", // boite postale de l'adresse du terrain
+          "terrain_adresse_localite": "Marseille", // ville de l'adresse du terrain
+          "terrain_superficie": "22", // superficie du terrain en m²
+          "references_cadastrales": [ // liste des références cadastrales
             {
               "prefixe": "202",
               "quartier": "810",
@@ -415,22 +415,22 @@ Détail de dossier d'instruction
               "parcelle": "0022"
             }
           ],
-          "dossier_autorisation_type": "Permis de construire",
-          "dossier_autorisation_type_detaille": "Permis de construire pour une maison individuelle et / ou ses annexes",
-          "collectivite": "MARSEILLE",
-          "instructeur": "Louis Laurent",
-          "division": "subdivision H",
-          "etat_dossier": "dossier rejeter manque de pieces",
-          "statut_dossier": "cloture",
-          "date_depot_initial": "2016-07-25",
-          "date_limite_instruction": "2016-09-25",
-          "date_decision": "2016-07-25",
-          "enjeu_urbanisme": "false",
-          "enjeu_erp": "false",
-          "petitionnaire_principal": {
-            "demandeur": "13",
-            "qualite": "particulier",
-            "particulier_civilite": "Monsieur",
+          "dossier_autorisation_type": "Permis de construire", // type de dossier d'autorisation
+          "dossier_autorisation_type_detaille": "Permis de construire pour une maison individuelle et / ou ses annexes", // type de dossier d'autorisation détaillé
+          "collectivite": "MARSEILLE", // commune qui instruit le dossier
+          "instructeur": "Louis Laurent", // instructeur du dossier
+          "division": "subdivision H", // division de l'instructeur du dossier
+          "etat_dossier": "dossier rejeter manque de pieces", // état du dossier
+          "statut_dossier": "cloture", // status du dossier
+          "date_depot_initial": "2016-07-25", // date de dépôt du dossier
+          "date_limite_instruction": "2016-09-25", // date limite d'instruction
+          "date_decision": "2016-07-25", // date de décision du dossier (vide si pas de décision)
+          "enjeu_urbanisme": "false", // dossier urbanisme à enjeu
+          "enjeu_erp": "false", // dossier erp à enjeu
+          "petitionnaire_principal": { // informations du pétitionnaire principal
+            "demandeur": "13", // identifiant du pétitionnaire principal
+            "qualite": "particulier", // type (particulier/personne_morale)
+            "particulier_civilite": "Monsieur", 
             "particulier_nom": "LOUIS",
             "particulier_prenom": "Daniel",
             "particulier_date_naissance": "1982-10-20",
@@ -452,16 +452,16 @@ Détail de dossier d'instruction
             "courriel": "d.louis@wanadoo.fr",
             "fax": "0406042270"
           },
-          "donnees_techniques": {
-            "co_tot_log_nb": "52",
-            "co_cstr_exist": "true",
-            "co_uti_pers": "true",
-            "co_uti_vente": "true",
-            "co_uti_loc": "true",
-            "su_tot_shon_tot": "40",
-            "su_avt_shon_tot": "20",
-            "am_lot_max_nb": "100",
-            "am_empl_nb": "23"
+          "donnees_techniques": { // informations de certaines données techniques
+            "co_tot_log_nb": "52", // nombre de logements créés
+            "co_cstr_exist": "true", // changement de destination (true/false)
+            "co_uti_pers": "true", // mode d’utilisation principale du logement : occupation personnelle ou en compte propre (true/false)
+            "co_uti_vente": "true", // mode d’utilisation principale du logement : vente (true/false)
+            "co_uti_loc": "true", // mode d’utilisation principale du logement : location (true/false)
+            "su_tot_shon_tot": "40", // surface totale en m²
+            "su_avt_shon_tot": "20", // surface existante avant traveaux en m²
+            "am_lot_max_nb": "100", // le nombre maximum de lots prévus
+            "am_empl_nb": "23" // le nombre maximum d’emplacements réservés aux tentes, caravanes ou résidences mobiles de loisirs
           }
         }
 
@@ -519,7 +519,7 @@ Détail de dossier d'instruction
             "demandeur": "13",
             "qualite": "personne_morale",
             "personne_morale_civilite": "Monsieur",
-            "personne_morale_denomination": "Blabla",
+            "personne_morale_denomination": "Martin",
             "personne_morale_raison_sociale": "SARL",
             "personne_morale_siret": "13454566",
             "personne_morale_categorie_juridique": "SA",
