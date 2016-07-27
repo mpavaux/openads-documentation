@@ -76,8 +76,10 @@ Action(s) disponible(s) par onglet :
   - *Commission(s)* :
 
     - Visualiser la liste des demandes de passage en commission pour le dossier d'instruction courant.
+    - Ajouter une demande de passage en commission pour le dossier d'instruction courant.
     - Accéder à la fiche de visualisation d'une commission.
     - Modifier une demande de passage en commission.
+    - Marquer comme lu une demande de passage en commission.
 
   - *Lot(s)* :
 

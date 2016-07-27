@@ -117,5 +117,4 @@ Action(s) disponible(s) par onglet :
     - Visualiser les informations du dossier d'autorisation.
     - Visualiser la liste des dossiers d'instruction portant sur la même autorisation.
     - Visualiser la liste des dossiers d'autorisation liés géographiquement.
-    - Accéder aux dossiers d'instruction portant sur la même autorisation dans le SIG
     - Accéder à chacun de ces dossiers.

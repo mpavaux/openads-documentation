@@ -11,10 +11,6 @@ C'est le profil utilisé pour les chefs de services. Il va leur permettre :
 - d'ajouter des demandes de passage en commission
 - d'accéder aux dossiers liés
 
-L'utilisateur qui a ce profil doit forcément être rattaché à un instructeur ainsi
-qu'à une division pour pouvoir visualiser les dossiers qui lui sont
-affectés ou affectés aux instructeurs de sa division.
-
 Fonctionnalités disponibles
 ===========================
 
@@ -97,6 +93,12 @@ Action(s) disponible(s) par onglet :
     - Accéder à la fiche de visualisation d'un événement d'instruction.
     - Modifier un événement d'instruction
     - Visualiser l'édition de l'événement d'instruction
+
+  - *Consultation(s)* :
+
+    - Visualiser la liste des consultation du dossier d'instruction triées par date d'envoi.
+    - Ajouter une consultation au dossier d'instruction.
+    - Ajouter plusieurs consultations au dossier d'instruction.
 
   - *Commission(s)* :
 
