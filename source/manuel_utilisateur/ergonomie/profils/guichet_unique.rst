@@ -29,12 +29,6 @@ Widget *Nouveau dossier*
 Widget *Autres dossiers*
 ########################
 
-Widget *Dossiers auxquels on peut proposer une autre décision*
-##############################################################
-
-- Visualiser la liste des dossiers d'instruction dont l'utilisateur connecté peut changer la décision
-- Accéder aux dossiers d'instruction dont l'utilisateur connecté peut changer la décision
-
 Menu
 ----
 
@@ -77,6 +71,9 @@ Rubrique *Autorisation*
     * filtrés par le dossier d'autorisation auquel ils sont rattachés
 
   * Accéder à la fiche de visualisation du dossier d'instruction
+  * Visualiser les lots
+  * Visualiser les décisions prises sur les dossiers d’instruction
+  * Visualiser les données techniques en cours de validité
 
 .. _profil_guichet_unique_rubrique_guichet_unique:
 
@@ -158,6 +155,7 @@ Action(s) disponible(s) par onglet :
   - *DI* :
 
     - Afficher l'édition de récapitulatif du dossier d'instruction
+    - Modifier le dossier d’instruction (l'adresse du terrain et les pétitionnaires tant que le dossier n'est pas instruit)
 
   - *Pièce(s)* :
 
