@@ -46,6 +46,8 @@ Rubrique *Guichet Unique*
 
 Actions identiques à celles du profil guichet unique (cf :ref:`Rubrique guichet unique<profil_guichet_unique_rubrique_guichet_unique>`)
 
+.. _profil_qualificateur_rubrique_qualification:
+
 Rubrique *Qualification*
 ------------------------
 
@@ -137,6 +139,21 @@ Action(s) disponible(s) par onglet :
     - Visualiser la liste des dossiers d'instruction portant sur la même autorisation.
     - Visualiser la liste des dossiers d'autorisation liés géographiquement.
     - Accéder à chacun de ces dossiers.
+    
+.. _profil_qualificateur_rubrique_instruction:
+
+Rubrique *Instruction*
+----------------------
+
+Recherche
+#########
+
+- Visualiser la liste des dossiers d'instruction de la collectivité de l'instructeur connecté ou de toutes les collectivités si l'instructeur appartient à la collectivité multi.
+- Rechercher des dossiers d'instruction en fonction de plusieurs critères.
+- Accéder aux dossiers d'instruction dans le sig
+- Accéder à la fiche de visualisation d'un dossier d'instruction
+
+Actions identiques à celles de la rubrique *Qualification* (cf :ref:`Rubrique qualification<profil_qualificateur_rubrique_qualification>`)
 
 *Rubrique Suivi*
 ----------------
