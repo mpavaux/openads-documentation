@@ -155,6 +155,30 @@ Recherche
 
 Actions identiques à celles de la rubrique *Qualification* (cf :ref:`Rubrique qualification<profil_qualificateur_rubrique_qualification>`)
 
+(Consultation) Mes retours
+##########################
+
+- Visualiser la liste des dossiers d'instruction instruits l'instructeur connecté pour lesquels un avis a été rendu et qu'il n'a pas encore été lu.
+- Accéder à la fiche de visualisation de la consultation dont l'avis a été rendu dans le contexte du dossier d'instruction.
+
+Actions identiques à celles de la rubrique *Qualification* (cf :ref:`Rubrique qualification<profil_qualificateur_rubrique_qualification>`)
+
+(Consultation) Retours de ma division
+#####################################
+
+- Visualiser la liste des dossiers d'instruction instruits par la division de l'instructeur connecté pour lesquels un avis a été rendu et qu'il n'a pas encore été lu.
+- Accéder à la fiche de visualisation de la consultation dont l'avis a été rendu dans le contexte du dossier d'instruction.
+
+La liste des autres actions est disponible dans la partie `Recherche`_.
+
+(Consultation) Tous les retours
+###############################
+
+- Visualiser la liste des dossiers d'instruction instruits dans la collectivité de l'instructeur connecté (si l'instructeur est affecté à la collectivité de niveau 2 alors la liste contient les DI de toutes les collectivtés) pour lesquels un avis a été rendu et qu'il n'a pas encore été lu.
+- Accéder à la fiche de visualisation de la consultation dont l'avis a été rendu dans le contexte du dossier d'instruction.
+
+Actions identiques à celles de la rubrique *Qualification* (cf :ref:`Rubrique qualification<profil_qualificateur_rubrique_qualification>`)
+
 *Rubrique Suivi*
 ----------------
 
