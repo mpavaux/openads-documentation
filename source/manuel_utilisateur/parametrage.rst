@@ -129,6 +129,8 @@ Les types de commissions
 
 Éditions des différents types de commissions (Commission technique d'urbanisme).
 
+.. image:: parametrage_type_commission.png
+
 Gestion des consultations
 #########################
 
@@ -157,7 +159,8 @@ Ce menu sert au paramétrage des services consultés de l'application.
 Dans le cadre 'Coordonnées', il faut saisir les coordonnées du service.
 
 Le champ 'notification par mail' sert à indiquer si le service souhaite être 
-notifié par mail lors de l'ajout d'une nouvelle demande de consultation.
+notifié par mail lors de l'ajout d'une nouvelle demande de consultation. Le mail envoyé
+au service consulté contient 2 liens d'accès à openADS, qui sont :ref:`paramétrables <parametrage_parametre_mails_services_consultes>`.
 
 Le champ 'type de délai' spécifie le type du délai, c'est-à-dire si le calcul de la date limite doit être fait en mois ou en jours.
 

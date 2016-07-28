@@ -81,6 +81,13 @@ Utilisation des paramètres de notification :
 * **param_courriel_de_notification_commune_objet_depuis_instruction** : paramètre communauté spécifiant l'objet du courriel.
 * **param_courriel_de_notification_commune_modele_depuis_instruction** : paramètre communauté (écrasable par la commune) spécifiant le modèle du corps du courriel.
 
+.. _parametrage_parametre_mails_services_consultes:
+
+Configuration des mails envoyés automatiquement aux services consultés :
+
+* **services_consultes_lien_interne** : contient un lien d'accès en interne à openADS qui sera affiché dans le mail.
+* **services_consultes_lien_externe** : contient un lien d'accès en externe à openADS qui sera affiché dans le mail.
+
 .. note::
 
   Il est possible de renseigner des variables de remplacement dans l'objet et le corps du courriel :
