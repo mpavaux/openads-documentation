@@ -41,12 +41,6 @@ Widget *Dossiers à qualifier*
 - Visualiser la liste des dossiers d'instruction à qualifier qui ne sont pas ERP, affecté à l'utilisateur connecté
 - Accéder aux dossiers d'instruction à qualifier qui ne sont pas ERP, affecté à l'utilisateur connecté
 
-Widget *Dossiers auxquels on peut proposer une autre décision*
-##############################################################
-
-- Visualiser la liste des dossiers d'instruction dont l'utilisateur connecté peut changer la décision
-- Accéder aux dossiers d'instruction dont l'utilisateur connecté peut changer la décision
-
 Widget *Dossiers limite à 15 jours*
 ###################################
 
@@ -198,6 +192,7 @@ Action(s) disponible(s) par onglet :
     - Visualiser l'édition de l'événement d'instruction
     - Finaliser l'édition de l'événement d'instruction
     - Reprendre la rédaction de l'édition de l'événement d'instruction
+    - Ajouter des bibles dans les compléments de l'événement d'instruction
 
   - *Consultation(s)* :
 
@@ -219,6 +214,7 @@ Action(s) disponible(s) par onglet :
     - Accéder à la fiche de visualisation d'une commission.
     - Modifier une demande de passage en commission.
     - Supprimer une demande de passage en commission.
+    - Marquer la demande de passage en commission comme lu
 
   - *Lot(s)* :
 
@@ -235,6 +231,7 @@ Action(s) disponible(s) par onglet :
     - Visualiser la liste des messages du dossier d'instruction.
     - Consulter un message
     - Marquer le message comme lu
+    - Marquer le message comme non lu
 
   - *Bloc-note* :
 
@@ -247,6 +244,7 @@ Action(s) disponible(s) par onglet :
   - *Pièce(s)* :
 
     - Visualiser la liste des pièces du dossier d'instruction.
+    - Accéder à la fiche de visualisation d'une pièce.
     - Télécharger le fichier d'une pièce.
     - Télécharger toutes les pièces du dossier d'instruction.
 
@@ -285,10 +283,18 @@ Architecte fréquent
 
 La liste des autres actions est disponible dans la partie `Recherche`_.
 
+(Consultation) Retours de ma division
+#####################################
+
+- Visualiser la liste des dossiers d'instruction instruits par la division de l'instructeur connecté pour lesquels un avis a été rendu et qu'il n'a pas encore été lu.
+- Accéder à la fiche de visualisation de la consultation dont l'avis a été rendu dans le contexte du dossier d'instruction.
+
+La liste des autres actions est disponible dans la partie `Recherche`_.
+
 (Consultation) Tous les retours
 ###############################
 
-- Visualiser la liste des dossiers d'instruction instruits par la division de l'instructeur connecté pour lesquels un avis a été rendu et qu'il n'a pas encore été lu.
+- Visualiser la liste des dossiers d'instruction instruits dans la collectivité de l'instructeur connecté (si l'instructeur est affecté à la collectivité de niveau 2 alors la liste contient les DI de toutes les collectivtés) pour lesquels un avis a été rendu et qu'il n'a pas encore été lu.
 - Accéder à la fiche de visualisation de la consultation dont l'avis a été rendu dans le contexte du dossier d'instruction.
 
 La liste des autres actions est disponible dans la partie `Recherche`_.
@@ -299,10 +305,16 @@ Mes messages
 - Visualiser la liste des dossiers d'instruction instruits par l'instructeur connecté qui ont des messages non lus.
 - Accéder à la fiche de visualisation du message dans le contexte du dossier d'instruction.
 
+Messages de ma division
+#######################
+
+- Visualiser la liste des dossiers d'instruction instruits par la division de l'instructeur connecté qui ont des messages non lus.
+- Accéder à la fiche de visualisation du message dans le contexte du dossier d'instruction.
+
 Tous les messages
 #################
 
-- Visualiser la liste des dossiers d'instruction instruits par la division de l'instructeur connecté qui ont des messages non lus.
+- Visualiser la liste des dossiers d'instruction instruits dans la collectivité de l'instructeur connecté (si l'instructeur est affecté à la collectivité de niveau 2 alors la liste contient les DI de toutes les collectivtés) qui ont des messages non lus.
 - Accéder à la fiche de visualisation du message dans le contexte du dossier d'instruction.
 
 (Commission) Mes retours
