@@ -158,14 +158,6 @@ Architecte fréquent
 - Imprimer la liste des architectes fréquent présents dans la liste
 - Consulter un architecte fréquent
 
-(Consultation) Mes retours
-##########################
-
-- Liste toujours vide car ce profil n'est pas lié à un instructeur.
-- Accéder à la fiche de visualisation de la consultation dont l'avis a été rendu dans le contexte du dossier d'instruction.
-
-La liste des autres actions est disponible dans la partie `Recherche`_.
-
 (Consultation) Tous les retours
 ###############################
 
@@ -174,20 +166,8 @@ La liste des autres actions est disponible dans la partie `Recherche`_.
 
 La liste des autres actions est disponible dans la partie `Recherche`_.
 
-Mes messages
-############
-
-- Liste toujours vide car ce profil n'est pas lié à un instructeur.
-- Accéder à la fiche de visualisation du message dans le contexte du dossier d'instruction.
-
 Tous les messages
 #################
-
-- Liste toujours vide car ce profil n'est pas lié à un instructeur.
-- Accéder à la fiche de visualisation du message dans le contexte du dossier d'instruction.
-
-(Commission) Mes retours
-########################
 
 - Liste toujours vide car ce profil n'est pas lié à un instructeur.
 - Accéder à la fiche de visualisation du message dans le contexte du dossier d'instruction.
