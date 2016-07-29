@@ -129,8 +129,6 @@ Les types de commissions
 
 Éditions des différents types de commissions (Commission technique d'urbanisme).
 
-.. image:: parametrage_type_commission.png
-
 Gestion des consultations
 #########################
 
