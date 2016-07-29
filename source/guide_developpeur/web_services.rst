@@ -4,6 +4,7 @@
 Web Services
 ############
 
+Les web services d'openADS sont RESTful. Les retours sont au format JSON, encodés en UTF-8.
 
 .. _web_services_ressource_maintenance:
 
@@ -32,7 +33,7 @@ Synchronisation des utilisateurs via un annuaire
    .. sourcecode:: http
 
       HTTP/1.1 200 OK
-      Content-Type: text/javascript
+      Content-Type: application/json; charset=utf-8
 
       {
         "http_code": 200,
@@ -43,7 +44,7 @@ Synchronisation des utilisateurs via un annuaire
    .. sourcecode:: http
 
       HTTP/1.1 200 OK
-      Content-Type: text/javascript
+      Content-Type: application/json; charset=utf-8
 
       {
         "http_code": 200,
@@ -54,7 +55,7 @@ Synchronisation des utilisateurs via un annuaire
    .. sourcecode:: http
 
       HTTP/1.1 500 Internal Server Error
-      Content-Type: text/javascript
+      Content-Type: application/json; charset=utf-8
 
       {
         "http_code": 500,
