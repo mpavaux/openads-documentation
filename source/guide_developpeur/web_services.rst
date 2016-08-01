@@ -378,6 +378,11 @@ Détail de dossier d'instruction
 
 .. http:get:: /openads/services/rest_entry.php/dossier_instructions/(string:dossier_instruction_id)
 
+Les champs de premier niveau sont toujours présents dans le retour JSON, même si la valeur
+est vide. Les champs de second niveau (ex: champs de données techniques, concernant une 
+personne morale...) sont présents dans le retour JSON seulement s'ils sont applicables au
+dossier.
+
    **Exemple de requête sur dossier avec en pétionnaire principal une personne physique** :
 
    .. sourcecode:: http
