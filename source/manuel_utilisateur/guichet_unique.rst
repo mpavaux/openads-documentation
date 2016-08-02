@@ -65,7 +65,7 @@ Saisie commune (nouveau dossier ou dossier existant) de la nouvelle demande
 
 Après la sélection du type de la demande, une fenêtre d'aide à la saisie
 affichera la liste des documents obligatoires, chaque élément de la liste
-devra être coché afin de continuer la saisie.
+devra être coché afin de continuer la saisie (voir :ref:`parametrage_dossiers_demande_type` pour paramétrer cette liste de document).
 
 Le reste de la saisie consiste en la saisie des informations suivantes :
 
