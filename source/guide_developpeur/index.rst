@@ -22,4 +22,5 @@ Sommaire
     document_numerise.rst
     interface_avec_le_referentiel_erp.rst
     web_services.rst
+    gestion_des_logs.rst
 
