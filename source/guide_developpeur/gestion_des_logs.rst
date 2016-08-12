@@ -7,15 +7,15 @@ Gestion des fichiers de log
 Les fichiers de log permettent d'avoir un historique des événements du fonctionnement d'openADS. Plusieurs fichiers
 de logs sont présents dans l'application, chacun ayant un usage différent.
 
-var/log/services.log
+Log des erreurs
+###############
+
+Le fichier **var/log/error.log** contient seulement des erreurs importantes qui ne doivent pas se produire et être corrigées. Ces erreurs affichent la plupart du temps un message d'erreur en rouge 'contactez votre administrateur' à l'utilisateur.
+
+Log des web services
 ####################
 
-Ce fichier contient tous les accès aux web services openADS, qu'ils soient entrants ou sortants. Dans ce log vont apparaître toutes les requêtes entrantes sur les fichiers rest_entry.php, la méthode interrogée avec ses paramètres et le retour renvoyé par cette méthode. Vont aussi apparaître chaque requête sortante envoyée via les classes MessagesSender* et les valeurs retournées.
-
-var/log/error.log
-#################
-
-Ce fichier ne contient que des erreurs importantes qui ne doivent pas se produire et être corrigées. Ces erreurs affichent la plupart du temps un message d'erreur en rouge 'contactez votre administrateur' à l'utilisateur.
+Le fichier **var/log/services.log** contient tous les accès aux web services openADS, qu'ils soient entrants ou sortants. Dans ce log vont apparaître toutes les requêtes entrantes sur les fichiers rest_entry.php, la méthode interrogée avec ses paramètres et le retour renvoyé par cette méthode. Vont aussi apparaître chaque requête sortante envoyée via les classes MessagesSenderSoap et MessagesSenderRest, ainsi que les valeurs retournées.
 
 Log des appels aux plugins
 ##########################
