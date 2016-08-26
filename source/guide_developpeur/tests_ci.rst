@@ -10,6 +10,11 @@ openADS possède des tests unitaires et fonctionnels joués intégralement à ch
 Tous les tests sont présents dans le répertoire tests/. Deux frameworks de test sont utilisés : RobotFramework et PHPUnit. http://openmairie.readthedocs.io/projects/omframework/fr/latest/reference/tests_ci/index.html
 
 
+Serveur d'intégration continue Jenkins
+######################################
+
+L'intégralité des tests est rejoué chaque jour sur le trunk de l'application via le serveur d'intégration continue Jenkins : http://jenkins.openmairie.org/job/openADS/
+
 
 Écrire un TestSuite RobotFramework
 ##################################
