@@ -267,3 +267,51 @@ Le formulaire est constitué de seulement trois champs :
   * **date de fin de validité** : date de fin de service de la phase, après cette date la phase ne sera plus sélectionnable depuis les événements.
 
 .. image:: parametrage_phase.png
+
+.. _parametrage_gestion_pieces:
+
+Gestion des pièces
+##################
+
+.. _parametrage_document_numerise_type_categorie:
+
+====================
+Catégorie des pièces
+====================
+
+(:menuselection:`Paramétrage --> Gestion des pièces --> Catégorie des pièces`)
+
+Paramétrage des catégories de pièces possibles.
+
+.. _parametrage_document_numerise_type:
+
+===============
+Type des pièces
+===============
+
+(:menuselection:`Paramétrage --> Gestion des pièces --> Type des pièces`)
+
+Paramétrage des types de pièces possibles.
+
+Les champs du formulaire lors de l'ajout :
+
+  * **Code** : Code du type de pièce, champ obligatoire utilisé pour composer le nom des pièces ;
+  * **Libellé** : Libellé du type de pièce, champ obligatoire ;
+  * **Catégorie de pièces** : Catégorie du type de pièce, champ obligatoire ;
+  * **Ajoutable par les instructeurs** : Permet de définir si le type de pièce peut être utilisé par un instructeur, par défaut coché ;
+  * **Affiché sur les demandes d'avis** : Permet de définir si les pièces de ce type peuvent êtres visualisées sur les demandes d'avis, par défaut coché ;
+  * **Affiché sur les DA** : Permet de définir si les pièces de ce type peuvent êtres visualisées sur les dossiers d'autorisation (affichage publique), par défaut coché.
+
+.. image:: parametrage_document_numerise_type_form.png
+
+Lors de la modification d'un type de pièce, si les champ **Affiché sur les demandes d'avis** et/ou **Affiché sur les DA** sont modifiés alors les informations sur les fichiers de ce type seront mise à jour lors du prochain :ref:`traitement des métadonnées <parametrage_document_numerise_type_traiter_metadonnees>`.
+
+.. _parametrage_document_numerise_type_traiter_metadonnees:
+
+==========================
+Traitement des métadonnées
+==========================
+
+(:menuselection:`Paramétrage --> Gestion des pièces --> Traitement des métadonnées`)
+
+Mise à jour des métadonnées des documents dont le type de pièce a été modifié.
