@@ -88,10 +88,3 @@ filtrées via la recherche avancée dans un format exploitable sur tableur.
 Pour cela, il clique sur la rubrique export.
 
 .. XXX insérer une capture ou lien vers
-
-Autres informations accessibles depuis les demandes d'avis
-##########################################################
-
-.. image:: service_consulte_demande_avis_piece.png
-
-Liste des pièces liées au dossier d'instruction concerné par la demandes d'avis et filtrées par le :ref:`paramétrage des types de pièce <parametrage_document_numerise_type>`.

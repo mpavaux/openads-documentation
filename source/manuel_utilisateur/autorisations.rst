@@ -125,4 +125,9 @@ Liste des dossiers d'instruction liés au dossier d'autorisation (voir :ref:`ins
 
 .. image:: ../manuel_utilisateur/autorisation_liste_pieces.png
 
-Liste des pièces liées au dossier d'autorisation filtrées par le :ref:`paramétrage des types de pièce <parametrage_document_numerise_type>`.
+Liste des pièces liées au dossier d'autorisation.
+
+.. note::
+
+    Les pièces peuvent être filtrées par leur type de document.
+    Pour plus d'information consulter le :ref:`paramétrage <parametrage_parametre>`.
