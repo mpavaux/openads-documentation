@@ -267,38 +267,3 @@ Le formulaire est constitué de seulement trois champs :
   * **date de fin de validité** : date de fin de service de la phase, après cette date la phase ne sera plus sélectionnable depuis les événements.
 
 .. image:: parametrage_phase.png
-
-Gestion des pièces
-##################
-
-.. _parametrage_gestion_pieces:
-
-====================
-Catégorie des pièces
-====================
-
-(:menuselection:`Paramétrage --> Gestion des pièces --> Catégorie des pièces`)
-
-Liste des catégories de pièces possibles.
-
-.. _parametrage_document_numerise_type_categorie:
-
-===============
-Type des pièces
-===============
-
-(:menuselection:`Paramétrage --> Gestion des pièces --> Type des pièces`)
-
-Liste des types de pièces possibles.
-
-.. _parametrage_document_numerise_type:
-
-==========================
-Traitement des métadonnées
-==========================
-
-(:menuselection:`Paramétrage --> Gestion des pièces --> Traitement des métadonnées`)
-
-Mise à jour des métadonnées des documents dont le type de pièce a été modifié.
-
-.. _parametrage_document_numerise_type_traiter_metadonnees:
