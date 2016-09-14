@@ -18,6 +18,7 @@ Sommaire
     :numbered:
 
     installation.rst
+    tests_ci.rst
     geolocalisation.rst
     document_numerise.rst
     interface_avec_le_referentiel_erp.rst
