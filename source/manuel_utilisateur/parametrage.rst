@@ -314,4 +314,21 @@ Traitement des métadonnées
 
 (:menuselection:`Paramétrage --> Gestion des pièces --> Traitement des métadonnées`)
 
-Mise à jour des métadonnées des documents dont le type de pièce a été modifié.
+Mise à jour des métadonnées des fichiers stockés dont le type de pièce a été modifié.
+
+Lors de la modification d'un type de pièce, si les champ **Affiché sur les demandes d'avis** et/ou **Affiché sur les DA** sont modifiés, un marqueur identifie le changement, mais les fichiers des pièces ciblées ne sont pas mises à jour.
+Ce changement peut être appliqué ensuite à l'intégralité des fichiers des pièces de ce type par deux méthodes :
+
+  * depuis l'interface reservé aux administrateurs ;
+  * de manière désynchronisée, en tâche de fond, par un appel à un service web de maintenance.
+
+Depuis l'interface
+==================
+
+.. image:: parametrage_document_numerise_metadata_treatment.png
+
+Il suffit de cliquer sur le bouton **Mise à jour des métadonnées** pour lancer le traitement.
+
+.. image:: parametrage_document_numerise_metadata_treatment_res.png
+
+L'écran de résultat affiche un rapport détaillant les fichiers mis à jour.
