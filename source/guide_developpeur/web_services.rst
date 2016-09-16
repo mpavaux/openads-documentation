@@ -205,6 +205,25 @@ Synchronisation des contraintes depuis le SIG
 
 
 
+==========================================================================
+Mise à jour des métadonnées des documents numérisés concernant l'affichage
+==========================================================================
+
+.. http:post:: /openads/services/rest_entry.php/maintenance
+
+   **Exemple de requête** :
+
+   .. sourcecode:: http
+      
+      POST /openads/services/rest_entry.php/maintenance HTTP/1.1
+      Host: localhost
+
+      {
+        "module": "update_metadata_affichage",
+      }
+
+
+
 .. _web_services_ressource_consultations:
 
 Ressource "consultations"
