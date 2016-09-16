@@ -94,4 +94,4 @@ Autres informations accessibles depuis les demandes d'avis
 
 .. image:: service_consulte_demande_avis_piece.png
 
-Liste des pièces liées au dossier d'instruction concerné par la demandes d'avis et filtrées par le :ref:`paramétrage des types de pièce <parametrage_document_numerise_type>`.
+Liste des pièces liées au dossier d'instruction concerné par la demande d'avis et filtrées par le :ref:`paramétrage des types de pièce <parametrage_document_numerise_type>`.

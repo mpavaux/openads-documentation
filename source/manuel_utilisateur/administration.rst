@@ -37,10 +37,6 @@ Une convention de nommage existe. Il faut préfixer par :
 * **param_courriel_de_notification_commune\_** les paramètres spécifiques aux notifications par courriel aux communes ;
 * **rapport_instruction\_** les paramètres spécifiques au rapport d'instruction.
 
-Autres paramètres :
-
-* **da_listing_pieces_filtre** la liste des codes de type de document accessibles depuis le dossier d'autorisation, séparés par un point-virgule s'il y en a plusieurs.
-
 Utilisation des options :
 
 * **option_sig** : la valeur par défaut est *aucun*. Les valeurs possibles sont
