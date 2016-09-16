@@ -295,9 +295,9 @@ Paramétrage des types de pièces possibles.
 
 Les champs du formulaire lors de l'ajout :
 
-  * **Code** : Code du type de pièce, champ obligatoire utilisé pour composer le nom des pièces ;
-  * **Libellé** : Libellé du type de pièce, champ obligatoire ;
-  * **Catégorie de pièces** : Catégorie du type de pièce, champ obligatoire ;
+  * **Code** : Code du type de pièce, champ obligatoire et unique utilisé pour composer le nom des pièces ;
+  * **Libellé** : Libellé du type de pièce, champ obligatoire utilisé dans la liste à choix sur les documents numérisés;
+  * **Catégorie de pièces** : Catégorie du type de pièce, champ obligatoire utilisé pour le classer les pièces sur certain affichage ;
   * **Ajoutable par les instructeurs** : Permet de définir si le type de pièce peut être utilisé par un instructeur, par défaut coché ;
   * **Affiché sur les demandes d'avis** : Permet de définir si les pièces de ce type peuvent êtres visualisées sur les demandes d'avis, par défaut coché ;
   * **Affiché sur les DA** : Permet de définir si les pièces de ce type peuvent êtres visualisées sur les dossiers d'autorisation (affichage publique), par défaut coché.
