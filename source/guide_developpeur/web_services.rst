@@ -205,9 +205,13 @@ Synchronisation des contraintes depuis le SIG
 
 
 
-==========================================================================
-Mise à jour des métadonnées des documents numérisés concernant l'affichage
-==========================================================================
+===================================================
+Mise à jour des métadonnées des documents numérisés
+===================================================
+
+Ce web service a exactement les mêmes fonctionnalités que 
+:ref:`l'interface de mise à jour des
+métadonnées.<parametrage_document_numerise_type_traiter_metadonnees>`
 
 .. http:post:: /openads/services/rest_entry.php/maintenance
 
@@ -219,7 +223,7 @@ Mise à jour des métadonnées des documents numérisés concernant l'affichage
       Host: localhost
 
       {
-        "module": "update_metadata_affichage",
+        "module": "update_digitalized_documents_metadatas",
       }
 
 

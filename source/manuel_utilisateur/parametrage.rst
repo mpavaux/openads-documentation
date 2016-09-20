@@ -320,7 +320,8 @@ Lors de la modification d'un type de pièce, si les champs **Affiché sur les de
 Ce changement peut être appliqué ensuite à l'intégralité des fichiers des pièces de ce type par deux méthodes :
 
   * depuis l'interface réservée aux administrateurs ;
-  * de manière désynchronisée, en tâche de fond, par un appel à un service web de maintenance.
+  * de manière désynchronisée, en tâche de fond, par un appel à un :ref:`service web de maintenance <web_services_ressource_maintenance>`.
+
 
 Depuis l'interface
 ==================
@@ -331,4 +332,4 @@ Il suffit de cliquer sur le bouton **Mise à jour des métadonnées** pour lance
 
 .. image:: parametrage_document_numerise_metadata_treatment_res.png
 
-L'écran de résultat affiche un rapport détaillant les fichiers mis à jour.
+Lorsque certaines pièces numérisées n'ont pas pu être mises à jour, le message de validation contient la liste des pièces en erreur ainsi que le dossier d'instruction correspondant.
