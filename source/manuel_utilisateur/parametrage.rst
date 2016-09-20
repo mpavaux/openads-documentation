@@ -308,11 +308,11 @@ Lors de la modification d'un type de pièce, si les champ **Affiché sur les dem
 
 .. _parametrage_document_numerise_type_traiter_metadonnees:
 
-==========================
-Traitement des métadonnées
-==========================
+===========================
+Mise à jour des métadonnées
+===========================
 
-(:menuselection:`Paramétrage --> Gestion des pièces --> Traitement des métadonnées`)
+(:menuselection:`Paramétrage --> Gestion des pièces --> Mise à jour des métadonnées`)
 
 Mise à jour des métadonnées des fichiers stockés dont le type de pièce a été modifié.
 
