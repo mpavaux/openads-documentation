@@ -205,9 +205,9 @@ Synchronisation des contraintes depuis le SIG
 
 
 
-===================================================
-Mise à jour des métadonnées des documents numérisés
-===================================================
+=================================================
+Mise à jour des métadonnées des pièces numérisées
+=================================================
 
 Ce web service déclenche le même traitement que 
 :ref:`l'interface de mise à jour des

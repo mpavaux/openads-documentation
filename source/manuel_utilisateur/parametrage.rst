@@ -296,15 +296,15 @@ Paramétrage des types de pièces possibles.
 Les champs du formulaire lors de l'ajout :
 
   * **Code** : Code du type de pièce, champ obligatoire et unique utilisé pour composer le nom des pièces ;
-  * **Libellé** : Libellé du type de pièce, champ obligatoire utilisé dans la liste à choix sur les documents numérisés;
-  * **Catégorie de pièces** : Catégorie du type de pièce, champ obligatoire utilisé pour le classer les pièces sur certain affichage ;
-  * **Ajoutable par les instructeurs** : Permet de définir si le type de pièce peut être utilisé par un instructeur, par défaut coché ;
-  * **Affiché sur les demandes d'avis** : Permet de définir si les pièces de ce type peuvent êtres visualisées sur les demandes d'avis, par défaut coché ;
-  * **Affiché sur les DA** : Permet de définir si les pièces de ce type peuvent êtres visualisées sur les dossiers d'autorisation (affichage publique), par défaut coché.
+  * **Libellé** : Libellé du type de pièce, champ obligatoire utilisé dans la liste à choix lors de l'ajout d'une pièce ;
+  * **Catégorie de pièces** : Catégorie du type de pièce, champ obligatoire utilisé pour organiser les pièces sur tous les affichages ;
+  * **Ajoutable par les instructeurs** : Permet de définir si le type de pièce peut être ajouté par un instructeur, par défaut coché ;
+  * **Affiché sur les demandes d'avis** : Permet de définir si les pièces de ce type peuvent être visualisées sur les demandes d'avis des services consultés, par défaut coché ;
+  * **Affiché sur les DA** : Permet de définir si les pièces de ce type peuvent être visualisées sur les dossiers d'autorisation, par défaut coché.
 
 .. image:: parametrage_document_numerise_type_form.png
 
-Lors de la modification d'un type de pièce, si les champ **Affiché sur les demandes d'avis** et/ou **Affiché sur les DA** sont modifiés alors les informations sur les fichiers de ce type seront mise à jour lors du prochain :ref:`traitement des métadonnées <parametrage_document_numerise_type_traiter_metadonnees>`.
+Lors de la modification d'un type de pièce, si les champs **Affiché sur les demandes d'avis** et/ou **Affiché sur les DA** sont modifiés, alors les métadonnées correspondantes sur les fichiers de ce type seront mises à jour lors de la prochaine :ref:`mise à jour des métadonnées <parametrage_document_numerise_type_traiter_metadonnees>`.
 
 .. _parametrage_document_numerise_type_traiter_metadonnees:
 
@@ -328,8 +328,8 @@ Depuis l'interface
 
 .. image:: parametrage_document_numerise_metadata_treatment.png
 
-Il suffit de cliquer sur le bouton **Mise à jour des métadonnées** pour lancer le traitement.
+Il suffit de cliquer sur le bouton **Mettre à jour** pour lancer le traitement.
 
 .. image:: parametrage_document_numerise_metadata_treatment_res.png
 
-Lorsque certaines pièces numérisées n'ont pas pu être mises à jour, le message de validation contient la liste des pièces en erreur ainsi que le dossier d'instruction correspondant.
+Lorsque certaines pièces numérisées n'ont pas pu être mises à jour, le message de validation présente la liste des pièces en erreur ainsi que le dossier d'instruction correspondant.
