@@ -206,11 +206,11 @@ Synchronisation des contraintes depuis le SIG
 
 .. _web_services_ressource_maintenance_maj_metadonnees_documents_numerises:
 
-===================================================
-Mise à jour des métadonnées des documents numérisés
-===================================================
+=================================================
+Mise à jour des métadonnées des pièces numérisées
+=================================================
 
-Ce web service a exactement les mêmes fonctionnalités que 
+Ce web service déclenche le même traitement que 
 :ref:`l'interface de mise à jour des
 métadonnées.<parametrage_document_numerise_type_traiter_metadonnees>`
 
@@ -224,7 +224,7 @@ métadonnées.<parametrage_document_numerise_type_traiter_metadonnees>`
       Host: localhost
 
       {
-        "module": "update_digitalized_documents_metadatas",
+        "module": "maj_metadonnees_documents_numerises",
       }
 
 
