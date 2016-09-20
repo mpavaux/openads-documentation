@@ -320,7 +320,7 @@ Lors de la modification d'un type de pièce, si les champs **Affiché sur les de
 Ce changement peut être appliqué ensuite à l'intégralité des fichiers des pièces de ce type par deux méthodes :
 
   * depuis l'interface réservée aux administrateurs ;
-  * de manière désynchronisée, en tâche de fond, par un appel à un :ref:`service web de maintenance <web_services_ressource_maintenance>`.
+  * de manière désynchronisée, en tâche de fond, par un appel à un :ref:`service web de maintenance <web_services_ressource_maintenance_maj_metadonnees_documents_numerises>`.
 
 
 Depuis l'interface
