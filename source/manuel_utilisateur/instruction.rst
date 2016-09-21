@@ -117,7 +117,12 @@ Dans le formulaire qui apparaît tous les champs sont obligatoires :
 
 * **Fichier** : Document au format PDF a stocker.
 * **Date de création** : Date de création du document.
-* **Type de document** : Type du document.
+* **Type de pièces** : Type du document.
+
+Seulement les types de pièces étant :ref:`paramétrées <parametrage_document_numerise_type>` comme ajoutables par l'instructeur sont visibles dans cette liste pour les profils instructeur.
+
+Si on ajoute plusieurs fois le même type de pièce avec la même date de création, les noms de fichiers seront suffixés par "-1", "-2", etc.
+Exemple : pour 3 ajouts de pièces de type **Arrêté retour préfecture** le 14/09/2016, les noms des pièces seront 20160914ART.pdf, 20160914ART-1.pdf, et 20160914ART-2.pdf.
 
 Les documents sont listés dans l'onglet "Pièces" et organisés par date et catégorie.
 

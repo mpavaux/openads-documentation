@@ -205,6 +205,29 @@ Synchronisation des contraintes depuis le SIG
 
 
 
+=================================================
+Mise à jour des métadonnées des pièces numérisées
+=================================================
+
+Ce web service déclenche le même traitement que 
+:ref:`l'interface de mise à jour des
+métadonnées.<parametrage_document_numerise_type_traiter_metadonnees>`
+
+.. http:post:: /openads/services/rest_entry.php/maintenance
+
+   **Exemple de requête** :
+
+   .. sourcecode:: http
+      
+      POST /openads/services/rest_entry.php/maintenance HTTP/1.1
+      Host: localhost
+
+      {
+        "module": "maj_metadonnees_documents_numerises",
+      }
+
+
+
 .. _web_services_ressource_consultations:
 
 Ressource "consultations"

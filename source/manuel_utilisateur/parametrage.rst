@@ -267,3 +267,69 @@ Le formulaire est constitué de seulement trois champs :
   * **date de fin de validité** : date de fin de service de la phase, après cette date la phase ne sera plus sélectionnable depuis les événements.
 
 .. image:: parametrage_phase.png
+
+.. _parametrage_gestion_pieces:
+
+Gestion des pièces
+##################
+
+.. _parametrage_document_numerise_type_categorie:
+
+====================
+Catégorie des pièces
+====================
+
+(:menuselection:`Paramétrage --> Gestion des pièces --> Catégorie des pièces`)
+
+Paramétrage des catégories de pièces possibles.
+
+.. _parametrage_document_numerise_type:
+
+===============
+Type des pièces
+===============
+
+(:menuselection:`Paramétrage --> Gestion des pièces --> Type des pièces`)
+
+Paramétrage des types de pièces possibles.
+
+Les champs du formulaire lors de l'ajout :
+
+  * **Code** : Code du type de pièce, champ obligatoire et unique utilisé pour composer le nom des pièces ;
+  * **Libellé** : Libellé du type de pièce, champ obligatoire utilisé dans la liste à choix lors de l'ajout d'une pièce ;
+  * **Catégorie de pièces** : Catégorie du type de pièce, champ obligatoire utilisé pour organiser les pièces sur tous les affichages ;
+  * **Ajoutable par les instructeurs** : Permet de définir si le type de pièce peut être ajouté par un instructeur, par défaut coché ;
+  * **Affiché sur les demandes d'avis** : Permet de définir si les pièces de ce type peuvent être visualisées sur les demandes d'avis des services consultés, par défaut coché ;
+  * **Affiché sur les DA** : Permet de définir si les pièces de ce type peuvent être visualisées sur les dossiers d'autorisation, par défaut coché.
+
+.. image:: parametrage_document_numerise_type_form.png
+
+Lors de la modification d'un type de pièce, si les champs **Affiché sur les demandes d'avis** et/ou **Affiché sur les DA** sont modifiés, alors les métadonnées correspondantes sur les fichiers de ce type seront mises à jour lors de la prochaine :ref:`mise à jour des métadonnées <parametrage_document_numerise_type_traiter_metadonnees>`.
+
+.. _parametrage_document_numerise_type_traiter_metadonnees:
+
+===========================
+Mise à jour des métadonnées
+===========================
+
+(:menuselection:`Paramétrage --> Gestion des pièces --> Mise à jour des métadonnées`)
+
+Mise à jour des métadonnées des fichiers stockés dont le type de pièce a été modifié.
+
+Lors de la modification d'un type de pièce, si les champs **Affiché sur les demandes d'avis** et/ou **Affiché sur les DA** sont modifiés, un marqueur identifie le changement, mais les fichiers des pièces ciblées ne sont pas mis à jour.
+Ce changement peut être appliqué ensuite à l'intégralité des fichiers des pièces de ce type par deux méthodes :
+
+  * depuis l'interface réservée aux administrateurs ;
+  * de manière désynchronisée, en tâche de fond, par un appel à un :ref:`service web de maintenance <web_services_ressource_maintenance>`.
+
+
+Depuis l'interface
+==================
+
+.. image:: parametrage_document_numerise_metadata_treatment.png
+
+Il suffit de cliquer sur le bouton **Mettre à jour** pour lancer le traitement.
+
+.. image:: parametrage_document_numerise_metadata_treatment_res.png
+
+Lorsque certaines pièces numérisées n'ont pas pu être mises à jour, le message de validation présente la liste des pièces en erreur ainsi que le dossier d'instruction correspondant.
