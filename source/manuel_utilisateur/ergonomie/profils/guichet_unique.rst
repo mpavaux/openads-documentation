@@ -5,15 +5,16 @@ GUICHET UNIQUE
 Description
 ===========
 
-C'est le profil utilisé pour les services consultés. Il va leur permettre :
+C'est le profil utilisé par les agents chargés de la réception du public, qui vont 
+principalement créer les diverses demandes dans openADS. Ce profil va leur permettre :
 
-* de répondre directement depuis le logiciel aux consultations de service qui leurs sont adressés ;
-* de voir les avis qui avaient été rendus ;
-* de faire des exports CSV ;
-* de visualiser les DA sur lesquels ils ont été consultés ;
-* de visualiser les pièces sur lesquels ils ont été consultés.
+- de créer des nouvelles demandes
+- de consulter les dossiers d'autorisation et d'instruction existants
+- d'éditer le récépissé de la demande
+- de générer et afficher le registre et l'attestation d'affichage réglementaire
+- de consulter et télécharger les pièces numérisées des dossiers.
+- d'effectuer des exports de statistiques
 
-L'utilisateur qui a ce profil doit forcément être rattaché à un ou plusieurs services pour pouvoir visualiser des dossiers et des demandes d'avis.
 
 Fonctionnalités disponibles
 ===========================
