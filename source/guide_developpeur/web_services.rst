@@ -204,6 +204,7 @@ Synchronisation des contraintes depuis le SIG
       }
 
 
+.. _web_services_ressource_maintenance_maj_metadonnees_documents_numerises:
 
 =================================================
 Mise à jour des métadonnées des pièces numérisées
