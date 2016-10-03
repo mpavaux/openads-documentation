@@ -71,6 +71,7 @@ de texte et de l'option suivante :
 * L'analyse réglementaire : ce champ contient le corps de l'analyse de l'instructeur, il est fait pour être mis à jour tout au long de l'instruction.
 * La description du projet : cette zone de texte qui est pré-remplie avec la valeur de la nature des travaux.
 * La proposition de décision : une liste à choix de propositions.
+* Le complément : ce champ de texte permet d'apporter des informations complémentaires.
 
 Une fois le rapport enregistré, il est possible de sortir une édition PDF contenant ces informations à partir du modèle de l'état *Rapport d'instruction*.
 
@@ -464,3 +465,26 @@ L'action "J'ai de la chance"
 Ce bouton permet un lancement automatique, à la chaine, de toutes les actions de
 géolocalisation d'un dossier décrites précedement. Il permet de gagner du temps.
 
+=============
+Consultations
+=============
+
+.. image:: instruction_dossier_consultation_tab.png
+
+L'onglet **Consultation(s)** permet de lister et consulter toutes les consultations du dossier
+d'instruction.
+
+Masquer une consultation
+========================
+
+Pour masquer une consultation dans les éditions, dans le portlet d'actions contextuelles
+de la visualisation de la consultation il faut cliquer sur le lien "Masquer dans les
+éditions".
+
+.. image:: portlet_visible_consultation.png
+
+La consultation ne sera pas visible sur les éditions qui le reprennent.
+Pour la rendre visible il faut cliquer sur le lien "Rendre visible dans les
+éditions".
+
+.. image:: portlet_masque_consultation.png
