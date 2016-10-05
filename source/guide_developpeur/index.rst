@@ -8,6 +8,10 @@ Guide du développeur
 Stratégie
 #########
 
+.. image:: ../_static/SD01.png
+   :align: right
+
+
 openADS respecte la `stratégie de développement SD01 <http://openmairie.readthedocs.io/projects/omframework/fr/latest/rules/development_strategies.html#sd01>`_.
 
 Sommaire
