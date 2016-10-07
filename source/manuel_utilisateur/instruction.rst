@@ -401,11 +401,24 @@ Dossiers liés
 
 .. image:: instruction_dossiers_lies.png
 
-L'onglet **DA** permet d'obtenir les dossiers liés au dossier courant, et d'accéder directement à la fiche détaillée de ces dossiers en cliquant sur n'importe quel élément des tableaux. Les dossiers suivants seront affichés :
+L'onglet **Dossiers liés** permet d'obtenir tous les dossiers liés au dossier d'instruction courant.
+Il existe plusieurs types de liaison entre les dossiers :
 
-    * En orange : le dossier d'autorisation du DI courant.
-    * En violet : le ou les DI liés au même dossier d'autorisation que le DI courant.
-    * En vert : le ou les dossiers d'autorisation ayant au moins une parcelle en commun avec le DI courant.
+    * dans l'encadré orange, il s'agit du lien vers le dossier d'autorisation ;
+    * dans l'encadré violet, les dossiers d'instruction liés manuellement ou implicitement par le dossier d'autorisation ;
+    * dans l'encadré vert, les dossiers d'autorisation liés géographiquement, c'est-à-dire ayant au moins une parcelle commune.
+
+Il est possible depuis l'action d'ajout "+" dans le tableau des dossiers d'instruction liés (encadré violet), d'ajouter des liaisons avec d'autres dossiers d'instruction.
+Il n'est pas possible de lier le dossiers d'instruction courant deux fois à un même DI ou de le lier manuellement à un DI déjà lié implicitement par le dossier d'autorisation.
+
+.. image:: instruction_dossiers_lies_form_ajout.png
+
+Les liaisons manuelles peuvent être supprimées depuis le tableau grâce à l'action de suppression "X" disponible sur chaque ligne.
+
+.. note::
+    Dans le cas des recours (contentieux), il existe une notion de liaison principale avec un dossier d'instruction.
+    Cette liaison n'est modifiable que par les profils ayant une permission spécifique.
+
 
 .. _instruction_geolocalisation:
 
