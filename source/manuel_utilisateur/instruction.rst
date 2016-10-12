@@ -481,9 +481,9 @@ Pour masquer une consultation dans les éditions, dans le portlet d'actions cont
 de la visualisation de la consultation il faut cliquer sur le lien *Masquer dans les
 éditions*.
 
-.. image:: portlet_visible_consultation.png
+.. image:: portlet_masque_consultation.png
 
 La consultation n’apparaîtra plus dans les éditions qui affichent leur liste.
 Pour l'afficher à nouveau cliquer sur l'action *Rendre visible dans les éditions*.
 
-.. image:: portlet_masque_consultation.png
+.. image:: portlet_visible_consultation.png
