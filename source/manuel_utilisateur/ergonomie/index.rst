@@ -200,12 +200,21 @@ Un lien "Voir tous les dossiers évènement incomplet ou majoration sans RAR" pe
 Profils
 =======
 
+Profils de reception et suivi
+-----------------------------
+
 .. toctree::
     :maxdepth: 1
 
     profils/guichet_unique.rst
     profils/suivi.rst
     profils/guichet_suivi.rst
+    
+Profils de gestion de l'instruction
+-----------------------------------
+
+.. toctree::
+    :maxdepth: 1
     
     profils/chef_de_service.rst
     profils/divisionnaire.rst
@@ -215,11 +224,29 @@ Profils
     profils/instructeur_polyvalent.rst
     profils/instructeur_polyvalent_commune.rst
     
+Profils de services consultés
+-----------------------------
+
+.. toctree::
+    :maxdepth: 1
+    
     profils/service_consulte.rst
     profils/service_consulte_interne.rst
     
+Profils de consultation
+-----------------------
+
+.. toctree::
+    :maxdepth: 1
+    
     profils/visualisation_da.rst
     profils/visualisation_da_di.rst
+    
+Profils d'administration
+------------------------
+
+.. toctree::
+    :maxdepth: 1
     
     profils/administrateur_general.rst
 
