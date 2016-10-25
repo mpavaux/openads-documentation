@@ -204,17 +204,22 @@ Profils
     :maxdepth: 1
 
     profils/guichet_unique.rst
-    profils/instructeur.rst
-    profils/qualificateur.rst
-    profils/service_consulte.rst
-    profils/service_consulte_interne.rst
     profils/suivi.rst
-    profils/visualisation_da.rst
-    profils/visualisation_da_di.rst
-    profils/divisionnaire.rst
-    profils/chef_de_service.rst
-    profils/instructeur_service.rst
     profils/guichet_suivi.rst
-    profils/administrateur_general.rst
+    
+    profils/chef_de_service.rst
+    profils/divisionnaire.rst
+    profils/qualificateur.rst
+    profils/instructeur.rst
+    profils/instructeur_service.rst
     profils/instructeur_polyvalent.rst
     profils/instructeur_polyvalent_commune.rst
+    
+    profils/service_consulte.rst
+    profils/service_consulte_interne.rst
+    
+    profils/visualisation_da.rst
+    profils/visualisation_da_di.rst
+    
+    profils/administrateur_general.rst
+
