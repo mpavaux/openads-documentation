@@ -62,7 +62,7 @@ Action(s) disponible(s) par onglet :
 
     - Visualiser la liste des événements d'instruction du dossier d'instruction triées par date d'événement.
     - Accéder à la fiche de visualisation d'un événement d'instruction.
-    - Visualiser l'édition de l'événement d'instruction
+    - Visualiser l'édition de l'événement d'instruction.
 
   - *Consultation(s)* :
 
@@ -71,7 +71,7 @@ Action(s) disponible(s) par onglet :
     - Ajouter plusieurs consultations au dossier d'instruction.
     - Accéder à la fiche de visualisation d'une consultation.
     - Visualiser l'édition d'une consultation.
-    - Modifier le texte d'une consultation.
+    - Saisir le retour de consultation.
 
   - *Commission(s)* :
 
