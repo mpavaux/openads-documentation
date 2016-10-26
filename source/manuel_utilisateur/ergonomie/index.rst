@@ -238,9 +238,9 @@ Réception et suivi
 .. toctree::
     :maxdepth: 1
 
+    profils/suivi.rst
     profils/guichet_suivi.rst
     profils/guichet_unique.rst
-    profils/suivi.rst
 
 Services consultés
 ------------------
