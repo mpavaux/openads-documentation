@@ -249,4 +249,5 @@ Profils d'administration
     :maxdepth: 1
     
     profils/administrateur_general.rst
+    profils/administrateur_technique_fonctionnel.rst
 
