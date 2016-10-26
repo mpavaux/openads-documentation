@@ -6,7 +6,9 @@ Description
 ===========
 
 Ce profil permet de réaliser toutes les actions possibles de l'application.
-Il est important de l'utiliser avec precaution.
+
+.. DANGER::
+   À utiliser avec précaution !
 
 Fonctionnalités disponibles
 ===========================
