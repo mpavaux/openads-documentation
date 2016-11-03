@@ -251,3 +251,17 @@ Services consultés
     profils/service_consulte.rst
     profils/service_consulte_interne.rst
     
+Contentieux
+-----------
+
+.. toctree::
+    :maxdepth: 1
+    
+    profils/assistante.rst
+    profils/chef_service_contentieux.rst
+    profils/responsable_division_infraction.rst
+    profils/juriste.rst
+    profils/technicien.rst
+    profils/direction_consultation.rst
+    profils/direction_infraction.rst
+    profils/direction_recours.rst
