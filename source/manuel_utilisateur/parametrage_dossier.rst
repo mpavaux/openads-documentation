@@ -47,6 +47,7 @@ Les informations à saisir sont :
   (voir :ref:`parametrage_groupe`).
 * **cacher le DA** : si cette option est activée, les dossiers d'autorisation de ce type
   ne seront pas visibles dans l'application.
+* **Affichage des formulaires** : change l'affichage des formulaires des dossiers d'autorisation et d'instruction. Champ obligatoire.
 
 
 .. _parametrage_dossiers_dossier_autorisation_type_detaille:
