@@ -487,3 +487,8 @@ La consultation n’apparaîtra plus dans les éditions qui affichent leur liste
 Pour l'afficher à nouveau cliquer sur l'action *Afficher dans les éditions*.
 
 .. image:: portlet_visible_consultation.png
+
+Depuis le tableau des consultations, il est possible de modifier la visibilité
+des consultations dans les éditions, en cliquant sur l'icone d'oeil, verte
+ou rouge, dépendant du statut: s'il est masqué pour l'afficher ou visible
+pour le masquer depuis les éditions.
