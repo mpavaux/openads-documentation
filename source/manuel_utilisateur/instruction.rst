@@ -474,16 +474,16 @@ Consultations
 L'onglet **Consultation(s)** permet de lister et consulter toutes les consultations du dossier
 d'instruction.
 
-Masquer une consultation
-========================
+Modifier la visibilité d'une consultation dans les éditions
+===========================================================
 
 Pour masquer une consultation dans les éditions, dans le portlet d'actions contextuelles
 de la visualisation de la consultation il faut cliquer sur le lien *Masquer dans les
 éditions*.
 
-.. image:: portlet_visible_consultation.png
+.. image:: portlet_masque_consultation.png
 
 La consultation n’apparaîtra plus dans les éditions qui affichent leur liste.
-Pour l'afficher à nouveau cliquer sur l'action *Rendre visible dans les éditions*.
+Pour l'afficher à nouveau cliquer sur l'action *Afficher dans les éditions*.
 
-.. image:: portlet_masque_consultation.png
+.. image:: portlet_visible_consultation.png
