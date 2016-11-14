@@ -70,8 +70,8 @@ de texte et de l'option suivante :
 
 * L'analyse réglementaire : ce champ contient le corps de l'analyse de l'instructeur, il est fait pour être mis à jour tout au long de l'instruction.
 * La description du projet : cette zone de texte qui est pré-remplie avec la valeur de la nature des travaux.
-* La proposition de décision : une liste à choix de propositions.
 * Le complément : ce champ de texte permet d'apporter des informations complémentaires.
+* La proposition de décision : une liste à choix de propositions.
 
 Une fois le rapport enregistré, il est possible de sortir une édition PDF contenant ces informations à partir du modèle de l'état *Rapport d'instruction*.
 
