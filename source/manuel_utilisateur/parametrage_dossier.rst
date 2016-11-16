@@ -30,7 +30,7 @@ Saisir un type de dossier d'autorisation
 
 Les informations à saisir sont :
 
-* **code** : c'est le code à deux chiffres utilisé pour composer le numéro de
+* **code** : c'est le code à deux ou trois caractères utilisé pour composer le numéro de
   dossier d'instruction (par exemple : PC).
 * **libellé** : texte à afficher dans l'interface lors de la sélection
   d'un type de dossier d'autorisation.
@@ -70,7 +70,7 @@ Saisir un type de dossier d'autorisation détaillé
 Les informations à saisir sont :
 
 * **code** : c'est un code utilisé pour identifier rapidement le type de dossier
-  d'autorisation détaillé. Généralement il se compose des deux caractères du
+  d'autorisation détaillé. Généralement il se compose des deux ou trois caractères du
   type de dossier d'autorisation auquel on rajoute un ou plusieurs caractères
   spécifiques.
 * **libellé** : texte à afficher dans l'interface lors de la sélection
