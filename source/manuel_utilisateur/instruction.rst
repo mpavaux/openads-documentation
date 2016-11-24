@@ -373,6 +373,21 @@ celui-ci est configuré, (voir :ref:`instruction_geolocalisation` ).
 
 .. _instruction_dossier_message:
 
+====
+Lots
+====
+
+L'onglet **Lot(s)** permet de lister et consulter tous les lots du dossier d'instruction. Ces lots sont créés manuellement pas l'instructeur sur un permis valant division.
+La gestion des lots permet lors d'une demande de transfert partiel d'affecter le ou les pétitionnaire à un ou plusieurs lots.
+
+L'instructeur du dossier peut :
+
+- ajouter des lots
+- modifier des lots
+- supprimer des lots
+- éditer les données techniques des lots
+- tranférer le ou les pétitionnaire à un ou plusieurs lots
+
 ========
 Messages
 ========
