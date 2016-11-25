@@ -1225,8 +1225,7 @@ Dans le contexte du guichet unique, l'objectif principal de cet échange est de 
 *Cas d'utilisation* :
 
 • Ce message a vocation à permettre aux agents du Guichet unique de bien accomplir leur mission d'enregistrement face à l'arrivée d'une nouvelle pièce : si le dossier d'instruction AT est ouvert, alors les pièces sont acceptées (si le dossier est « incomplet », les pièces sont classées « complémentaires », sinon les pièces sont « supplémentaires ») et si le dossier est clos, les pièces sont refusées.
-• Lorsque le dossier d'instruction d'AT est créé dans openADS, par défaut son statut doit être « complet ». Dès que la première incomplétude est faite dans openARIA,
-le message est envoyé.
+• Lorsque le dossier d'instruction d'AT est créé dans openADS, par défaut son statut doit être « complet ». Dès que la première incomplétude est faite dans openARIA, le message est envoyé.
 • Le message de complétude doit mettre à jour automatiquement dans openADS le dossier d'instruction avec un statut complet, et cela doit se répercuter automatiquement sur le classement des nouvelles pièces arrivant au guichet unique.
 • Importance du paramétrage du workflow des AT dans openADS.
 
