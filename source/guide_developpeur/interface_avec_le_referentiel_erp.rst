@@ -17,7 +17,7 @@ L'option suivante permet d'activer l'option des messages sortants vers le réfé
 
 om_parametre
 
-- **option_erp** -> true
+- **option_referentiel_erp** -> true
 
 
 *Configuration des paramètres des déclencheurs* :
