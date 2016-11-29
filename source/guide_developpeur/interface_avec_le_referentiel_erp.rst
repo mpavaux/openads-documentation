@@ -22,15 +22,15 @@ om_parametre
 
 *Configuration des paramètres des déclencheurs* :
 
- - **erp__dossier__nature__at**
- - **erp__dossier__nature__pc**
- - **erp__demandes__depot_piece__at**
- - **erp__demandes__retrait__at**
- - **erp__demandes__ouverture__at**
- - **erp__demandes__ouverture__pc**
- - **erp__services__avis__pc**
- - **erp__services__conformite__pc**
- - **erp__evenements__decision__pc**
+ - **erp__dossier__nature__at** : correspond au code du type de DA détaillé qui représente une autorisation de travaux par exemple "AT" (utilisé par les échanges [109][112][110][108][101]).
+ - **erp__dossier__nature__pc** : correspond au code du type de DA détaillé qui représente un permis de construire par exemple "PC" (utilisé par les échanges [104][106][107][102][103][105][111]).
+ - **erp__demandes__depot_piece__at** : correspond à une liste d'identifiants de types de demandes qui représentent le dépôt de pièce sur une AT par un pétitionnaire au guichet par exemple "12;16;18" (utilisé par l'échange [112])
+ - **erp__demandes__retrait__at** : correspond à une liste d'identifiants de types de demandes qui représentent la demande de retrait du dossier AT par un pétitionnaire au guichet par exemple "12" (utilisé par l'échange [109])
+ - **erp__demandes__ouverture__at** : correspond à une liste d'identifiants de types de demandes qui représentent la demande de d'ouverture d'un ERP sur un dossier AT par un pétitionnaire au guichet par exemple "16;18" (utilisé par l'échange [110])
+ - **erp__demandes__ouverture__pc** : correspond à une liste d'identifiants de types de demandes qui représentent la demande de d'ouverture d'un ERP sur un dossier PC par un pétitionnaire au guichet par exemple "16;18" (utilisé par l'échange [107])
+ - **erp__services__avis__pc** : correspond à une liste d'identifiants de services qui représentent les services ERP qui sont notifiés lors d'une consultation pour avis par exemple "16;18" (utilisé par l'échange [104])
+ - **erp__services__conformite__pc** :  correspond à une liste d'identifiants de services qui représentent les services ERP qui sont notifiés lors d'une consultation pour confirmité par exemple "16" (utilisé par l'échange [106])
+ - **erp__evenements__decision__pc** : correspond à une liste d'identifiants d'événements sur lesquels les services ERP doivent être notifiés sur un dossier PC par exemple "16;18" (utilisé par les échanges [105][111])
 
 
 .. _configuration_echanges_sortants_referentiel_erp:
