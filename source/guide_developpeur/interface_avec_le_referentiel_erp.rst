@@ -31,8 +31,9 @@ om_parametre
  - **erp__services__avis__pc** : correspond à une liste d'identifiants de services qui représentent les services ERP qui sont notifiés lors d'une consultation pour avis par exemple "16;18" (utilisé par l'échange [104])
  - **erp__services__conformite__pc** :  correspond à une liste d'identifiants de services qui représentent les services ERP qui sont notifiés lors d'une consultation pour confirmité par exemple "16" (utilisé par l'échange [106])
  - **erp__evenements__decision__pc** : correspond à une liste d'identifiants d'événements sur lesquels les services ERP doivent être notifiés sur un dossier PC par exemple "16;18" (utilisé par les échanges [105][111])
-
-
+ - **id_evenement_cloture_at** : correspond à l'identifiant de l'événement à déclencher lors de la réception d'un message de clôture d'une AT (utilisé par l'échange [211]). Pour ne pas être bloquant pour l'autre application, l'événement de workflow doit pouvoir être ajouté plusieurs fois sur le même dossier.
+ - **id_evenement_completude_at** : correspond à l'identifiant de l'événement à déclencher lors de la réception d'un message de complétude/incomplétude d'une AT (utilisé par l'échange [210]). Pour ne pas être bloquant pour l'autre application, l'événement de workflow doit pouvoir être ajouté plusieurs fois sur le même dossier.
+ 
 .. _configuration_echanges_sortants_referentiel_erp:
 
 *Configuration des URLs des échanges sortants vers le référentiel ERP* :
