@@ -133,7 +133,8 @@ Une fois le formulaire validé, quatre cas de figures sont possibles :
 
 * soit l'événement d'instruction existe et n'a pas de date d'envoi RAR, on
   obtient alors un lien vers le fichier pdf permettant d'imprimer les
-  pré-imprimés RAR :
+  pré-imprimés RAR, ainsi qu'une liste de des dossiers impactés,
+  si l'utilisateur a les droit d'y accèder:
   
   .. image:: suivi_envoi_lettre_rar_message_evenement_instruction_ok.png
 
