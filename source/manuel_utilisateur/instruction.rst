@@ -472,14 +472,21 @@ Consultations
 .. image:: instruction_dossier_consultation_tab.png
 
 L'onglet **Consultation(s)** permet de lister et consulter toutes les consultations du dossier
-d'instruction.
+d'instruction. La couleur du fond de chaque ligne est variable: elle dépend du type, si elles
+sont de type *pour conformité* elles auront un fond de couleur jaune et si elles sont de type
+*avec avis attendu* elle seront affichées avec le fond naturel gris.
 
 Modifier la visibilité d'une consultation dans les éditions
 ===========================================================
 
-Pour masquer une consultation dans les éditions, dans le portlet d'actions contextuelles
-de la visualisation de la consultation il faut cliquer sur le lien *Masquer dans les
-éditions*.
+Il est possible de masquer une consultation depuis dans les éditions qui y font référence,
+comme le *Récapitulatif du dossier* ou le *Rapport d'instruction*.
+
+Depuis le portlet d'actions contextuelles
+#########################################
+
+Pour masquer une consultation depuis le portlet d'actions contextuelles
+il faut cliquer sur le lien *Masquer dans les éditions*.
 
 .. image:: portlet_masque_consultation.png
 
@@ -488,7 +495,16 @@ Pour l'afficher à nouveau cliquer sur l'action *Afficher dans les éditions*.
 
 .. image:: portlet_visible_consultation.png
 
+Depuis la liste de consultations
+################################
+
 Depuis le tableau des consultations, il est possible de modifier la visibilité
-des consultations dans les éditions, en cliquant sur l'icone d'oeil, verte
-ou rouge, dépendant du statut: s'il est masqué pour l'afficher ou visible
-pour le masquer depuis les éditions.
+des consultations dans les éditions, en cliquant sur l'icone d'oeil, rouge,
+pour la masquer.
+
+.. image:: instruction_tab_masque_consultation.png
+
+Et l'icone d'oeil, sera verte pour rendre la consultation visible.
+
+.. image:: instruction_tab_visible_consultation.png
+
