@@ -472,23 +472,23 @@ Consultations
 .. image:: instruction_dossier_consultation_tab.png
 
 L'onglet **Consultation(s)** permet de lister et consulter toutes les consultations du dossier
-d'instruction. La couleur du fond de chaque ligne est variable: elle dépend du type, si elles
-sont de type *pour conformité* elles auront un fond de couleur jaune et si elles sont de type
-*avec avis attendu* elle seront affichées avec le fond naturel gris.
+d'instruction. La couleur de chaque ligne est variable: elle dépend du type, si elles
+sont de type *pour conformité* elles seront surlignées en jaune et si elles sont de type
+*avec avis attendu* elle ne seront pas surlignées.
 
 Modifier la visibilité d'une consultation dans les éditions
 ===========================================================
 
-Il est possible de masquer une consultation depuis dans les éditions qui y font référence,
+Il est possible de masquer une consultation dans les éditions qui y font référence,
 comme le *Récapitulatif du dossier* ou le *Rapport d'instruction*.
 
 Depuis le portlet d'actions contextuelles
 #########################################
 
 Pour masquer une consultation depuis le portlet d'actions contextuelles
-il faut cliquer sur le lien *Masquer dans les éditions*.
+il faut cliquer sur l'action *Masquer dans les éditions*.
 
-.. image:: portlet_masque_consultation.png
+.. image:: portlet_masquer_consultation.png
 
 La consultation n’apparaîtra plus dans les éditions qui affichent leur liste.
 Pour l'afficher à nouveau cliquer sur l'action *Afficher dans les éditions*.
@@ -499,12 +499,13 @@ Depuis la liste de consultations
 ################################
 
 Depuis le tableau des consultations, il est possible de modifier la visibilité
-des consultations dans les éditions, en cliquant sur l'icone d'oeil, rouge,
-pour la masquer.
+des consultations dans les éditions.
 
-.. image:: instruction_tab_masque_consultation.png
+Si la consultation est visible, cliquer sur l'icône en forme d'oeil rouge permet de la masquer.
 
-Et l'icone d'oeil, sera verte pour rendre la consultation visible.
+.. image:: instruction_tab_masquer_consultation.png
+
+Si la consultation est masquée, cliquer sur l'icône en forme d'oeil vert permet de la rendre visible.
 
 .. image:: instruction_tab_visible_consultation.png
 
