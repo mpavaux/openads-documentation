@@ -26,7 +26,7 @@ Fonctionnalités disponibles
 Tableau de bord
 ---------------
 
-.. image:: dashboard_instrserv.png
+.. image:: dashboard_respinf.png
 
 Widget *Infos profil*
 #####################
@@ -72,7 +72,7 @@ Widget *Alerte Parquet*
 Menu
 ----
 
-.. image:: menu_instrserv.png
+.. image:: menu_respinf.png
 
 Rubrique *Autorisation*
 -----------------------

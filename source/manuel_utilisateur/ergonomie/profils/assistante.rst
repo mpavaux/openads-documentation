@@ -26,7 +26,7 @@ Fonctionnalités disponibles
 Tableau de bord
 ---------------
 
-.. image:: dashboard_instrserv.png
+.. image:: dashboard_assist.png
 
 Widget *Infos profil*
 #####################
@@ -80,7 +80,7 @@ Widget *Les infractions non affectées*
 Menu
 ----
 
-.. image:: menu_instrserv.png
+.. image:: menu_assist.png
 
 Rubrique *Autorisation*
 -----------------------

@@ -26,7 +26,7 @@ Fonctionnalités disponibles
 Tableau de bord
 ---------------
 
-.. image:: dashboard_instrserv.png
+.. image:: dashboard_chefctx.png
 
 Widget *Infos profil*
 #####################
@@ -52,7 +52,7 @@ Widget *Mes messages*
 Menu
 ----
 
-.. image:: menu_instrserv.png
+.. image:: menu_chefctx.png
 
 Rubrique *Autorisation*
 -----------------------

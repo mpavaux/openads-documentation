@@ -26,7 +26,7 @@ Fonctionnalités disponibles
 Tableau de bord
 ---------------
 
-.. image:: dashboard_instrserv.png
+.. image:: dashboard_juriste.png
 
 Widget *Infos profil*
 #####################
@@ -92,7 +92,7 @@ Widget *Les clôtures*
 Menu
 ----
 
-.. image:: menu_instrserv.png
+.. image:: menu_juriste.png
 
 Rubrique *Autorisation*
 -----------------------
