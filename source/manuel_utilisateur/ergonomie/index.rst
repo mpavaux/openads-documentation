@@ -65,6 +65,27 @@ Exemples :
 - Recherche du dossier PC 013055 0002 mais le dossier PC 013055 0002M01 existe → Redirection vers la recherche car il y a 2 résultats.
 
 
+.. _widget_recherche_dossier_par_type:
+
+Widget "Recherche Dossier par type"
+-----------------------------------
+
+.. image:: widget_recherche_dossier_par_type.png
+
+Orienté Instruction.
+
+Ce widget est similaire au widget "Recherche Dossier" ci-dessus, mais propose en plus une liste à choix permettant de définir la portée de recherche, en sélectionnant un des types de dossiers suivants :
+
+- SAU
+- RE*
+- INF.
+
+Le choix du type de dossier filtre les résultats et conditionne la redirection de l'utilisateur :
+
+- SAU : Instruction > Dossier d'instruction > Recherche
+- RE* : Contentieux > Recours > Tous les Recours
+- INF : Contentieux > Infractions > Toutes les Infractions
+
 .. _widget_consultation_retours:
 
 Widget "Retours de Consultation"
@@ -251,3 +272,17 @@ Services consultés
     profils/service_consulte.rst
     profils/service_consulte_interne.rst
     
+Contentieux
+-----------
+
+.. toctree::
+    :maxdepth: 1
+    
+    profils/assistante.rst
+    profils/chef_service_contentieux.rst
+    profils/responsable_division_infraction.rst
+    profils/juriste.rst
+    profils/technicien.rst
+    profils/direction_consultation.rst
+    profils/direction_infraction.rst
+    profils/direction_recours.rst

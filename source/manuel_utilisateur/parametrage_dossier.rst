@@ -38,11 +38,16 @@ Les informations à saisir sont :
   interfaces de l'application, mais il permet de décrire l'élément de
   paramétrage en détail dans un objectif de le documenter.
 * **confidentiel** : permet de modifier le comportement standard de la
-  confidentialité. Un dossier qui possède cet attribut sera uniquement visible
-  et modifiable par les instructeurs de la division positionnée sur le dossier
-  (ce comportement est là par exemple pour gérer la confidentialité des dossiers
-  du module contentieux).
-* **groupe** : (voir :ref:`parametrage_groupe`).
+  confidentialité. Un dossier qui possède cet attribut sera uniquement visible par les
+  utilisateurs appartenant au même groupe que celui du dossier, et si ce groupe a accès
+  aux dossiers confidentiels. Ce comportement permet par exemple de gérer la
+  confidentialité des dossiers contentieux.
+* **groupe** : les types de dossier d'autorisation sont liés à un groupe, qui définit
+  quels utilisateurs ont le droit d'ajouter et consulter ces dossiers.
+  (voir :ref:`parametrage_groupe`).
+* **cacher le DA** : si cette option est activée, les dossiers d'autorisation de ce type
+  ne seront pas visibles dans l'application.
+* **Affichage des formulaires** : change l'affichage des formulaires des dossiers d'autorisation et d'instruction. Champ obligatoire.
 
 
 .. _parametrage_dossiers_dossier_autorisation_type_detaille:
