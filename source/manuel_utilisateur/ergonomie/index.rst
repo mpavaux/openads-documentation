@@ -15,6 +15,22 @@ La disposition des widgets est propre à chaque profil et peut être modifiée t
 Widgets
 =======
 
+.. _widget_infos_profil:
+
+Widget "Infos Profil"
+---------------------
+
+.. image:: widget_infos_profil.png
+
+Ce widget, présent pour tous les profils, permet de visualiser en un coup d'oeil les informations suivantes de l'utilisateur connecté :
+
+- son profil
+- son nom
+- si c'est un instructeur, sa division et sa qualité d'instructeur
+- les groupes auxquels il appartient, s'il a accès aux dossiers confidentiels de ces groupes et s'il peut créer un dossier de ces groupes
+
+Si l'utilisateur n'a pas de groupe associé, un message rouge prévient l'utilisateur qu'il y a un problème de paramétrage. En effet, cela risque de fortement limiter les actions qui seront disponibles dans l'application.
+
 .. _widget_dossiers_limites:
 
 Widget "Dossiers limites"
