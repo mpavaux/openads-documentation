@@ -21,3 +21,10 @@ Fichier journal des plugins
 ###########################
 
 Les connecteurs externes à openADS gèrent eux-même leur propre fichier de log.
+
+Modification des fichiers journaux
+##################################
+
+Les logs sont en premier lieu destinés aux administrateurs techniques. Bien souvent ces derniers disposent de scripts analysant automatiquement les informations qui y sont présentes.
+C'est pourquoi leur formatage a un sens : une seule ligne par action, présence de caractères séparateurs entre les données, ... La modification de ces logs nécessite l'accord de la 
+communauté puis, le cas échéant, doit être documentée.

@@ -15,6 +15,22 @@ La disposition des widgets est propre à chaque profil et peut être modifiée t
 Widgets
 =======
 
+.. _widget_infos_profil:
+
+Widget "Infos Profil"
+---------------------
+
+.. image:: widget_infos_profil.png
+
+Ce widget, présent pour tous les profils, permet de visualiser en un coup d'oeil les informations suivantes de l'utilisateur connecté :
+
+- son profil
+- son nom
+- si c'est un instructeur, sa division et sa qualité d'instructeur
+- les groupes auxquels il appartient, s'il a accès aux dossiers confidentiels de ces groupes et s'il peut créer un dossier de ces groupes
+
+Si l'utilisateur n'a pas de groupe associé, un message rouge prévient l'utilisateur qu'il y a un problème de paramétrage. En effet, cela risque de fortement limiter les actions qui seront disponibles dans l'application.
+
 .. _widget_dossiers_limites:
 
 Widget "Dossiers limites"
@@ -64,6 +80,27 @@ Exemples :
 - Recherche du dossier PC 013055 0001 et il n'y a pas de dossier sur existant → Accès direct au dossier
 - Recherche du dossier PC 013055 0002 mais le dossier PC 013055 0002M01 existe → Redirection vers la recherche car il y a 2 résultats.
 
+
+.. _widget_recherche_dossier_par_type:
+
+Widget "Recherche Dossier par type"
+-----------------------------------
+
+.. image:: widget_recherche_dossier_par_type.png
+
+Orienté Instruction.
+
+Ce widget est similaire au widget "Recherche Dossier" ci-dessus, mais propose en plus une liste à choix permettant de définir la portée de recherche, en sélectionnant un des types de dossiers suivants :
+
+- SAU
+- RE*
+- INF.
+
+Le choix du type de dossier filtre les résultats et conditionne la redirection de l'utilisateur :
+
+- SAU : Instruction > Dossier d'instruction > Recherche
+- RE* : Contentieux > Recours > Tous les Recours
+- INF : Contentieux > Infractions > Toutes les Infractions
 
 .. _widget_consultation_retours:
 
