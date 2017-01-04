@@ -29,6 +29,15 @@ Depuis le fieldset des pétitionnaires :
 
 * si l'option d'accès au portail citoyen détaillée dans :ref:`cette rubrique <parametrage_parametre>` est activée, le champ **clé d'accès au portail citoyen** affiche le code d'accès nécessaire au pétitionnaire pour accèder à la visualisation de son autorisation depuis le portail citoyen.
 
+Représentation des contentieux
+==============================
+
+Dans le fieldset **Enjeu** :
+
+.. image:: instruction_dossier_instruction_form_enjeu_fieldset.png
+
+* Il y a un champ **contentieux** pour spécifier si au moins un dossier **Infraction**, ou au moins un dossier **Recours Contentieux** est déposé pour une ou plusieurs parcelles du dossier, le champs contiendra respectivement INF en rouge ou RE en bleu seront affichés.
+
 La taxe d'aménagement
 =====================
 
