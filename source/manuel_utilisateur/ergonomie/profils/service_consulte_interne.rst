@@ -82,3 +82,10 @@ Rubrique *Demandes D'avis*
 --------------------------
 
 Actions identiques à celles du profil "service consulté" (cf :ref:`Demandes d'avis<profil_service_consulte_rubrique_demande_avis>`)
+
+En plus des actions identiques, sur chaque menu :
+
+  - *Consultation(s)* :
+
+    - Visualiser la liste des consultations du DI lié.
+    - Accéder à la fiche de visualisation d’une consultation.
