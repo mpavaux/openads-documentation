@@ -13,12 +13,22 @@ Fonctionnalités disponibles
 Tableau de bord
 ---------------
 
-Aucun widget.
+.. image:: dashboard_dirrec.png
+
+Widget *Infos profil*
+#####################
+
+- Visualiser les informations du profil de l'utilisateur connecté
+
+Widget *Recherche accès direct*
+###############################
+
+- Rechercher un dossier d'instruction par son identifiant
 
 Menu
 ----
 
-.. image:: menu_visudadi.png
+.. image:: menu_dirrec.png
 
 Rubrique *Autorisation*
 -----------------------
