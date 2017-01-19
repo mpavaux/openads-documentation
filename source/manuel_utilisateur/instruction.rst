@@ -396,7 +396,9 @@ Messages
 
 L'onglet **Message(s)** permet de lister et consulter tous les messages du dossier d'instruction.
 
-Lorsque des événements ont lieu sur le dossier alors des messages sont susceptibles d'être créés afin d'avertir l’instructeur (par exemple l’ajout d’une pièce sur le dossier), à condition que l'option :ref:`'option_notification_piece_numerisee' <parametrage_parametre>` soit activée. Un nouveau message est marqué par défaut comme non lu. Tant qu'un message reste non lu, aucun message notifiant la même action ne sera ajouté. Si c'est l'instructeur affecté au dossier d'instruction qui effectue une action notifiée, alors le message créé sera marqué comme lu.
+Lorsque des événements ont lieu sur le dossier alors des messages sont susceptibles d'être créés afin d'avertir l’instructeur ou la commune du dossier (par exemple l’ajout d’une pièce sur le dossier), à condition que l'option :ref:`'option_notification_piece_numerisee' <parametrage_parametre>` soit activée. Un nouveau message est marqué par défaut comme non lu et à destination de l'instructeur. Tant qu'un message reste non lu, aucun message notifiant la même action ne sera ajouté.
+Si un instructreur d'une collectivité, est affecté à un dossier d'instruction de cette même collectivité, et qu'il effectue une action notifiée, alors le message créé sera marqué comme lu.
+Si cette instructeur est d'une collectivité différente que celui du dossier d'instruction sur lequel il est affecté (cas d'un instructeur communautaire), et qu'il effectue une action notifiée, alors le message sera marqué comme non lu et aura comme destinataire la commune.
 
 Une action disponible depuis son formulaire de consultation permet de le marquer comme lu :
 
