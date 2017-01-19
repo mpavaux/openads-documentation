@@ -26,7 +26,7 @@ Fonctionnalités disponibles
 Tableau de bord
 ---------------
 
-.. image:: dashboard_instrserv.png
+.. image:: dashboard_tech.png
 
 Widget *Infos profil*
 #####################
@@ -49,10 +49,25 @@ Widget *Mes messages*
 - Visualiser la liste des messages non lu des dossiers d'instruction affecté à l'utilisateur
 - Accéder aux messages non lu des dossiers d'instruction affecté à l'utilisateur
 
+Widget *Mes infractions*
+########################
+
+- Visualiser les 5 derniers dossiers infraction pour lesquels l'utilisateur est Juriste
+
+Widget *Alerte Visite*
+######################
+
+- Visualiser les 5 dossiers infraction pour lesquels la date de réception est dépassée depuis plus de 3 mois et pour lesquels la date de premiere visite est nulle triés par date de réception la plus lointaine
+
+Widget *Alerte Parquet*
+#######################
+
+- Visualiser les 5 dossiers infraction pour lesquels la date de réception est dépassée depuis plus de 9 mois et pour lesquels la date de de tansmission au parquet est nulle triés par date de réception la plus lointaine
+
 Menu
 ----
 
-.. image:: menu_instrserv.png
+.. image:: menu_tech.png
 
 Rubrique *Autorisation*
 -----------------------
