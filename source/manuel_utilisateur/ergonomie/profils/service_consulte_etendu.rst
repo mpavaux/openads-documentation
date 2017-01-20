@@ -5,7 +5,9 @@ SERVICE CONSULTÉ ÉTENDU
 Description
 ===========
 
-C'est le profil utilisé pour les services consultés externe mais avec des permissions étendues. Il va leur permettre :
+Ce profil reprend celui des services consultés mais avec des permissions étendues.
+
+Ainsi il permet :
 
 - de répondre directement depuis le logiciel aux consultations de service qui leurs sont adressés ;
 - de voir les avis qui avaient été rendus ;
