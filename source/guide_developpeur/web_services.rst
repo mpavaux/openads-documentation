@@ -388,6 +388,9 @@ est vide. Les champs de second niveau (ex: champs de données techniques, concer
 personne morale...) sont présents dans le retour JSON seulement s'ils sont applicables au
 dossier.
 
+Pour les dossiers de type contentieux, ce web service ne permet pas de récupérer les
+informations des demandeurs spécifiques à ces dossiers (plaignants, requérants, etc.).
+
    **Cas d'utilisation** :
 
    - :ref:`echange_erp_ads_212`
