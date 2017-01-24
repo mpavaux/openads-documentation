@@ -157,6 +157,8 @@ Action(s) disponible(s) par onglet :
 
     - Afficher l'édition de récapitulatif du dossier d'instruction
     - Modifier le dossier d’instruction (l'adresse du terrain et les pétitionnaires tant que le dossier n'est pas instruit)
+    - Régénérer le récépissé (tant que le dossier n'est pas instruit)
+    - Télécharger le récépissé de la demande
 
   - *Pièce(s)* :
 

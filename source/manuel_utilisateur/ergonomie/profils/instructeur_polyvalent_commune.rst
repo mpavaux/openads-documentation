@@ -89,6 +89,14 @@ Rubrique *Instruction*
 
 Actions identiques à celles du profil "instructeur" (cf :ref:`Rubrique instruction<profil_instructeur_rubrique_instruction>`)
 
+En plus des actions identiques :
+
+
+  - *DI* :
+
+    - Régénérer le récépissé (tant que le dossier n'est pas instruit)
+    - Télécharger le récépissé de la demande
+
 En plus des actions déjà disponibles sur les dossiers de sa division les instructeurs
 peuvent effectuer des action sur les dossiers de leur commune qui ne sont pas affectés à leur division :
 

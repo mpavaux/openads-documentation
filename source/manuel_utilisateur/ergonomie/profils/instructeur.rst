@@ -150,6 +150,10 @@ Recherche
 
 .. sidebar:: Note :
 
+    Certaines actions peuvent ne pas être accessibles en fonction des données de l'instruction.
+    
+.. sidebar:: Note :
+
     Les actions SIG sont disponibles si celui-ci est paramétré pour la collectivité du dossier d'instruction.
 
 Action(s) disponible(s) par onglet :
@@ -164,8 +168,6 @@ Action(s) disponible(s) par onglet :
     - Visualiser le rapport d'instruction
     - Finaliser le rapport d'instruction
     - Reprendre la rédaction du rapport d'instruction
-    - Régénérer le récépissé (tant que le dossier n'est pas instruit)
-    - Télécharger le récépissé de la demande
     - Accéder aux actions de géolocalisation
     - Lancer toutes les actions de géolocalisation
     - Vérifier les parcelles
@@ -191,6 +193,7 @@ Action(s) disponible(s) par onglet :
     - Ajouter un événement d'instruction au dossier d'instruction.
     - Accéder à la fiche de visualisation d'un événement d'instruction.
     - Modifier un événement d'instruction
+    - Supprimer un événement d'instruction.
     - Visualiser l'édition de l'événement d'instruction
     - Finaliser l'édition de l'événement d'instruction
     - Reprendre la rédaction de l'édition de l'événement d'instruction
@@ -246,6 +249,7 @@ Action(s) disponible(s) par onglet :
   - *Pièce(s)* :
 
     - Visualiser la liste des pièces du dossier d'instruction.
+    - Ajouter un document dont le type est "ajoutable par les instructeurs" (:ref:`Type de pièce<parametrage_document_numerise_type>`)
     - Accéder à la fiche de visualisation d'une pièce.
     - Télécharger le fichier d'une pièce.
     - Télécharger toutes les pièces du dossier d'instruction.

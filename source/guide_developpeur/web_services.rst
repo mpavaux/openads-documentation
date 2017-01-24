@@ -236,11 +236,13 @@ Ressource "consultations"
 
 Cette ressource permet d'interfacer une consultation de service.
 
-======================================
-Retour de consultation (Échange n°209)
-======================================
+.. _web_services_ressource_consultations_put:
 
 .. http:put:: /openads/services/rest_entry.php/consultations/(int:consultation_id)
+
+   **Cas d'utilisation** :
+
+   - :ref:`echange_erp_ads_209`
 
    **Exemple de requête** : Retour d'avis d'une consultation sans fichier
 
@@ -277,14 +279,17 @@ Ressource "dossier_autorisations"
 
 Cette ressource permet d'interfacer un dossier d'autorisation.
 
-========================================
-Arrêté effectué sur l'AT (Échange n°208)
-========================================
-
+.. _web_services_ressource_dossier_autorisations_put:
 
 .. http:put:: /openads/services/rest_entry.php/dossier_autorisations/(string:dossier_autorisation_id)
 
-   **Exemple de requête** :
+   **Cas d'utilisation** :
+
+   - :ref:`echange_erp_ads_201`
+   - :ref:`echange_erp_ads_202`
+   - :ref:`echange_erp_ads_208`
+
+   **Exemples de requête** :
 
    .. sourcecode:: http
       
@@ -296,16 +301,6 @@ Arrêté effectué sur l'AT (Échange n°208)
         "date_arrete":"04/06/2014"
       }
 
-
-
-===================================================================
-Mise à jour du statut ouvert de l'établissement ERP (Échange n°202)
-===================================================================
-
-.. http:put:: /openads/services/rest_entry.php/dossier_autorisations/(string:dossier_autorisation_id)
-
-   **Exemple de requête** :
-
    .. sourcecode:: http
       
       PUT /openads/services/rest_entry.php/dossier_autorisations/PC0130551601234 HTTP/1.1
@@ -315,14 +310,6 @@ Mise à jour du statut ouvert de l'établissement ERP (Échange n°202)
         "erp_ouvert":"12345",
         "date_arrete":"some"
       }
-
-============================================================
-Mise à jour du numéro de l'établissement ERP (Échange n°201)
-============================================================
-
-.. http:put:: /openads/services/rest_entry.php/dossier_autorisations/(string:dossier_autorisation_id)
-
-   **Exemple de requête** :
 
    .. sourcecode:: http
       
@@ -335,11 +322,13 @@ Mise à jour du numéro de l'établissement ERP (Échange n°201)
       }
 
 
-===============
-(Échange n°203)
-===============
+.. _web_services_ressource_dossier_autorisations_get:
 
-.. http:put:: /openads/services/rest_entry.php/dossier_autorisations/(string:dossier_autorisation_id)
+.. http:get:: /openads/services/rest_entry.php/dossier_autorisations/(string:dossier_autorisation_id)
+
+   **Cas d'utilisation** :
+
+   - :ref:`echange_erp_ads_203`
 
    **Exemple de requête** :
 
@@ -350,7 +339,6 @@ Mise à jour du numéro de l'établissement ERP (Échange n°201)
 
 
 
-
 .. _web_services_ressource_dossier_instructions:
 
 Ressource "dossier_instructions"
@@ -358,13 +346,16 @@ Ressource "dossier_instructions"
 
 Cette ressource permet d'interfacer un dossier d'instruction.
 
-=============
-Échange n°211
-=============
+.. _web_services_ressource_dossier_instructions_put:
 
 .. http:put:: /openads/services/rest_entry.php/dossier_instructions/(string:dossier_instruction_id)
 
-   **Exemple de requête** :
+   **Cas d'utilisation** :
+
+   - :ref:`echange_erp_ads_210`
+   - :ref:`echange_erp_ads_211`
+
+   **Exemples de requête** :
 
    .. sourcecode:: http
       
@@ -377,14 +368,6 @@ Cette ressource permet d'interfacer un dossier d'instruction.
         }
 
 
-=============
-Échange n°210
-=============
-
-.. http:put:: /openads/services/rest_entry.php/dossier_instructions/(string:dossier_instruction_id)
-
-   **Exemple de requête** :
-
    .. sourcecode:: http
       
       PUT /openads/services/rest_entry.php/dossier_instructions/PC0130551601234P0 HTTP/1.1
@@ -396,9 +379,7 @@ Cette ressource permet d'interfacer un dossier d'instruction.
         }
 
 
-===============================
-Détail de dossier d'instruction
-===============================
+.. _web_services_ressource_dossier_instructions_get:
 
 .. http:get:: /openads/services/rest_entry.php/dossier_instructions/(string:dossier_instruction_id)
 
@@ -406,6 +387,13 @@ Les champs de premier niveau sont toujours présents dans le retour JSON, même 
 est vide. Les champs de second niveau (ex: champs de données techniques, concernant une 
 personne morale...) sont présents dans le retour JSON seulement s'ils sont applicables au
 dossier.
+
+Pour les dossiers de type contentieux, ce web service ne permet pas de récupérer les
+informations des demandeurs spécifiques à ces dossiers (plaignants, requérants, etc.).
+
+   **Cas d'utilisation** :
+
+   - :ref:`echange_erp_ads_212`
 
    **Exemple de requête sur dossier avec en pétionnaire principal une personne physique** :
 
@@ -586,13 +574,18 @@ Ressource "messages"
 
 Cette ressource permet d'interfacer un message.
 
-=============
-Échange n°204
-=============
+.. _web_services_ressource_messages_post:
 
 .. http:post:: /openads/services/rest_entry.php/messages
 
-   **Exemple de requête** :
+   **Cas d'utilisation** :
+
+   - :ref:`echange_erp_ads_204` 
+   - :ref:`echange_erp_ads_205` 
+   - :ref:`echange_erp_ads_206` 
+   - :ref:`echange_erp_ads_207` 
+
+   **Exemples de requête** :
 
    .. sourcecode:: http
       
@@ -610,20 +603,11 @@ Cette ressource permet d'interfacer un message.
             }
         }
 
-
-
-=============
-Échange n°205
-=============
-
-.. http:post:: /openads/services/rest_entry.php/messages
-
-   **Exemple de requête** :
-
    .. sourcecode:: http
       
       POST /openads/services/rest_entry.php/messages HTTP/1.1
       Host: localhost
+      
         {
             "type": "Mise à jour de complétude ERP SECU",
             "date": "16/06/2014 14:12",
@@ -635,15 +619,6 @@ Cette ressource permet d'interfacer un message.
             }
         }
 
-
-
-=============
-Échange n°206
-=============
-
-.. http:post:: /openads/services/rest_entry.php/messages
-
-   **Exemple de requête** :
 
    .. sourcecode:: http
       
@@ -661,16 +636,6 @@ Cette ressource permet d'interfacer un message.
                 "Catégorie de dossier ERP": "Lorem ipsum dolor sit amet..."
             }
         } 
-
-
-
-=============
-Échange n°207
-=============
-
-.. http:post:: /openads/services/rest_entry.php/messages
-
-   **Exemple de requête** :
 
    .. sourcecode:: http
       
