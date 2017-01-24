@@ -472,9 +472,7 @@ Consultations
 .. image:: instruction_dossier_consultation_tab.png
 
 L'onglet **Consultation(s)** permet de lister et consulter toutes les consultations du dossier
-d'instruction. La couleur de chaque ligne est variable: elle dépend du type, si elles
-sont de type *pour conformité* elles seront surlignées en jaune et si elles sont de type
-*avec avis attendu* elle ne seront pas surlignées.
+d'instruction. Les consultations de type *pour conformité* sont surlignées en jaune.
 
 Modifier la visibilité d'une consultation dans les éditions
 ===========================================================
@@ -498,7 +496,7 @@ Pour l'afficher à nouveau cliquer sur l'action *Afficher dans les éditions*.
 Depuis la liste de consultations
 ################################
 
-Depuis le tableau des consultations, il est possible de modifier la visibilité
+Depuis le listing des consultations, il est possible de modifier la visibilité
 des consultations dans les éditions.
 
 Si la consultation est visible, cliquer sur l'icône en forme d'oeil rouge permet de la masquer.
