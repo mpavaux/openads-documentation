@@ -135,14 +135,15 @@ Widget "Retours de Messages"
 
 Orienté Instruction.
 
-L'objet de ce widget est d'alerter l'utilisateur sur le nombre de messages marqués comme 'non lu'. En effet, lors de divers événements sur le dossier, des messages peuvent avertir l'instructeur ou la commune du dossier qu'ils ont eu lieu (par exemple : l'ajout d'une pièce sur le dossier). Ce message est alors marqué comme 'non lu' pour que l'instructeur ou la commune du dossier puissent en avoir connaissance et le nombre de ces messages apparaît dans ce widget entouré d'un rond bleu.
+Ce widget permet d'indiquer le nombre de messages en attente de lecture ('non lu') à l'utilisateur connecté.
+Pour plus de détails sur les messages, se référer :ref:`ici <instruction_dossier_message>`.
 
-Lorsqu'aucun message n'est marqué comme 'non lu' alors un message l'indique à l'utilisateur.
+Une phrase indique à l'utilisateur lorsqu'il n'y a aucun message en attente.
 
 Trois filtres sont disponibles sur ce widget (le filtre est :ref:`paramétrable <administration_widget_messages_retours>` par l'administrateur) :
 
-- filtre par instructeur : on présente les dossiers dont il est spécifiquement instructeur et les dossiers de sa collectivité dont le destinataire est 'commune'.
-- filtre par division : on présente tous les dossiers de la division de l'instructeur et les dossiers de la collectivité de l'instructeur connecté dont le destinataire est 'commune'.
+- filtre par instructeur : on présente les dossiers dont l'indtructeur connecté est affecté et les dossiers de sa collectivité dont le destinataire est 'commune'.
+- filtre par division : on présente les dossiers de la division de l'instructeur connecté et les dossiers de sa collectivité dont le destinataire est 'commune'.
 - aucun filtre : tous les dossiers auxquels l'utilisateurs a accès (si l'utilisateur appartient à une commune niveau mono, alors l'utilisateur n'a accès qu'aux dossiers de sa commune et si l'utilisateur appartient à une commune multi, alors l'utilisateur a accès à tous les dossiers).
 
 A tout moment, au survol de l'icône d'information du widget, une description permet d'indiquer quels sont les paramètres appliqués sur le widget.
