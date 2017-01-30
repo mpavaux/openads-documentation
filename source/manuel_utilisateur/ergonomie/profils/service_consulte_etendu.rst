@@ -14,7 +14,7 @@ Ainsi il permet :
 - de faire des exports CSV ;
 - de visualiser les DA sur lesquels ils ont été consultés ;
 - de visualiser les pièces sur lesquels ils ont été consultés.
-- de visualiser les autres consultations des DI sur lesquels ils ont été consultés.
+- de visualiser les consultations émises par les autres services sur lesquels ils ont été consultés.
 
 
 L'utilisateur qui a ce profil doit forcément être rattaché à un ou plusieurs services pour pouvoir visualiser des dossiers et des demandes d'avis.

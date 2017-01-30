@@ -12,7 +12,6 @@ C'est le profil utilisé pour les services consultés interne à la commune. Il 
 - de faire des exports CSV ;
 - de visualiser les DA sur lesquels ils ont été consultés ;
 - de visualiser les pièces sur lesquels ils ont été consultés.
-- de visualiser les autres consultations des DI sur lesquels ils ont été consultés.
 
 
 L'utilisateur qui a ce profil doit forcément être rattaché à un ou plusieurs services pour pouvoir visualiser des dossiers et des demandes d'avis.
@@ -83,10 +82,3 @@ Rubrique *Demandes D'avis*
 --------------------------
 
 Actions identiques à celles du profil "service consulté" (cf :ref:`Demandes d'avis<profil_service_consulte_rubrique_demande_avis>`)
-
-En plus des actions identiques, sur chaque menu :
-
-  - *Consultation(s)* :
-
-    - Visualiser la liste des consultations du DI lié.
-    - Accéder à la fiche de visualisation d’une consultation.
