@@ -142,11 +142,11 @@ Une phrase indique à l'utilisateur lorsqu'il n'y a aucun message en attente.
 
 Trois filtres sont disponibles sur ce widget (le filtre est :ref:`paramétrable <administration_widget_messages_retours>` par l'administrateur) :
 
-- filtre par instructeur : on présente les dossiers dont l'indtructeur connecté est affecté et les dossiers de sa collectivité dont le destinataire est 'commune'.
-- filtre par division : on présente les dossiers de la division de l'instructeur connecté et les dossiers de sa collectivité dont le destinataire est 'commune'.
+- filtre par instructeur : on présente les dossiers dont l'instructeur affecté est celui connecté ainsi que les dossiers de sa collectivité dont le destinataire est 'commune'.
+- filtre par division : on présente les dossiers de la division de l'instructeur connecté ainsi que les dossiers de sa collectivité dont le destinataire est 'commune'.
 - aucun filtre : tous les dossiers auxquels l'utilisateurs a accès (si l'utilisateur appartient à une commune niveau mono, alors l'utilisateur n'a accès qu'aux dossiers de sa commune et si l'utilisateur appartient à une commune multi, alors l'utilisateur a accès à tous les dossiers).
 
-A tout moment, au survol de l'icône d'information du widget, une description permet d'indiquer quels sont les paramètres appliqués sur le widget.
+Au survol de l'icône d'information du widget, une description permet d'indiquer quels sont les paramètres appliqués sur le widget.
 
 Le menu d'openADS propose autant de listings que de filtres possibles : ainsi le lien "Voir +" redirige vers le tableau adéquat.
 
