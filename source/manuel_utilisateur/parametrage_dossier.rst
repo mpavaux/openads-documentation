@@ -589,6 +589,8 @@ Les champs disponibles pour la saisie des règles sont :
 
 [etat] [delai] [accord_tacite] [avis_decision] 
 [delai_notification] [date_evenement] [autorite_competente]
+[complement_om_html] [complement2_om_html]
+[complement3_om_html] [complement4_om_html]
 
 **Valeurs de l'événement d'instruction principal**
 
