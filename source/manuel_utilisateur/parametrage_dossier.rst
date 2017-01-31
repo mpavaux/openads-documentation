@@ -558,7 +558,11 @@ Les informations à saisir sont :
 * **libellé** : texte à afficher dans l'interface lors de la sélection
   d'une action.
 * **pour tous les champs règle** : règle rattaché au champ du dossier
-  d'instruction du même nom.
+  d'instruction du même nom à l'exception des règles sur données techniques.
+* **pour tous les champs règle données techniques** : le champ de données technique
+  sur lequel appliquer la règle doit être défini dans le premier champ de saisi,
+  la règle à appliquer dans le second. La liste des champs de données techniques
+  est fournie dans l'aide contextuelle.
 * **méthode à appeler** : ce champ permet de sélectionner une des méthodes de
   mise à jour des informations du dossier d'autorisation.
 
@@ -575,8 +579,11 @@ Les champs disponibles pour la saisie des règles sont :
 [archive_date_validite] [archive_date_achevement] 
 [archive_date_conformite] [archive_date_chantier] 
 [archive_etat_pendant_incompletude] [archive_date_limite_incompletude]
-[archive_delai_incompletude] [archive_autorite_competente] 
-[duree_validite]
+[archive_delai_incompletude] [archive_autorite_competente]
+[archive_date_cloture_instruction] [archive_date_premiere_visite]
+[archive_date_derniere_visite] [archive_date_contradictoire]
+[archive_date_retour_contradictoire] [archive_date_ait]
+[archive_date_transmission_parquet] [duree_validite]
 
 **Paramètres de l'évènement**
 
