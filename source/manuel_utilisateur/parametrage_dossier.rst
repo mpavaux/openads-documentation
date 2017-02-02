@@ -571,19 +571,8 @@ Les champs disponibles pour la saisie des règles sont :
 
 **Valeurs du dossier avant l'évènement**
 
-[archive_etat] [archive_delai] [archive_accord_tacite] 
-[archive_avis]
-[archive_date_dernier_depot] [archive_date_complet] 
-[archive_date_rejet] [archive_date_limite] 
-[archive_date_notification_delai] [archive_date_decision] 
-[archive_date_validite] [archive_date_achevement] 
-[archive_date_conformite] [archive_date_chantier] 
-[archive_etat_pendant_incompletude] [archive_date_limite_incompletude]
-[archive_delai_incompletude] [archive_autorite_competente]
-[archive_date_cloture_instruction] [archive_date_premiere_visite]
-[archive_date_derniere_visite] [archive_date_contradictoire]
-[archive_date_retour_contradictoire] [archive_date_ait]
-[archive_date_transmission_parquet] [duree_validite]
+[archive_etat] [archive_delai] [archive_accord_tacite] [archive_avis]
+[archive_date_dernier_depot] [archive_date_complet] [archive_date_rejet] [archive_date_limite] [archive_date_notification_delai] [archive_date_decision] [archive_date_validite] [archive_date_achevement] [archive_date_conformite] [archive_date_chantier] [archive_etat_pendant_incompletude] [archive_date_limite_incompletude] [archive_delai_incompletude] [archive_autorite_competente] [archive_date_cloture_instruction] [archive_date_premiere_visite] [archive_date_derniere_visite] [archive_date_contradictoire] [archive_date_retour_contradictoire] [archive_date_ait] [archive_date_transmission_parquet] [duree_validite] [date_depot]
 
 **Paramètres de l'évènement**
 
