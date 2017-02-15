@@ -89,17 +89,7 @@ Rubrique *Instruction*
 
 Actions identiques à celles du profil "instructeur" (cf :ref:`Rubrique instruction<profil_instructeur_rubrique_instruction>`)
 
-En plus des actions identiques :
-
-
-  - *DI* :
-
-    - Régénérer le récépissé (tant que le dossier n'est pas instruit)
-    - Télécharger le récépissé de la demande
-
-  - *Instruction* :
-
-    - Notifier la commune
+Depuis la consultation d'un événement d'instruction finalisé l'instructeur peut notifier la commune du dossier
 
 Rubrique *Guichet Unique*
 -------------------------

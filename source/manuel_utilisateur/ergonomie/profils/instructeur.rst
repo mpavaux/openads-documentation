@@ -168,6 +168,8 @@ Action(s) disponible(s) par onglet :
     - Visualiser le rapport d'instruction
     - Finaliser le rapport d'instruction
     - Reprendre la rédaction du rapport d'instruction
+    - Régénérer le récépissé (tant que le dossier n'est pas instruit)
+    - Télécharger le récépissé de la demande
     - Accéder aux actions de géolocalisation
     - Lancer toutes les actions de géolocalisation
     - Vérifier les parcelles
