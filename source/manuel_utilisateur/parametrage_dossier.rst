@@ -38,16 +38,11 @@ Les informations à saisir sont :
   interfaces de l'application, mais il permet de décrire l'élément de
   paramétrage en détail dans un objectif de le documenter.
 * **confidentiel** : permet de modifier le comportement standard de la
-  confidentialité. Un dossier qui possède cet attribut sera uniquement visible par les
-  utilisateurs appartenant au même groupe que celui du dossier, et si ce groupe a accès
-  aux dossiers confidentiels. Ce comportement permet par exemple de gérer la
-  confidentialité des dossiers contentieux.
-* **groupe** : les types de dossier d'autorisation sont liés à un groupe, qui définit
-  quels utilisateurs ont le droit d'ajouter et consulter ces dossiers.
-  (voir :ref:`parametrage_groupe`).
-* **cacher le DA** : si cette option est activée, les dossiers d'autorisation de ce type
-  ne seront pas visibles dans l'application.
-* **Affichage des formulaires** : change l'affichage des formulaires des dossiers d'autorisation et d'instruction. Champ obligatoire.
+  confidentialité. Un dossier qui possède cet attribut sera uniquement visible
+  et modifiable par les instructeurs de la division positionnée sur le dossier
+  (ce comportement est là par exemple pour gérer la confidentialité des dossiers
+  du module contentieux).
+* **groupe** : (voir :ref:`parametrage_groupe`).
 
 
 .. _parametrage_dossiers_dossier_autorisation_type_detaille:
@@ -558,11 +553,7 @@ Les informations à saisir sont :
 * **libellé** : texte à afficher dans l'interface lors de la sélection
   d'une action.
 * **pour tous les champs règle** : règle rattaché au champ du dossier
-  d'instruction du même nom à l'exception des règles sur données techniques.
-* **pour tous les champs règle données techniques** : le champ de données technique
-  sur lequel appliquer la règle doit être défini dans le premier champ de saisi,
-  la règle à appliquer dans le second. La liste des champs de données techniques
-  est fournie dans l'aide contextuelle.
+  d'instruction du même nom.
 * **méthode à appeler** : ce champ permet de sélectionner une des méthodes de
   mise à jour des informations du dossier d'autorisation.
 
@@ -571,15 +562,12 @@ Les champs disponibles pour la saisie des règles sont :
 
 **Valeurs du dossier avant l'évènement**
 
-[archive_etat] [archive_delai] [archive_accord_tacite] [archive_avis]
-[archive_date_dernier_depot] [archive_date_complet] [archive_date_rejet] [archive_date_limite] [archive_date_notification_delai] [archive_date_decision] [archive_date_validite] [archive_date_achevement] [archive_date_conformite] [archive_date_chantier] [archive_etat_pendant_incompletude] [archive_date_limite_incompletude] [archive_delai_incompletude] [archive_autorite_competente] [archive_date_cloture_instruction] [archive_date_premiere_visite] [archive_date_derniere_visite] [archive_date_contradictoire] [archive_date_retour_contradictoire] [archive_date_ait] [archive_date_transmission_parquet] [duree_validite] [date_depot]
+[archive_etat] [archive_delai] [archive_accord_tacite] [archive_avis] [archive_date_dernier_depot] [archive_date_complet] [archive_date_rejet] [archive_date_limite] [archive_date_notification_delai] [archive_date_decision] [archive_date_validite] [archive_date_achevement] [archive_date_conformite] [archive_date_chantier] [archive_etat_pendant_incompletude] [archive_date_limite_incompletude] [archive_delai_incompletude] [archive_autorite_competente] [duree_validite]
 
 **Paramètres de l'évènement**
 
 [etat] [delai] [accord_tacite] [avis_decision] 
 [delai_notification] [date_evenement] [autorite_competente]
-[complement_om_html] [complement2_om_html]
-[complement3_om_html] [complement4_om_html]
 
 **Valeurs de l'événement d'instruction principal**
 
