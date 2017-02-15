@@ -456,36 +456,6 @@ Dossiers qui ont reçu un avis *Défavorable*.
 
   * La saisie des dates et du type de dossier d'autorisation est obligatoire.
 
-==================
-dossier_infraction
-==================
-
-Tous les dossiers dont le type de dossier d'autorisation est *Infraction*.
-
-* Filtre
-
-  * technicien affecté
-  * arrondissement du terrain
-  * date de réception
-
-* Aucun choix de tri n'est proposé. Les dossiers sont classés automatiquement par date de réception puis par ordre alphabétique de leur référence.
-
-* Les champs suivants sont par défaut affichés. On peut les désélectionner un à un.
-
-* Champs
-
-  * N° de dossier
-  * Contrevenant
-  * Terrain
-  * Arrondissement
-  * Technicien
-  * Date de transmission au parquet
-  * Date de première visite
-
-.. note::
-
-  * La saisie des dates ainsi que la sélection du technicien et de l'arrondissement sont obligatoires.
-
 ============================
 dossier_premiers_depots_dttm
 ============================
@@ -514,37 +484,6 @@ Tous les dossiers.
 
   * La saisie des dates et du type de dossier d'instruction est obligatoire.
   * Les dossiers pour lesquels il n'y a pas eu de décision n'apparaîtront pas dans les résultats.
-
-===============
-dossier_recours
-===============
-
-Tous les dossiers dont le type de dossier d'autorisation est *Recours*.
-
-* Filtre
-
-  * type de procédure (contentieux / gracieux)
-  * date de recours
-
-* Aucun choix de tri n'est proposé. Les dossiers sont classés automatiquement par date de recours puis par ordre alphabétique de leur référence.
-
-* Les champs suivants sont par défaut affichés. On peut les désélectionner un à un.
-
-* Champs
-
-  * N° de dossier
-  * Type de procédure
-  * Date de recours
-  * Pétitionnaire
-  * Requérant
-  * Juriste
-  * Arrondissement
-  * Nombre de logements
-  * Nombre de logements sociaux
-
-.. note::
-
-  * La saisie des dates ainsi que la sélection du type de procédure sont obligatoires.
 
 ==================
 dossier_simplifiee

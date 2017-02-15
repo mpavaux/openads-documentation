@@ -15,22 +15,6 @@ La disposition des widgets est propre à chaque profil et peut être modifiée t
 Widgets
 =======
 
-.. _widget_infos_profil:
-
-Widget "Infos Profil"
----------------------
-
-.. image:: widget_infos_profil.png
-
-Ce widget, présent pour tous les profils, permet de visualiser en un coup d'oeil les informations suivantes de l'utilisateur connecté :
-
-- son profil
-- son nom
-- si c'est un instructeur, sa division et sa qualité d'instructeur
-- les groupes auxquels il appartient, s'il a accès aux dossiers confidentiels de ces groupes et s'il peut créer un dossier de ces groupes
-
-Si l'utilisateur n'a pas de groupe associé, un message rouge prévient l'utilisateur qu'il y a un problème de paramétrage. En effet, cela risque de fortement limiter les actions qui seront disponibles dans l'application.
-
 .. _widget_dossiers_limites:
 
 Widget "Dossiers limites"
@@ -81,27 +65,6 @@ Exemples :
 - Recherche du dossier PC 013055 0002 mais le dossier PC 013055 0002M01 existe → Redirection vers la recherche car il y a 2 résultats.
 
 
-.. _widget_recherche_dossier_par_type:
-
-Widget "Recherche Dossier par type"
------------------------------------
-
-.. image:: widget_recherche_dossier_par_type.png
-
-Orienté Instruction.
-
-Ce widget est similaire au widget "Recherche Dossier" ci-dessus, mais propose en plus une liste à choix permettant de définir la portée de recherche, en sélectionnant un des types de dossiers suivants :
-
-- SAU
-- RE*
-- INF.
-
-Le choix du type de dossier filtre les résultats et conditionne la redirection de l'utilisateur :
-
-- SAU : Instruction > Dossier d'instruction > Recherche
-- RE* : Contentieux > Recours > Tous les Recours
-- INF : Contentieux > Infractions > Toutes les Infractions
-
 .. _widget_consultation_retours:
 
 Widget "Retours de Consultation"
@@ -135,18 +98,17 @@ Widget "Retours de Messages"
 
 Orienté Instruction.
 
-Ce widget permet d'indiquer le nombre de messages en attente de lecture ('non lu') à l'utilisateur connecté.
-Pour plus de détails sur les messages, se référer :ref:`ici <instruction_dossier_message>`.
+L'objet de ce widget est d'alerter l'utilisateur sur le nombre de messages marqués comme 'non lu'. En effet, lors de divers événements sur le dossier, des messages peuvent avertir l'instructeur qu'ils ont eu lieu (par exemple : l'ajout d'une pièce sur le dossier). Ce message est alors marqué comme 'non lu' pour que l'instructeur puisse en avoir connaissance et le nombre de ces messages apparaît dans ce widget entouré d'un rond bleu.
 
-Une phrase indique à l'utilisateur lorsqu'il n'y a aucun message en attente.
+Lorsqu'aucun message n'est marqué comme 'non lu' alors un message l'indique à l'utilisateur.
 
 Trois filtres sont disponibles sur ce widget (le filtre est :ref:`paramétrable <administration_widget_messages_retours>` par l'administrateur) :
 
-- filtre par instructeur : on présente les dossiers dont l'instructeur affecté est celui connecté ainsi que les dossiers de sa collectivité dont le destinataire est 'commune'.
-- filtre par division : on présente les dossiers de la division de l'instructeur connecté ainsi que les dossiers de sa collectivité dont le destinataire est 'commune'.
+- filtre par instructeur : on présente uniquement les dossiers dont il est spécifiquement instructeur.
+- filtre par division : on présente tous les dossiers de la division de l'instructeur.
 - aucun filtre : tous les dossiers auxquels l'utilisateurs a accès (si l'utilisateur appartient à une commune niveau mono, alors l'utilisateur n'a accès qu'aux dossiers de sa commune et si l'utilisateur appartient à une commune multi, alors l'utilisateur a accès à tous les dossiers).
 
-Au survol de l'icône d'information du widget, une description permet d'indiquer quels sont les paramètres appliqués sur le widget.
+A tout moment, au survol de l'icône d'information du widget, une description permet d'indiquer quels sont les paramètres appliqués sur le widget.
 
 Le menu d'openADS propose autant de listings que de filtres possibles : ainsi le lien "Voir +" redirige vers le tableau adéquat.
 
@@ -288,19 +250,4 @@ Services consultés
     
     profils/service_consulte.rst
     profils/service_consulte_interne.rst
-    profils/service_consulte_etendu.rst
     
-Contentieux
------------
-
-.. toctree::
-    :maxdepth: 1
-    
-    profils/assistante.rst
-    profils/chef_service_contentieux.rst
-    profils/responsable_division_infraction.rst
-    profils/juriste.rst
-    profils/technicien.rst
-    profils/direction_consultation.rst
-    profils/direction_infraction.rst
-    profils/direction_recours.rst

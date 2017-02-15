@@ -11,7 +11,6 @@ Manuel de l'utilisateur
     autorisations.rst
     guichet_unique.rst
     instruction.rst
-    contentieux.rst
     suivi.rst
     service_consulte.rst
     export_import.rst
