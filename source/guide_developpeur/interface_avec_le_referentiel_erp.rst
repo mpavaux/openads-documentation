@@ -802,7 +802,7 @@ L'objectif principal de cet échange est de permettre aux services ERP d'être i
 
 *Contenu de l'échange* :
 
-- **numero_erp** : c'est le code de l'établissement (exemple : 'T3498').
+- **numero_erp** : c'est le code de l'établissement au format entier (exemple : '3498').
 
 
 *Exemple* :
@@ -813,7 +813,7 @@ L'objectif principal de cet échange est de permettre aux services ERP d'être i
     Host: localhost
 
     {
-        "numero_erp":"T12345"
+        "numero_erp":"12345"
     }
 
 
