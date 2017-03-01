@@ -1228,7 +1228,7 @@ Dans le contexte du guichet unique, l'objectif principal de cet échange est de 
 
 • Ce message a vocation à permettre aux agents du Guichet unique de bien accomplir leur mission d'enregistrement face à l'arrivée d'une nouvelle pièce : si le dossier d'instruction AT est ouvert, alors les pièces sont acceptées (si le dossier est « incomplet », les pièces sont classées « complémentaires », sinon les pièces sont « supplémentaires ») et si le dossier est clos, les pièces sont refusées.
 • Lorsque le dossier d'instruction d'AT est créé dans openADS, par défaut son statut doit être « complet ». Dès que la première incomplétude est faite dans openARIA, le message est envoyé.
-• Le message de complétude doit mettre à jour automatiquement dans openADS le dossier d'instruction avec un statut complet, et cela doit se répercuter automatiquement sur le classement des nouvelles pièces arrivant au guichet unique.
+• Le message de complétude doit mettre à jour automatiquement dans openADS le dossier d'instruction, qui passe à un statut incomplet, et cela doit se répercuter automatiquement sur le classement des nouvelles pièces arrivant au guichet unique.
 • Importance du paramétrage du workflow des AT dans openADS.
 
 
@@ -1239,13 +1239,12 @@ Dans le contexte du guichet unique, l'objectif principal de cet échange est de 
 
 *Traitement* :
 
-• Création de message : Un message de catégorie "entrant" est ajouté dans openADS afin de consigner l'échange. Il est visible depuis l'onglet "Message(s)" du dossier d'instruction. → Marqueur(s) de lecture du message : message marqué comme lu par défaut.
-• Ajout d'un événement d'instruction
+• Ajout d'un événement d'instruction **id_evenement_completude_at** (voir :ref:`Configuration des paramètres des déclencheurs<configuration_parametres_declencheurs>`.)
 
 
 *Contenu de l'échange* :
 
-• « message » : « complet » ou « incomplet »
+• « message » : « complet »
 • « date » : Date de la mise à jour de l'information au format JJ/MM/AAAA
 
 
