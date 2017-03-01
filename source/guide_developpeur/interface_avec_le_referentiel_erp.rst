@@ -19,6 +19,7 @@ om_parametre
 
 - **option_referentiel_erp** -> true
 
+.. _configuration_parametres_declencheurs:
 
 *Configuration des paramètres des déclencheurs* :
 
@@ -1286,8 +1287,7 @@ Dans le contexte du guichet unique, l'objectif principal de cet échange est de 
 
 *Traitement* :
 
-• Création de message : Un message de catégorie "entrant" est ajouté dans openADS afin de consigner l'échange. Il est visible depuis l'onglet "Message(s)" du dossier d'instruction. → Marqueur(s) de lecture du message : message marqué comme lu par défaut.
-• Ajout d'un événement d'instruction
+• Ajout de l'événement d'instruction paramétré dans **id_evenement_cloture_at** (voir :ref:`Configuration des paramètres des déclencheurs<configuration_parametres_declencheurs>`.)
 
 
 *Contenu de l'échange* :
