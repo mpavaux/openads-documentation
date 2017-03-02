@@ -776,6 +776,66 @@ L'objectif principal de cet échange est de permettre aux services ERP d'être i
 
 
 
+.. _echange_ads_erp_114:
+
+========================================================================
+[114](Échange ADS → ERP) Dossier PC Notification de dossier à enjeu ADS
+========================================================================
+
+L'objectif principal de cet échange est de permettre aux services ADS de partager le caractère 'à enjeu' du dossier pour en informer le service ERP.
+
+
+*Identifiant* : ADS_ERP__PC__ENJEU_ADS
+
+
+*Cas d'utilisation* :
+
+• Un instructeur peut qualifier le dossier comme dossier à enjeu. Dans ce cas, un message « Dossier à enjeu ADS » est envoyé vers l'application ERP afin de mettre à jour le dossier de coordination. La mise à jour est effectuée automatiquement et un message est présenté au service ERP qui est chargé de mettre à jour le dossier. 
+
+*Déclencheur* :
+
+• L'option ERP est activée
+• Le dossier est de type PC (paramètre 'erp__dossier_nature__pc')
+• Le dossier est marqué comme « connecté au référentiel ERP »
+• Lors de la modification d'un dossier connecté au référentiel ERP l'enjeu urbanisme de change de statut
+
+*Traitement* :
+
+• Création de message : Un message de catégorie "sortant" est ajouté dans openADS afin de consigner l'échange. Il est visible depuis l'onglet "Message(s)" du dossier d'instruction. → Marqueur(s) de lecture du message : message marqué comme lu par défaut.
+• Envoi de la requête à destination de la ressource 'messages' d'openARIA. :ref:`Configuration des échanges sortants<configuration_echanges_sortants_referentiel_erp>`.
+
+
+
+*Contenu de l'échange* :
+
+- **type** : Type de message
+- **date** : Date/heure d’envoi du message
+- **emetteur** : Émetteur du message (Nom/Prénom/Login de l’utilisateur à l’origine du message)
+- **dossier_instruction** : Identifiant du dossier d’instruction
+- **contenu** :
+
+  - **Dossier à enjeu ADS** : Oui / Non
+
+
+*Exemple* :
+
+.. sourcecode:: http
+      
+    POST /openads/services/rest_entry.php/messages HTTP/1.1
+    Host: localhost
+
+    {
+        "type": "ADS_ERP__PC__ENJEU_ADS",
+        "date": "10/01/2017 12:52",
+        "emetteur": "admin",
+        "dossier_instruction": "PC0130551601234P0",
+        "contenu": {
+             "Dossier à enjeu ADS": "oui"
+        }
+    }
+
+
+
 .. _echange_erp_ads_201:
 
 =========================================================================================
@@ -1335,4 +1395,55 @@ Le service ERP a besoin de consulter les informations contenues dans le Dossier 
     GET /openads/services/rest_entry.php/dossier_instructions/PC0130551601234P0 HTTP/1.1
     Host: localhost
 
+
+.. _echange_erp_ads_213:
+
+==================================================================================
+[213](Échange ERP → ADS) Dossier PC Accusé de reception de consultation officielle
+==================================================================================
+
+L'objectif principal de cet échange est d'avoir un accusé de réception de consultation dans le référentiel ADS.
+
+*Identifiant* : ERP_ADS__PC__AR_CONSULTATION_OFFICIELLE
+
+
+*Cas d'utilisation* :
+
+• Cette information est envoyée par le référentiel ERP au référentiel ADS suite à la notification de consultation officielle d'un dossier PC.
+
+*Déclencheur* :
+
+• Appel d'une méthode de maintenance par cron
+• Le dossier est marqué comme « connecté au référentiel ADS »
+• Un message de type :ref:`echange_ads_erp_104` ou :ref:`echange_ads_erp_106` a été reçu sur le dossier
+
+
+*Traitement* :
+
+• Création de message : Un message de catégorie "sortant" est ajouté dans openARIA afin de consigner l'échange. Il est visible depuis l'onglet "Message(s)" du dossier d'instruction et du dossier de coordination. → Marqueur(s) de lecture du message : mode 0.
+• Envoi de la requête à destination de la ressource 'message' d'openADS. :ref:`Configuration des échanges sortants<configuration_echanges_sortants_referentiel_ads>`
+
+
+*Contenu de l'échange* :
+
+• « consultation » : l'identifiant de la consultation
+• « date_reception » : Date de la reception de la consultation au format JJ/MM/AAAA
+
+
+*Exemple* :
+
+.. sourcecode:: http
+
+    POST /openads/services/rest_entry.php/messages HTTP/1.1
+    Host: localhost
+
+    {
+        "type": "ERP_ADS__PC__AR_CONSULTATION_OFFICIELLE",
+        "date": "16/06/2014 14:12",
+        "emetteur": "John Doe",
+        "dossier_instruction": "PD12R0001",
+        "contenu": {
+            "consultation" : 2,
+        }
+    }
 
