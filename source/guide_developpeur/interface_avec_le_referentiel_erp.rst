@@ -797,7 +797,7 @@ L'objectif principal de cet échange est de permettre aux services ADS de partag
 • L'option ERP est activée
 • Le dossier est de type PC (paramètre 'erp__dossier_nature__pc')
 • Le dossier est marqué comme « connecté au référentiel ERP »
-• Lors de la modification d'un dossier connecté au référentiel ERP l'enjeu urbanisme de change de statut
+• L'enjeu urbanisme change de statut
 
 *Traitement* :
 
@@ -1402,7 +1402,7 @@ Le service ERP a besoin de consulter les informations contenues dans le Dossier 
 [213](Échange ERP → ADS) Dossier PC Accusé de reception de consultation officielle
 ==================================================================================
 
-L'objectif principal de cet échange est d'avoir un accusé de réception de consultation dans le référentiel ADS.
+L'objectif principal de cet échange est d'avoir un accusé de réception de consultation par le référentiel ERP depuis le référentiel ADS.
 
 *Identifiant* : ERP_ADS__PC__AR_CONSULTATION_OFFICIELLE
 
