@@ -1420,7 +1420,7 @@ L'objectif principal de cet échange est d'avoir un accusé de réception de con
 *Traitement* :
 
 • Création de message : Un message de catégorie "sortant" est ajouté dans openARIA afin de consigner l'échange. Il est visible depuis l'onglet "Message(s)" du dossier d'instruction et du dossier de coordination. → Marqueur(s) de lecture du message : mode 0.
-• Envoi de la requête à destination de la ressource 'message' d'openADS. :ref:`Configuration des échanges sortants<configuration_echanges_sortants_referentiel_ads>`
+• Envoi de la requête à destination de la ressource 'message' d'openADS. :ref:`Configuration des échanges sortants<configuration_echanges_sortants_referentiel_erp>`
 
 
 *Contenu de l'échange* :
