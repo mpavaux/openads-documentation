@@ -479,3 +479,19 @@ L'action "J'ai de la chance"
 Ce bouton permet un lancement automatique, à la chaine, de toutes les actions de
 géolocalisation d'un dossier décrites précedement. Il permet de gagner du temps.
 
+.. _instruction_qualification:
+
+================
+La qualification
+================
+
+La qualification d'un dossier d'instruction se fait depuis son formulaire de modification.
+
+La qualification en ERP
+=======================
+
+Pour indiquer un dossier d'instruction comme concernant un **ERP**, il faut cocher la case *ERP* dans l'encadré *Qualification* du formulaire.
+
+.. image:: instruction_qualification_erp.png
+
+Lors de la validation du formulaire, toutes les pièces numérisées et générées liées au dossier d'instruction auront leur métadonnée *concerneERP* modifiée. À condition que le connecteur du système de stockage soit configuré pour effectuer cette action.
