@@ -7,6 +7,8 @@ Interface avec le référentiel ERP
 
 Interface avec le logiciel openARIA : http://www.openmairie.org/catalogue/openaria
 
+.. note:: Il est nécessaire d'utiliser la version 1.1.0 d'openARIA.
+
 
 Configuration
 #############
