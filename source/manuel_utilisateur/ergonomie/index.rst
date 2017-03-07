@@ -235,6 +235,267 @@ Un lien sur chaque enregistrement permet d'accéder à la fiche de visualisation
 
 Un lien "Voir tous les dossiers évènement incomplet ou majoration sans RAR" permet d'accéder au listing des mêmes dossiers sans limite de nombre.
 
+
+.. _widget_dossiers_contentieux_recours:
+
+Widget "Recours"
+----------------
+
+.. image:: widget_dossiers_contentieux_recours.png
+
+Orienté Contentieux.
+
+L'objet de ce widget est de présenter les cinq recours les plus récents.
+
+Deux filtres sont disponibles sur ce widget (le filtre est :ref:`paramétrable <administration_widget_dossiers_evenement_incomplet_majoration>` par l'administrateur) :
+
+- filtre par instructeur : on présente uniquement les dossiers dont il est spécifiquement instructeur.
+- aucun filtre : tous les dossiers auxquels l'utilisateurs a accès (si l'utilisateur appartient à une commune niveau mono, alors l'utilisateur n'a accès qu'aux dossiers de sa commune et si l'utilisateur appartient à une commune multi, alors l'utilisateur a accès à tous les dossiers).
+
+A tout moment, au survol de l'icône d'information du widget, une description permet d'indiquer quels sont les paramètres appliqués sur le widget.
+
+Le listing présente les informations suivantes :
+
+- le libellé du recours,
+- la date du recours.
+
+Un lien sur chaque enregistrement permet d'accéder à la fiche de visualisation de l'infraction.
+
+Un lien "Voir +" permet d'accéder au listing des mêmes recours sans limite de nombre.
+
+
+.. _widget_dossiers_contentieux_infraction:
+
+Widget "Infractions"
+--------------------
+
+.. image:: widget_dossiers_contentieux_infraction.png
+
+Orienté Contentieux.
+
+L'objet de ce widget est de présenter les cinq infractions les plus récentes.
+
+Deux filtres sont disponibles sur ce widget (le filtre est :ref:`paramétrable <administration_widget_dossiers_evenement_incomplet_majoration>` par l'administrateur) :
+
+- filtre par instructeur : on présente uniquement les dossiers dont il est spécifiquement instructeur.
+- aucun filtre : tous les dossiers auxquels l'utilisateurs a accès (si l'utilisateur appartient à une commune niveau mono, alors l'utilisateur n'a accès qu'aux dossiers de sa commune et si l'utilisateur appartient à une commune multi, alors l'utilisateur a accès à tous les dossiers).
+
+A tout moment, au survol de l'icône d'information du widget, une description permet d'indiquer quels sont les paramètres appliqués sur le widget.
+
+Le listing présente les informations suivantes :
+
+- le libellé de l'infraction,
+- la date de réception de l'infraction.
+
+Un lien sur chaque enregistrement permet d'accéder à la fiche de visualisation de l'infraction.
+
+Un lien "Voir +" permet d'accéder au listing des mêmes infractions sans limite de nombre.
+
+
+.. _widget_dossiers_contentieux_contradictoire:
+
+Widget "Infractions contradictoires"
+------------------------------------
+
+.. image:: widget_dossiers_contentieux_contradictoire.png
+
+Orienté Contentieux.
+
+L'objet de ce widget est de présenter les cinq infractions les plus anciennes pour lesquelles la date de contradictoire est saisie (soit elle est supérieure ou égale à la date du jour + 3 semaines, soit elle ne rentre pas dans cette condition et la date de retour du contradictoire est vide), il n'y a pas d'événements de type 'Annlation de contradictoire' et il n'y a pas d'AIT créé.
+
+Trois filtres sont disponibles sur ce widget (le filtre est :ref:`paramétrable <administration_widget_dossiers_evenement_incomplet_majoration>` par l'administrateur) :
+
+- filtre par instructeur : on présente uniquement les dossiers dont il est spécifiquement instructeur.
+- filtre par division : on présente tous les dossiers de la division de l'instructeur.
+- aucun filtre : tous les dossiers auxquels l'utilisateurs a accès (si l'utilisateur appartient à une commune niveau mono, alors l'utilisateur n'a accès qu'aux dossiers de sa commune et si l'utilisateur appartient à une commune multi, alors l'utilisateur a accès à tous les dossiers).
+
+A tout moment, au survol de l'icône d'information du widget, une description permet d'indiquer quels sont les paramètres appliqués sur le widget.
+
+Le listing présente les informations suivantes :
+
+- le libellé de l'infraction,
+- la date du contradictoire,
+- la date de retour du contradictoire.
+
+Un lien sur chaque enregistrement permet d'accéder à la fiche de visualisation de l'infraction.
+
+Un lien "Voir +" permet d'accéder au listing des mêmes infractions sans limite de nombre.
+
+
+.. _widget_dossiers_contentieux_ait:
+
+Widget "Arrêté d'interruption de travaux"
+-----------------------------------------
+
+.. image:: widget_dossiers_contentieux_ait.png
+
+Orienté Contentieux.
+
+L'objet de ce widget est de présenter les cinq infractions les plus récentes pour lesquelles il y a un AIT signé.
+
+Trois filtres sont disponibles sur ce widget (le filtre est :ref:`paramétrable <administration_widget_dossiers_evenement_incomplet_majoration>` par l'administrateur) :
+
+- filtre par instructeur : on présente uniquement les dossiers dont il est spécifiquement instructeur.
+- filtre par division : on présente tous les dossiers de la division de l'instructeur.
+- aucun filtre : tous les dossiers auxquels l'utilisateurs a accès (si l'utilisateur appartient à une commune niveau mono, alors l'utilisateur n'a accès qu'aux dossiers de sa commune et si l'utilisateur appartient à une commune multi, alors l'utilisateur a accès à tous les dossiers).
+
+A tout moment, au survol de l'icône d'information du widget, une description permet d'indiquer quels sont les paramètres appliqués sur le widget.
+
+Le listing présente les informations suivantes :
+
+- le libellé de l'infraction,
+- la date d'AIT,
+- la date de retour de signature de l'AIT.
+
+Un lien sur chaque enregistrement permet d'accéder à la fiche de visualisation de l'infraction.
+
+Un lien "Voir +" permet d'accéder au listing des mêmes infractions sans limite de nombre.
+
+
+.. _widget_dossiers_contentieux_audience:
+
+Widget "Audience"
+-----------------
+
+.. image:: widget_dossiers_contentieux_audience.png
+
+Orienté Contentieux.
+
+L'objet de ce widget est de présenter les cinq infractions les plus récentes pour lesquelles une date d'audience existe et est comprise entre le jour courant et un mois dans le futur.
+
+Trois filtres sont disponibles sur ce widget (le filtre est :ref:`paramétrable <administration_widget_dossiers_evenement_incomplet_majoration>` par l'administrateur) :
+
+- filtre par instructeur : on présente uniquement les dossiers dont il est spécifiquement instructeur.
+- filtre par division : on présente tous les dossiers de la division de l'instructeur.
+- aucun filtre : tous les dossiers auxquels l'utilisateurs a accès (si l'utilisateur appartient à une commune niveau mono, alors l'utilisateur n'a accès qu'aux dossiers de sa commune et si l'utilisateur appartient à une commune multi, alors l'utilisateur a accès à tous les dossiers).
+
+A tout moment, au survol de l'icône d'information du widget, une description permet d'indiquer quels sont les paramètres appliqués sur le widget.
+
+Le listing présente les informations suivantes :
+
+- le libellé de l'infraction,
+- la date d'audience.
+
+Un lien sur chaque enregistrement permet d'accéder à la fiche de visualisation de l'infraction.
+
+Un lien "Voir +" permet d'accéder au listing des mêmes infractions sans limite de nombre.
+
+
+.. _widget_dossiers_contentieux_clotures:
+
+Widget "Recours clôtures"
+-------------------------
+
+.. image:: widget_dossiers_contentieux_clotures.png
+
+Orienté Contentieux.
+
+L'objet de ce widget est de présenter les cinq recours les plus récents pour lesquels une date de clôture d'instruction existe et est comprise entre le jour courant et un mois dans le futur.
+
+Trois filtres sont disponibles sur ce widget (le filtre est :ref:`paramétrable <administration_widget_dossiers_evenement_incomplet_majoration>` par l'administrateur) :
+
+- filtre par instructeur : on présente uniquement les dossiers dont il est spécifiquement instructeur.
+- filtre par division : on présente tous les dossiers de la division de l'instructeur.
+- aucun filtre : tous les dossiers auxquels l'utilisateurs a accès (si l'utilisateur appartient à une commune niveau mono, alors l'utilisateur n'a accès qu'aux dossiers de sa commune et si l'utilisateur appartient à une commune multi, alors l'utilisateur a accès à tous les dossiers).
+
+A tout moment, au survol de l'icône d'information du widget, une description permet d'indiquer quels sont les paramètres appliqués sur le widget.
+
+Le listing présente les informations suivantes :
+
+- le libellé du recours,
+- la date de clôture d'instruction.
+
+Un lien sur chaque enregistrement permet d'accéder à la fiche de visualisation de l'infraction.
+
+Un lien "Voir +" permet d'accéder au listing des mêmes recours sans limite de nombre.
+
+
+.. _widget_dossiers_contentieux_inaffectes:
+
+Widget "Infractions non affectées"
+----------------------------------
+
+.. image:: widget_dossiers_contentieux_inaffectes.png
+
+Orienté Contentieux.
+
+L'objet de ce widget est de présenter les cinq infractions les plus anciennes non-affectées à un technicien.
+
+Deux filtres sont disponibles sur ce widget (le filtre est :ref:`paramétrable <administration_widget_dossiers_evenement_incomplet_majoration>` par l'administrateur) :
+
+- filtre par division : on présente tous les dossiers de la division de l'instructeur.
+- aucun filtre : tous les dossiers auxquels l'utilisateurs a accès (si l'utilisateur appartient à une commune niveau mono, alors l'utilisateur n'a accès qu'aux dossiers de sa commune et si l'utilisateur appartient à une commune multi, alors l'utilisateur a accès à tous les dossiers).
+
+A tout moment, au survol de l'icône d'information du widget, une description permet d'indiquer quels sont les paramètres appliqués sur le widget.
+
+Le listing présente les informations suivantes :
+
+- le libellé de l'infraction,
+- la date de réception de l'infraction.
+
+Un lien sur chaque enregistrement permet d'accéder à la fiche de visualisation de l'infraction.
+
+Un lien "Voir +" permet d'accéder au listing des mêmes infractions sans limite de nombre.
+
+
+.. _widget_dossiers_contentieux_alerte_visite:
+
+Widget "Alerte visite"
+----------------------
+
+.. image:: widget_dossiers_contentieux_alerte_visite.png
+
+Orienté Contentieux.
+
+L'objet de ce widget est de présenter les cinq infractions les plus anciennes pour lesquelles la date de réception est dépassée depuis plus de 3 mois et dont la date de première visite n'est pas saisie.
+
+Trois filtres sont disponibles sur ce widget (le filtre est :ref:`paramétrable <administration_widget_dossiers_evenement_incomplet_majoration>` par l'administrateur) :
+
+- filtre par instructeur : on présente uniquement les dossiers dont il est spécifiquement instructeur.
+- filtre par division : on présente tous les dossiers de la division de l'instructeur.
+- aucun filtre : tous les dossiers auxquels l'utilisateurs a accès (si l'utilisateur appartient à une commune niveau mono, alors l'utilisateur n'a accès qu'aux dossiers de sa commune et si l'utilisateur appartient à une commune multi, alors l'utilisateur a accès à tous les dossiers).
+
+A tout moment, au survol de l'icône d'information du widget, une description permet d'indiquer quels sont les paramètres appliqués sur le widget.
+
+Le listing présente les informations suivantes :
+
+- le libellé de l'infraction,
+- la date de réception de l'infraction.
+
+Un lien sur chaque enregistrement permet d'accéder à la fiche de visualisation de l'infraction.
+
+Un lien "Voir +" permet d'accéder au listing des mêmes infractions sans limite de nombre.
+
+
+.. _widget_dossiers_contentieux_alerte_parquet:
+
+Widget "Alerte parquet"
+----------------------
+
+.. image:: widget_dossiers_contentieux_alerte_parquet.png
+
+Orienté Contentieux.
+
+L'objet de ce widget est de présenter les cinq infractions les plus anciennes pour lesquelles la date de réception est dépassée depuis plus de 9 mois et dont la date de transmission au parquet n'est pas saisie.
+
+Trois filtres sont disponibles sur ce widget (le filtre est :ref:`paramétrable <administration_widget_dossiers_evenement_incomplet_majoration>` par l'administrateur) :
+
+- filtre par instructeur : on présente uniquement les dossiers dont il est spécifiquement instructeur.
+- filtre par division : on présente tous les dossiers de la division de l'instructeur.
+- aucun filtre : tous les dossiers auxquels l'utilisateurs a accès (si l'utilisateur appartient à une commune niveau mono, alors l'utilisateur n'a accès qu'aux dossiers de sa commune et si l'utilisateur appartient à une commune multi, alors l'utilisateur a accès à tous les dossiers).
+
+A tout moment, au survol de l'icône d'information du widget, une description permet d'indiquer quels sont les paramètres appliqués sur le widget.
+
+Le listing présente les informations suivantes :
+
+- le libellé de l'infraction,
+- la date de réception de l'infraction.
+
+Un lien sur chaque enregistrement permet d'accéder à la fiche de visualisation de l'infraction.
+
+Un lien "Voir +" permet d'accéder au listing des mêmes infractions sans limite de nombre.
+
+
 Profils
 =======
 

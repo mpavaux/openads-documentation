@@ -33,11 +33,6 @@ Widget *Infos profil*
 
 - Visualiser les informations du profil de l'utilisateur connecté
 
-Widget *Nouveau dossier*
-########################
-
-- Ajouter un nouveau dossier
-
 Widget *Recherche accès direct*
 ###############################
 
@@ -48,6 +43,42 @@ Widget *Mes messages*
 
 - Visualiser la liste des messages non lu des dossiers d'instruction affecté à l'utilisateur
 - Accéder aux messages non lu des dossiers d'instruction affecté à l'utilisateur
+
+Widget *Mes recours*
+####################
+
+- Visualiser la liste des recours affectés à l'utilisateur
+- Accéder aux recours affectés à l'utilisateur
+
+Widget *Les AIT*
+################
+
+- Visualiser la liste des infractions de la collectivité pour lesquelles il y a un AIT signé
+- Accéder aux infractions de la collectivité pour lesquelles il y a un AIT signé
+
+Widget *Les audiences*
+######################
+
+- Visualiser la liste des infractions de la collectivité pour lesquelles il y a une audience
+- Accéder aux infractions de la collectivité pour lesquelles il y a une audience
+
+Widget *Mes clôtures*
+#####################
+
+- Visualiser la liste des recours affectés à l'utilisateur dont la date de clôture est proche
+- Accéder aux recours affectés à l'utilisateur dont la date de clôture est proche
+
+Widget *Alerte visite*
+######################
+
+- Visualiser la liste des infractions de la collectivité qui n'ont pas de date de première visite
+- Accéder aux infractions de la collectivité qui n'ont pas de date de première visite
+
+Widget *Alerte parquet*
+#######################
+
+- Visualiser la liste des infractions de la collectivité qui n'ont pas de date transmission au parquet
+- Accéder aux infractions de la collectivité qui n'ont pas de date de transmission au parquet
 
 Menu
 ----

@@ -33,11 +33,6 @@ Widget *Infos profil*
 
 - Visualiser les informations du profil de l'utilisateur connecté
 
-Widget *Nouveau dossier*
-########################
-
-- Ajouter un nouveau dossier
-
 Widget *Recherche accès direct*
 ###############################
 
@@ -52,22 +47,26 @@ Widget *Mes messages*
 Widget *Les AIT*
 ################
 
-- Visualiser les 5 dossiers d'infraction les plus récent pour lesquels il y a un AIT signé
+- Visualiser la liste des infractions de la collectivité pour lesquelles il y a un AIT signé
+- Accéder aux infractions de la collectivité pour lesquelles il y a un AIT signé
 
 Widget *Les infractions non affectées*
 ######################################
 
-- Visualiser les 5 dossiers infraction qui ne sont pas affectés à un Technicien les plus anciens en premier
+- Visualiser la liste des infractions de la collectivité non affectées
+- Accéder aux infractions de la collectivité non affectées
 
-Widget *Alerte Visite*
+Widget *Alerte visite*
 ######################
 
-- Visualiser les 5 dossiers infraction pour lesquels la date de réception est dépassée depuis plus de 3 mois et pour lesquels la date de premiere visite est nulle triés par date de réception la plus lointaine
+- Visualiser la liste des infractions de la collectivité qui n'ont pas de date de première visite
+- Accéder aux infractions de la collectivité qui n'ont pas de date de première visite
 
-Widget *Alerte Parquet*
+Widget *Alerte parquet*
 #######################
 
-- Visualiser les 5 dossiers infraction pour lesquels la date de réception est dépassée depuis plus de 9 mois et pour lesquels la date de de tansmission au parquet est nulle triés par date de réception la plus lointaine
+- Visualiser la liste des infractions de la collectivité qui n'ont pas de date transmission au parquet
+- Accéder aux infractions de la collectivité qui n'ont pas de date de transmission au parquet
 
 Menu
 ----

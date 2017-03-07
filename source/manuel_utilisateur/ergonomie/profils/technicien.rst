@@ -52,17 +52,20 @@ Widget *Mes messages*
 Widget *Mes infractions*
 ########################
 
-- Visualiser les 5 derniers dossiers infraction pour lesquels l'utilisateur est Juriste
+- Visualiser la liste des infractions affectées à l'utilisateur
+- Accéder aux infractions affectées à l'utilisateur
 
-Widget *Alerte Visite*
+Widget *Alerte visite*
 ######################
 
-- Visualiser les 5 dossiers infraction pour lesquels la date de réception est dépassée depuis plus de 3 mois et pour lesquels la date de premiere visite est nulle triés par date de réception la plus lointaine
+- Visualiser la liste des infractions de la collectivité qui n'ont pas de date de première visite
+- Accéder aux infractions de la collectivité qui n'ont pas de date de première visite
 
-Widget *Alerte Parquet*
+Widget *Alerte parquet*
 #######################
 
-- Visualiser les 5 dossiers infraction pour lesquels la date de réception est dépassée depuis plus de 9 mois et pour lesquels la date de de tansmission au parquet est nulle triés par date de réception la plus lointaine
+- Visualiser la liste des infractions de la collectivité qui n'ont pas de date transmission au parquet
+- Accéder aux infractions de la collectivité qui n'ont pas de date de transmission au parquet
 
 Menu
 ----
