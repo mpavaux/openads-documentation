@@ -16,8 +16,8 @@ L'URL doit être composée des paramètres suivants :
 
 Exemple d'URL à composer : https://[URL_ADS]/app/web_entry.php?obj=dossier_instruction&value=AT0999991700001P0
 
-Accéder à une collection d'objet
-################################
+Accéder à une collection d'objets
+#################################
 
 L'URL doit être composée des paramètres suivants :
 
