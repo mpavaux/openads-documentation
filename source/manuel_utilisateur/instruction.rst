@@ -410,6 +410,12 @@ Les messages marqués comme 'non lu' sont listés dans les tableaux du menu *Ins
 
 Un clic sur une ligne de résultat redirige directement vers le message non lu dans le contexte du dossier d'instruction.
 
+.. note::
+
+  Certains messages sont susceptibles d'être accompagnés d'une édition. Lorsque c'est le cas une action spécifique est disponible depuis le portlet d'actions contextuelles. Ci-après leur liste avec leur message correspondant :
+
+  * *Accusé de réception* pour :ref:`[213](Échange ERP → ADS) Dossier PC Accusé de réception de consultation officielle<echange_erp_ads_213>`.
+
 =============
 Dossiers liés
 =============
