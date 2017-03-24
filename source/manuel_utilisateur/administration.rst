@@ -231,6 +231,19 @@ Un argument facultatif est paramétrable :
 
 * **filtre** [par défaut *instructeur*] - les filtres disponibles sont *aucun*, *division* et *instructeur*
 
+
+.. _administration_widget_nouvelle_demande_nouveau_dossier:
+
+nouvelle_demande_nouveau_dossier
+================================
+
+Les informations fonctionnelles sont disponibles :ref:`ici<widget_nouvelle_demande_nouveau_dossier>`.
+
+Un argument facultatif est paramétrable :
+
+* **contexte** [par défaut *standard*] - les filtres disponibles sont *standard* et *contentieux*.
+
+
 .. _administration_composition:
 
 ===========

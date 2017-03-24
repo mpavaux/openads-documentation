@@ -160,7 +160,12 @@ Widget "Nouvelle demande 'nouveau dossier'"
 
 Orienté Guichet.
 
-Raccourci permet d'accéder directement au formulaire de saisie d'une nouvelle demande dans le cadre du dépôt d'un nouveau dossier.
+Ce widget permet d'accéder directement au formulaire de saisie d'une nouvelle demande dans le cadre du dépôt d'un nouveau dossier.
+
+Deux contextes sont disponibles sur ce widget (le contexte est :ref:`paramétrable <administration_widget_nouvelle_demande_nouveau_dossier>` par l'administrateur) :
+
+- contexte *standard* : permet de rediriger vers le formulaire de nouvelle demande du menu "Guichet Unique" ;
+- contexte *contentieux* : permet de rediriger vers le formulaire de nouvelle demande du menu "Contentieux".
 
 
 .. _widget_nouvelle_demande_autre_dossier:
