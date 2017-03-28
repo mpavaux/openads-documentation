@@ -79,6 +79,7 @@ de texte et de l'option suivante :
 
 * L'analyse réglementaire : ce champ contient le corps de l'analyse de l'instructeur, il est fait pour être mis à jour tout au long de l'instruction.
 * La description du projet : cette zone de texte qui est pré-remplie avec la valeur de la nature des travaux.
+* Le complément : ce champ de texte permet d'apporter des informations complémentaires, sous la forme d'un texte libre.
 * La proposition de décision : une liste à choix de propositions.
 
 Une fois le rapport enregistré, il est possible de sortir une édition PDF contenant ces informations à partir du modèle de l'état *Rapport d'instruction*.
@@ -508,4 +509,46 @@ L'action "J'ai de la chance"
 
 Ce bouton permet un lancement automatique, à la chaine, de toutes les actions de
 géolocalisation d'un dossier décrites précedement. Il permet de gagner du temps.
+
+=============
+Consultations
+=============
+
+.. image:: instruction_dossier_consultation_tab.png
+
+L'onglet **Consultation(s)** permet de lister et consulter toutes les consultations du dossier
+d'instruction. Les consultations de type *pour conformité* sont surlignées en jaune.
+
+Modifier la visibilité d'une consultation dans les éditions
+===========================================================
+
+Il est possible de masquer une consultation dans les éditions qui y font référence,
+comme le *Récapitulatif du dossier* ou le *Rapport d'instruction*.
+
+Depuis le portlet d'actions contextuelles
+#########################################
+
+Pour masquer une consultation depuis le portlet d'actions contextuelles
+il faut cliquer sur l'action *Masquer dans les éditions*.
+
+.. image:: portlet_masquer_consultation.png
+
+La consultation n’apparaîtra plus dans les éditions qui affichent leur liste.
+Pour l'afficher à nouveau cliquer sur l'action *Afficher dans les éditions*.
+
+.. image:: portlet_visible_consultation.png
+
+Depuis la liste de consultations
+################################
+
+Depuis le listing des consultations, il est possible de modifier la visibilité
+des consultations dans les éditions.
+
+Si la consultation est visible, cliquer sur l'icône en forme d'oeil rouge permet de la masquer.
+
+.. image:: instruction_tab_masquer_consultation.png
+
+Si la consultation est masquée, cliquer sur l'icône en forme d'oeil vert permet de la rendre visible.
+
+.. image:: instruction_tab_visible_consultation.png
 
