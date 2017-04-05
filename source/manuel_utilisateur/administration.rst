@@ -241,7 +241,7 @@ Les informations fonctionnelles sont disponibles :ref:`ici<widget_nouvelle_deman
 
 Un argument facultatif est paramétrable :
 
-* **contexte** [par défaut *standard*] - les filtres disponibles sont *standard* et *contentieux*.
+* **contexte** [par défaut *standard*] - les contextes disponibles sont *standard* et *contentieux*.
 
 
 .. _administration_widget_dossier_contentieux_recours:
