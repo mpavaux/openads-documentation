@@ -404,9 +404,9 @@ Messages
 
 .. image:: instruction_dossier_message_tab.png
 
-L'onglet **Message(s)** permet de lister et consulter tous les messages du dossier d'instruction.
+L'onglet **Message(s)** permet de lister et consulter tous les messages du dossier.
 
-Les messages sont automatiquement ajoutés sur les dossiers d'instruction suite à des actions spécifiques, comme par exemple l'ajout de pièce numérisée, à condition que l'option :ref:`'option_notification_piece_numerisee' <parametrage_parametre>` soit activée.
+Les messages sont automatiquement ajoutés suite à des actions spécifiques, comme par exemple l'ajout de pièce numérisée, à condition que l'option :ref:`'option_notification_piece_numerisee' <parametrage_parametre>` soit activée.
 Lorsqu'une action notifiée est réalisée par un utilisateur différent de l'instructeur du dossier, alors le message de notification sera destiné à l'instructeur.
 Si cette action est réalisée par l'instructeur du dossier et que celui-ci fait partie de la même collectivité que celle du dossier, alors il n'y a pas besoin de message de notification.
 Dernier cas, si l'action est réalisée par l'instructeur du dossier et celui-ci n'est pas de la même collectivité que celle du dossier, alors le message de notification sera destinée à la collectivité du dossier.

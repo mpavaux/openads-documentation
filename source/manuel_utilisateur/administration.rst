@@ -213,10 +213,11 @@ Trois arguments facultatifs sont paramétrables :
 messages_retours
 ================
 
-Ce widget permet d'afficher le nombre de retours de consultation marqués comme 'non lu' pour les dossiers de l'utilisateur correspondant au filtre paramétrable. Un lien *Voir +* permet d'accéder au listing complet. Les informations fonctionnelles sont disponibles :ref:`ici<widget_messages_retours>`.
+Ce widget permet d'afficher le nombre de messages en attente de lecture pour les dossiers de l'utilisateur correspondant au filtre paramétrable. Un lien *Voir +* permet d'accéder au listing complet. Les informations fonctionnelles sont disponibles :ref:`ici<widget_messages_retours>`.
 
-Un argument facultatif est paramétrable :
+Deux arguments facultatifs sont paramétrables :
 
+* **contexte** [par défaut *standard*] - les contextes disponibles sont *standard* et *contentieux*
 * **filtre** [par défaut *instructeur*] - les filtres disponibles sont *aucun*, *division* et *instructeur*
 
 

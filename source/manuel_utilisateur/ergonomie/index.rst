@@ -128,12 +128,12 @@ Le menu d'openADS propose autant de listings que de filtres possibles : ainsi le
 
 .. _widget_messages_retours:
 
-Widget "Retours de Messages"
-----------------------------
+Widget "Mes messages"
+---------------------
 
 .. image:: widget_messages_retours.png
 
-Orienté Instruction.
+Orienté Instruction/Contentieux.
 
 Ce widget permet d'indiquer le nombre de messages en attente de lecture ('non lu') à l'utilisateur connecté.
 Pour plus de détails sur les messages, se référer :ref:`ici <instruction_dossier_message>`.
