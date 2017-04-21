@@ -1,5 +1,5 @@
-Documentation openADS version 3.36.1
-====================================
+Documentation openADS version 4.0.0
+
 
 .. image:: https://travis-ci.org/openmairie/openads-documentation.png?branch=master
     :target: https://travis-ci.org/openmairie/openads-documentation
