@@ -137,7 +137,7 @@ Les types de commissions
 
 (:menuselection:`Paramétrage --> Gestion des commissions --> Type De Commission`)
 
-Ce menu sert au paramétrage du type de commmission.
+Éditions des différents types de commissions (Commission technique d'urbanisme).
 
 .. image:: type_commission_parametrage.png
 
