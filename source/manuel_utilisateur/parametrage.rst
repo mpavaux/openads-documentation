@@ -137,7 +137,17 @@ Les types de commissions
 
 (:menuselection:`Paramétrage --> Gestion des commissions --> Type De Commission`)
 
-Éditions des différents types de commissions (Commission technique d'urbanisme).
+Ce menu sert au paramétrage du type de commmission.
+
+.. image:: type_commission_parametrage.png
+
+Le champ 'Liste de diffusion' est la liste de mail pour lesquels un Email va être envoyé à chaque diffusion,
+les adresses Emails doivent être séparées par un retour à la ligne.
+
+Le champ 'Participants' est est de type texte libre, les participants ne sont pas obligés d'avoir un compte sur l'application.
+
+Les champs qui peuvent être repris pour une édition sont le 'libellé' la 'salle'  l' 'adresse' et son 'complement'.
+
 
 Gestion des consultations
 #########################
