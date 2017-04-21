@@ -529,6 +529,7 @@ Le principe
 Une action permet de recalculer des informations du dossier d'instruction. Elle
 est composée d'une série de règles de calculs. Chaque règle de calcul vise à
 modifier la valeur du champ lié dans le dossier d'instruction.
+Une action peut également mettre à jour la valeur de certaines données techniques.
 
 Elle accepte en paramètre de calcul :
 
@@ -538,7 +539,8 @@ Elle accepte en paramètre de calcul :
   dépôt inital, exemple dans le cas d'une prorogation),
 * des valeurs fixées dans le paramétrage de l'action,
 * des valeurs fixées dans le paramétrage de l'événement déclenchant l'action,
-* des formules de calcul.
+* des formules de calcul,
+* des valeurs de certaines données techniques.
 
 La valeur "null" vide la valeur du champ dans le Dossier d'Instruction.
 
@@ -557,14 +559,9 @@ Les informations à saisir sont :
   ici serait "prolonger_le_delai_de_validite").
 * **libellé** : texte à afficher dans l'interface lors de la sélection
   d'une action.
-* **pour tous les champs règle** : règle rattaché au champ du dossier
+* **pour tous les champs Règle** : règle rattaché au champ du dossier
   d'instruction du même nom à l'exception des règles sur données techniques.
-* **pour tous les champs règle données techniques** : le champ de données technique
-  sur lequel appliquer la règle doit être défini dans le premier champ de saisi,
-  la règle à appliquer dans le second. La liste des champs de données techniques
-  est fournie dans l'aide contextuelle.
-* **méthode à appeler** : ce champ permet de sélectionner une des méthodes de
-  mise à jour des informations du dossier d'autorisation.
+* **pour les 5 champs Règle données techniques** : dans le premier champ, saisir la donnée technique à modifier (choix restreint au données techniques présentées :ref:`ici <valeur_donnees_techniques>` ; dans le second, la valeur à lui affecter. Ce dernier peut contenir une ou plusieurs valeurs, issue(s) de celles présentées dans l'aide à la saisie. Dans le cas d'une composition, utiliser l'opérateur `+` pour concaténer les différentes valeurs.
 
 
 Les champs disponibles pour la saisie des règles sont :
@@ -591,6 +588,11 @@ Les champs disponibles pour la saisie des règles sont :
 
 [duree_validite_parametrage]
 
+.. _valeur_donnees_techniques:
+**Valeurs des données techniques**
+
+[ctx_nature_travaux_infra_om_html] [ctx_article_non_resp_om_html]
+
 **Suppression de la valeur**
 
 [null]
@@ -600,6 +602,8 @@ Exemples de règles :
 * exemple avec 3 opérandes : date_evenement+delai+3
 * exemple avec 2 opérandes : archive_date_complet+4
 * exemple avec 1 opérande : null
+* exemple de mise à jour de donnée technique (seule la concaténation est possibles
+
 
 .. _parametrage_dossiers_incompletude:
 
