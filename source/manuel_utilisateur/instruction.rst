@@ -29,6 +29,15 @@ Depuis le fieldset des pétitionnaires :
 
 * si l'option d'accès au portail citoyen détaillée dans :ref:`cette rubrique <parametrage_parametre>` est activée, le champ **clé d'accès au portail citoyen** affiche le code d'accès nécessaire au pétitionnaire pour accèder à la visualisation de son autorisation depuis le portail citoyen.
 
+Représentation des contentieux
+==============================
+
+Dans le fieldset **Enjeu** :
+
+.. image:: instruction_dossier_instruction_form_enjeu_fieldset.png
+
+* Il y a un champ **contentieux** pour spécifier si au moins un dossier **Infraction**, ou au moins un dossier **Recours Contentieux** est déposé pour une ou plusieurs parcelles du dossier, le champs contiendra respectivement INF en rouge ou RE en bleu seront affichés.
+
 La taxe d'aménagement
 =====================
 
@@ -70,6 +79,7 @@ de texte et de l'option suivante :
 
 * L'analyse réglementaire : ce champ contient le corps de l'analyse de l'instructeur, il est fait pour être mis à jour tout au long de l'instruction.
 * La description du projet : cette zone de texte qui est pré-remplie avec la valeur de la nature des travaux.
+* Le complément : ce champ de texte permet d'apporter des informations complémentaires, sous la forme d'un texte libre.
 * La proposition de décision : une liste à choix de propositions.
 
 Une fois le rapport enregistré, il est possible de sortir une édition PDF contenant ces informations à partir du modèle de l'état *Rapport d'instruction*.
@@ -371,8 +381,6 @@ apparait.
 Les contraintes peuvent aussi être récupérées automatiquement à partir d'un SIG si
 celui-ci est configuré, (voir :ref:`instruction_geolocalisation` ).
 
-.. _instruction_dossier_message:
-
 ====
 Lots
 ====
@@ -388,15 +396,21 @@ L'instructeur du dossier peut :
 - éditer les données techniques des lots
 - tranférer le ou les pétitionnaire à un ou plusieurs lots
 
+.. _instruction_dossier_message:
+
 ========
 Messages
 ========
 
 .. image:: instruction_dossier_message_tab.png
 
-L'onglet **Message(s)** permet de lister et consulter tous les messages du dossier d'instruction.
+L'onglet **Message(s)** permet de lister et consulter tous les messages du dossier.
 
-Lorsque des événements ont lieu sur le dossier alors des messages sont susceptibles d'être créés afin d'avertir l’instructeur (par exemple l’ajout d’une pièce sur le dossier), à condition que l'option :ref:`'option_notification_piece_numerisee' <parametrage_parametre>` soit activée. Un nouveau message est marqué par défaut comme non lu. Tant qu'un message reste non lu, aucun message notifiant la même action ne sera ajouté. Si c'est l'instructeur affecté au dossier d'instruction qui effectue une action notifiée, alors le message créé sera marqué comme lu.
+Les messages sont automatiquement ajoutés suite à des actions spécifiques, comme par exemple l'ajout de pièce numérisée, à condition que l'option :ref:`'option_notification_piece_numerisee' <parametrage_parametre>` soit activée.
+Lorsqu'une action notifiée est réalisée par un utilisateur différent de l'instructeur du dossier, alors le message de notification sera destiné à l'instructeur.
+Si cette action est réalisée par l'instructeur du dossier et que celui-ci fait partie de la même collectivité que celle du dossier, alors il n'y a pas besoin de message de notification.
+Dernier cas, si l'action est réalisée par l'instructeur du dossier et celui-ci n'est pas de la même collectivité que celle du dossier, alors le message de notification sera destinée à la collectivité du dossier.
+Pour éviter de multiplier les notifications, ne seront pas ajoutés les messages traitant d'une même action à la même date et dont le destinataire est identique à un message déjà existant et non lu.
 
 Une action disponible depuis son formulaire de consultation permet de le marquer comme lu :
 
@@ -422,11 +436,28 @@ Dossiers liés
 
 .. image:: instruction_dossiers_lies.png
 
-L'onglet **DA** permet d'obtenir les dossiers liés au dossier courant, et d'accéder directement à la fiche détaillée de ces dossiers en cliquant sur n'importe quel élément des tableaux. Les dossiers suivants seront affichés :
+L'onglet **Dossiers liés** permet d'obtenir tous les dossiers liés au dossier d'instruction courant.
+Il existe plusieurs types de liaison entre les dossiers :
 
-    * En orange : le dossier d'autorisation du DI courant.
-    * En violet : le ou les DI liés au même dossier d'autorisation que le DI courant.
-    * En vert : le ou les dossiers d'autorisation ayant au moins une parcelle en commun avec le DI courant.
+    * dans l'encadré orange, il s'agit du lien vers le dossier d'autorisation ;
+    * dans l'encadré violet, les dossiers d'instruction liés manuellement ou implicitement par le dossier d'autorisation ;
+    * dans l'encadré vert, les dossiers d'autorisation liés géographiquement, c'est-à-dire ayant au moins une parcelle commune.
+
+.. note::
+    Lors de liaisons manuelles entre dossiers d'instruction, seulement le dossier courant liste les dossiers d'instruction liés.
+    Le dossier d'instruction ciblé par la liaison ne verra pas sur son tableau le dossier d'instuction source, c'est-à-dire celui depuis lequel la liaison a été faite.
+
+Il est possible depuis l'action d'ajout "+" dans le tableau des dossiers d'instruction liés (encadré violet), d'ajouter des liaisons avec d'autres dossiers d'instruction.
+Il n'est pas possible de lier le dossiers d'instruction courant deux fois à un même DI ou de le lier manuellement à un DI déjà lié implicitement par le dossier d'autorisation.
+
+.. image:: instruction_dossiers_lies_form_ajout.png
+
+Les liaisons manuelles peuvent être supprimées depuis le tableau grâce à l'action de suppression "X" disponible sur chaque ligne.
+
+.. note::
+    Dans le cas des recours (contentieux), il existe une notion de liaison principale avec un dossier d'instruction.
+    Cette liaison n'est modifiable que par les profils ayant une permission spécifique.
+
 
 .. _instruction_geolocalisation:
 
@@ -484,6 +515,50 @@ L'action "J'ai de la chance"
 
 Ce bouton permet un lancement automatique, à la chaine, de toutes les actions de
 géolocalisation d'un dossier décrites précedement. Il permet de gagner du temps.
+
+
+=============
+Consultations
+=============
+
+.. image:: instruction_dossier_consultation_tab.png
+
+L'onglet **Consultation(s)** permet de lister et consulter toutes les consultations du dossier
+d'instruction. Les consultations de type *pour conformité* sont surlignées en jaune.
+
+Modifier la visibilité d'une consultation dans les éditions
+===========================================================
+
+Il est possible de masquer une consultation dans les éditions qui y font référence,
+comme le *Récapitulatif du dossier* ou le *Rapport d'instruction*.
+
+Depuis le portlet d'actions contextuelles
+#########################################
+
+Pour masquer une consultation depuis le portlet d'actions contextuelles
+il faut cliquer sur l'action *Masquer dans les éditions*.
+
+.. image:: portlet_masquer_consultation.png
+
+La consultation n’apparaîtra plus dans les éditions qui affichent leur liste.
+Pour l'afficher à nouveau cliquer sur l'action *Afficher dans les éditions*.
+
+.. image:: portlet_visible_consultation.png
+
+Depuis la liste de consultations
+################################
+
+Depuis le listing des consultations, il est possible de modifier la visibilité
+des consultations dans les éditions.
+
+Si la consultation est visible, cliquer sur l'icône en forme d'oeil rouge permet de la masquer.
+
+.. image:: instruction_tab_masquer_consultation.png
+
+Si la consultation est masquée, cliquer sur l'icône en forme d'oeil vert permet de la rendre visible.
+
+.. image:: instruction_tab_visible_consultation.png
+
 
 .. _instruction_qualification:
 

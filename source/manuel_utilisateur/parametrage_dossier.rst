@@ -38,11 +38,16 @@ Les informations à saisir sont :
   interfaces de l'application, mais il permet de décrire l'élément de
   paramétrage en détail dans un objectif de le documenter.
 * **confidentiel** : permet de modifier le comportement standard de la
-  confidentialité. Un dossier qui possède cet attribut sera uniquement visible
-  et modifiable par les instructeurs de la division positionnée sur le dossier
-  (ce comportement est là par exemple pour gérer la confidentialité des dossiers
-  du module contentieux).
-* **groupe** : (voir :ref:`parametrage_groupe`).
+  confidentialité. Un dossier qui possède cet attribut sera uniquement visible par les
+  utilisateurs appartenant au même groupe que celui du dossier, et si ce groupe a accès
+  aux dossiers confidentiels. Ce comportement permet par exemple de gérer la
+  confidentialité des dossiers contentieux.
+* **groupe** : les types de dossier d'autorisation sont liés à un groupe, qui définit
+  quels utilisateurs ont le droit d'ajouter et consulter ces dossiers.
+  (voir :ref:`parametrage_groupe`).
+* **cacher le DA** : si cette option est activée, les dossiers d'autorisation de ce type
+  ne seront pas visibles dans l'application.
+* **Affichage des formulaires** : change l'affichage des formulaires des dossiers d'autorisation et d'instruction. Champ obligatoire.
 
 
 .. _parametrage_dossiers_dossier_autorisation_type_detaille:
@@ -524,6 +529,7 @@ Le principe
 Une action permet de recalculer des informations du dossier d'instruction. Elle
 est composée d'une série de règles de calculs. Chaque règle de calcul vise à
 modifier la valeur du champ lié dans le dossier d'instruction.
+Une action peut également mettre à jour la valeur de certaines données techniques.
 
 Elle accepte en paramètre de calcul :
 
@@ -533,7 +539,8 @@ Elle accepte en paramètre de calcul :
   dépôt inital, exemple dans le cas d'une prorogation),
 * des valeurs fixées dans le paramétrage de l'action,
 * des valeurs fixées dans le paramétrage de l'événement déclenchant l'action,
-* des formules de calcul.
+* des formules de calcul,
+* des valeurs de certaines données techniques.
 
 La valeur "null" vide la valeur du champ dans le Dossier d'Instruction.
 
@@ -552,22 +559,24 @@ Les informations à saisir sont :
   ici serait "prolonger_le_delai_de_validite").
 * **libellé** : texte à afficher dans l'interface lors de la sélection
   d'une action.
-* **pour tous les champs règle** : règle rattaché au champ du dossier
-  d'instruction du même nom.
-* **méthode à appeler** : ce champ permet de sélectionner une des méthodes de
-  mise à jour des informations du dossier d'autorisation.
+* **pour tous les champs Règle** : règle rattaché au champ du dossier
+  d'instruction du même nom à l'exception des règles sur données techniques.
+* **pour les 5 champs Règle données techniques** : dans le premier champ, saisir la donnée technique à modifier (choix restreint au données techniques présentées :ref:`ici <valeur_donnees_techniques>` ; dans le second, la valeur à lui affecter. Ce dernier peut contenir une ou plusieurs valeurs, issue(s) de celles présentées dans l'aide à la saisie. Dans le cas d'une composition, utiliser l'opérateur `+` pour concaténer les différentes valeurs.
 
 
 Les champs disponibles pour la saisie des règles sont :
 
 **Valeurs du dossier avant l'évènement**
 
-[archive_etat] [archive_delai] [archive_accord_tacite] [archive_avis] [archive_date_dernier_depot] [archive_date_complet] [archive_date_rejet] [archive_date_limite] [archive_date_notification_delai] [archive_date_decision] [archive_date_validite] [archive_date_achevement] [archive_date_conformite] [archive_date_chantier] [archive_etat_pendant_incompletude] [archive_date_limite_incompletude] [archive_delai_incompletude] [archive_autorite_competente] [duree_validite]
+[archive_etat] [archive_delai] [archive_accord_tacite] [archive_avis]
+[archive_date_dernier_depot] [archive_date_complet] [archive_date_rejet] [archive_date_limite] [archive_date_notification_delai] [archive_date_decision] [archive_date_validite] [archive_date_achevement] [archive_date_conformite] [archive_date_chantier] [archive_etat_pendant_incompletude] [archive_date_limite_incompletude] [archive_delai_incompletude] [archive_autorite_competente] [archive_date_cloture_instruction] [archive_date_premiere_visite] [archive_date_derniere_visite] [archive_date_contradictoire] [archive_date_retour_contradictoire] [archive_date_ait] [archive_date_transmission_parquet] [duree_validite] [date_depot]
 
 **Paramètres de l'évènement**
 
 [etat] [delai] [accord_tacite] [avis_decision] 
 [delai_notification] [date_evenement] [autorite_competente]
+[complement_om_html] [complement2_om_html]
+[complement3_om_html] [complement4_om_html]
 
 **Valeurs de l'événement d'instruction principal**
 
@@ -579,6 +588,11 @@ Les champs disponibles pour la saisie des règles sont :
 
 [duree_validite_parametrage]
 
+.. _valeur_donnees_techniques:
+**Valeurs des données techniques**
+
+[ctx_nature_travaux_infra_om_html] [ctx_article_non_resp_om_html]
+
 **Suppression de la valeur**
 
 [null]
@@ -588,6 +602,8 @@ Exemples de règles :
 * exemple avec 3 opérandes : date_evenement+delai+3
 * exemple avec 2 opérandes : archive_date_complet+4
 * exemple avec 1 opérande : null
+* exemple de mise à jour de donnée technique (seule la concaténation est possibles
+
 
 .. _parametrage_dossiers_incompletude:
 

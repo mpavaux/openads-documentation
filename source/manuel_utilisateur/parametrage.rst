@@ -83,6 +83,16 @@ Les divisions
 
 Éditions des différentes divisions traitant les demandes.
 
+.. _parametrage_instructeur_qualite:
+
+==========================
+Les qualités d'instructeur
+==========================
+
+(:menuselection:`Paramétrage --> Organisation --> Qualité d'instructeur`)
+
+Éditions des qualités d'instructeur.
+
 .. _parametrage_instructeur:
 
 ================
@@ -333,3 +343,38 @@ Il suffit de cliquer sur le bouton **Mettre à jour** pour lancer le traitement.
 .. image:: parametrage_document_numerise_metadata_treatment_res.png
 
 Lorsque certaines pièces numérisées n'ont pas pu être mises à jour, le message de validation présente la liste des pièces en erreur ainsi que le dossier d'instruction correspondant.
+
+.. _parametrage_gestion_contentieux:
+
+Gestion des contentieux
+#######################
+
+.. _parametrage_objet_recours:
+
+=====================
+Les objets de recours
+=====================
+
+(:menuselection:`Paramétrage --> Gestion des contentieux --> Objet de recours`)
+
+Paramétrage des objets de recours possibles.
+
+.. _parametrage_moyen_souleve:
+
+===================
+Les moyens soulevés
+===================
+
+(:menuselection:`Paramétrage --> Gestion des contentieux --> Moyen soulevé`)
+
+Paramétrage des moyens soulevés possibles.
+
+.. _parametrage_moyen_retenu_juge:
+
+================================
+Les moyens retenus par les juges
+================================
+
+(:menuselection:`Paramétrage --> Gestion des contentieux --> Moyen retenu par le juge`)
+
+Paramétrage des moyens possibles retenus par les juges.
