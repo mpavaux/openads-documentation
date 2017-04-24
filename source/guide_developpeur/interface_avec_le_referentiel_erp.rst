@@ -7,6 +7,8 @@ Interface avec le référentiel ERP
 
 Interface avec le logiciel openARIA : http://www.openmairie.org/catalogue/openaria
 
+.. note:: Il est nécessaire d'utiliser la version 1.1.0 d'openARIA.
+
 
 Configuration
 #############
@@ -19,6 +21,7 @@ om_parametre
 
 - **option_referentiel_erp** -> true
 
+.. _configuration_parametres_declencheurs:
 
 *Configuration des paramètres des déclencheurs* :
 
@@ -776,6 +779,66 @@ L'objectif principal de cet échange est de permettre aux services ERP d'être i
 
 
 
+.. _echange_ads_erp_114:
+
+========================================================================
+[114](Échange ADS → ERP) Dossier PC Notification de dossier à enjeu ADS
+========================================================================
+
+L'objectif principal de cet échange est de permettre aux services ADS de partager le caractère 'à enjeu' du dossier pour en informer le service ERP.
+
+
+*Identifiant* : ADS_ERP__PC__ENJEU_ADS
+
+
+*Cas d'utilisation* :
+
+• Un instructeur peut qualifier le dossier comme dossier à enjeu. Dans ce cas, un message « Dossier à enjeu ADS » est envoyé vers l'application ERP afin de mettre à jour le dossier de coordination. La mise à jour est effectuée automatiquement et un message est présenté au service ERP qui est chargé de mettre à jour le dossier. 
+
+*Déclencheur* :
+
+• L'option ERP est activée
+• Le dossier est de type PC (paramètre 'erp__dossier_nature__pc')
+• Le dossier est marqué comme « connecté au référentiel ERP »
+• L'enjeu urbanisme change de statut
+
+*Traitement* :
+
+• Création de message : Un message de catégorie "sortant" est ajouté dans openADS afin de consigner l'échange. Il est visible depuis l'onglet "Message(s)" du dossier d'instruction. → Marqueur(s) de lecture du message : message marqué comme lu par défaut.
+• Envoi de la requête à destination de la ressource 'messages' d'openARIA. :ref:`Configuration des échanges sortants<configuration_echanges_sortants_referentiel_erp>`.
+
+
+
+*Contenu de l'échange* :
+
+- **type** : Type de message
+- **date** : Date/heure d’envoi du message
+- **emetteur** : Émetteur du message (Nom/Prénom/Login de l’utilisateur à l’origine du message)
+- **dossier_instruction** : Identifiant du dossier d’instruction
+- **contenu** :
+
+  - **Dossier à enjeu ADS** : Oui / Non
+
+
+*Exemple* :
+
+.. sourcecode:: http
+      
+    POST /openads/services/rest_entry.php/messages HTTP/1.1
+    Host: localhost
+
+    {
+        "type": "ADS_ERP__PC__ENJEU_ADS",
+        "date": "10/01/2017 12:52",
+        "emetteur": "admin",
+        "dossier_instruction": "PC0130551601234P0",
+        "contenu": {
+             "Dossier à enjeu ADS": "oui"
+        }
+    }
+
+
+
 .. _echange_erp_ads_201:
 
 =========================================================================================
@@ -802,7 +865,7 @@ L'objectif principal de cet échange est de permettre aux services ERP d'être i
 
 *Contenu de l'échange* :
 
-- **numero_erp** : c'est le code de l'établissement (exemple : 'T3498').
+- **numero_erp** : c'est le code de l'établissement au format entier (exemple : '3498').
 
 
 *Exemple* :
@@ -813,7 +876,7 @@ L'objectif principal de cet échange est de permettre aux services ERP d'être i
     Host: localhost
 
     {
-        "numero_erp":"T12345"
+        "numero_erp":"12345"
     }
 
 
@@ -1227,7 +1290,7 @@ Dans le contexte du guichet unique, l'objectif principal de cet échange est de 
 
 • Ce message a vocation à permettre aux agents du Guichet unique de bien accomplir leur mission d'enregistrement face à l'arrivée d'une nouvelle pièce : si le dossier d'instruction AT est ouvert, alors les pièces sont acceptées (si le dossier est « incomplet », les pièces sont classées « complémentaires », sinon les pièces sont « supplémentaires ») et si le dossier est clos, les pièces sont refusées.
 • Lorsque le dossier d'instruction d'AT est créé dans openADS, par défaut son statut doit être « complet ». Dès que la première incomplétude est faite dans openARIA, le message est envoyé.
-• Le message de complétude doit mettre à jour automatiquement dans openADS le dossier d'instruction avec un statut complet, et cela doit se répercuter automatiquement sur le classement des nouvelles pièces arrivant au guichet unique.
+• Le message de complétude doit mettre à jour automatiquement dans openADS le dossier d'instruction, qui passe à un statut incomplet, et cela doit se répercuter automatiquement sur le classement des nouvelles pièces arrivant au guichet unique.
 • Importance du paramétrage du workflow des AT dans openADS.
 
 
@@ -1238,13 +1301,12 @@ Dans le contexte du guichet unique, l'objectif principal de cet échange est de 
 
 *Traitement* :
 
-• Création de message : Un message de catégorie "entrant" est ajouté dans openADS afin de consigner l'échange. Il est visible depuis l'onglet "Message(s)" du dossier d'instruction. → Marqueur(s) de lecture du message : message marqué comme lu par défaut.
-• Ajout d'un événement d'instruction
+• Ajout d'un événement d'instruction **id_evenement_completude_at** (voir :ref:`Configuration des paramètres des déclencheurs<configuration_parametres_declencheurs>`.)
 
 
 *Contenu de l'échange* :
 
-• « message » : « complet » ou « incomplet »
+• « message » : « complet »
 • « date » : Date de la mise à jour de l'information au format JJ/MM/AAAA
 
 
@@ -1286,8 +1348,7 @@ Dans le contexte du guichet unique, l'objectif principal de cet échange est de 
 
 *Traitement* :
 
-• Création de message : Un message de catégorie "entrant" est ajouté dans openADS afin de consigner l'échange. Il est visible depuis l'onglet "Message(s)" du dossier d'instruction. → Marqueur(s) de lecture du message : message marqué comme lu par défaut.
-• Ajout d'un événement d'instruction
+• Ajout de l'événement d'instruction paramétré dans **id_evenement_cloture_at** (voir :ref:`Configuration des paramètres des déclencheurs<configuration_parametres_declencheurs>`.)
 
 
 *Contenu de l'échange* :
@@ -1335,4 +1396,53 @@ Le service ERP a besoin de consulter les informations contenues dans le Dossier 
     GET /openads/services/rest_entry.php/dossier_instructions/PC0130551601234P0 HTTP/1.1
     Host: localhost
 
+
+.. _echange_erp_ads_213:
+
+==================================================================================
+[213](Échange ERP → ADS) Dossier PC Accusé de réception de consultation officielle
+==================================================================================
+
+L'objectif principal de cet échange est d'avoir un accusé de réception de consultation par le référentiel ERP depuis le référentiel ADS.
+
+
+*Identifiant* : ERP_ADS__PC__AR_CONSULTATION_OFFICIELLE
+
+
+*Cas d'utilisation* :
+
+• Cette information est envoyée par le référentiel ERP au référentiel ADS suite à la notification de consultation officielle d'un dossier PC.
+
+
+*Déclencheur* :
+
+• :ref:`Web Service exposé<web_services_ressource_messages_post>`
+
+
+*Traitement* :
+
+• Création de message : Un message de catégorie "entrant" est ajouté dans openADS afin de consigner l'échange. Il est visible depuis l'onglet "Message(s)" du dossier d'instruction. → Marqueur(s) de lecture du message : message marqué comme non lu.
+
+
+*Contenu de l'échange* :
+
+• « consultation » : l'identifiant de la consultation
+
+
+*Exemple* :
+
+.. sourcecode:: http
+
+    POST /openads/services/rest_entry.php/messages HTTP/1.1
+    Host: localhost
+
+    {
+        "type": "ERP_ADS__PC__AR_CONSULTATION_OFFICIELLE",
+        "date": "16/06/2014 14:12",
+        "emetteur": "John Doe",
+        "dossier_instruction": "PD12R0001",
+        "contenu": {
+            "consultation" : 2,
+        }
+    }
 

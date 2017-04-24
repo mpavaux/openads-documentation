@@ -424,6 +424,12 @@ Les messages marqués comme 'non lu' sont listés dans les tableaux du menu *Ins
 
 Un clic sur une ligne de résultat redirige directement vers le message non lu dans le contexte du dossier d'instruction.
 
+.. note::
+
+  Certains messages sont susceptibles d'être accompagnés d'une édition. Lorsque c'est le cas une action spécifique est disponible depuis le portlet d'actions contextuelles. Ci-après leur liste avec leur message correspondant :
+
+  * *Accusé de réception* pour :ref:`[213](Échange ERP → ADS) Dossier PC Accusé de réception de consultation officielle<echange_erp_ads_213>`.
+
 =============
 Dossiers liés
 =============
@@ -510,6 +516,7 @@ L'action "J'ai de la chance"
 Ce bouton permet un lancement automatique, à la chaine, de toutes les actions de
 géolocalisation d'un dossier décrites précedement. Il permet de gagner du temps.
 
+
 =============
 Consultations
 =============
@@ -552,3 +559,20 @@ Si la consultation est masquée, cliquer sur l'icône en forme d'oeil vert perme
 
 .. image:: instruction_tab_visible_consultation.png
 
+
+.. _instruction_qualification:
+
+================
+La qualification
+================
+
+La qualification d'un dossier d'instruction se fait depuis son formulaire de modification.
+
+La qualification en ERP
+=======================
+
+Pour indiquer un dossier d'instruction comme concernant un **ERP**, il faut cocher la case *ERP* dans l'encadré *Qualification* du formulaire.
+
+.. image:: instruction_qualification_erp.png
+
+Lors de la validation du formulaire, toutes les pièces numérisées et générées liées au dossier d'instruction auront leur métadonnée *concerneERP* modifiée. À condition que le connecteur du système de stockage soit configuré pour effectuer cette action.
