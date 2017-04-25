@@ -148,6 +148,8 @@ Le champ 'Participants' est est de type texte libre, les participants ne sont pa
 
 Les champs qui peuvent être repris pour une édition sont le 'libellé' la 'salle'  l' 'adresse' et son 'complement'.
 
+Le champ 'Collectivité' permet de saisir des collectivités de niveau mono uniquement, il n'est pas possible de créer un type de commission intercommunal.
+
 
 Gestion des consultations
 #########################
