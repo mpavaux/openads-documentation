@@ -256,14 +256,17 @@ Gérer les commissions
 Créer une commission
 ====================
 
+La création d'une commission se fait uniquement pour une collectivité, le type de commission sera filtré en fonction de la commune à la quelle on appratient, ou a celle selectionnée pour un niveau multi.
 
 Planifier/retirer un dossier
 ============================
 
+Seul les dossiers ayant fait l'objet d'une demande pour ce type de commission seront disponible pour cette planification.
 
 Planifier un dossier spécifique
 ===============================
 
+Seul les dossiers qui sont de la même collectivité que le type de commission seront planifiable.
 
 Diffusion de l'ordre du jour
 ============================
