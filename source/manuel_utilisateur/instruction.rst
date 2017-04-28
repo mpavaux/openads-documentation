@@ -381,6 +381,13 @@ apparait.
 Les contraintes peuvent aussi être récupérées automatiquement à partir d'un SIG si
 celui-ci est configuré, (voir :ref:`instruction_geolocalisation` ).
 
+===========
+Commissions
+===========
+
+L'onglet **Commission(s)** permet de lister et consulter les demandes de passage en commission.
+Sont disponibles seulement les types de commission associés à la collectivité du dossier.
+
 ====
 Lots
 ====

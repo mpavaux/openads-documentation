@@ -139,6 +139,17 @@ Les types de commissions
 
 Éditions des différents types de commissions (Commission technique d'urbanisme).
 
+.. image:: type_commission_parametrage.png
+
+Le champ 'Liste de diffusion' est la liste d'adresses email pour lesquelles un courriel va être envoyé à chaque diffusion.
+Elles doivent être séparées par un retour à la ligne.
+
+Le champ 'Participants' est est de type texte libre, les participants ne sont pas obligés d'avoir un compte sur l'application.
+
+Les champs qui peuvent être repris pour une édition sont le 'libellé', la 'salle',  l' 'adresse' et son 'complement'.
+
+Le champ 'Collectivité' permet de saisir des collectivités de niveau mono uniquement : les commissions intercommunales ne sont pas gérées.
+
 Gestion des consultations
 #########################
 
