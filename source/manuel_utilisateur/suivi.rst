@@ -308,5 +308,6 @@ Lister les demandes de passages
 
 (:menuselection:`Suivi --> Commissions --> Demandes`)
 
+Ce menu permet de lister les dossiers ayant une demande de passage en commission, uniquement de notre collectivité si on est un utilisateur de niveau mono, si on est un utilisateur de niveau multi on a accès a toutes les demandes.
 
 

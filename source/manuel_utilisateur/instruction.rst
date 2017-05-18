@@ -385,8 +385,11 @@ celui-ci est configuré, (voir :ref:`instruction_geolocalisation` ).
 Commissions
 ===========
 
-L'onglet **Commission(s)** permet de lister et consulter les demandes de passage en commission.
-Sont disponibles seulement les types de commission associés à la collectivité du dossier.
+L'onglet **Commission(s)** permet de lister et consulter les demandes de passage en commissions.
+
+Si on est instructeur d'une collectivité de niveau mono, seuls les types de commissions rattachés à notre collectivité sont affichés.
+
+Si on est instructeur d'une collectivité de niveau multi, tous les types de commissions sont affichés.
 
 ====
 Lots
@@ -565,7 +568,6 @@ Si la consultation est visible, cliquer sur l'icône en forme d'oeil rouge perme
 Si la consultation est masquée, cliquer sur l'icône en forme d'oeil vert permet de la rendre visible.
 
 .. image:: instruction_tab_visible_consultation.png
-
 
 .. _instruction_qualification:
 
