@@ -123,8 +123,9 @@ La taxe d'aménagement
 
 (:menuselection:`Paramétrage --> Organisation --> Taxe D'aménagement`)
 
-Éditions de la taxe d'aménagement par collectivité.
-Il ne peut y avoir qu'un seul paramétrage de taxe par collectivité. Sans ce paramétrage il n'est pas possible de simuler la taxe d'aménagement sur un dossier d'instruction.
+Éditions de la taxe d'aménagement et de la redevance d'archéologie préventive, par collectivité.
+Il ne peut y avoir qu'un seul paramétrage de taxe par collectivité. Sans ce paramétrage il n'est pas possible de simuler la taxe d'aménagement sur un dossier d'instruction. Les collectivités de niveau 1 récupère le paramètrage des taxes associé à la collectivité de niveau 2 si celui-ci existe.
+
 
 Gestion des commissions
 #######################
