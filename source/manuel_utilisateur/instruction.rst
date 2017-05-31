@@ -45,33 +45,36 @@ Dans le fieldset **Enjeu** :
 La simulation des taxes
 =======================
 
-Dans le cadre de la taxe d'aménagement et de la redevance d'archéologie préventive, il y a :
+La simulation des taxes permet d'avoir un estimation du montant de la taxe d'aménagement (TA) et du montant de la redevance d'archéologie préventive (RAP) du projet.
+La TA est découpée en trois parts (communale, départementale et régionale) et un total qui est la somme des parts. Pour chacun des montants deux résultats sont affichés, un comportant le calcul de base, les abattements et l'exonération et le second seulement le calcul de base et les abattements.
+La RAP quand à elle se fait sur la globalité de l'autorisation et affiche seulement deux résultats. La différence entre ces deux résultats est la même que pour la TA.
 
-* le secteur communal ; il est sélectionné automatiquement à l'ajout d'une demande si la collectivité en question a un seul secteur de paramétré (il peut y avoir jusqu'à 20 secteurs par collectivité) sinon, s'il y a en a plusieurs, il faut le choisir manuellement lors de la modification du dossier d'instruction ;
-* le montant liquidé avec exonération de la part communale ;
-* le montant liquidé avec exonération de la part départementale ;
-* le montant liquidé avec exonération de la part régionale (seulement si la collectivité se situe en Île-de-France) ;
-* le montant liquidé avec exonération total ;
-* le montant liquidé sans exonération de la part communale ;
-* le montant liquidé sans exonération de la part départementale ;
-* le montant liquidé sans exonération de la part régionale (seulement si la collectivité se situe en Île-de-France) ;
-* le montant liquidé sans exonération total ;
-* le montant liquidé avec exonération de la redevance d'archéologie préventive (RAP) ;
-* le montant liquidé sans exonération de la RAP.
+Le calcul de base et les abattements se font automatiquement suivant les valeurs saisies dans données techniques du dossier d'instruction. À contrario le montant de l'éxonération doit être saisi manuellement.
+
+Ces estimations sont disponibles sous certaines conditions :
+
+* :ref:`le paramétrage des taxes<parametrage_taxe_amenagement>` pour la collectivité du dossier d'instruction doit être complété ;
+* le secteur communal du dossier d'instruction doit être sélectionné ;
+* le type d'autorisation du dossier d'instruction doit comporter les données techniques nécessaire au calcul des taxes (pour la :ref:`TA<instruction_simulation_taxes_ta>` et pour la :ref:`RAP<instruction_simulation_taxes_rap>`) ;
+* l'utilisateur doit avoir la permission de voir ces informations ;
+* l'option :ref:`option_simulation_taxes<parametrage_parametre>` doit être activée sur la collectivité du dossier d'instruction ;
+* la part régionale ne concerne que les collectivités se situant en Île-de-France.
+
+Concernant le secteur communal du dossier d'instruction, celui-ci est sélectionné automatiquement à l'ajout d'une demande si la collectivité à un seul secteur paramétré (il peut y avoir jusqu'à 20 secteurs par collectivité, voir :ref:`le paramétrage des taxes<parametrage_taxe_amenagement>`), s'il y a en a plusieurs il faut le choisir manuellement lors de la modification du dossier d'instruction.
 
     .. important:: Ce sont les montants avec exonération qui sont récupérés comme champ de fusion dans les éditions.
 
 Tous les montants sont calculés automatiquement à la validation des données techniques, ou lorsque le secteur communal du dossier d'instruction est modifié.
-Dans le cas où le calcul ne peut pas se faire, par manque d'information dans les données techniques par exemple, la valeur des champs sera vide.
+Dans le cas où le calcul ne peut pas se faire, par manque d'information dans les données techniques par exemple, les valeurs des montants seront vides.
 
-    .. important:: Le paramétrage des taxes doit être fait pour que les informations concernant celles-ci s'affichent sur le dossier (:ref:`parametrage_taxe_amenagement`), le cerfa du dossier d'instruction doit aussi avoir les champs nécessaires à la simulation.
+.. _instruction_simulation_taxes_ta:
 
-Formule de calcul de la taxe d'aménagement (TA)
-===============================================
+La taxe d'aménagement (TA)
+==========================
 
-Concernant la taxe d'aménagement, l'application effectue le calcul de base ainsi que les abattements possibles automatiquement. Les exonérations ne sont pas calculées par l'application, il revient à l'utilisateur d'en saisir le montant dans les données techniques.
+Concernant la TA, l'application effectue le calcul de base ainsi que les abattements possibles automatiquement. Les exonérations ne sont pas calculées par l'application, il revient à l'utilisateur d'en saisir le montant dans les données techniques.
 
-Liste des champs des données techniques utilisés pour le calcul de base de la taxe d'aménagement :
+Liste des données techniques utilisés pour le calcul de base de la TA :
 
 * [tax_surf_tot_cstr] → Surface taxable totale créée de la ou des construction(s), hormis les surfaces de stationnement closes et couvertes (en m²) ;
 * [tax_empl_ten_carav_mobil_nb_cr] → Nombre d’emplacements de tentes, de caravanes et de résidences mobiles de loisirs ;
@@ -81,7 +84,7 @@ Liste des champs des données techniques utilisés pour le calcul de base de la 
 * [tax_pann_volt_sup_cr] → Superficie des panneaux photovoltaïques posés au sol ;
 * [tax_am_statio_ext_cr] → Nombre de places de stationnement non couvertes ou non closes.
 
-Liste des champs des données techniques utilisés pour le calcul des abattements de la taxe d'aménagement (pour tous les champs issus d'un tableau la valeur est récupérée de la colonne "Surfaces créées hormis les surfaces de stationnement closes et couvertes") :
+Liste des données techniques utilisés pour le calcul des abattements de la TA (pour tous les champs issus d'un tableau la valeur est récupérée de la colonne "Surfaces créées hormis les surfaces de stationnement closes et couvertes") :
 
 * [tax_su_princ_surf4] → Tableau "Locaux à usage d’habitation principale et leurs annexes" et ligne "Bénéficiant d'un prêt a taux zéro plus (PTZ+)" ;
 * [tax_su_princ_surf3] → Tableau "Locaux à usage d’habitation principale et leurs annexes" et ligne "Bénéficiant d'autres prêts aides (PLUS, LES, PSLA, PLS, LLS)" ;
@@ -95,7 +98,7 @@ Liste des champs des données techniques utilisés pour le calcul des abattement
 
     .. important:: Si ces champs ne sont pas renseignés, les abattements ne seront pas pris en compte dans le calcul.
 
-Détails des abattements de 50% s'appliquant sur les valeurs forfaitaires des constructions suivantes :
+Liste des constructions dont un abattement à 50% s'applique sur la valeur forfaitaire :
 
 1. les locaux d'habitation et d'hébergement aidés (hors PLAI ou LLTS) ;
 2. les 100 premiers mètres carrés des locaux à usage d'habitation principale ;
@@ -104,9 +107,9 @@ Détails des abattements de 50% s'appliquant sur les valeurs forfaitaires des co
 5. les entrepôts et hangars non ouverts au public faisant l'objet d'une exploitation commerciale ;
 6. les parcs de stationnement couverts faisant l'objet d'une exploitation commerciale.
 
-    .. important:: L'abattement 1 et 2 ne sont pas cumulables d'après l'article L331-12 du code de l'urbanisme (depuis le 1 janvier 2011).
+    .. important:: Les abattements 1 et 2 ne sont pas cumulables d'après l'article L331-12 du code de l'urbanisme (depuis le 1 janvier 2011).
 
-Liste des champs des données techniques utilisés pour le calcul de l'exonération de la taxe d'aménagement :
+Liste des données techniques utilisés pour le calcul de l'exonération de la TA :
 
 * [mtn_exo_ta_part_commu] → Montant de l'exonération de la part communale ;
 * [mtn_exo_ta_part_depart] → Montant de l'exonération de la part départementale ;
@@ -114,7 +117,7 @@ Liste des champs des données techniques utilisés pour le calcul de l'exonérat
 
 Les exonérations de plein droit et facultatives peuvent être sélectionnées depuis les données techniques mais seulement à caractère informatif.
 
-Détail du calcul de base de la taxe d'aménagement (les valeurs forfaitaires sont récupérées depuis la table de paramétrage des taxes) :
+Détail du calcul de base de la TA (les valeurs forfaitaires sont récupérées depuis :ref:`le paramétrage des taxes<parametrage_taxe_amenagement>`)) :
 
 * [tax_surf_tot_cstr] * valeur forfaitaire par surface de construction
 * (+) [tax_empl_ten_carav_mobil_nb_cr] * valeur forfaitaire par emplacement de tente, caravane ou résidence mobile de loisirs
@@ -125,40 +128,42 @@ Détail du calcul de base de la taxe d'aménagement (les valeurs forfaitaires so
 * (+) [tax_am_statio_ext_cr] * valeur forfaitaire par parking extérieur
 * = Calcul de base (A)
 
-Détail du calcul des abattements à 50% de la taxe d'aménagement :
+Détail du calcul des abattements à 50% de la TA :
 
 * ([tax_su_princ_surf4] + [tax_su_princ_surf3] + [tax_su_heber_surf3]) * (valeur forfaitaire par surface de construction / 2)
-* (SI [tax_su_princ_surf1] + [tax_su_princ_surf2] > 100 ALORS utiliser comme valeur 100 SINON utiliser la somme des deux champs) * (valeur forfaitaire par surface de construction / 2)
+* (SI [tax_su_princ_surf1] + [tax_su_princ_surf2] > 100 ALORS 100 SINON somme des deux champs) * (valeur forfaitaire par surface de construction / 2)
 * ([tax_su_non_habit_surf2] * (valeur forfaitaire par surface de construction / 2)
 * [tax_su_non_habit_surf3] * (valeur forfaitaire par surface de construction / 2)
 * [tax_su_non_habit_surf4] * (valeur forfaitaire par surface de construction / 2)
 * [tax_su_parc_statio_expl_comm_surf] * (valeur forfaitaire par surface de construction / 2)
 * = Abattements (B)
 
-Pour chacune des parts (communale, départementale et régionale) deux résultats sont générés (les taux sont récupérés depuis la table de paramétrage des taxes) :
+Pour chacune des parts (communale, départementale et régionale) deux résultats sont générés (les taux sont récupérés depuis :ref:`le paramétrage des taxes<parametrage_taxe_amenagement>`)) :
 
 * le premier résultat est ((A-B) * Taux de le part) - le montant de l'exonération de la part ;
 * le second résultat affiche le calcul sans l'exonération.
 
-Formule de calcul de la redevance d'archéologie préventive (RAP)
-================================================================
+.. _instruction_simulation_taxes_rap:
 
-La même méthode de calcul que celle de la taxe d'aménagement est utilisée pour calculer la RAP.
+La redevance d'archéologie préventive (RAP)
+===========================================
 
-Liste des champs des données techniques utilisés pour le calcul de base de la RAP :
+La même méthode de calcul que celle de la TA est utilisée pour calculer la RAP.
 
-* [tax_surf_loc_arch] → Profondeur du(des) terrassement(s) au titre des locaux ;
+Liste des données techniques utilisés pour le calcul de base de la RAP :
+
+* [tax_surf_loc_arch] → Profondeur du(des) terrassement(s) au titre des locaux (en mètre) ;
 * [tax_surf_tot_cstr] → Surface taxable totale créée de la ou des construction(s), hormis les surfaces de stationnement closes et couvertes (en m²) ;
-* [tax_empl_ten_carav_mobil_nb_arch] → Profondeur du(des) terrassement(s) au titre des emplacements de tentes, de caravanes et de résidences mobiles de loisirs ;
+* [tax_empl_ten_carav_mobil_nb_arch] → Profondeur du(des) terrassement(s) au titre des emplacements de tentes, de caravanes et de résidences mobiles de loisirs (en mètre) ;
 * [tax_empl_ten_carav_mobil_nb_cr] → Nombre d’emplacements de tentes, de caravanes et de résidences mobiles de loisirs ;
-* [tax_empl_hll_nb_arch] → Profondeur du(des) terrassement(s) au titre des emplacements pour les habitations légères de loisirs ;
+* [tax_empl_hll_nb_arch] → Profondeur du(des) terrassement(s) au titre des emplacements pour les habitations légères de loisirs (en mètre) ;
 * [tax_empl_hll_nb_cr] → Nombre d’emplacements pour les habitations légères de loisirs ;
-* [tax_surf_pisc_arch] → Profondeur du(des) terrassement(s) au titre de la piscine ;
+* [tax_surf_pisc_arch] → Profondeur du(des) terrassement(s) au titre de la piscine (en mètre) ;
 * [tax_sup_bass_pisc_cr] → Superficie du bassin de la piscine ;
-* [tax_am_statio_ext_arch] → Profondeur du(des) terrassement(s) au titre des emplacements de stationnement ;
+* [tax_am_statio_ext_arch] → Profondeur du(des) terrassement(s) au titre des emplacements de stationnement (en mètre) ;
 * [tax_am_statio_ext_cr] → Nombre de places de stationnement non couvertes ou non closes.
 
-Liste des champs des données techniques utilisés pour le calcul des abattements de la RAP (pour tous les champs issus d'un tableau la valeur est récupérée de la colonne "Surfaces créées hormis les surfaces de stationnement closes et couvertes") :
+Liste des données techniques utilisés pour le calcul des abattements de la RAP (pour tous les champs issus d'un tableau la valeur est récupérée de la colonne "Surfaces créées hormis les surfaces de stationnement closes et couvertes") :
 
 * [tax_su_princ_surf4] → Tableau "Locaux à usage d’habitation principale et leurs annexes" et ligne "Bénéficiant d'un prêt a taux zéro plus (PTZ+)" ;
 * [tax_su_princ_surf3] → Tableau "Locaux à usage d’habitation principale et leurs annexes" et ligne "Bénéficiant d'autres prêts aides (PLUS, LES, PSLA, PLS, LLS)" ;
@@ -172,21 +177,21 @@ Liste des champs des données techniques utilisés pour le calcul des abattement
 
     .. important:: Si ces champs ne sont pas renseignés, les abattements ne seront pas pris en compte dans le calcul.
 
-Détails des abattements de 50% s'appliquant sur les valeurs forfaitaires de construction pour les 100 premiers m² des locaux suivants :
+Liste des constructions dont un abattement à 50% s'applique sur la valeur forfaitaire pour les 100 premiers m² :
 
 1. local d'habitation constituant une résidence principale ;
 2. locaux d'habitation et d'hébergement, ainsi que leurs annexes, édifiés à l'aide d'un prêt locatif à usage social (PLUS), un prêt locatif social (PLS) ou un prêt social de location-accession (PSLA) ;
 3. constructions abritant des activités économiques.
 
-    .. important:: L'abattement 1 et 2 ne sont pas cumulables.
+    .. important:: Les abattements 1 et 2 ne sont pas cumulables.
 
-Liste des champs des données techniques utilisés pour le calcul de l'exonération de la RAP :
+Liste des données techniques utilisés pour le calcul de l'exonération de la RAP :
 
 * [mtn_exo_rap] → Montant de l'exonération.
 
 Les exonérations peuvent être sélectionnées depuis les données techniques mais seulement à caractère informatif.
 
-Détail du calcul de base de la RAP (les valeurs forfaitaires sont récupérés depuis la table de paramétrage des taxes) :
+Détail du calcul de base de la RAP (les valeurs forfaitaires sont récupérés depuis :ref:`le paramétrage des taxes<parametrage_taxe_amenagement>`)) :
 
 * SI [tax_surf_loc_arch] > 0.5 ALORS [tax_surf_tot_cstr] * valeur forfaitaire par surface de construction SINON 0
 * (+) SI [tax_empl_ten_carav_mobil_nb_arch] > 0.5 ALORS [tax_empl_ten_carav_mobil_nb_cr] * valeur forfaitaire par emplacement de tente, caravane ou résidence mobile de loisirs SINON 0
@@ -197,12 +202,12 @@ Détail du calcul de base de la RAP (les valeurs forfaitaires sont récupérés 
 
 Détail du calcul des abattements à 50% de la RAP :
 
-* (SI [tax_su_princ_surf4] + [tax_su_princ_surf3] + tax_su_heber_surf3 > 100 ALORS utiliser comme valeur 100 SINON utiliser la somme des trois champs) * (valeur forfaitaire par surface de construction / 2)
-* (+) (SI [tax_su_princ_surf1] + [tax_su_princ_surf2] > 100 ALORS utiliser comme valeur 100 SINON utiliser la somme des deux champs) * (valeur forfaitaire par surface de construction / 2)
-* (+) (SI [tax_su_non_habit_surf2] + [tax_su_non_habit_surf3] + [tax_su_non_habit_surf4] + [tax_su_parc_statio_expl_comm_surf] > 100 ALORS utiliser comme valeur 100 SINON utiliser la somme des quatre champs) * (valeur forfaitaire par surface de construction / 2)
+* (SI [tax_su_princ_surf4] + [tax_su_princ_surf3] + tax_su_heber_surf3 > 100 ALORS 100 SINON somme des trois champs) * (valeur forfaitaire par surface de construction / 2)
+* (+) (SI [tax_su_princ_surf1] + [tax_su_princ_surf2] > 100 ALORS 100 SINON somme des deux champs) * (valeur forfaitaire par surface de construction / 2)
+* (+) (SI [tax_su_non_habit_surf2] + [tax_su_non_habit_surf3] + [tax_su_non_habit_surf4] + [tax_su_parc_statio_expl_comm_surf] > 100 ALORS 100 SINON somme des quatre champs) * (valeur forfaitaire par surface de construction / 2)
 * = Abattements (B)
 
-Deux résultats sont générés (le taux est récupéré depuis la table de paramétrage des taxes) :
+Deux résultats sont générés (le taux est récupéré depuis :ref:`le paramétrage des taxes<parametrage_taxe_amenagement>`)) :
 
 * le premier résultat est ((A-B) * Taux de le RAP) - le montant de l'exonération ;
 * le second résultat affiche le calcul sans l'exonération.

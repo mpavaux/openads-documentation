@@ -117,14 +117,14 @@ En cochant la case "défaut" le signataire sera préselectionné lors de l'ajout
 
 .. _parametrage_taxe_amenagement:
 
-=====================
-La taxe d'aménagement
-=====================
+=========
+Les taxes
+=========
 
-(:menuselection:`Paramétrage --> Organisation --> Taxe D'aménagement`)
+(:menuselection:`Paramétrage --> Organisation --> Taxes`)
 
-Éditions de la taxe d'aménagement et de la redevance d'archéologie préventive, par collectivité.
-Il ne peut y avoir qu'un seul paramétrage de taxe par collectivité. Sans ce paramétrage il n'est pas possible de simuler la taxe d'aménagement sur un dossier d'instruction. Les collectivités de niveau 1 récupère le paramètrage des taxes associé à la collectivité de niveau 2 si celui-ci existe.
+Ce menu de paramétrage des taxes permet de renseigner les valeurs forfaitaires, le taux communale, le taux départementale, le taux régionale et les taux des exonérations facultatives de la taxe d'aménagement. Il permet également de définir le taux de la redevance d'archéologie préventive.
+Il ne peut y avoir qu'un seul paramétrage de taxe par collectivité. Sans ce paramétrage il n'est pas possible d'estimer les montants des taxes sur un dossier d'instruction. Les collectivités de niveau 1 récupère le paramètrage des taxes associé à la collectivité de niveau 2 si celui-ci existe.
 
 
 Gestion des commissions
