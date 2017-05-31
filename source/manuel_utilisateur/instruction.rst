@@ -64,10 +64,10 @@ Dans le cadre de la taxe d'aménagement et de la redevance d'archéologie préve
 Tous les montants sont calculés automatiquement à la validation des données techniques, ou lorsque le secteur communal du dossier d'instruction est modifié.
 Dans le cas où le calcul ne peut pas se faire, par manque d'information dans les données techniques par exemple, la valeur des champs sera vide.
 
-    .. important:: Le paramétrage des taxes doit être fait pour que les informations concernant celle-ci s'affiche sur le dossier (:ref:`parametrage_taxe_amenagement`), le cerfa du dossier d'instruction doit aussi avoir les champs nécessaires à la simulation.
+    .. important:: Le paramétrage des taxes doit être fait pour que les informations concernant celles-ci s'affichent sur le dossier (:ref:`parametrage_taxe_amenagement`), le cerfa du dossier d'instruction doit aussi avoir les champs nécessaires à la simulation.
 
-Formule de calul de la taxe d'aménagement
-=========================================
+Formule de calcul de la taxe d'aménagement (TA)
+===============================================
 
 Concernant la taxe d'aménagement, l'application effectue le calcul de base ainsi que les abattements possibles automatiquement. Les exonérations ne sont pas calculées par l'application, il revient à l'utilisateur d'en saisir le montant dans les données techniques.
 
@@ -104,7 +104,7 @@ Détails des abattements de 50% s'appliquant sur les valeurs forfaitaires des co
 5. les entrepôts et hangars non ouverts au public faisant l'objet d'une exploitation commerciale ;
 6. les parcs de stationnement couverts faisant l'objet d'une exploitation commerciale.
 
-    .. important:: L'abattement 1 et 2 ne sont pas cumulable d'après l'article L331-12 du code de l'urbanisme (depuis le 1 janvier 2011).
+    .. important:: L'abattement 1 et 2 ne sont pas cumulables d'après l'article L331-12 du code de l'urbanisme (depuis le 1 janvier 2011).
 
 Liste des champs des données techniques utilisés pour le calcul de l'exonération de la taxe d'aménagement :
 
@@ -112,9 +112,9 @@ Liste des champs des données techniques utilisés pour le calcul de l'exonérat
 * [mtn_exo_ta_part_depart] → Montant de l'exonération de la part départementale ;
 * [mtn_exo_ta_part_reg] → Montant de l'exonération de la part régionale.
 
-Les exonérations de plein droit et facultatives peuvent être sélectionnées depuis les données techniques de façon informatif.
+Les exonérations de plein droit et facultatives peuvent être sélectionnées depuis les données techniques mais seulement à caractère informatif.
 
-Détail du calcul de base de la taxe d'aménagement (les valeurs forfaitaires sont récupérés depuis la table de paramétrage des taxes) :
+Détail du calcul de base de la taxe d'aménagement (les valeurs forfaitaires sont récupérées depuis la table de paramétrage des taxes) :
 
 * [tax_surf_tot_cstr] * valeur forfaitaire par surface de construction
 * (+) [tax_empl_ten_carav_mobil_nb_cr] * valeur forfaitaire par emplacement de tente, caravane ou résidence mobile de loisirs
@@ -143,7 +143,7 @@ Pour chacune des parts (communale, départementale et régionale) deux résultat
 Formule de calcul de la redevance d'archéologie préventive (RAP)
 ================================================================
 
-La même méthode de calcul que celle de la taxe d'aménagement est utilsée pour calculer la RAP.
+La même méthode de calcul que celle de la taxe d'aménagement est utilisée pour calculer la RAP.
 
 Liste des champs des données techniques utilisés pour le calcul de base de la RAP :
 
@@ -178,15 +178,15 @@ Détails des abattements de 50% s'appliquant sur les valeurs forfaitaires de con
 2. locaux d'habitation et d'hébergement, ainsi que leurs annexes, édifiés à l'aide d'un prêt locatif à usage social (PLUS), un prêt locatif social (PLS) ou un prêt social de location-accession (PSLA) ;
 3. constructions abritant des activités économiques.
 
-    .. important:: L'abattement 1 et 2 ne sont pas cumulable.
+    .. important:: L'abattement 1 et 2 ne sont pas cumulables.
 
 Liste des champs des données techniques utilisés pour le calcul de l'exonération de la RAP :
 
 * [mtn_exo_rap] → Montant de l'exonération.
 
-Les exonérations peuvent être sélectionnées depuis les données techniques de façon informatif.
+Les exonérations peuvent être sélectionnées depuis les données techniques mais seulement à caractère informatif.
 
-Détail du calcul de base de la taxe d'aménagement (les valeurs forfaitaires sont récupérés depuis la table de paramétrage des taxes) :
+Détail du calcul de base de la RAP (les valeurs forfaitaires sont récupérés depuis la table de paramétrage des taxes) :
 
 * SI [tax_surf_loc_arch] > 0.5 ALORS [tax_surf_tot_cstr] * valeur forfaitaire par surface de construction SINON 0
 * (+) SI [tax_empl_ten_carav_mobil_nb_arch] > 0.5 ALORS [tax_empl_ten_carav_mobil_nb_cr] * valeur forfaitaire par emplacement de tente, caravane ou résidence mobile de loisirs SINON 0
