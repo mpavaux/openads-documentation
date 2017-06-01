@@ -126,6 +126,8 @@ Les taxes
 Ce menu de paramétrage des taxes permet de renseigner les valeurs forfaitaires, le taux communale, le taux départementale, le taux régionale et les taux des exonérations facultatives de la taxe d'aménagement. Il permet également de définir le taux de la redevance d'archéologie préventive.
 Il ne peut y avoir qu'un seul paramétrage de taxe par collectivité. Sans ce paramétrage il n'est pas possible d'estimer les montants des taxes sur un dossier d'instruction. Les collectivités de niveau 1 récupère le paramètrage des taxes associé à la collectivité de niveau 2 si celui-ci existe.
 
+.. image:: taxe_amenagement_form.png
+
 
 Gestion des commissions
 #######################

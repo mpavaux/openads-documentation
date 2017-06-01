@@ -51,6 +51,8 @@ La RAP quand à elle se fait sur la globalité de l'autorisation et affiche seul
 
 Le calcul de base et les abattements se font automatiquement suivant les valeurs saisies dans données techniques du dossier d'instruction. À contrario le montant de l'éxonération doit être saisi manuellement.
 
+.. image:: instruction_simulation_taxes.png
+
 Ces estimations sont disponibles sous certaines conditions :
 
 * :ref:`le paramétrage des taxes<parametrage_taxe_amenagement>` pour la collectivité du dossier d'instruction doit être complété ;
@@ -116,6 +118,8 @@ Liste des données techniques utilisés pour le calcul de l'exonération de la T
 * [mtn_exo_ta_part_reg] → Montant de l'exonération de la part régionale.
 
 Les exonérations de plein droit et facultatives peuvent être sélectionnées depuis les données techniques mais seulement à caractère informatif.
+
+.. image:: instruction_simulation_taxes_dt_ta.png
 
 Détail du calcul de base de la TA (les valeurs forfaitaires sont récupérées depuis :ref:`le paramétrage des taxes<parametrage_taxe_amenagement>`)) :
 
@@ -190,6 +194,8 @@ Liste des données techniques utilisés pour le calcul de l'exonération de la R
 * [mtn_exo_rap] → Montant de l'exonération.
 
 Les exonérations peuvent être sélectionnées depuis les données techniques mais seulement à caractère informatif.
+
+.. image:: instruction_simulation_taxes_dt_rap.png
 
 Détail du calcul de base de la RAP (les valeurs forfaitaires sont récupérés depuis :ref:`le paramétrage des taxes<parametrage_taxe_amenagement>`)) :
 
