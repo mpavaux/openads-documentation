@@ -146,6 +146,65 @@ L'annuaire
 
 Gestion des utilisateurs grâce à un LDAP.
 
+
+Gestion de la confidentialité des dossiers
+##########################################
+
+Par défaut dans openADS, tous les dossiers sont visibles par tous les
+utilisateurs, du moment que l'utilisateur est de la même collectivité que le
+dossier ou si l'utilisateur est affecté à la collectivité de niveau 2.
+
+Selon le besoin, il est possible d'avoir des dossiers dits confidentiels qui
+sont ajoutables, consultables et modifiables seulement par certains utilisateurs
+ou groupes d'utilisateurs.
+
+Afin de rendre confidentiels certains dossiers, il faut d'abord paramétrer le 
+:ref:`type de dossier de dossier d'autorisation <parametrage_dossiers_dossier_autorisation_type>`
+comme confidentiel et choisir en tant que groupe le groupe d'utilisateurs qui
+aura accès aux dossiers de ce type.
+Chaque profil d'utilisateur est lié à un ou plusieurs groupes, avec un
+paramètre définissant l'accès aux dossiers confidentiels de ces groupes. Si un
+profil a accès aux dossiers confidentiels d'un groupe, alors tous les
+utilisateurs avec ce profil auront accès aux dossiers confidentiels de ce groupe.
+Il est également possible de redéfinir ces accès attribués à tous les
+utilisateurs d'un profil, en paramétrant par utilisateur les groupes auxquels
+il a accès. Cela permet d'ajouter ou de retirer des accès à un utilisateur en
+particulier.
+
+.. NOTE:: Le paramétrage de groupe par utilisateur prend entièrement le pas sur le paramétrage du profil. Du moment qu'un groupe a été ajouté à l'utilisateur, les groupes paramétrés sur le profil n'ont plus d'effet pour cet utilisateur. Chaque groupe auquel l'utilisateur a accès doit donc être ajouté à l'utilisateur.
+
+Prenons en exemple le type de dossier d'autorisation "Déclaration d'intention
+d'aliéner", lié au groupe ADS. En choisissant le paramètre confidentiel *Non*,
+il sera alors visible par tous les utilisateurs.
+Passons maintenant le paramètre confidentiel à *Oui*. Le dossier devient alors
+seulement visible aux utilisateurs du groupe ADS ayant accès aux dossiers
+confidentiels.
+Disons que nous avons un profil *Instructeur* lié au groupe ADS (avec accès aux
+dossiers confidentiels), et un profil *Visualisation DA et DI* qui est lié
+au groupe ADS (sans accès aux confidentiels).
+De fait, tous les utilisateurs avec le profil *Instructeur* pourront accéder aux
+dossiers déclaration d'intention d'aliéner, mais pas les utilisateurs
+*Visualisation DA et DI*.
+
+Paramétrage par défaut du profil *Visualisation DA et DI* :
+
+.. image:: administration_om_profil_groupe.png
+
+Si on souhaite faire une exception pour un utilisateur ayant le profil
+*Visualisation DA et DI*, on peut donner lui donner l'accès aux dossiers
+confidentiels sans impacter les autres utilisateurs avec ce profil. Il suffit,
+depuis le paramétrage de l'utilisateur, de le lier une nouvelle fois au groupe
+ADS avec cette fois l'accès aux dossiers confidentiels de ce groupe. Ce
+paramétrage du groupe directement par utilisateur prenant le pas sur le
+paramétrage par profil, cet utilisateur pourra avoir accès aux dossiers DIA,
+mais pas les autres utilisateurs avec le profil *Visualisation DA et DI*.
+
+Illustration du paramétrage pour cet utilisateur :
+
+.. image:: administration_om_utilisateur_groupe.png
+
+.. NOTE:: Les groupes auxquels l'utilisateur est attaché sont visibles dans le widget :ref:`Infos profil<widget_infos_profil>`.
+
 Tableaux de Bord
 ################
 
