@@ -28,6 +28,14 @@ Toutes les infractions
 
 Liste de toutes les infractions de la collectivité de l'utilisateur connecté.
 
+Nouveau dossier
+===============
+(:menuselection:`Contentieux --> Infractions --> Nouvelle Demande --> Nouveau Dossier`)
+
+Un dossier d'infraction est créé directement depuis la section Contentieux. Soit depuis le menu, soit depuis un listing d'infractions, par le biais de l'icône *+* verte.
+
+La création  d'un dossier d'infraction respecte la mécanique de saisie des dossiers ADS.
+
 .. _contentieux_recours:
 
 =======
@@ -52,36 +60,29 @@ Tous les recours
 
 Liste de tous les recours de la collectivité de l'utilisateur connecté.
 
-Les nouvelles demandes de recours
-#################################
+Nouveau dossier
+===============
+(:menuselection:`Contentieux --> Recours --> Nouvelle Demande --> Nouveau Dossier`)
 
-==================
-Saisir une demande
-==================
+Un dossier de recours est créé directement depuis la section *Contentieux*. Soit depuis le menu, soit depuis un listing de recours, par le biais de l'icône *+* verte.
 
-Une demande peut être de deux types différents : elle peut concerner soit un
-dossier de recours gracieux soit un dossier de recours contentieux.
+Il peut être de deux types différents : 
 
-.. _contentieux_demande_nouveau_dossier:
+* un recours gracieux
+* un recours contentieux.
 
-Pour un nouveau dossier
-=======================
+Quelque soit son type, la création d'un dossier de recours implique de connaître le numéro de l'autorisation contestée.
+Il s'agit ici du numéro de dossier d'intruction.
 
-(:menuselection:`Guichet Unique --> Nouvelle demande --> Nouveau Dossier`)
+La saise s'effectue en 4 temps :
 
-La demande va donner lieu à la création d'un nouveau dossier de recours.
-La première étape est donc la sélection du type de dossier d'autorisation qui a
-été déposé. Il est ensuite demander de saisir le numéro de dossier se lequel le
-recours s'applique.
+#. Sélection du type de dossier
+#. Saisie du numéro de l'autorisation contestée
+#. Identification de l'autorisation et recopie des valeurs courantes
+#. Saisie des informations complémentaires (données techniques, etc)
 
     .. image:: contentieux_demande_dossier_recours.png
 
-Une fois le numéro de dossier contesté validé ses informations sont récupérées
-et préremplies dans la nouvelle demande.
-
-Si le dossier n'existe pas, un message d'erreur apparait :
+S'il n'existe aucune autorisation correspondant au numéro saisi, un message d'erreur est présneté à l'utilisateur :
 
     .. image:: contentieux_demande_dossier_recours_erreur_dossier_conteste.png
-
-Après la validation du formulaire de la demande le dossier de recours est créé et 
-rattaché au dossier contesté.
