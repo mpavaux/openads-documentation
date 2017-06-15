@@ -1,3 +1,5 @@
+.. _profil_service_consulte_interne:
+
 ########################
 SERVICE CONSULTÉ INTERNE
 ########################
@@ -5,7 +7,7 @@ SERVICE CONSULTÉ INTERNE
 Description
 ===========
 
-C'est le profil utilisé pour les services consultés interne à la commune. Il va leur permettre :
+C'est le profil utilisé pour les services consultés internes à la commune. Il va leur permettre :
 
 - de répondre directement depuis le logiciel aux consultations de service qui leurs sont adressés ;
 - de voir les avis qui avaient été rendus ;
@@ -49,8 +51,8 @@ Recherche
 
 - Visualiser la liste des dossiers d'instruction de la collectivité de l'instructeur connecté ou de toutes les collectivités si l'instructeur appartient à la collectivité multi.
 - Rechercher des dossiers d'instruction en fonction de plusieurs critères.
-- Accéder aux dossiers d'instruction dans le sig
-- Accéder à la fiche de visualisation d'un dossier d'instruction
+- Accéder aux dossiers d'instruction dans le SIG.
+- Accéder à la fiche de visualisation d'un dossier d'instruction.
 
 .. sidebar:: Note :
 
@@ -60,9 +62,9 @@ Action(s) disponible(s) par onglet :
 
   - *DI* :
 
-    - Accéder a la fiche de visualisation des données techniques
-    - Accéder au dossier d'instruction dans le SIG
-    - Afficher l'édition de récapitulatif du dossier d'instruction
+    - Accéder à la fiche de visualisation des données techniques.
+    - Accéder au dossier d'instruction dans le SIG.
+    - Afficher l'édition de récapitulatif du dossier d'instruction.
 
   - *Pièce(s)* :
 

@@ -554,6 +554,7 @@ Services consultés
     
     profils/service_consulte.rst
     profils/service_consulte_interne.rst
+    profils/service_consulte_di.rst
     profils/service_consulte_etendu.rst
     
 Contentieux
