@@ -69,7 +69,7 @@ devra être coché afin de continuer la saisie (voir :ref:`parametrage_dossiers_
 
 Le reste de la saisie consiste en la saisie des informations suivantes :
 
-* la date de la demande (:ref:`modifier la date de dépôt <instruction_action_modifier_date>`)
+* la date de la demande
 * la ou les références cadastrales
 * l'adresse et la superficie du terrain
 * le pétitionnaire principal 
