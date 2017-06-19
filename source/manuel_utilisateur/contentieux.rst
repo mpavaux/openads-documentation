@@ -36,11 +36,12 @@ Liste de toutes les infractions de la collectivité de l'utilisateur connecté.
 
 Nouveau dossier
 ===============
-(:menuselection:`Contentieux --> Infractions --> Nouvelle Demande --> Nouveau Dossier`)
+(:menuselection:`Contentieux --> Nouvelle Demande --> Nouveau Dossier`)
 
 Un dossier d'infraction est créé directement depuis la section Contentieux. Soit depuis le menu, soit depuis un listing d'infractions, par le biais de l'icône *+* verte.
 
-La création  d'un dossier d'infraction respecte la mécanique de saisie des dossiers ADS.
+La création d'un dossier d'infraction respecte la mécanique de :ref:`saisie des
+dossiers ADS.<guichet_unique_nouvelle_demande>`
 
 .. _contentieux_recours:
 
@@ -74,7 +75,7 @@ Liste de tous les recours de la collectivité de l'utilisateur connecté.
 
 Nouveau dossier
 ===============
-(:menuselection:`Contentieux --> Recours --> Nouvelle Demande --> Nouveau Dossier`)
+(:menuselection:`Contentieux --> Nouvelle Demande --> Nouveau Dossier`)
 
 Un dossier de recours est créé directement depuis la section *Contentieux*. Soit depuis le menu, soit depuis un listing de recours, par le biais de l'icône *+* verte.
 

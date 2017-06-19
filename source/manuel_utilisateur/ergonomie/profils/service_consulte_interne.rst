@@ -62,7 +62,6 @@ Action(s) disponible(s) par onglet :
 
   - *DI* :
 
-    - Accéder à la fiche de visualisation des données techniques.
     - Accéder au dossier d'instruction dans le SIG.
     - Afficher l'édition de récapitulatif du dossier d'instruction.
 
