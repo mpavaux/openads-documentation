@@ -128,3 +128,18 @@ Action(s) disponible(s) par onglet :
     - Visualiser la liste des dossiers d'instruction portant sur la même autorisation.
     - Visualiser la liste des dossiers d'autorisation liés géographiquement.
     - Accéder à chacun de ces dossiers.
+
+Rubrique *Contentieux*
+----------------------
+
+Tous Les Recours
+################
+
+Voir :ref:`Tous Les Recours<contentieux_tous_les_recours>` dans la section
+contentieux.
+
+Toutes Les Infractions
+######################
+
+Voir :ref:`Toutes Les Infractions<contentieux_toutes_les_infractions>` dans la
+section contentieux.

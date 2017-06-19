@@ -88,14 +88,80 @@ Menu
 Rubrique *Autorisation*
 -----------------------
 
-Actions identiques à celles du profil "instructeur" (cf :ref:`Rubrique autorisation<profil_instructeur_rubrique_autorisation>`)
+Actions identiques à celles du profil "instructeur" (cf :ref:`Rubrique autorisation<profil_instructeur_rubrique_autorisation>`).
 
 Rubrique *Instruction*
 ----------------------
 
-Actions identiques à celles du profil "instructeur" (cf :ref:`Rubrique instruction<profil_instructeur_rubrique_instruction>`)
+Actions identiques à celles du profil "instructeur" (cf :ref:`Rubrique instruction<profil_instructeur_rubrique_instruction>`).
 
 Rubrique *Demande D'avis*
 -------------------------
 
-Actions identiques à celles du profil "service consulté" (cf :ref:`Rubrique demande d'avis<profil_service_consulte_rubrique_demande_avis>`)
+Actions identiques à celles du profil "service consulté" (cf :ref:`Rubrique demande d'avis<profil_service_consulte_rubrique_demande_avis>`).
+
+Rubrique *Contentieux*
+----------------------
+
+Nouveau Dossier
+###############
+
+Voir :ref:`nouveau dossier infraction<contentieux_nouveau_dossier_infraction>`
+ou :ref:`nouveau dossier recours<contentieux_nouveau_dossier_recours>` dans la
+section contentieux.
+
+Mes Recours
+###########
+
+Voir :ref:`Mes Recours<contentieux_mes_recours>` dans la section contentieux.
+
+Tous Les Recours
+################
+
+Voir :ref:`Tous Les Recours<contentieux_tous_les_recours>` dans la section
+contentieux.
+
+Mes Infractions
+###############
+
+Voir :ref:`Mes Infractions<contentieux_mes_infrations>` dans la section
+contentieux.
+
+Toutes Les Infractions
+######################
+
+Voir :ref:`Toutes Les Infractions<contentieux_toutes_les_infractions>` dans la
+section contentieux.
+
+.. _profil_juriste_mes_messages:
+
+Mes Messages
+############
+
+- Visualiser la liste des dossiers contentieux instruits par l'utilisateur
+  connecté qui ont des messages non lus.
+- Accéder à la fiche de visualisation du message dans le contexte du dossier
+  contentieux.
+
+.. _profil_juriste_messages_division:
+
+Messages De Ma Division
+#######################
+
+- Visualiser la liste des dossiers contentieux instruits par la division de
+  l'utilisateur connecté pour lesquels un avis a été rendu et qu'il n'a pas
+  encore été lu.
+- Accéder à la fiche de visualisation de la consultation dont l'avis a été rendu
+  dans le contexte du dossier contentieux.
+
+.. _profil_juriste_tous_les_messages:
+
+Tous Les Messages
+#################
+
+- Visualiser la liste des dossiers contentieux instruits dans la collectivité de
+  l'utilisateur connecté (si l'utilisateur est affecté à la collectivité de
+  niveau 2 alors la liste contient les dossiers de toutes les collectivtés) qui
+  ont des messages non lus.
+- Accéder à la fiche de visualisation du message dans le contexte du dossier
+  contentieux.

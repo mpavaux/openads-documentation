@@ -14,6 +14,8 @@ Infractions
 
 Cette rubrique propose les entrées de menu des tableaux listant les infractions.
 
+.. _contentieux_mes_infrations:
+
 Mes infractions
 ===============
 
@@ -21,12 +23,16 @@ Mes infractions
 
 Liste des infractions associées à l'utilisateur connecté.
 
+.. _contentieux_toutes_les_infractions:
+
 Toutes les infractions
 ======================
 
 (:menuselection:`Contentieux --> Infractions --> Toutes les infractions`)
 
 Liste de toutes les infractions de la collectivité de l'utilisateur connecté.
+
+.. _contentieux_nouveau_dossier_infraction:
 
 Nouveau dossier
 ===============
@@ -46,12 +52,16 @@ Recours
 
 Cette rubrique propose les entrées de menu des tableaux listant les recours.
 
+.. _contentieux_mes_recours:
+
 Mes recours
 ===========
 
 (:menuselection:`Contentieux --> Recours --> Mes recours`)
 
 Liste des recours associées à l'utilisateur connecté.
+
+.. _contentieux_tous_les_recours:
 
 Tous les recours
 ================
@@ -60,13 +70,15 @@ Tous les recours
 
 Liste de tous les recours de la collectivité de l'utilisateur connecté.
 
+.. _contentieux_nouveau_dossier_recours:
+
 Nouveau dossier
 ===============
 (:menuselection:`Contentieux --> Recours --> Nouvelle Demande --> Nouveau Dossier`)
 
 Un dossier de recours est créé directement depuis la section *Contentieux*. Soit depuis le menu, soit depuis un listing de recours, par le biais de l'icône *+* verte.
 
-Il peut être de deux types différents : 
+Il peut être de deux types différents :
 
 * un recours gracieux
 * un recours contentieux.

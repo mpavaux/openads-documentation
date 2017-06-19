@@ -30,7 +30,7 @@ Tableau de bord innaccessible : redirection automatique vers la liste des demand
 Menu
 ----
 
-.. image:: menu_consu.png
+.. image:: menu_consuint.png
 
 Rubrique *Autorisation*
 -----------------------
@@ -79,6 +79,15 @@ Action(s) disponible(s) par onglet :
     - Visualiser la liste des dossiers d'autorisation liés géographiquement.
     - Accéder aux dossiers d'instruction portant sur la même autorisation dans le SIG
     - Accéder à chacun de ces dossiers.
+
+Rubrique *Contentieux*
+----------------------
+
+Tous Les Recours
+################
+
+Voir :ref:`Tous Les Recours<contentieux_tous_les_recours>` dans la section
+contentieux.
 
 Rubrique *Demandes D'avis*
 --------------------------

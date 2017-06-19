@@ -86,3 +86,25 @@ Rubrique *Demande D'avis*
 -------------------------
 
 Actions identiques à celles du profil "service consulté" (cf :ref:`Rubrique demande d'avis<profil_service_consulte_rubrique_demande_avis>`)
+
+Rubrique *Contentieux*
+----------------------
+
+Nouveau Dossier
+###############
+
+Voir :ref:`nouveau dossier infraction<contentieux_nouveau_dossier_infraction>`
+ou :ref:`nouveau dossier recours<contentieux_nouveau_dossier_recours>` dans la
+section contentieux.
+
+Tous Les Recours
+################
+
+Voir :ref:`Tous Les Recours<contentieux_tous_les_recours>` dans la section
+contentieux.
+
+Toutes Les Infractions
+######################
+
+Voir :ref:`Toutes Les Infractions<contentieux_toutes_les_infractions>` dans la
+section contentieux.

@@ -129,7 +129,7 @@ La liste des autres actions est disponible dans la partie `Recherche`_.
 Mes clôturés
 ############
 
-- Visualiser la liste des dossiers d'instruction clôturés affecté à l'instructeur connecté.
+- Visualiser la liste des dossiers d'instruction clôturés affectés à l'instructeur connecté.
 
 La liste des autres actions est disponible dans la partie `Recherche`_.
 
@@ -262,11 +262,11 @@ Action(s) disponible(s) par onglet :
     - Accéder à chacun de ces dossiers.
 
 
-Dossier à qualifier
-###################
+Dossiers à qualifier
+####################
 
 - Visualiser la liste des dossiers d'instruction a qualifier instruits par la division l'instructeur connecté.
-- Accéder aux dossiers d'instruction dans le sig
+- Accéder aux dossiers d'instruction dans le SIG
 
 La liste des autres actions est disponible dans la partie `Recherche`_.
 
@@ -334,3 +334,20 @@ Tous les messages
 
 - Visualiser la liste des dossiers d'instruction instruits par la division de l'instructeur connecté qui ont un retour de commission non lu.
 - Accéder à la fiche de visualisation du message dans le contexte du dossier d'instruction.
+
+.. _profil_instructeur_rubrique_contentieux:
+
+Rubrique *Contentieux*
+----------------------
+
+Tous Les Recours
+################
+
+Voir :ref:`Tous Les Recours<contentieux_tous_les_recours>` dans la section
+contentieux.
+
+Toutes Les Infractions
+######################
+
+Voir :ref:`Toutes Les Infractions<contentieux_toutes_les_infractions>` dans la
+section contentieux.

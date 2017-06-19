@@ -30,7 +30,7 @@ Tableau de bord innaccessible : redirection automatique vers la liste des demand
 Menu
 ----
 
-.. image:: menu_consu.png
+.. image:: menu_consudi.png
 
 Rubrique *Autorisation*
 -----------------------
