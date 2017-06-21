@@ -140,6 +140,8 @@ Tous les clôturés
 
 La liste des autres actions est disponible dans la partie `Recherche`_.
 
+.. _profil_instructeur_rubrique_instruction_recherche:
+
 Recherche
 #########
 
@@ -151,7 +153,7 @@ Recherche
 .. sidebar:: Note :
 
     Certaines actions peuvent ne pas être accessibles en fonction des données de l'instruction.
-    
+
 .. sidebar:: Note :
 
     Les actions SIG sont disponibles si celui-ci est paramétré pour la collectivité du dossier d'instruction.
