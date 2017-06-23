@@ -714,18 +714,18 @@ Il existe plusieurs types de liaison entre les dossiers :
 
     * dans l'encadré orange, il s'agit du lien vers le dossier d'autorisation ;
     * dans l'encadré violet, les dossiers d'instruction liés manuellement ou implicitement par le dossier d'autorisation ;
+    * dans l'encadré bleu clair, les dossiers sur lesquels un lien vers le dossier courant a été établi ;
     * dans l'encadré vert, les dossiers d'autorisation liés géographiquement, c'est-à-dire ayant au moins une parcelle commune.
 
 .. note::
-    Lors de liaisons manuelles entre dossiers d'instruction, seulement le dossier courant liste les dossiers d'instruction liés.
-    Le dossier d'instruction ciblé par la liaison ne verra pas sur son tableau le dossier d'instuction source, c'est-à-dire celui depuis lequel la liaison a été faite.
+    Des dossiers auxquels vous n'avez pas accès sont susceptibles d'apparaître à titre indicatif dans les différents listings. Si vous essayez de les consulter en cliquant dessus, vous rencontrerez donc une erreur de droits insuffisants.
 
 Il est possible depuis l'action d'ajout "+" dans le tableau des dossiers d'instruction liés (encadré violet), d'ajouter des liaisons avec d'autres dossiers d'instruction.
 Il n'est pas possible de lier le dossiers d'instruction courant deux fois à un même DI ou de le lier manuellement à un DI déjà lié implicitement par le dossier d'autorisation.
 
 .. image:: instruction_dossiers_lies_form_ajout.png
 
-Les liaisons manuelles peuvent être supprimées depuis le tableau grâce à l'action de suppression "X" disponible sur chaque ligne.
+Les liaisons manuelles peuvent être supprimées seulement depuis le tableau **Dossiers liés** grâce à l'action de suppression "X" disponible sur chaque ligne. Par la même occasion, le dossier courant n'apparaîtra plus dans le tableau des liaisons retour du dossier pour lequel on a supprimé la liaison.
 
 .. note::
     Dans le cas des recours (contentieux), il existe une notion de liaison principale avec un dossier d'instruction.
