@@ -422,7 +422,8 @@ Les informations à saisir sont  :
   :ref:`parametrage_dossiers_avis_decision`).
 * **lettre type** : (voir :ref:`parametrage_dossiers_om_etat_lettretype`).
 * **consultation** : cette case à cocher est présente pour afficher la liste
-  des consultations dans l'édition.
+  des consultations dans le complément sous la forme  « Vu l'avis » avis rendu
+  « du service » nom du service consulté.
 * **phase** : liste à choix des :ref:`phases <parametrage_phase>` à afficher sur la lettre recommandée.
 * **autorité compétente** : liste des autorité possible
   des consultations dans l'édition.
