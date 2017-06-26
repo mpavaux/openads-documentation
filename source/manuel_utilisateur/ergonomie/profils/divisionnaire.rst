@@ -51,3 +51,18 @@ Rubrique *Instruction*
 ----------------------
 
 Actions identiques à celles du profil "instructeur" (cf :ref:`Rubrique instruction<profil_instructeur_rubrique_instruction>`)
+
+Rubrique *Contentieux*
+----------------------
+
+Tous Les Recours
+################
+
+Voir :ref:`Tous Les Recours<contentieux_tous_les_recours>` dans la section
+contentieux.
+
+Toutes Les Infractions
+######################
+
+Voir :ref:`Toutes Les Infractions<contentieux_toutes_les_infractions>` dans la
+section contentieux.
