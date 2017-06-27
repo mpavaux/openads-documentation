@@ -36,8 +36,8 @@ Dans le fieldset **Enjeu** :
 
 .. image:: instruction_dossier_instruction_form_enjeu_fieldset.png
 
-* Il y a un champ **contentieux** pour indiquer si au moins un dossier en cours **Infraction** ou **Recours** est déposé pour une ou plusieurs parcelles du dossier.
-  Le cas échéant le champ contiendra respectivement **IN** en rouge ou **RE** en orange.
+* Le champ **contentieux** indique si au moins un dossier en cours **Infraction** ou **Recours** concerne une ou plusieurs parcelles du dossier.
+  Le cas échéant le champ contiendra respectivement **RE** en orange et **IN** en rouge.
 
 
 .. _instruction_simulation_taxes:
