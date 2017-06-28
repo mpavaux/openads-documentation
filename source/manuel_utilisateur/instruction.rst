@@ -710,15 +710,15 @@ Dossiers liés
 .. image:: instruction_dossiers_lies.png
 
 L'onglet **Dossiers liés** permet d'obtenir tous les dossiers liés au dossier d'instruction courant.
-Il existe plusieurs types de liaison entre les dossiers :
+Il existe qautre types de liaison entre les dossiers pour quatre listings différents. Dans l'ordre :
 
-    * dans l'encadré orange, il s'agit du lien vers le dossier d'autorisation ;
-    * dans l'encadré violet, les dossiers d'instruction liés manuellement ou implicitement par le dossier d'autorisation ;
-    * dans l'encadré bleu clair, les dossiers sur lesquels un lien vers le dossier courant a été établi ;
-    * dans l'encadré vert, les dossiers d'autorisation liés géographiquement, c'est-à-dire ayant au moins une parcelle commune.
+    * dossier d'autorisation ;
+    * dossiers d'instruction liés manuellement ou implicitement par le dossier d'autorisation ;
+    * dossiers sur lesquels un lien vers le dossier courant a été établi ;
+    * dossiers d'autorisation liés géographiquement, c'est-à-dire ayant au moins une parcelle commune.
 
 .. note::
-    Des dossiers auxquels vous n'avez pas accès sont susceptibles d'apparaître à titre indicatif dans les différents listings. Si vous essayez de les consulter en cliquant dessus, vous rencontrerez donc une erreur de droits insuffisants.
+    Des dossiers auxquels vous n'avez pas accès sont susceptibles d'apparaître à titre indicatif dans les différents listings. Si vous essayez de les consulter en cliquant dessus alors vous rencontrerez une erreur de droits insuffisants.
 
 Il est possible depuis l'action d'ajout "+" dans le tableau des dossiers d'instruction liés (encadré violet), d'ajouter des liaisons avec d'autres dossiers d'instruction.
 Il n'est pas possible de lier le dossiers d'instruction courant deux fois à un même DI ou de le lier manuellement à un DI déjà lié implicitement par le dossier d'autorisation.
