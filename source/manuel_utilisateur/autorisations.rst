@@ -19,15 +19,15 @@ Les dossiers d'autorisation sont listés par ordre alphabétique.
 
 Une recherche peut être effectuée sur plusieurs critères :
 
-- numéro de dossier
+- le numéro de dossier
 
-- type detaillé de dossier d'autorisation
+- le type detaillé de dossier d'autorisation
 
-- nom du demandeur
+- le nom du demandeur
 
-- parcelle
+- la parcelle
 
-- l'adresse du terrain
+- la localisation
 
 - l'arrondissement
 
@@ -66,7 +66,7 @@ Il existe 3 groupes d'informations :
 
 - celles mises à jour lors de la création d'un dossier d'instruction initial ou lorsqu'un dossier d'instruction est accepté :
 
-    - l'adresse du terrain
+    - la localisation
     - les références cadastrales
     - les demandeurs
     - les lots
