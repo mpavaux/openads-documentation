@@ -402,13 +402,13 @@ dossier.
         {
           "dossier_instruction": "PC0130551600001P0", // identifiant du dossier d'instruction
           "dossier_autorisation": "PC0130551600001", // identifiant du dossier d'autorisation
-          "terrain_adresse_voie_numero": "10", // numéro de la voie de l'adresse du terrain
-          "terrain_adresse_lieu_dit": "Les Baïsses", // lieu dit du terrain
-          "terrain_adresse_code_postal": "13333", // code postal du terrain
-          "terrain_adresse_cedex": "13366", // cedex de l'adresse du terrain
-          "terrain_adresse_voie": "rue du 14 juillet", // voie de l'adresse du terrain
-          "terrain_adresse_bp": "13380", // boite postale de l'adresse du terrain
-          "terrain_adresse_localite": "Marseille", // ville de l'adresse du terrain
+          "terrain_adresse_voie_numero": "10", // localisation (numéro de la voie)
+          "terrain_adresse_lieu_dit": "Les Baïsses", // localisation (lieu dit)
+          "terrain_adresse_code_postal": "13333", // localisation (code postal)
+          "terrain_adresse_cedex": "13366", // localisation (CEDEX)
+          "terrain_adresse_voie": "rue du 14 juillet", // localisation (voie)
+          "terrain_adresse_bp": "13380", // localisation (boite postale)
+          "terrain_adresse_localite": "Marseille", // localisation (ville de l'adresse)
           "terrain_superficie": "22", // superficie du terrain en m²
           "references_cadastrales": [ // liste des références cadastrales
             {
