@@ -715,7 +715,7 @@ Dossiers liés
 .. image:: instruction_dossiers_lies.png
 
 L'onglet **Dossiers liés** permet d'obtenir tous les dossiers liés au dossier d'instruction courant.
-Il existe qautre types de liaison entre les dossiers pour quatre listings différents. Dans l'ordre :
+Il existe quatre types de liaisons entre les dossiers pour quatre listings différents. Dans l'ordre :
 
     * dossier d'autorisation ;
     * dossiers d'instruction liés manuellement ou implicitement par le dossier d'autorisation ;
@@ -725,12 +725,13 @@ Il existe qautre types de liaison entre les dossiers pour quatre listings diffé
 .. note::
     Des dossiers auxquels vous n'avez pas accès sont susceptibles d'apparaître à titre indicatif dans les différents listings. Si vous essayez de les consulter en cliquant dessus alors vous rencontrerez une erreur de droits insuffisants.
 
-Il est possible depuis l'action d'ajout "+" dans le tableau des dossiers d'instruction liés (encadré violet), d'ajouter des liaisons avec d'autres dossiers d'instruction.
-Il n'est pas possible de lier le dossiers d'instruction courant deux fois à un même DI ou de le lier manuellement à un DI déjà lié implicitement par le dossier d'autorisation.
+Il est possible depuis l'action d'ajout "+" dans le tableau des dossiers d'instruction liés, d'ajouter des liaisons avec d'autres dossiers d'instruction.
+Il n'est pas possible de lier le dossier d'instruction courant deux fois à un même DI ou de le lier manuellement à un DI déjà lié implicitement par le dossier d'autorisation.
 
 .. image:: instruction_dossiers_lies_form_ajout.png
 
 Les liaisons manuelles peuvent être supprimées seulement depuis le tableau **Dossiers liés** grâce à l'action de suppression "X" disponible sur chaque ligne. Par la même occasion, le dossier courant n'apparaîtra plus dans le tableau des liaisons retour du dossier pour lequel on a supprimé la liaison.
+Les liaisons retours ne peuvent pas être supprimées depuis le dossier cible. Il faut le faire depuis le dossier source.
 
 .. note::
     Dans le cas des recours (contentieux), il existe une notion de liaison principale avec un dossier d'instruction.
