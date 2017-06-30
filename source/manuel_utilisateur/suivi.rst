@@ -195,7 +195,7 @@ Les quatre colonnes du tableau généré sont les suivantes :
 
 * coordonnées du demandeur
 
-* coordonnées du terrain
+* localisation du dossier
 
 .. _suivi_bordereau_envoi_maire:
 

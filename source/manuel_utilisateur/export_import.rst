@@ -270,11 +270,11 @@ Tous les dossiers.
 
 * Champs
 
-  * N° de dossier
-  * Division
-  * Date de dépôt
-  * Pétitionnaire principal
-  * Adresse du terrain
+  * n° de dossier
+  * division
+  * date de dépôt
+  * pétitionnaire principal
+  * localisation
 
 .. note::
 
@@ -308,7 +308,7 @@ Tous les dossiers.
   * date prévue de recevabilité
   * destination des surfaces
   * petitionnaire principal
-  * adresse du terrain
+  * localisation
   * référence cadastrale
   * date de décision
   * shon
@@ -352,7 +352,7 @@ Dossiers qui ont reçu un avis *Favorable*.
   * date prévue de recevabilité
   * destination des surfaces
   * petitionnaire principal
-  * adresse du terrain
+  * localisation
   * référence cadastrale
   * date de décision
   * shon
@@ -395,7 +395,7 @@ Dossiers de type CU.
   * date prévue de recevabilité
   * destination des surfaces
   * petitionnaire principal
-  * adresse du terrain
+  * localisation
   * référence cadastrale
   * date de décision
   * shon
@@ -440,7 +440,7 @@ Dossiers qui ont reçu un avis *Défavorable*.
   * date prévue de recevabilité
   * destination des surfaces
   * petitionnaire principal
-  * adresse du terrain
+  * localisation
   * référence cadastrale
   * date de décision
   * shon
@@ -476,7 +476,7 @@ Tous les dossiers dont le type de dossier d'autorisation est *Infraction*.
 
   * N° de dossier
   * Contrevenant
-  * Terrain
+  * Localisation
   * Arrondissement
   * Technicien
   * Date de transmission au parquet
@@ -508,7 +508,7 @@ Tous les dossiers.
   * N° de dossier
   * Date de dépôt
   * Pétitionnaire principal
-  * Adresse du terrain
+  * Localisation
 
 .. note::
 
@@ -570,7 +570,7 @@ Tous les dossiers.
   * numéro de dossier
   * date de dépôt
   * petitionnaire principal
-  * adresse du terrain
+  * localisation
   * shon
   * libellé de la destination
   * hauteur de la construction
@@ -602,7 +602,7 @@ Dossiers qui ont reçu un avis *Favorable*.
   * numéro de dossier
   * date de décision
   * petitionnaire principal
-  * adresse du terrain
+  * localisation
   * shon
   * libellé de la destination
   * hauteur de la construction
@@ -633,7 +633,7 @@ Dossiers en cours de type *Initial*.
   * numéro de dossier
   * date de dépôt
   * petitionnaire principal
-  * adresse du terrain
+  * localisation
   * shon
   * libellé de la destination
   * hauteur de la construction
@@ -664,7 +664,7 @@ Dossiers du type de dossier d'autorisation sélectionné qui ont reçu un avis *
   * numéro de dossier
   * date de dépôt
   * petitionnaire principal
-  * adresse du terrain
+  * localisation
   * shon
   * libellé de la destination
   * hauteur de la construction
@@ -692,7 +692,7 @@ Dossiers du type de dossier d'instruction sélectionné.
   * N° de dossier
   * date de retour signature
   * pétitionnaire principal
-  * adresse du terrain
+  * localisation
 
 .. note::
 
