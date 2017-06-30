@@ -479,9 +479,10 @@ affiché.
 
 (Pour plus d'information sur la bible voir :ref:`parametrage_dossiers_bible`.)
 
-Si l'option consultation de l'événement est activer lors de son
-:ref:`parametrage<parametrage_dossiers_saisir_evenement>` alors **automatique** va
-ajouter les consultations avec leurs avis
+Si l'option **consultation** de l'événement est activée lors de son
+:ref:`paramétrage<parametrage_dossiers_saisir_evenement>` alors l'action
+**automatique** disponible en bas du formulaire va ajouter les consultations
+avec leurs avis.
 
 Suppression
 ===========
