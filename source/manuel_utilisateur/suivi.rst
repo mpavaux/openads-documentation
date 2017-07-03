@@ -91,7 +91,13 @@ courriers générés dans le cadre de l'instruction. Il suffit de saisir une dat
 d'envoi, par défaut la date du jour, et de bipper à la douchette les courriers
 concernés (ou de saisir manuellement l'identifiant du courrier). Une fois que
 tous les courriers sont bippés, un bouton permet de générer le fichier PDF qui
-est adapté pour être imprimé sur les pré-imprimés RAR de La Poste.
+est adapté pour être imprimé sur les pré-imprimés RAR de La Poste. Les
+destinataires varient en fonction du type de dossier, si c'est un dossier
+**ADS** ou **DPC** alors c'est le **délégataire** si renseigné sinon
+**pétitionnaire principal**, si c'est un dossier **recours** alors c'est le
+**requérant principal** qui est utilisé et si c'est un dossier **infraction**
+alors le destinataire sera le **plaignant principal**.
+
 
 Un seul fichier contient tous les RAR dans l'ordre de bip.
 
