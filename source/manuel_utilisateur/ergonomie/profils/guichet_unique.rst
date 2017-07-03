@@ -85,7 +85,7 @@ Rubrique *Guichet Unique*
 #################
 
 * Ajouter un nouveau dossier d'autorisation
-* Récupérer l'addresse de la parcelle (si option activée)
+* Récupérer l'adresse de la parcelle (si option activée)
 * Saisir le pétitionnaire principal
 * Ajouter un pétitionnaire
 * Saisir un autre correspondant

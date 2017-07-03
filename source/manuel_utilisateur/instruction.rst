@@ -36,7 +36,8 @@ Dans le fieldset **Enjeu** :
 
 .. image:: instruction_dossier_instruction_form_enjeu_fieldset.png
 
-* Il y a un champ **contentieux** pour spécifier si au moins un dossier **Infraction**, ou au moins un dossier **Recours Contentieux** est déposé pour une ou plusieurs parcelles du dossier, le champs contiendra respectivement INF en rouge ou RE en bleu seront affichés.
+* Le champ **contentieux** indique si au moins un dossier en cours **Infraction** ou **Recours** concerne une ou plusieurs parcelles du dossier.
+  Le cas échéant le champ contiendra respectivement **RE** en orange et **IN** en rouge.
 
 
 .. _instruction_simulation_taxes:
@@ -478,6 +479,11 @@ affiché.
 
 (Pour plus d'information sur la bible voir :ref:`parametrage_dossiers_bible`.)
 
+Si l'option **consultation** de l'événement est activée lors de son
+:ref:`paramétrage<parametrage_dossiers_saisir_evenement>` alors l'action
+**automatique** disponible en bas du formulaire va ajouter les consultations
+avec leurs avis.
+
 Suppression
 ===========
 
@@ -710,7 +716,7 @@ Dossiers liés
 .. image:: instruction_dossiers_lies.png
 
 L'onglet **Dossiers liés** permet d'obtenir tous les dossiers liés au dossier d'instruction courant.
-Il existe qautre types de liaison entre les dossiers pour quatre listings différents. Dans l'ordre :
+Il existe quatre types de liaisons entre les dossiers pour quatre listings différents. Dans l'ordre :
 
     * dossier d'autorisation ;
     * dossiers d'instruction liés manuellement ou implicitement par le dossier d'autorisation ;
@@ -720,12 +726,13 @@ Il existe qautre types de liaison entre les dossiers pour quatre listings diffé
 .. note::
     Des dossiers auxquels vous n'avez pas accès sont susceptibles d'apparaître à titre indicatif dans les différents listings. Si vous essayez de les consulter en cliquant dessus alors vous rencontrerez une erreur de droits insuffisants.
 
-Il est possible depuis l'action d'ajout "+" dans le tableau des dossiers d'instruction liés (encadré violet), d'ajouter des liaisons avec d'autres dossiers d'instruction.
-Il n'est pas possible de lier le dossiers d'instruction courant deux fois à un même DI ou de le lier manuellement à un DI déjà lié implicitement par le dossier d'autorisation.
+Il est possible depuis l'action d'ajout "+" dans le tableau des dossiers d'instruction liés, d'ajouter des liaisons avec d'autres dossiers d'instruction.
+Il n'est pas possible de lier le dossier d'instruction courant deux fois à un même DI ou de le lier manuellement à un DI déjà lié implicitement par le dossier d'autorisation.
 
 .. image:: instruction_dossiers_lies_form_ajout.png
 
 Les liaisons manuelles peuvent être supprimées seulement depuis le tableau **Dossiers liés** grâce à l'action de suppression "X" disponible sur chaque ligne. Par la même occasion, le dossier courant n'apparaîtra plus dans le tableau des liaisons retour du dossier pour lequel on a supprimé la liaison.
+Les liaisons retours ne peuvent pas être supprimées depuis le dossier cible. Il faut le faire depuis le dossier source.
 
 .. note::
     Dans le cas des recours (contentieux), il existe une notion de liaison principale avec un dossier d'instruction.

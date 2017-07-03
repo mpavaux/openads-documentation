@@ -362,7 +362,7 @@ dans lequel est le dossier d'instruction.
 Saisir un événement
 ===================
 
-Les informations à saisir sont  :
+Les informations à saisir sont :
 
 * **libellé** : texte affiché dans l'interface lors du choix d'un événement à
   créer.
@@ -398,7 +398,7 @@ Les informations à saisir sont  :
 
   Trois types d'opérateurs sont disponibles :
 
-  * de comparaison :  >=, <=, == et != ;
+  * de comparaison : >=, <=, == et != ;
   * d'affectation : + et - ;
   * logiques : && et ||.
 
@@ -422,7 +422,8 @@ Les informations à saisir sont  :
   :ref:`parametrage_dossiers_avis_decision`).
 * **lettre type** : (voir :ref:`parametrage_dossiers_om_etat_lettretype`).
 * **consultation** : cette case à cocher est présente pour afficher la liste
-  des consultations dans l'édition.
+  des consultations dans le complément sous la forme « Vu l'avis » avis rendu
+  « du service » nom du service consulté.
 * **phase** : liste à choix des :ref:`phases <parametrage_phase>` à afficher sur la lettre recommandée.
 * **autorité compétente** : liste des autorité possible
   des consultations dans l'édition.
@@ -741,7 +742,7 @@ Saisie de l'action
 
     - règle état = etat
     - règle date limite d'incomplétude = date_evenement + delai
-    - règle délai d'incomplétude  = delai
+    - règle délai d'incomplétude = delai
 
 .. _parametrage_dossiers_avis_decision:
 
@@ -823,7 +824,7 @@ Saisie des actions
 
     - règle délai = delai
     - règle accord tacite = accord_tacite
-    - règle date_limite =  archive_date_dernier_depot + delai
+    - règle date_limite = archive_date_dernier_depot + delai
 
 - Accepter un dossier tacitement :
 
@@ -988,39 +989,39 @@ Choisir le nombre de lignes et de colonnes du tableau.
 * **Paramétrage générale du tableau** :
 
     - Largeur :
-     
+
     Ce champ sert à indiquer la largeur du tableau en % (UNIQUEMENT) par rapport 
     à la largeur du PDF.
-         
-    Par exemple, si le PDF fait une largeur de 30 cm et que la lageur du tableau    
+
+    Par exemple, si le PDF fait une largeur de 30 cm et que la lageur du tableau
     est de 10%, le tableau fera 3 cm de largeur sur le PDF.
-     
+
     - Hauteur :
-         
+
     Ce champ sert à indiquer la hauteur du tableau en % (UNIQUEMENT) par rapport 
     à la hauteur du PDF.
-         
-    Par exemple, si le PDF fait une hauteur de 50 cm et que la hauteur du tableau    
+
+    Par exemple, si le PDF fait une hauteur de 50 cm et que la hauteur du tableau
     est de 25%, le tableau fera 12.5 cm de hauteur sur le PDF.
-     
+
     - Espacement inter-cellules :
-    
+
     Espacement entre les cellules. En pixel.
-    
+
     - Espace interne cellule :
-    
+
     Espacement entre les bords de la cellule et son contenu. En pixel.
-    
+
     - Bordure :
-    
+
     Epaisseur des bordures du tableau. En pixel.
-    
+
     - Titre :
-    
+
     Lorsque cette case est cochée, elle permet de rajouter un titre au tableau.
-    
+
     - Alignement :
-    
+
     Permet de choisir le type d'alignement du texte dans le tableau. 
     Valeurs possibles : n/a (aucun), Gauche, Centré, Droite.
 
@@ -1035,35 +1036,35 @@ Choisir le nombre de lignes et de colonnes du tableau.
 * **Paramétrage des cellules** :
 
     - Largeur :
-    
+
     Ce champ sert à indiquer la largeur de la colonne en % (UNIQUEMENT) par 
     rapport à la largeur du tableau.
-         
+
     Par exemple, si le tableau fait une largeur de 30 cm et que la largeur de la 
     colonne est de 10%, la colonne fera 3 cm de largeur.
-    
+
     - Hauteur :
-    
+
     Ce champ sert à indiquer la hauteur de la colonne en % (UNIQUEMENT) par 
     rapport à la hauteur du tableau.
-         
+
     Par exemple, si le tableau fait une hauteur de 50 cm et que la hauteur de la
     colonne est de 25%, la colonne fera 12.5 cm de hauteur.
-    
+
     - Type de cellule :
-    
+
     Permet de définir si c'est une cellule "normale" ou une cellule qui va servir 
     d'en-tête dans le tableau.
     Valeurs possibles : Cellule, Cellule d'en-tête.
-    
+
     - Étendue :
-    
+
     Paramètre sur quoi doivent s'appliquer les paramètres renseignés.
     Valeurs possibles : n/a (aucun), Ligne, Colonne, Groupe de lignes, Groupe de 
     colonnes.
-    
+
     - Alignement :
-    
+
     Permet de choisir le type d'alignement du texte dans la cellule. 
     Valeurs possibles : n/a (aucun), Gauche, Centré, Droite.
 
@@ -1079,12 +1080,12 @@ Tableau → Cellule → Fusionner les cellules les cellules seront fusionnées.
 Si aucune cellule n'est sélectionnée, un menu apparaît :
 
     - Colonnes :
-    
+
     Nombre de colonnes qui vont être fusionnées à partir de la cellule dans 
     laquelle le curseur est positionné.
-    
+
     - Lignes :
-    
+
     Nombre de lignes qui vont être fusionnées à partir de la cellule dans 
     laquelle le curseur est positionné.
 
@@ -1102,10 +1103,10 @@ fusionnée avant.
 * **Paramétrage des lignes** :
 
     - Type de ligne :
-    
+
     Permlet de définir le type de la ligne.
     Valeurs possibles : En-tête, Corps, Pied.
-    
+
     - Alignement :
 
     Permet de choisir le type d'alignement du texte dans la ligne. 
@@ -1115,7 +1116,7 @@ fusionnée avant.
 
     Ce champ sert à indiquer la hauteur de la ligne en % (UNIQUEMENT) par 
     rapport à la hauteur du tableau.
-         
+
     Par exemple, si le tableau fait une hauteur de 50 cm et que la hauteur de la
     ligne est de 25%, la ligne fera 12.5 cm de hauteur.
 
@@ -1192,7 +1193,7 @@ Pour cela, il faut ajouter un paramètre à l'application.
 .. sidebar:: Note :
 
     Le paramètre ne doit pas commencer par option\_, ged\_, erp\_, sig\_ ou id\_.
-    
+
 Afin que le paramètre s'affiche dans l'édition, il faut l'ajouter précédé d'un &.
 
 Par exemple, le paramètre se nommant mail\_contact s'utilisera comme ceci :
