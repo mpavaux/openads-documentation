@@ -73,11 +73,11 @@ Action(s) disponible(s) par onglet :
 
   - *Dossiers liés* :
 
-    - Visualiser le dossiers d'autorisation.
+    - Visualiser le dossier d'autorisation.
     - Visualiser la liste des dossiers d'instruction portant sur la même autorisation.
     - Visualiser la liste des dossiers d'instruction liés.
+    - Visualiser la liste des dossiers sur lesquels un lien vers le dossier courant a été établi.
     - Visualiser la liste des dossiers d'instruction liés géographiquement.
-    - Visualiser la liste des dossiers d'instruction liés retours.
     - Accéder à chacun de ces dossiers.
 
 Rubrique *Demandes D'avis*
