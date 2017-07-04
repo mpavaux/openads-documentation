@@ -71,12 +71,13 @@ Action(s) disponible(s) par onglet :
     - Accéder au dossier d'instruction dans le SIG.
     - Afficher l'édition de récapitulatif du dossier d'instruction.
 
-  - *DA* (en passant par *Dossiers liés* puis *dossier d'autorisation*) :
+  - *Dossiers liés* :
 
-    - Visualiser les informations du dossier d'autorisation.
+    - Visualiser le dossiers d'autorisation.
     - Visualiser la liste des dossiers d'instruction portant sur la même autorisation.
-    - Visualiser la liste des dossiers d'autorisation liés géographiquement.
-    - Accéder aux dossiers d'instruction portant sur la même autorisation dans le SIG
+    - Visualiser la liste des dossiers d'instruction liés.
+    - Visualiser la liste des dossiers d'instruction liés géographiquement.
+    - Visualiser la liste des dossiers d'instruction liés retours.
     - Accéder à chacun de ces dossiers.
 
 Rubrique *Demandes D'avis*
