@@ -1,3 +1,5 @@
+.. _profil_service_consulte_interne:
+
 ########################
 SERVICE CONSULTÉ INTERNE
 ########################
@@ -5,7 +7,7 @@ SERVICE CONSULTÉ INTERNE
 Description
 ===========
 
-C'est le profil utilisé pour les services consultés interne à la commune. Il va leur permettre :
+C'est le profil utilisé pour les services consultés internes à la commune. Il va leur permettre :
 
 - de répondre directement depuis le logiciel aux consultations de service qui leurs sont adressés ;
 - de voir les avis qui avaient été rendus ;
@@ -28,7 +30,7 @@ Tableau de bord innaccessible : redirection automatique vers la liste des demand
 Menu
 ----
 
-.. image:: menu_consu.png
+.. image:: menu_consuint.png
 
 Rubrique *Autorisation*
 -----------------------
@@ -49,8 +51,8 @@ Recherche
 
 - Visualiser la liste des dossiers d'instruction de la collectivité de l'instructeur connecté ou de toutes les collectivités si l'instructeur appartient à la collectivité multi.
 - Rechercher des dossiers d'instruction en fonction de plusieurs critères.
-- Accéder aux dossiers d'instruction dans le sig
-- Accéder à la fiche de visualisation d'un dossier d'instruction
+- Accéder aux dossiers d'instruction dans le SIG.
+- Accéder à la fiche de visualisation d'un dossier d'instruction.
 
 .. sidebar:: Note :
 
@@ -60,9 +62,8 @@ Action(s) disponible(s) par onglet :
 
   - *DI* :
 
-    - Accéder a la fiche de visualisation des données techniques
-    - Accéder au dossier d'instruction dans le SIG
-    - Afficher l'édition de récapitulatif du dossier d'instruction
+    - Accéder au dossier d'instruction dans le SIG.
+    - Afficher l'édition de récapitulatif du dossier d'instruction.
 
   - *Pièce(s)* :
 
@@ -70,13 +71,23 @@ Action(s) disponible(s) par onglet :
     - Télécharger le fichier d'une pièce.
     - Télécharger toutes les pièces du dossier d'instruction.
 
-  - *DA* :
+  - *Dossiers liés* :
 
-    - Visualiser les informations du dossier d'autorisation.
+    - Visualiser le dossier d'autorisation.
     - Visualiser la liste des dossiers d'instruction portant sur la même autorisation.
-    - Visualiser la liste des dossiers d'autorisation liés géographiquement.
-    - Accéder aux dossiers d'instruction portant sur la même autorisation dans le SIG
+    - Visualiser la liste des dossiers d'instruction liés.
+    - Visualiser la liste des dossiers sur lesquels un lien vers le dossier courant a été établi.
+    - Visualiser la liste des dossiers d'instruction liés géographiquement.
     - Accéder à chacun de ces dossiers.
+
+Rubrique *Contentieux*
+----------------------
+
+Tous Les Recours
+################
+
+Voir :ref:`Tous Les Recours<contentieux_tous_les_recours>` dans la section
+contentieux.
 
 Rubrique *Demandes D'avis*
 --------------------------

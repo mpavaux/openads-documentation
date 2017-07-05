@@ -14,12 +14,16 @@ Infractions
 
 Cette rubrique propose les entrées de menu des tableaux listant les infractions.
 
+.. _contentieux_mes_infrations:
+
 Mes infractions
 ===============
 
 (:menuselection:`Contentieux --> Infractions --> Mes infractions`)
 
 Liste des infractions associées à l'utilisateur connecté.
+
+.. _contentieux_toutes_les_infractions:
 
 Toutes les infractions
 ======================
@@ -28,13 +32,16 @@ Toutes les infractions
 
 Liste de toutes les infractions de la collectivité de l'utilisateur connecté.
 
+.. _contentieux_nouveau_dossier_infraction:
+
 Nouveau dossier
 ===============
-(:menuselection:`Contentieux --> Infractions --> Nouvelle Demande --> Nouveau Dossier`)
+(:menuselection:`Contentieux --> Nouvelle Demande --> Nouveau Dossier`)
 
 Un dossier d'infraction est créé directement depuis la section Contentieux. Soit depuis le menu, soit depuis un listing d'infractions, par le biais de l'icône *+* verte.
 
-La création  d'un dossier d'infraction respecte la mécanique de saisie des dossiers ADS.
+La création d'un dossier d'infraction respecte la mécanique de :ref:`saisie des
+dossiers ADS.<guichet_unique_nouvelle_demande>`
 
 .. _contentieux_recours:
 
@@ -46,12 +53,16 @@ Recours
 
 Cette rubrique propose les entrées de menu des tableaux listant les recours.
 
+.. _contentieux_mes_recours:
+
 Mes recours
 ===========
 
 (:menuselection:`Contentieux --> Recours --> Mes recours`)
 
 Liste des recours associées à l'utilisateur connecté.
+
+.. _contentieux_tous_les_recours:
 
 Tous les recours
 ================
@@ -60,13 +71,15 @@ Tous les recours
 
 Liste de tous les recours de la collectivité de l'utilisateur connecté.
 
+.. _contentieux_nouveau_dossier_recours:
+
 Nouveau dossier
 ===============
-(:menuselection:`Contentieux --> Recours --> Nouvelle Demande --> Nouveau Dossier`)
+(:menuselection:`Contentieux --> Nouvelle Demande --> Nouveau Dossier`)
 
 Un dossier de recours est créé directement depuis la section *Contentieux*. Soit depuis le menu, soit depuis un listing de recours, par le biais de l'icône *+* verte.
 
-Il peut être de deux types différents : 
+Il peut être de deux types différents :
 
 * un recours gracieux
 * un recours contentieux.

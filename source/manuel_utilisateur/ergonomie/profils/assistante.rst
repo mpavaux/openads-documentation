@@ -80,9 +80,48 @@ Actions identiques à celles du profil "instructeur" (cf :ref:`Rubrique autorisa
 Rubrique *Instruction*
 ----------------------
 
-Actions identiques à celles du profil "instructeur" (cf :ref:`Rubrique instruction<profil_instructeur_rubrique_instruction>`)
+Actions identiques à celles du profil "instructeur" dans la section recherche (cf :ref:`Rubrique instruction section recherche<profil_instructeur_rubrique_instruction_recherche>`)
 
 Rubrique *Demande D'avis*
 -------------------------
 
 Actions identiques à celles du profil "service consulté" (cf :ref:`Rubrique demande d'avis<profil_service_consulte_rubrique_demande_avis>`)
+
+Rubrique *Contentieux*
+----------------------
+
+Nouveau Dossier
+###############
+
+Voir :ref:`nouveau dossier infraction<contentieux_nouveau_dossier_infraction>`
+ou :ref:`nouveau dossier recours<contentieux_nouveau_dossier_recours>` dans la
+section contentieux.
+
+Tous Les Recours
+################
+
+Voir :ref:`Tous Les Recours<contentieux_tous_les_recours>` dans la section
+contentieux.
+
+Toutes Les Infractions
+######################
+
+Voir :ref:`Toutes Les Infractions<contentieux_toutes_les_infractions>` dans la
+section contentieux.
+
+Rubrique *Suivi*
+----------------
+
+(Suivi des pièces) Mise à jour des dates
+########################################
+
+Actions identiques à celles du profil "suivi" de la section "Mise à jour des
+dates" (cf :ref:`Section Mise à jour des dates
+<profil_suivi_rubrique_suivi_section_mise_a_jour_dates>`)
+
+Envoi lettre RAR
+################
+
+Actions identiques à celles du profil "suivi" de la section "Envoi lettre RAR"
+(cf :ref:`Section Envoi lettre RAR
+<profil_suivi_rubrique_suivi_section_envoi_lettre_rar>`)

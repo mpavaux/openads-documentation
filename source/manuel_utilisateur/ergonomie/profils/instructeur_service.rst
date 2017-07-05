@@ -102,3 +102,12 @@ Rubrique *Demande D'avis*
 -------------------------
 
 Actions identiques à celles du profil "service consulté" (cf :ref:`Rubrique demande d'avis<profil_service_consulte_rubrique_demande_avis>`)
+
+Rubrique *Contentieux*
+----------------------
+
+Tous Les Recours
+################
+
+Voir :ref:`Tous Les Recours<contentieux_tous_les_recours>` dans la section
+contentieux.

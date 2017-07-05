@@ -85,7 +85,7 @@ Rubrique *Guichet Unique*
 #################
 
 * Ajouter un nouveau dossier d'autorisation
-* Récupérer l'addresse de la parcelle (si option activée)
+* Récupérer l'adresse de la parcelle (si option activée)
 * Saisir le pétitionnaire principal
 * Ajouter un pétitionnaire
 * Saisir un autre correspondant
@@ -100,7 +100,7 @@ Rubrique *Guichet Unique*
 * Recherche simple et avancée d'un dossier
 * Ajouter une nouvelle demande sur un dossier en cours
 * Ajouter un pétitionnaire
-* Modifier l'adresse du dossier
+* Modifier la localisation du dossier
 * Saisir un autre correspondant
 * Accéder à la fiche de visualisation du dossier d'instruction sur existant
 * Télécharger le récépissé de la demande sur existant
@@ -111,7 +111,7 @@ Rubrique *Guichet Unique*
 * Recherche simple et avancée d'un dossier
 * Ajouter une nouvelle demande sur un dossier en cours
 * Ajouter un pétitionnaire
-* Modifier l'adresse du dossier
+* Modifier la localisation du dossier
 * Saisir un autre correspondant
 * Accéder à la fiche de visualisation du dossier d'instruction sur existant
 * Télécharger le récépissé de la demande sur existant
@@ -156,7 +156,7 @@ Action(s) disponible(s) par onglet :
   - *DI* :
 
     - Afficher l'édition de récapitulatif du dossier d'instruction
-    - Modifier le dossier d’instruction (l'adresse du terrain et les pétitionnaires tant que le dossier n'est pas instruit)
+    - Modifier le dossier d’instruction (la localisation et les pétitionnaires tant que le dossier n'est pas instruit)
     - Régénérer le récépissé (tant que le dossier n'est pas instruit)
     - Télécharger le récépissé de la demande
 

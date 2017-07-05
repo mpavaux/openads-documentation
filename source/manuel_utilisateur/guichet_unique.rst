@@ -71,7 +71,7 @@ Le reste de la saisie consiste en la saisie des informations suivantes :
 
 * la date de la demande
 * la ou les références cadastrales
-* l'adresse et la superficie du terrain
+* la localisation et la superficie du terrain
 * le pétitionnaire principal 
 * un éventuel délégataire
 * le ou les éventuels co-demandeurs

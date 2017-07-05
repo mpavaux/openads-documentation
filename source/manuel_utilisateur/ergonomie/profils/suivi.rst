@@ -119,11 +119,15 @@ Action(s) disponible(s) par onglet :
 Rubrique *Suivi*
 ----------------
 
+.. _profil_suivi_rubrique_suivi_section_mise_a_jour_dates:
+
 (Suivi des pièces) Mise à jour des dates
 ########################################
 
 - Mettre à jour les dates de suivi d'événements d'instruction.
 - Visualiser la synthèse des date de suivi d'événements d'instruction.
+
+.. _profil_suivi_rubrique_suivi_section_envoi_lettre_rar:
 
 Envoi lettre RAR
 ################
@@ -186,5 +190,5 @@ Versement aux archives
 Statistiques à la demande
 #########################
 
-- Exporter une liste de dossiers d'instruction selon leur type, et avec des détails 
+- Exporter une liste de dossiers d'instruction selon leur type, et avec des détails
   différents selon la requête utilisée.
