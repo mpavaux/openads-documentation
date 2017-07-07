@@ -871,7 +871,7 @@ Le principe
 ===========
 
 Les bibles sont des phrases prédéfinies, qui permettent de remplir les
-**compléments** des instructions automatiquemant ou en les sélectionnant,
+**compléments** d'instructions automatiquemant ou en les sélectionnant,
 depuis l'interface d'ajout des instructions.
 
 Création d'une bible
