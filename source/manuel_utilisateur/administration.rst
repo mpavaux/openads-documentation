@@ -66,6 +66,7 @@ Utilisation des options :
 * **option_notification_piece_numerisee** : permet d'activer ou de désactiver l'ajout de :ref:`message de notification <instruction_dossier_message>`.
 * **option_date_depot_demande_defaut** : permet d'afficher (*true*) ou non (*false*) la date du jour dans le champ de la date de dépôt lors de l'ajout d'une demande. La valeur par défaut est *true*.
 * **option_simulation_taxes** : permet d'activer (*true*) ou non (*false*) :ref:`la simulation des taxes <instruction_simulation_taxes>` sur les dossiers d'instruction.
+* **option_previsualisation_edition** : permet d'activer (*true*) ou non (*false*) :ref:`la prévisualisation des éditions <previsualisation_edition>` sur les événements d'instruction du dossier.
 
 .. note::
 
