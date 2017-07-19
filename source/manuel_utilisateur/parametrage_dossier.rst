@@ -1229,5 +1229,35 @@ Les logos
 
 (:menuselection:`Paramétrage Dossiers --> Éditions --> Logo`)
 
-...
+Le principe
+===========
 
+Les logos sont affichés dans l'en-tête d'une édition,
+si le logo défini n'existe pas pour la collectivité ou n'est pas actif,
+alors celui de la collectivité multi sera pris.
+
+
+Paramétrage d'un logo
+=====================
+
+.. image:: parametrage_edition_logo.png
+
+Les informations du **logo** à saisir sont :
+
+* **Id** : Identifiant du logo permet il sera toujours present pour identifier le logo.
+* **Libellé** : Sert à identifier le logo quand il est appliqué à une édition.
+* **Description** : Elle est visible lors de la sélection du logo pour l'affectation à une édition.
+* **Fichier** : C'est le choix de l'image à saisir pour le logo.
+* **Résolution** : Dimension du carré dans lequel le logo va être affiché.
+* **Actif** : Rend le logo disponible ou non.
+
+
+Copie d'un logo
+===============
+
+.. image:: parametrage_edition_logo_portlet.png
+
+Il est possible de copier un logo d'une autre collectivité, ce qui va
+automatiquement l'attribuer à la collectivité de l'utilisateur,
+ça permet de préserver les paramètres pour les éditions, et rend possible le
+changement d'image, cela se fait depuis le portlet d'actions contextuelles.
