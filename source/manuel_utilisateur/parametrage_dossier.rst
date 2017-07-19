@@ -279,8 +279,8 @@ Les informations à saisir sont :
 * **nature de la demande** : (voir :ref:`parametrage_dossiers_demande_nature`).
 * **états du dernier dossier d'instruction** : état à partir du quel il est possible
   de créer la demande.
-* **contraintes** : avec ou sans récupération des demandeurs du dernier dossier
-  d'instruction.
+* **contraintes** : avec ou sans récupération des demandeurs du dossier
+  d'autorisation.
 * **type de dossier d'instruction à créer** : le type de dossier d'instruction
   à créer si il doit en être créé un (initial, modificatif, daact, ...) (voir
   :ref:`parametrage_dossiers_dossier_instruction_type`).
