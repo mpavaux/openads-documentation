@@ -172,7 +172,7 @@ Liste les dossiers dont la dernière instruction a pour date d'envoi pour signat
 
 * Bordereau des avis du Maire au Préfet
 
-Liste les dossiers dont l'autorité compétente est l'État ou la commune pour État et dont la dernière instruction a pour date d'envoi RAR la date saisie. Il est également appliqué un filtre sur l'événement spécifique "avis du Maire". On peut spécifier ce dernier (paramètre *id_evenement_bordereau_avis_maire_prefet* auquel il faut donner l'identifiant de cet événement, plus d'information sur le paramétrage :ref:`ici <parametrage_parametre>`).
+Liste les dossiers dont l'autorité compétente est l'État ou la commune pour État et dont la dernière instruction a pour date d'envoi RAR la date saisie. Il est également appliqué un filtre sur l'événement spécifique "avis du Maire". On peut spécifier ce dernier (paramètre *id_evenement_bordereau_avis_maire_prefet* auquel il faut donner l'identifiant de cet événement, plus d'information sur le paramétrage :ref:`ici <parametrage_parametre_identifiants>`).
 
 * Bordereau des contrôles de légalité
 
