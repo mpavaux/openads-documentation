@@ -84,7 +84,7 @@ Utilisation des paramètres de notification :
 
 Utilisation des paramètres d'identification :
 
-* **id_evenement_bordereau_avis_maire_prefet** : paramètre définissant l'identifiant de l'événement, doit être paramétré sur la collectivité de niveau 2 pour une configuration collectivité mutli.
+* **id_evenement_bordereau_avis_maire_prefet** : paramètre définissant l'identifiant de l'événement à appliquer aux dossiers d'instruction faisant l'objet d'un bordereau d'envoi des avis du Maire au Préfet, doit être paramétré sur la collectivité de niveau 2 pour une configuration multi-communes.
 
 
 .. _parametrage_parametre_mails_services_consultes:
