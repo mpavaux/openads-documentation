@@ -79,6 +79,14 @@ Utilisation des paramètres de notification :
 * **param_courriel_de_notification_commune_objet_depuis_instruction** : paramètre communauté spécifiant l'objet du courriel.
 * **param_courriel_de_notification_commune_modele_depuis_instruction** : paramètre communauté (écrasable par la commune) spécifiant le modèle du corps du courriel.
 
+
+.. _parametrage_parametre_identifiants:
+
+Utilisation des paramètres d'identification :
+
+* **id_evenement_bordereau_avis_maire_prefet** : paramètre définissant l'identifiant de l'événement à appliquer aux dossiers d'instruction faisant l'objet d'un bordereau d'envoi des avis du Maire au Préfet, doit être paramétré sur la collectivité de niveau 2 pour une configuration multi-communes.
+
+
 .. _parametrage_parametre_mails_services_consultes:
 
 Configuration des mails envoyés automatiquement aux services consultés :

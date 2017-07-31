@@ -279,8 +279,8 @@ Les informations à saisir sont :
 * **nature de la demande** : (voir :ref:`parametrage_dossiers_demande_nature`).
 * **états du dernier dossier d'instruction** : état à partir du quel il est possible
   de créer la demande.
-* **contraintes** : avec ou sans récupération des demandeurs du dernier dossier
-  d'instruction.
+* **contraintes** : avec ou sans récupération des demandeurs du dossier
+  d'autorisation.
 * **type de dossier d'instruction à créer** : le type de dossier d'instruction
   à créer si il doit en être créé un (initial, modificatif, daact, ...) (voir
   :ref:`parametrage_dossiers_dossier_instruction_type`).
@@ -1229,5 +1229,30 @@ Les logos
 
 (:menuselection:`Paramétrage Dossiers --> Éditions --> Logo`)
 
-...
+Le principe
+===========
 
+Ce menu permet de paramétrer les logos affichés sur les éditions.
+Dans le cas d'une communauté, les logos de chaque commune, ainsi que celui de la communauté, doivent avoir le même identifiant (**Id**) afin que les éditions récupèrent correctement celui de la collectivité du dossier d'instruction sur lequel elles ont été générées.
+
+Paramétrage d'un logo
+=====================
+
+.. image:: parametrage_edition_logo.png
+
+Les informations d'un **logo** sont :
+
+* **Id** : Identifiant du logo.
+* **Libellé** : Texte affiché quand le logo est appliqué à une édition.
+* **Description** : Description du logo affichée lors de la sélection d'un logo depuis une lettre type ou un état.
+* **Fichier** : Sélection du fichier image contenant le logo.
+* **Résolution** : Résolution de l'image lors de son affichage sur une édition.
+* **Actif** : Rend le logo disponible ou non depuis les lettres types et états.
+
+
+Copie d'un logo
+===============
+
+.. image:: parametrage_edition_logo_portlet.png
+
+L'action **copier** disponible depuis le portlet d'actions contextuelles de chaque logo, permet de dupliquer un logo afin d'en faciliter le paramétrage notamment dans le contexte d'une communauté de communes.
