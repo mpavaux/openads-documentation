@@ -1232,24 +1232,22 @@ Les logos
 Le principe
 ===========
 
-Les logos sont affichés dans l'en-tête d'une édition,
-si le logo défini n'existe pas pour la collectivité ou n'est pas actif,
-alors celui de la collectivité multi sera pris.
-
+Ce menu permet de paramétrer les logos affichés sur les éditions.
+Dans le cas d'une communauté, les logos de chaque commune, ainsi que celui de la communauté, doivent avoir le même identifiant (**Id**) afin que les éditions récupèrent correctement celui de la collectivité du dossier d'instruction sur lequel elles ont été générées.
 
 Paramétrage d'un logo
 =====================
 
 .. image:: parametrage_edition_logo.png
 
-Les informations du **logo** à saisir sont :
+Les informations d'un **logo** sont :
 
-* **Id** : Identifiant du logo permet il sera toujours present pour identifier le logo.
-* **Libellé** : Sert à identifier le logo quand il est appliqué à une édition.
-* **Description** : Elle est visible lors de la sélection du logo pour l'affectation à une édition.
-* **Fichier** : C'est le choix de l'image à saisir pour le logo.
-* **Résolution** : Dimension du carré dans lequel le logo va être affiché.
-* **Actif** : Rend le logo disponible ou non.
+* **Id** : Identifiant du logo.
+* **Libellé** : Texte affiché quand le logo est appliqué à une édition.
+* **Description** : Description du logo affichée lors de la sélection d'un logo depuis une lettre type ou un état.
+* **Fichier** : Sélection du fichier image contenant le logo.
+* **Résolution** : Résolution de l'image lors de son affichage sur une édition.
+* **Actif** : Rend le logo disponible ou non depuis les lettres types et états.
 
 
 Copie d'un logo
@@ -1257,7 +1255,4 @@ Copie d'un logo
 
 .. image:: parametrage_edition_logo_portlet.png
 
-Il est possible de copier un logo d'une autre collectivité, ce qui va
-automatiquement l'attribuer à la collectivité de l'utilisateur,
-ça permet de préserver les paramètres pour les éditions, et rend possible le
-changement d'image, cela se fait depuis le portlet d'actions contextuelles.
+L'action **copier** disponible depuis le portlet d'actions contextuelles de chaque logo, permet de dupliquer un logo afin d'en faciliter le paramétrage notamment dans le contexte d'une communauté de communes.
