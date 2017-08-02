@@ -832,6 +832,8 @@ Pour l'afficher à nouveau cliquer sur l'action *Afficher dans les éditions*.
 
 .. image:: portlet_visible_consultation.png
 
+Ces actions ne sont pas disponibles sur les dossiers d'instruction clôturés ou si l'utilisateur connecté ne fait pas partie de la division du dossier. Ces deux conditions peuvent être exclues grâce à une permission spécifique.
+
 Depuis la liste de consultations
 ################################
 
@@ -845,6 +847,8 @@ Si la consultation est visible, cliquer sur l'icône en forme d'oeil rouge perme
 Si la consultation est masquée, cliquer sur l'icône en forme d'oeil vert permet de la rendre visible.
 
 .. image:: instruction_tab_visible_consultation.png
+
+Ces actions ne sont pas disponibles sur les dossiers d'instruction clôturés ou si l'utilisateur connecté ne fait pas partie de la division du dossier. Ces deux conditions peuvent être exclues grâce à une permission spécifique.
 
 .. _instruction_qualification:
 
