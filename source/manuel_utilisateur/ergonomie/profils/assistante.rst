@@ -17,8 +17,7 @@ Il va leur permettre :
 - de voir les avis qui avaient été rendus ;
 - de faire des exports CSV ;
 
-
-L'utilisateur qui a ce profil doit forcément être rattaché un instructeur.
+L'utilisateur qui a ce profil ne doit pas être rattaché à un instructeur.
 
 Fonctionnalités disponibles
 ===========================
