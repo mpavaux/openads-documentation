@@ -459,6 +459,8 @@ Dates de suivi chronologique de l'événement d'instruction.
 * **date de retour RAR**
 * **date de retour du contrôle de légalité**
 
+.. _instruction_complement:
+
 Compléments
 ===========
 
@@ -501,8 +503,6 @@ Prévisualisation de l'édition
 =============================
 
 Si le :ref:`paramètre<parametrage_parametre>` **option_previsualisation_edition** est activé pour la collectivité de l'utilisateur connecté, alors celui-ci a accès au rendu du PDF sur le formulaire de modification de l'événement d'instruction. Après avoir modifié un complément on peut regénérer l'édition en cliquant sur *Actualiser*.
-
-.. _instruction_complement:
 
 ============
 Finalisation
