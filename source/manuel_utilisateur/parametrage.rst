@@ -260,8 +260,7 @@ Les affectations automatiques
 
 (:menuselection:`Paramétrage --> Gestion des dossiers --> Affectation Automatique`)
 
-Configuration de l'affectation automatique des instructeurs aux dossiers par
-arrondissement, quartier et/ou section.
+Configuration de l'affectation automatique des instructeurs aux dossiers d'instruction par le type de dossier d'autorisation détaillé, l'arrondissement, le quartier et/ou la section.
 
 .. _parametrage_autorite_competente:
 
