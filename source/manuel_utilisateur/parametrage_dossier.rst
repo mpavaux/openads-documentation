@@ -870,9 +870,7 @@ La bible
 Le principe
 ===========
 
-Les bibles sont des phrases prédéfinies, qui permettent de remplir les
-**compléments** d'instructions automatiquemant ou en les sélectionnant,
-depuis l'interface d'ajout des instructions.
+La bible regroupe des phrases prédéfinies, qui permettent de remplir les :ref:`**compléments** d'instructions<instruction_complement>`.
 
 Création d'une bible
 ====================
@@ -881,11 +879,11 @@ Les paramètres pour créer une bible sont :
 
 * **libellé** : texte affiché dans l'interface lors du choix de bible.
 * **événement** : l'événement d'instruction sur lequel la bible va s'appliquer
-  si on ne le remplit pas alors il s'appliquera à tous les **événement**.
+  si on ne le remplit pas alors il s'appliquera à tous les **événements**.
 * **contenu** : le texte qui va être ajouté.
 * **complement** : le numéro du complement visé.
 * **automatique** : permet d'ajouter cette bible directement via le bouton
-  automatique.
+  automatique sur l'**événément**.
 
 .. image:: parametrage_bible.png
 
