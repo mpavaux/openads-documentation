@@ -111,7 +111,7 @@ Widget "Retours de Consultation"
 
 Orienté Instruction.
 
-L'objet de ce widget est d'alerter l'utilisateur sur le nombre de retours de consultation marqués comme 'non lu'. En effet, lorsque l'instructeur a créé une consultation sur un dossier, la réponse à la consultation peut se faire par plusieurs sources : le service consulté si celui ci a un compte sur openADS, la cellule suivi qui a pu recevoir le retour par courrier et le saisir lui-même ou un traitement automatique aui au bout du délai de consultation émet un retour tacite. Lorsque une de ces réponses à lieu alors la consultation est marquée comme 'non lu' pour que l'instructeur puisse en avoir connaissance et le nombre de ces consultations apparaît dans ce widget entouré d'un rond bleu.
+L'objet de ce widget est d'alerter l'utilisateur sur le nombre de retours de consultation marqués comme 'non lu'. En effet, lorsque l'instructeur a créé une consultation sur un dossier, la réponse à la consultation peut se faire par plusieurs sources : le service consulté si celui ci a un compte sur openADS, la cellule suivi qui a pu recevoir le retour par courrier et le saisir lui-même ou un traitement automatique qui au bout du délai de consultation émet un retour tacite. Lorsqu'une de ces réponses a lieu alors la consultation est marquée comme 'non lu' pour que l'instructeur puisse en avoir connaissance et le nombre de ces consultations apparaît dans ce widget entouré d'un rond bleu.
 
 Lorsqu'aucun retour de consultation n'est marqué comme 'non lu' alors un message l'indique à l'utilisateur.
 
@@ -121,9 +121,46 @@ Trois filtres sont disponibles sur ce widget (le filtre est :ref:`paramétrable 
 - filtre par division : on présente tous les dossiers de la division de l'instructeur.
 - aucun filtre : tous les dossiers auxquels l'utilisateurs a accès (si l'utilisateur appartient à une commune niveau mono, alors l'utilisateur n'a accès qu'aux dossiers de sa commune et si l'utilisateur appartient à une commune multi, alors l'utilisateur a accès à tous les dossiers).
 
-A tout moment, au survol de l'icône d'information du widget, une description permet d'indiquer quels sont les paramètres appliqués sur le widget.
+À tout moment, au survol de l'icône d'information du widget, une description permet d'indiquer quels sont les paramètres appliqués sur le widget.
 
 Le menu d'openADS propose autant de listings que de filtres possibles : ainsi le lien "Voir +" redirige vers le tableau adéquat.
+
+
+.. _widget_commission_mes_retours:
+
+Widget "Mes retours de commission"
+----------------------------------
+
+.. image:: widget_commission_mes_retours.png
+
+Orienté Instruction.
+
+L'objet de ce widget est d'alerter l'utilisateur sur le nombre de retours de
+commission marqués comme 'non lu'. Pour un dossier planifié lors d'une
+commission, lorsque la cellule suivi y renseigne l'avis alors, un retour est
+créé. En cas de mise à jour de l'avis, le retour est à nouveau marqué comme 'non
+lu' si il était 'lu'.
+
+Lorsqu'aucun retour de commission n'est marqué comme 'non lu' alors, un message
+l'indique à l'utilisateur.
+
+Trois filtres sont disponibles sur ce widget (le filtre est :ref:`paramétrable
+<administration_widget_commission_mes_retours>` par l'administrateur) :
+
+- filtre par instructeur : on présente uniquement les dossiers dont il est
+  spécifiquement instructeur.
+- filtre par division : on présente tous les dossiers de la division de
+  l'instructeur.
+- aucun filtre : tous les dossiers auxquels l'utilisateurs a accès (si
+  l'utilisateur appartient à une commune niveau mono alors, l'utilisateur n'a
+  accès qu'aux dossiers de sa commune et si l'utilisateur appartient à une
+  commune multi alors, l'utilisateur a accès à tous les dossiers).
+
+À tout moment, au survol de l'icône d'information du widget, une description
+permet d'indiquer quels sont les paramètres appliqués sur le widget.
+
+Le menu d'openADS propose autant de listings que de filtres possibles : ainsi le
+lien "Voir +" redirige vers le tableau adéquat.
 
 
 .. _widget_messages_retours:

@@ -262,6 +262,21 @@ Un argument facultatif est paramétrable :
 
 * **filtre** [par défaut *instructeur*] - les filtres disponibles sont *aucun*, *division* et *instructeur*
 
+.. _administration_widget_commission_mes_retours:
+
+commission_mes_retours
+======================
+
+Ce widget permet d'afficher le nombre de retours de commission marqués comme
+'non lu' pour les dossiers de l'utilisateur correspondant au filtre
+paramétrable. Un lien *Voir +* permet d'accéder au listing complet. Les
+informations fonctionnelles sont disponibles
+:ref:`ici<widget_commission_mes_retours>`.
+
+Un argument facultatif est paramétrable :
+
+* **filtre** [par défaut *instructeur*] - les filtres disponibles sont *aucun*,
+  *division* et *instructeur*
 
 .. _administration_widget_dossiers_limites:
 
