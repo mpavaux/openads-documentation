@@ -1233,7 +1233,7 @@ Le principe
 ===========
 
 Ce menu permet de paramétrer les logos affichés sur les éditions.
-Dans le cas d'une communauté, les logos de chaque commune, ainsi que celui de la communauté, doivent avoir le même identifiant (**Id**) afin que les éditions récupèrent correctement celui de la collectivité du dossier d'instruction sur lequel elles ont été générées.
+Dans le cas d'un paramétrage multi-commune, les logos de chaque commune, ainsi que celui de la communauté, doivent avoir le même identifiant (**Id**). Cela permet aux éditions d'un dossier d'instruction de récupèrer le logo de la collectivité.
 
 Paramétrage d'un logo
 =====================
@@ -1255,4 +1255,4 @@ Copie d'un logo
 
 .. image:: parametrage_edition_logo_portlet.png
 
-L'action **copier** disponible depuis le portlet d'actions contextuelles de chaque logo, permet de dupliquer un logo afin d'en faciliter le paramétrage notamment dans le contexte d'une communauté de communes.
+L'action **copier** disponible depuis le portlet d'actions contextuelles de chaque logo, permet de dupliquer un logo afin de pré-remplir les différents champs de celui-ci.
