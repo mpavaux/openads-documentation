@@ -66,6 +66,7 @@ Utilisation des options :
 * **option_notification_piece_numerisee** : permet d'activer ou de désactiver l'ajout de :ref:`message de notification <instruction_dossier_message>`.
 * **option_date_depot_demande_defaut** : permet d'afficher (*true*) ou non (*false*) la date du jour dans le champ de la date de dépôt lors de l'ajout d'une demande. La valeur par défaut est *true*.
 * **option_simulation_taxes** : permet d'activer (*true*) ou non (*false*) :ref:`la simulation des taxes <instruction_simulation_taxes>` sur les dossiers d'instruction.
+* **option_previsualisation_edition** : permet d'activer (*true*) ou non (*false*) :ref:`la prévisualisation des éditions <previsualisation_edition>` sur les événements d'instruction du dossier.
 
 .. note::
 
@@ -77,6 +78,14 @@ Utilisation des paramètres de notification :
 * **param_courriel_de_notification_commune** : paramètre commune listant les adresses mails de notification (une par ligne).
 * **param_courriel_de_notification_commune_objet_depuis_instruction** : paramètre communauté spécifiant l'objet du courriel.
 * **param_courriel_de_notification_commune_modele_depuis_instruction** : paramètre communauté (écrasable par la commune) spécifiant le modèle du corps du courriel.
+
+
+.. _parametrage_parametre_identifiants:
+
+Utilisation des paramètres d'identification :
+
+* **id_evenement_bordereau_avis_maire_prefet** : paramètre définissant l'identifiant de l'événement à appliquer aux dossiers d'instruction faisant l'objet d'un bordereau d'envoi des avis du Maire au Préfet, doit être paramétré sur la collectivité de niveau 2 pour une configuration multi-communes.
+
 
 .. _parametrage_parametre_mails_services_consultes:
 
@@ -253,6 +262,21 @@ Un argument facultatif est paramétrable :
 
 * **filtre** [par défaut *instructeur*] - les filtres disponibles sont *aucun*, *division* et *instructeur*
 
+.. _administration_widget_commission_mes_retours:
+
+commission_mes_retours
+======================
+
+Ce widget permet d'afficher le nombre de retours de commission marqués comme
+'non lu' pour les dossiers de l'utilisateur correspondant au filtre
+paramétrable. Un lien *Voir +* permet d'accéder au listing complet. Les
+informations fonctionnelles sont disponibles
+:ref:`ici<widget_commission_mes_retours>`.
+
+Un argument facultatif est paramétrable :
+
+* **filtre** [par défaut *instructeur*] - les filtres disponibles sont *aucun*,
+  *division* et *instructeur*
 
 .. _administration_widget_dossiers_limites:
 

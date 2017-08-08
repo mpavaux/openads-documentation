@@ -279,8 +279,8 @@ Les informations à saisir sont :
 * **nature de la demande** : (voir :ref:`parametrage_dossiers_demande_nature`).
 * **états du dernier dossier d'instruction** : état à partir du quel il est possible
   de créer la demande.
-* **contraintes** : avec ou sans récupération des demandeurs du dernier dossier
-  d'instruction.
+* **contraintes** : avec ou sans récupération des demandeurs du dossier
+  d'autorisation.
 * **type de dossier d'instruction à créer** : le type de dossier d'instruction
   à créer si il doit en être créé un (initial, modificatif, daact, ...) (voir
   :ref:`parametrage_dossiers_dossier_instruction_type`).
@@ -867,8 +867,25 @@ La bible
 
 (:menuselection:`Paramétrage Dossiers --> Workflows --> Bible`)
 
-...
+Le principe
+===========
 
+La bible regroupe des phrases prédéfinies, qui permettent de remplir les :ref:`**compléments** d'instructions<instruction_complement>`.
+
+Création d'une bible
+====================
+
+Les paramètres pour créer une bible sont :
+
+* **libellé** : texte affiché dans l'interface lors du choix de bible.
+* **événement** : l'événement d'instruction sur lequel la bible va s'appliquer
+  si on ne le remplit pas alors il s'appliquera à tous les **événements**.
+* **contenu** : le texte qui va être ajouté.
+* **complement** : le numéro du complement visé.
+* **automatique** : permet d'ajouter cette bible directement via le bouton
+  automatique sur l'**événément**.
+
+.. image:: parametrage_bible.png
 
 .. _parametrage_dossiers_editions:
 
@@ -1229,5 +1246,30 @@ Les logos
 
 (:menuselection:`Paramétrage Dossiers --> Éditions --> Logo`)
 
-...
+Le principe
+===========
 
+Ce menu permet de paramétrer les logos affichés sur les éditions.
+Dans le cas d'un paramétrage multi-commune, les logos de chaque commune, ainsi que celui de la communauté, doivent avoir le même identifiant (**Id**). Cela permet aux éditions d'un dossier d'instruction de récupèrer le logo de la collectivité.
+
+Paramétrage d'un logo
+=====================
+
+.. image:: parametrage_edition_logo.png
+
+Les informations d'un **logo** sont :
+
+* **Id** : Identifiant du logo.
+* **Libellé** : Texte affiché quand le logo est appliqué à une édition.
+* **Description** : Description du logo affichée lors de la sélection d'un logo depuis une lettre type ou un état.
+* **Fichier** : Sélection du fichier image contenant le logo.
+* **Résolution** : Résolution de l'image lors de son affichage sur une édition.
+* **Actif** : Rend le logo disponible ou non depuis les lettres types et états.
+
+
+Copie d'un logo
+===============
+
+.. image:: parametrage_edition_logo_portlet.png
+
+L'action **copier** disponible depuis le portlet d'actions contextuelles de chaque logo, permet de dupliquer un logo afin de pré-remplir les différents champs de celui-ci.
