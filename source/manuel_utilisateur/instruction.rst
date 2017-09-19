@@ -517,7 +517,9 @@ ces critères :
 Prévisualisation de l'édition
 =============================
 
-Si le :ref:`paramètre<parametrage_parametre>` **option_previsualisation_edition** est activé pour la collectivité de l'utilisateur connecté, alors celui-ci a accès au rendu du PDF sur le formulaire de modification des événements d'instruction qui ont une lettre type associée. Après avoir modifié un complément, on peut regénérer l'édition en cliquant sur *Actualiser*.
+Si le :ref:`paramètre<parametrage_parametre>` **option_previsualisation_edition** est activé pour la collectivité du dossier d'instruction en contexte, alors celui-ci a accès au rendu du PDF sur le formulaire de modification des événements d'instruction qui ont une lettre type associée. Après avoir modifié un complément, on peut regénérer l'édition en cliquant sur *Actualiser*.
+
+.. image:: instruction_previsualisation_edition.png
 
 ============
 Finalisation
