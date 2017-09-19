@@ -283,7 +283,7 @@ Un argument facultatif est paramétrable :
 dossiers_limites
 ================
 
-Ce widget permet d'afficher les dossiers d'instruction tacites dont la date limite est dans moins de X jours. Seuls les 10 premiers résultats sont affichés. Un lien *Voir +* permet d'accéder au listing complet. Les informations fonctionnelles sont disponibles :ref:`ici<widget_dossiers_limites>`.
+Ce widget permet d'afficher les dossiers d'instruction dont la date limite est dans moins de X jours. Seuls les 10 premiers résultats sont affichés. Un lien *Voir +* permet d'accéder au listing complet. Les informations fonctionnelles sont disponibles :ref:`ici<widget_dossiers_limites>`.
 
 Trois arguments facultatifs sont paramétrables :
 
