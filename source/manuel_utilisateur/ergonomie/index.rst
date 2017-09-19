@@ -40,7 +40,7 @@ Widget "Dossiers limites"
 
 Orienté Instruction.
 
-L'objet de ce widget est de présenter un listing des dix dossiers d'instruction qui sont tacites dont la date limite est dans moins de X jours (le nombre de jours est :ref:`paramétrable <administration_widget_dossiers_limites>` par l'administrateur). 
+L'objet de ce widget est de présenter un listing des dix dossiers d'instruction dont la date limite est dans moins de X jours (le nombre de jours est :ref:`paramétrable <administration_widget_dossiers_limites>` par l'administrateur). 
 
 Trois filtres sont disponibles sur ce widget (le filtre est :ref:`paramétrable <administration_widget_dossiers_limites>` par l'administrateur) :
 
