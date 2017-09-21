@@ -512,6 +512,15 @@ ces critères :
  - les dates suivantes ne sont pas renseignées : envoi pour signature, retour de signature, envoi RAR, re­tour RAR, envoi au contrôle légalité, retour du contrôle légalité
  - l'événement lié n’est pas de type « retour »
 
+.. _previsualisation_edition:
+
+Prévisualisation de l'édition
+=============================
+
+Si le :ref:`paramètre<parametrage_parametre>` **option_previsualisation_edition** est activé pour la collectivité du dossier d'instruction en contexte, alors le rendu du PDF sur le formulaire de modification des événements d'instruction qui ont une lettre type associée est affiché. Après avoir modifié un complément, on peut regénérer l'édition en cliquant sur *Actualiser*.
+
+.. image:: instruction_previsualisation_edition.png
+
 ============
 Finalisation
 ============

@@ -15,13 +15,15 @@ Liste des dossiers d'autorisation
 
 Il est possible de lister les dossiers d'autorisation depuis le menu "Autorisation".
 
+Les dossiers d'autorisation sont uniquement visibles si leurs types ne sont pas cachés.
+
 Les dossiers d'autorisation sont listés par ordre alphabétique.
 
 Une recherche peut être effectuée sur plusieurs critères :
 
 - le numéro de dossier
 
-- le type detaillé de dossier d'autorisation
+- le type
 
 - le nom du demandeur
 
