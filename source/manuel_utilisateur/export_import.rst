@@ -743,3 +743,37 @@ Ces statistiques évoluées permettent d'exporter les données de l'instruction 
   * La saisie des dates est facultative.
   * Si l'on filtre par date de décision, les dossiers pour lesquels il n'y a pas eu de décision n'apparaîtront pas dans les résultats.
   * Si l'utilisateur n'est pas rattaché à la communauté, seuls les dossiers de sa commune sont listés.
+
+
+==================
+export_dia
+==================
+
+Ces statistiques évoluées permettent d'exporter les données de l'instruction de tous les dossiers de Déclaration d'intention d'aliéner (DIA).
+
+* Filtre
+
+  * date de décision
+
+* Aucun choix de tri n'est proposé. Les dossiers sont classés automatiquement par ordre alphabétique de leur référence.
+
+* Les champs suivants sont par défaut affichés. On peut les désélectionner un à un.
+
+* Champs
+
+  * date de dépôt
+  * numéro de dossier
+  * nom du pétitionnaire
+  * numéro de parcelle 
+  * adresse du terrain
+  * description du bien
+  * surface du bien
+  * prix de vente
+  * acquéreur
+  * décision
+
+.. note::
+
+  * La saisie des dates est facultative.
+  * Si l'on filtre par date de décision, les dossiers pour lesquels il n'y a pas eu de décision n'apparaîtront pas dans les résultats.
+  * Si l'utilisateur n'est pas rattaché à la communauté, seuls les dossiers de sa commune sont listés.
