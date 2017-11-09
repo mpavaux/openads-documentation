@@ -744,10 +744,11 @@ Ces statistiques évoluées permettent d'exporter les données de l'instruction 
   * Si l'on filtre par date de décision, les dossiers pour lesquels il n'y a pas eu de décision n'apparaîtront pas dans les résultats.
   * Si l'utilisateur n'est pas rattaché à la communauté, seuls les dossiers de sa commune sont listés.
 
+.. _reqmo_export_dia:
 
-==================
+==========
 export_dia
-==================
+==========
 
 Ces statistiques évoluées permettent d'exporter les données de l'instruction de tous les dossiers de Déclaration d'intention d'aliéner (DIA).
 
@@ -763,17 +764,20 @@ Ces statistiques évoluées permettent d'exporter les données de l'instruction 
 
   * date de dépôt
   * numéro de dossier
-  * nom du pétitionnaire
+  * demandeur
   * numéro de parcelle 
   * adresse du terrain
   * description du bien
-  * surface du bien
+  * surface construite au sol (m²)
+  * surface utile ou habitable (m²)
   * prix de vente
   * acquéreur
   * décision
+  * collectivité (Dans le cas où l'utilisateur est sur une agglo)
 
 .. note::
 
   * La saisie des dates est facultative.
   * Si l'on filtre par date de décision, les dossiers pour lesquels il n'y a pas eu de décision n'apparaîtront pas dans les résultats.
   * Si l'utilisateur n'est pas rattaché à la communauté, seuls les dossiers de sa commune sont listés.
+  * Cette requête à besoin du paramètre :ref:`id_type_datd_filtre_reqmo_dossiers_dia <parametrage_parametre_identifiants>`.

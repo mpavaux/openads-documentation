@@ -85,6 +85,7 @@ Utilisation des paramètres de notification :
 Utilisation des paramètres d'identification :
 
 * **id_evenement_bordereau_avis_maire_prefet** : paramètre définissant l'identifiant de l'événement à appliquer aux dossiers d'instruction faisant l'objet d'un bordereau d'envoi des avis du Maire au Préfet, doit être paramétré sur la collectivité de niveau 2 pour une configuration multi-communes.
+* **id_type_datd_filtre_reqmo_dossiers_dia** : paramètre définissant l'identifiant du type détaillé du dossier d'autorisation à retourner dans la requête mémorisée des :ref:`exports statistique DIA <reqmo_export_dia>`.
 
 
 .. _parametrage_parametre_mails_services_consultes:
