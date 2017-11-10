@@ -745,10 +745,9 @@ Ces statistiques évoluées permettent d'exporter les données de l'instruction 
   * Si l'utilisateur n'est pas rattaché à la communauté, seuls les dossiers de sa commune sont listés.
 
 .. _reqmo_export_dia:
-
-==========
+==================
 export_dia
-==========
+==================
 
 Ces statistiques évoluées permettent d'exporter les données de l'instruction de tous les dossiers de Déclaration d'intention d'aliéner (DIA).
 
@@ -764,16 +763,14 @@ Ces statistiques évoluées permettent d'exporter les données de l'instruction 
 
   * date de dépôt
   * numéro de dossier
-  * demandeur
+  * nom du pétitionnaire
   * numéro de parcelle 
   * adresse du terrain
   * description du bien
-  * surface construite au sol (m²)
-  * surface utile ou habitable (m²)
+  * surface du bien
   * prix de vente
   * acquéreur
   * décision
-  * collectivité (Dans le cas où l'utilisateur est sur une agglo)
 
 .. note::
 
