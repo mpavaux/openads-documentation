@@ -745,6 +745,7 @@ Ces statistiques évoluées permettent d'exporter les données de l'instruction 
   * Si l'utilisateur n'est pas rattaché à la communauté, seuls les dossiers de sa commune sont listés.
 
 .. _reqmo_export_dia:
+
 ==================
 export_dia
 ==================
