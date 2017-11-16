@@ -12,7 +12,7 @@ Stratégie
    :align: right
 
 
-openADS respecte la `stratégie de développement SD01 <http://openmairie.readthedocs.io/projects/omframework/fr/latest/rules/development_strategies.html#sd01>`_.
+openADS respecte la `stratégie de développement SD01 <http://openmairie.readthedocs.io/projects/omframework/fr/4.6/rules/development_strategies.html#sd01>`_.
 
 Sommaire
 ########
