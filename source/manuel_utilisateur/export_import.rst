@@ -746,36 +746,44 @@ Ces statistiques évoluées permettent d'exporter les données de l'instruction 
 
 .. _reqmo_export_dia:
 
-==================
+==========
 export_dia
-==================
+==========
 
-Ces statistiques évoluées permettent d'exporter les données de l'instruction de tous les dossiers de Déclaration d'intention d'aliéner (DIA).
+Ces statistiques évoluées permettent d'exporter les données de l'instruction des déclarations d'intention d'aliéner (DIA).
 
 * Filtre
 
   * date de décision
 
-* Aucun choix de tri n'est proposé. Les dossiers sont classés automatiquement par ordre alphabétique de leur référence.
+* Aucun choix de tri n'est proposé. Les dossiers sont classés automatiquement par ordre alphabétique de leur numéro de dossier.
 
-* Les champs suivants sont par défaut affichés. On peut les désélectionner un à un.
+* Les champs suivants sont par défaut affichés. Il est possible de les désélectionner.
 
 * Champs
 
-  * date de dépôt
   * numéro de dossier
-  * nom du pétitionnaire
-  * numéro de parcelle 
-  * adresse du terrain
+  * date de dépôt
+  * demandeur
   * description du bien
-  * surface du bien
+  * surface construite au sol
+  * surface utile ou habitable
+  * références cadastrales
+  * adresse du terrain : numéro de voie
+  * adresse du terrain : voie
+  * adresse du terrain : lieu-dit
+  * adresse du terrain : localité
+  * adresse du terrain : code postal
+  * adresse du terrain : bp
+  * adresse du terrain : cedex
+  * description du bien
   * prix de vente
   * acquéreur
-  * décision
+  * état du dossier
+  * collectivité (dans le cas où l'utilisateur est d'une collectivité de niveau 2)
 
 .. note::
 
-  * La saisie des dates est facultative.
-  * Si l'on filtre par date de décision, les dossiers pour lesquels il n'y a pas eu de décision n'apparaîtront pas dans les résultats.
+  * La saisie des dates de décsion est facultative.
   * Si l'utilisateur n'est pas rattaché à la communauté, seuls les dossiers de sa commune sont listés.
-  * Cette requête à besoin du paramètre :ref:`id_type_datd_filtre_reqmo_dossiers_dia <parametrage_parametre_identifiants>`.
+  * Cette requête à besoin du paramètre :ref:`id_datd_filtre_reqmo_dossier_dia <parametrage_parametre_identifiants>`.
