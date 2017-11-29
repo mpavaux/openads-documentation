@@ -90,6 +90,7 @@ Rubrique *Demandes D'avis*
 
 - Visualiser la liste des demandes d'avis passées sur lesquelles un des services de l'utilisateur a été consulté.
 - Télécharger au format CSV la liste des demandes d'avis passées sur lesquelles un des services de l'utilisateur a été consulté.
+Le fichier CSV contient les colonnes suivantes: dossier | adresse pétitionnaire | type de dossier | num voie chantier | adresse     chantier | code postal chantier | ville chantier | date limite | date de dépôt | références cadastrales | numero d'avis | travaux | sdp totale existante | zonages | risques | sdp totale créée | surface terrain | nombre total de logements | nombre de parkings.
 - Accéder à la fiche de visualisation d'une demande d'avis passée sur laquelle un des services de l'utilisateur a été consulté.
 
   Action(s) disponible(s) par onglet :
